@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>档案 - Garbaniphoro Grand Library</title>
+  <script>!function(){var t=new URLSearchParams(location.search).get("theme")||localStorage.getItem("gl-theme")||"terra";document.documentElement.dataset.theme=t;document.write('<link rel="stylesheet" href="css/themes/theme-'+t+'.css">');}();</script>
+  <link rel="stylesheet" href="css/main.css?v=5">
+  <link rel="stylesheet" href="css/components.css?v=5">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="site-logo">Garbaniphoro<br>Grand Library</a>
+      <nav class="main-nav">
+        <a href="index.html" class="nav-link" data-i18n="nav.home">首页</a>
+        <a href="stories.html" class="nav-link" data-i18n="nav.stories">公民</a>
+        <a href="search.html" class="nav-link" data-i18n="nav.search">检索</a>
+        <a href="lore.html" class="nav-link active" data-i18n="nav.lore">档案</a>
+        <a href="gallery.html" class="nav-link" data-i18n="nav.gallery">画廊</a>
+        <button class="lang-toggle" id="lang-toggle">EN</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <h1 class="page-title" data-i18n="lore.title">档案</h1>
+
+    <div class="tab-bar" id="lore-tabs">
+      <button class="tab-btn active" data-tab="books" data-i18n="lore.books">书籍</button>
+      <button class="tab-btn" data-tab="quests" data-i18n="lore.quests">任务</button>
+<button class="tab-btn" data-tab="achievements" data-i18n="lore.achievements">成就</button>
+      <button class="tab-btn" data-tab="items" data-i18n="lore.items">物品</button>
+      <button class="tab-btn" data-tab="characters" data-i18n="lore.characters">角色</button>
+      <button class="tab-btn" data-tab="lightcones">光锥</button>
+      <button class="tab-btn" data-tab="appendix">附录</button>
+    </div>
+
+    <div id="lore-content">
+      <p class="loading-text" data-i18n="common.loading">加载中…</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>A fan-made archive for Castrum Kremnos.</p>
+  </footer>
+
+  <script type="module" src="js/app.mjs?v=5"></script>
+  <script type="module" src="js/lore.mjs?v=7"></script>
+</body>
+</html>

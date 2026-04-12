@@ -1,0 +1,18 @@
+{
+  "quests": {
+    "count": 136,
+    "file": "lore/quests.json"
+  },
+  "items": {
+    "count": 23,
+    "file": "lore/items.json"
+  },
+  "readables": {
+    "count": 764,
+    "file": "lore/readables.json"
+  },
+  "misc": {
+    "count": 4778,
+    "file": "lore/misc.json"
+  }
+}

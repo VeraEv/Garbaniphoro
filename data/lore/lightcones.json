@@ -1,0 +1,73 @@
+[
+  {
+    "id": "23039",
+    "name_ch": "血火啊，燃烧前路",
+    "name_en": "Flame of Blood, Blaze My Path",
+    "rarity": 5,
+    "path_ch": "毁灭",
+    "path_en": "Destruction",
+    "version": "v3.x",
+    "img": "images/lightcones/23039.png",
+    "skill_name_ch": "远望",
+    "skill_name_en": "Vista",
+    "skill_template_ch": "使装备者的生命上限提高<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>，受到的治疗量提高<color=#f29e38ff><unbreak>#6[i]%</unbreak></color>，施放战技或终结技时消耗等同于自身<color=#f29e38ff><unbreak>#2[f1]%</unbreak></color>生命上限的生命值，并使本次攻击造成的伤害提高<color=#f29e38ff><unbreak>#3[i]%</unbreak></color>，若该效果消耗的生命值高于<unbreak>#4[i]</unbreak>点，可使伤害额外提高<color=#f29e38ff><unbreak>#5[i]%</unbreak></color>。\\n若当前生命值不足，该效果最多使装备者的当前生命值降低至1点。",
+    "skill_template_en": "Increases the wearer's Max HP by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> and Incoming Healing by <color=#f29e38ff><unbreak>#6[i]%</unbreak></color>. When using Skill or Ultimate, consumes HP equal to <color=#f29e38ff><unbreak>#2[f1]%</unbreak></color> of the wearer's Max HP and increases the DMG dealt by this attack by <color=#f29e38ff><unbreak>#3[i]%</unbreak></color>. If this effect's consumed HP is greater than <unbreak>#4[i]</unbreak>, the DMG additionally increases by <color=#f29e38ff><unbreak>#5[i]%</unbreak></color>.\\nIf the current HP is not sufficient, this effect reduces the wearer's current HP down to 1.",
+    "skill_params": [
+      [18, 6.0, 30, 500, 30, 20],
+      [21, 6.5, 35, 500, 35, 25],
+      [24, 7.0, 40, 500, 40, 30],
+      [27, 7.5, 45, 500, 45, 35],
+      [30, 8.0, 50, 500, 50, 40]
+    ],
+    "story_ch": "冰冷的露水凝结在锋刃，滑落血色的痕迹。\\n铁锈味的荒野，鏖战燃起的火焰仍在灰烬上跳跃。\\n\\n<i>「迈德漠斯，刚才真是神一样的战斗啊！」</i>\\n赤裸上身的战士擦拭武器，兴奋地喊道。\\n\\n<i>「万敌，以后我也要像你一样百战百胜！」</i>\\n孩子崇敬地看着他，手中捏着一把断剑。\\n\\n<i>「王储，我们回到悬锋指日可待啊。」</i>\\n沧桑的老人笑着，举起酒杯向他致意。\\n\\n他点点头，兀自走到了营地边。\\n重生的疼痛仍在皮肤上滚动，明日，他将带领悬锋孤军再次出发，迁往异乡。\\n流离将停于何处，他不知道，他唯一能确定的是——他将背负王的职责，直至血火燃尽。\\n\\n夜色渐深，他独自痛饮血酿，过路的吟游诗人拉动琴弦，不着调的歌声在空中晃荡——\\n<i>「家乡是梦想之地呐，不是可以抵达的地方。」</i>",
+    "story_en": "Cold dew congealed on the blade, sliding down in crimson streaks.\\nThe rust-tainted wilderness still flickered with embers of battle, flames leaping upon the ashes.\\n\\n<i>\"Mydeimos, that was a godlike fight just now!\"</i>\\nA bare-chested warrior wiped his weapon clean, shouting in exhilaration.\\n\\n<i>\"Mydei, one day, I'll be as invincible as you!\"</i>\\nA child gazed at him with reverence, clutching a broken sword in small hands.\\n\\n<i>\"Crown Prince, our return to Castrum Kremnos is within sight.\"</i>\\nAn aged man smiled, raising his cup in a toast to him.\\n\\nHe nodded silently and walked to the edge of the camp.\\nThe pain of rebirth still coursed across his skin. Tomorrow, he would lead the Kremnoan Detachment forth once again, migrating to foreign lands.\\nWhere this wandering would end, he did not know. The only certainty was this — he would bear the duty of a king until the blood and flames consumed him.\\n\\nAs night deepened, he drank the bloodwine alone. A passing bard plucked at his strings, a wandering melody drifting through the air—\\n<i>\"Home is the land of dreams, not a place one can ever reach.\"</i>"
+  },
+  {
+    "id": "21058",
+    "gallery_position": "10% top",
+    "name_ch": "一行往日的血",
+    "name_en": "A Trail of Bygone Blood",
+    "rarity": 4,
+    "path_ch": "毁灭",
+    "path_en": "Destruction",
+    "version": "v3.x",
+    "img": "images/lightcones/21058.png",
+    "skill_name_ch": "厮杀",
+    "skill_name_en": "Massacre",
+    "skill_template_ch": "使装备者的暴击率提高<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>。装备者造成的战技和终结技伤害提高<color=#f29e38ff><unbreak>#2[i]%</unbreak></color>。",
+    "skill_template_en": "Increases the wearer's CRIT Rate by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. The Skill DMG and Ultimate DMG dealt by the wearer increase by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>.",
+    "skill_params": [
+      [12, 24],
+      [14, 28],
+      [16, 32],
+      [18, 36],
+      [20, 40]
+    ],
+    "story_ch": "风暴在远方酝酿，触手从冥海中探出，似要捉弄那漂浮着的稚弱生命。\\n海兽的残肢锤击出冲天的浪花，碎作石头一般陨落海渊。\\n他们说，搏杀的怒吼持续了十个日夜，盖过雷霆的震响。\\n他们说，即便有一万条性命，也不够被冥海消磨。\\n直至英勇洗去稚嫩，冷傲洗去孱弱——\\n那单薄的身影踉跄踏上海岸，其时朝阳初升，海水如同往日的血。",
+    "story_en": "A storm was brewing in the distance, and tentacles stretched out from the Stygian Sea, as if toying with that helpless, drifting life.\\nThe severed limbs of sea beasts struck waves sky-high, crashing into the depths like falling stones.\\nThey said the roars of battle lasted ten days and nights, drowning out the thunder's rumble.\\nThey said that even ten thousand lives would not be enough to withstand what the Stygian Sea could wear away.\\nUntil valor washed away naivety, and cold pride washed away weakness —\\nThat slender figure staggered ashore as the morning sun first rose, and the sea gleamed like blood of days gone by."
+  },
+  {
+    "id": "21050",
+    "gallery_position": "0% top",
+    "name_ch": "胜利只在朝夕间",
+    "name_en": "Victory In a Blink",
+    "rarity": 4,
+    "path_ch": "记忆",
+    "path_en": "Remembrance",
+    "version": "v3.x",
+    "img": "images/lightcones/21050.png",
+    "skill_name_ch": "最后一击",
+    "skill_name_en": "Final Hit",
+    "skill_template_ch": "使装备者的暴击伤害提高<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>，当装备者的忆灵对我方目标施放技能时，使我方全体目标造成的伤害提高<color=#f29e38ff><unbreak>#2[i]%</unbreak></color>，持续<color=#f29e38ff><unbreak>#3[i]</unbreak></color>回合。",
+    "skill_template_en": "Increases the wearer's CRIT DMG by <color=#f29e38ff><unbreak>#1[i]%</unbreak></color>. When the wearer's memosprite uses an ability on an ally target, increases the DMG dealt by all ally targets by <color=#f29e38ff><unbreak>#2[i]%</unbreak></color>, lasting for <color=#f29e38ff><unbreak>#3[i]</unbreak></color> turn(s).",
+    "skill_params": [
+      [12, 8, 3],
+      [15, 10, 3],
+      [18, 12, 3],
+      [21, 14, 3],
+      [24, 16, 3]
+    ],
+    "story_ch": "泰坦眷属磅礴的战吼席卷战场，两道电光般的身影在其中拼杀出一条血路。\\n「我一个人便能把它们都收拾了。」\\n战士每一次出拳，蔓延的血刺贯穿敌人的身体。\\n「蛮力罢了，看我的剑！」\\n银白的剑甩出漂亮的弧度，怪物如落叶飘零。\\n「比比速度么？」\\n两人同时朝对面攻去——\\n哀嚎声传来，那背后偷袭的怪物即刻殒命。\\n两道声音撞在一起——\\n「是我给了它最后一击！」",
+    "story_en": "The Titan's devotee let out a deafening battle cry that swept across the battlefield, as two lightning-fast figures carved a bloody path through the chaos.\\n\"I could've handled them all myself.\"\\nWith every punch the warrior threw, spreading thorns of blood pierced through the enemy's body.\\n\"Brute force, that's all. Watch my sword!\"\\nThe silver-white blade swept in a beautiful arc, and monsters fell like autumn leaves.\\n\"A contest of speed?\"\\nBoth charged toward the enemy simultaneously —\\nA wail rang out, and the monster sneaking up from behind was instantly slain.\\nTwo voices collided at once —\\n\"I landed the final hit!\""
+  }
+]

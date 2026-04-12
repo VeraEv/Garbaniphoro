@@ -1,0 +1,346 @@
+/* ========================================
+   Garbaniphoro Grand Library - Main Theme
+   Greek classical + dark aesthetic
+   ======================================== */
+
+/* --- Fonts --- */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500&family=Noto+Serif+SC:wght@300;400;500;600;700&display=swap');
+
+/* --- Shared Properties (theme files provide color vars) --- */
+:root {
+  /* Typography */
+  --font-heading: 'Cinzel', 'Noto Serif SC', serif;
+  --font-body: 'Noto Serif SC', 'Songti SC', Georgia, serif;
+  --font-serif: 'Cormorant Garamond', 'Noto Serif SC', Georgia, serif;
+  --font-weight-heading: 600;
+  --font-weight-body: 300;
+
+  /* Sizing */
+  --max-width: 1200px;
+  --nav-height: 60px;
+
+  /* Transitions */
+  --ease: cubic-bezier(0.25, 0.1, 0.25, 1);
+  --transition: 250ms var(--ease);
+}
+
+/* --- Reset & Base --- */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-family: var(--font-body);
+  font-weight: var(--font-weight-body);
+  color: var(--text-primary);
+  background: var(--bg-base);
+  line-height: 1.7;
+  min-height: 100vh;
+}
+
+
+a {
+  color: var(--gold);
+  text-decoration: none;
+  transition: color var(--transition);
+}
+a:hover {
+  color: var(--gold-bright);
+}
+
+::selection {
+  background: var(--gold-glow);
+  color: var(--text-primary);
+}
+
+/* --- Header & Navigation --- */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: transparent;
+  backdrop-filter: none;
+  border-bottom: 1px solid transparent;
+  transition: background 0.3s ease, border-color 0.3s ease, backdrop-filter 0.3s ease;
+}
+.site-header.scrolled {
+  background: rgba(236, 232, 224, 0.90);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.header-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  height: var(--nav-height);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-logo {
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--gold);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 1.25;
+}
+.site-logo:hover {
+  color: var(--gold-bright);
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.nav-link {
+  font-family: var(--font-heading);
+  font-size: 0.8rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  padding: 0.5rem 0.85rem;
+  border-radius: 2px;
+  transition: color var(--transition), background var(--transition);
+  text-decoration: none;
+}
+.nav-link:hover {
+  color: var(--text-primary);
+  background: var(--gold-glow);
+}
+.nav-link.active {
+  color: var(--gold);
+}
+
+.lang-toggle {
+  font-family: var(--font-heading);
+  font-size: 0.72rem;
+  font-weight: 400;
+  color: var(--text-primary);
+  background: transparent;
+  border: none;
+  padding: 0.35rem 0.4rem;
+  cursor: pointer;
+  letter-spacing: 0.08em;
+  transition: all var(--transition);
+  margin-left: 0.1rem;
+}
+.lang-toggle:hover {
+  color: var(--gold);
+}
+
+/* --- Theme Switcher --- */
+.theme-switcher {
+  position: relative;
+  margin-left: 0.5rem;
+}
+.theme-trigger {
+  font-family: var(--font-heading);
+  font-size: 0.58rem;
+  color: var(--text-primary);
+  background: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.35);
+  padding: 0.18rem 0.55rem;
+  border-radius: 5px;
+  cursor: pointer;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  transition: all var(--transition);
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  white-space: nowrap;
+}
+.theme-trigger::after {
+  content: '▾';
+  font-size: 0.6rem;
+  opacity: 0.6;
+}
+.theme-trigger:hover {
+  color: var(--gold);
+  border-color: var(--border-accent);
+}
+.theme-dropdown {
+  display: none;
+  position: absolute;
+  top: calc(100% + 4px);
+  right: 0;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-medium);
+  border-radius: 3px;
+  min-width: 100%;
+  z-index: 100;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+.theme-switcher.open .theme-dropdown {
+  display: block;
+}
+.theme-option {
+  display: block;
+  width: 100%;
+  font-family: var(--font-heading);
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  background: transparent;
+  border: none;
+  padding: 0.45rem 0.75rem;
+  cursor: pointer;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: left;
+  transition: all var(--transition);
+  white-space: nowrap;
+}
+.theme-option:hover {
+  color: var(--gold);
+  background: var(--gold-glow);
+}
+.theme-option.active {
+  color: var(--gold);
+}
+
+/* --- Main Content --- */
+.main-content {
+  position: relative;
+  z-index: 1;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem;
+  min-height: calc(100vh - var(--nav-height) - 80px);
+}
+
+/* --- Page Titles --- */
+.page-title {
+  font-family: var(--font-heading);
+  font-size: 2.2rem;
+  font-weight: 600;
+  color: var(--gold);
+  letter-spacing: 0.06em;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.page-subtitle {
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  font-weight: 400;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+
+/* Decorative divider */
+.divider {
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    var(--border-medium) 20%,
+    var(--border-accent) 50%,
+    var(--border-medium) 80%,
+    transparent 100%
+  );
+  margin: 2rem 0;
+}
+
+/* --- Footer --- */
+.site-footer {
+  position: relative;
+  z-index: 1;
+  border-top: 1px solid var(--border-subtle);
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.site-footer p {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  max-width: var(--max-width);
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* --- Utility --- */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.loading-text {
+  color: var(--text-muted);
+  font-style: italic;
+  padding: 2rem;
+  text-align: center;
+}
+
+mark {
+  background: rgba(138, 109, 46, 0.25);
+  color: var(--text-primary);
+  padding: 0.05em 0.15em;
+  border-radius: 2px;
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .header-inner {
+    padding: 0 1rem;
+  }
+
+  .main-nav {
+    gap: 0;
+  }
+
+  .nav-link {
+    font-size: 0.7rem;
+    padding: 0.4rem 0.5rem;
+    letter-spacing: 0.05em;
+  }
+
+  .site-logo {
+    font-size: 0.75rem;
+    letter-spacing: 0.08em;
+  }
+
+  .main-content {
+    padding: 1.5rem 1rem;
+  }
+
+  .page-title {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-link {
+    font-size: 0.65rem;
+    padding: 0.35rem 0.35rem;
+  }
+
+  .lang-toggle {
+    margin-left: 0.35rem;
+    padding: 0.25rem 0.5rem;
+  }
+}

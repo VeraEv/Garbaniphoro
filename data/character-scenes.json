@@ -1,0 +1,1726 @@
+{
+  "mydei": {
+    "name_ch": "万敌",
+    "name_en": "Mydei",
+    "note": "歌耳戈之子，迈德漠斯",
+    "quote_ch": "……抱歉，我无法…回头。",
+    "quote_en": "...I'm sorry. I cannot... turn back.",
+    "scenes": [
+      {
+        "id": "s01",
+        "first_id": 30403701,
+        "last_id": 30403764,
+        "line_count": 20,
+        "preview_ch": "朋友啊…留下吧，留在冥界，与我们一同享受这永恒静谧的月光……",
+        "preview_en": "My friend... stay here. Remain in the nether realm with us and savor this eternal, serene moonlight together..."
+      },
+      {
+        "id": "s02",
+        "first_id": 104020001,
+        "last_id": 104021816,
+        "line_count": 367,
+        "preview_ch": "你逃不掉的，悬锋的狗蝇！",
+        "preview_en": "You won't get away, Kremnoan vermin!"
+      },
+      {
+        "id": "s03",
+        "first_id": 104026194,
+        "last_id": 104027330,
+        "line_count": 368,
+        "preview_ch": "等等，不对…大家小心！",
+        "preview_en": "Wait, no... Look out, everyone!"
+      },
+      {
+        "id": "s03b",
+        "first_id": 104027401,
+        "last_id": 104027430,
+        "line_count": 30,
+        "preview_ch": "…我曾经的战友们。",
+        "preview_en": "...My old comrades."
+      },
+      {
+        "id": "s03c",
+        "first_id": 104027501,
+        "last_id": 104029024,
+        "line_count": 259,
+        "preview_ch": "真是…沉重的试炼啊。",
+        "preview_en": "...What a grave trial indeed."
+      },
+      {
+        "id": "s04",
+        "first_id": 104031301,
+        "last_id": 104032936,
+        "line_count": 361,
+        "preview_ch": "边走边摸索，找找看吧。",
+        "preview_en": "Let's be on the lookout as we go."
+      },
+      {
+        "id": "s04b",
+        "first_id": 104033501,
+        "last_id": 104033523,
+        "line_count": 23,
+        "preview_ch": "……",
+        "preview_en": "..."
+      },
+      {
+        "id": "s04c",
+        "first_id": 104033601,
+        "last_id": 104033992,
+        "line_count": 108,
+        "preview_ch": "出发前，还有些人要见。",
+        "preview_en": "There are some people to meet with before I leave."
+      },
+      {
+        "id": "s05",
+        "first_id": 140122601,
+        "last_id": 140122706,
+        "line_count": 33,
+        "preview_ch": "哈托努斯！",
+        "preview_en": "Chartonus!"
+      },
+      {
+        "id": "s06",
+        "first_id": 140134819,
+        "last_id": 140134837,
+        "line_count": 19,
+        "preview_ch": "就像前几日，有人诋毁我族的荣耀时，你的态度也是放任，不是么？",
+        "preview_en": "A few days ago, when people were besmirching my tribe's honor, didn't you also turn a blind eye?"
+      },
+      {
+        "id": "s07",
+        "first_id": 140141801,
+        "last_id": 140141929,
+        "line_count": 70,
+        "preview_ch": "你们果然来了。",
+        "preview_en": "Great to see you here!"
+      },
+      {
+        "id": "s08",
+        "first_id": 140150101,
+        "last_id": 140153126,
+        "line_count": 236,
+        "preview_ch": "……",
+        "preview_en": "..."
+      },
+      {
+        "id": "s08b",
+        "first_id": 140153201,
+        "last_id": 140153224,
+        "line_count": 24,
+        "preview_ch": "这个大家伙，莫非是真言狮口？",
+        "preview_en": "Wow, look at this big guy. Could this be Verax Leo?"
+      },
+      {
+        "id": "s08c",
+        "first_id": 140153225,
+        "last_id": 140154216,
+        "line_count": 188,
+        "preview_ch": "等等，这是先前提到的石板，只凭我们无法解读。",
+        "preview_en": "Hold on. This is the slate that I mentioned earlier, the one we cannot decipher on our own."
+      },
+      {
+        "id": "s09",
+        "first_id": 140190001,
+        "last_id": 140190023,
+        "line_count": 23,
+        "preview_ch": "终于，都结束了。",
+        "preview_en": "It's finally over."
+      },
+      {
+        "id": "s10",
+        "first_id": 140191601,
+        "last_id": 140191808,
+        "line_count": 59,
+        "preview_ch": "还是晚来了一步么……",
+        "preview_en": "Still too late, huh..."
+      },
+      {
+        "id": "s11",
+        "first_id": 140309612,
+        "last_id": 140311263,
+        "line_count": 424,
+        "preview_ch": "一如既往，灵魂的幻象于斯消散。",
+        "preview_en": "As always, the illusion of spirits dissipates here."
+      },
+      {
+        "id": "s12",
+        "first_id": 140313201,
+        "last_id": 140314017,
+        "line_count": 173,
+        "preview_ch": "{NICKNAME}，千万别回头啊。",
+        "preview_en": "{NICKNAME}, don't look back."
+      },
+      {
+        "id": "s13",
+        "first_id": 140317735,
+        "last_id": 140317735,
+        "line_count": 1,
+        "preview_ch": "<color=#dbc291ff>「盗火者，死灰复燃，警惕。」</color>",
+        "preview_en": "<color=#dbc291ff>\"Watch out. The Flame Reaver is back.\"</color>"
+      },
+      {
+        "id": "s14",
+        "first_id": 144041431,
+        "last_id": 144041440,
+        "line_count": 10,
+        "preview_ch": "再见，遐蝶。",
+        "preview_en": "Goodbye, Castorice."
+      },
+      {
+        "id": "s15",
+        "first_id": 145010906,
+        "last_id": 145010906,
+        "line_count": 1,
+        "preview_ch": "他是诸王中的至高，流离者的牧人，将团结的人子高举于仇敌之上——",
+        "preview_en": "Greatest of kings, protector of the displaced, raising humanity's children above their adversaries—"
+      },
+      {
+        "id": "s16",
+        "first_id": 145022701,
+        "last_id": 145025228,
+        "line_count": 351,
+        "preview_ch": "…你们打算用这种方式代替光荣的角斗？",
+        "preview_en": "...Is this your idea of an honorable duel?"
+      },
+      {
+        "id": "s17",
+        "first_id": 145041801,
+        "last_id": 145042859,
+        "line_count": 278,
+        "preview_ch": "第 <unbreak>108642</unbreak> 次永劫回归",
+        "preview_en": "The <unbreak>108,642</unbreak>nd Eternal Recurrence"
+      },
+      {
+        "id": "s18",
+        "first_id": 146080601,
+        "last_id": 146081010,
+        "line_count": 98,
+        "preview_ch": "可、可是…那会很痛的！",
+        "preview_en": "B—But... it's gonna hurt! A lot!"
+      },
+      {
+        "id": "s19",
+        "first_id": 146711205,
+        "last_id": 146711205,
+        "line_count": 1,
+        "preview_ch": "「可正因你在痛苦，你才远比常人强大。」",
+        "preview_en": "\"It is because you suffer that you are so much stronger than any ordinary person.\""
+      },
+      {
+        "id": "s20",
+        "first_id": 146770327,
+        "last_id": 146770327,
+        "line_count": 1,
+        "preview_ch": "以歌耳戈之子的名义：勇士将为「纷争」而战，不以荣耀为终点，而在光荣中前行。",
+        "preview_en": "In the name of the son of Gorgo: Warriors shall fight for \"Strife,\" not with glory as their end, but to march forward in its light."
+      },
+      {
+        "id": "s21",
+        "first_id": 146782501,
+        "last_id": 146783218,
+        "line_count": 175,
+        "preview_ch": "……",
+        "preview_en": "..."
+      },
+      {
+        "id": "s22",
+        "first_id": 146784701,
+        "last_id": 146785794,
+        "line_count": 322,
+        "preview_ch": "终于来了，救世主们。",
+        "preview_en": "You've finally arrived, Deliverers."
+      },
+      {
+        "id": "s23",
+        "first_id": 146787101,
+        "last_id": 146789247,
+        "line_count": 615,
+        "preview_ch": "{NICKNAME}的肩膀，真的很可靠呀。",
+        "preview_en": "{NICKNAME}'s shoulders are really dependable."
+      },
+      {
+        "id": "s24",
+        "first_id": 304003001,
+        "last_id": 304003514,
+        "line_count": 184,
+        "preview_ch": "白厄，新的一批难民都已接引入城了么？",
+        "preview_en": "Phainon, has the latest batch of refugees been admitted into the city?"
+      },
+      {
+        "id": "s25",
+        "first_id": 350605013,
+        "last_id": 350605018,
+        "line_count": 6,
+        "preview_ch": "你这是来看望我吗？",
+        "preview_en": "Have you come to visit me?"
+      },
+      {
+        "id": "s26",
+        "first_id": 434046001,
+        "last_id": 434046647,
+        "line_count": 470,
+        "preview_ch": "墙上有一尊石头雕成的狮子脑袋，大张着嘴巴。",
+        "preview_en": "There is a sculpture of a lion's head on the wall, its maw wide open."
+      },
+      {
+        "id": "s27",
+        "first_id": 502370901,
+        "last_id": 502371119,
+        "line_count": 50,
+        "preview_ch": "今天想吃些什么，我亲自下厨。",
+        "preview_en": "What would you like to eat today? I'll be the chef."
+      },
+      {
+        "id": "s28",
+        "first_id": 504016002,
+        "last_id": 504016220,
+        "line_count": 47,
+        "preview_ch": "…人之所以独处，是为了独自享用清静——这么简单的道理，你应当明白吧？",
+        "preview_en": "...The reason people spend time alone is to enjoy peace and quiet... You must understand such a simple logic, surely?"
+      },
+      {
+        "id": "s29",
+        "first_id": 504059100,
+        "last_id": 504059112,
+        "line_count": 13,
+        "preview_ch": "你真的要独自返乡、抵御黑潮？",
+        "preview_en": "Are you really going to return home alone and face the black tide?"
+      },
+      {
+        "id": "s30",
+        "first_id": 537014462,
+        "last_id": 537014676,
+        "line_count": 65,
+        "preview_ch": "哟！",
+        "preview_en": "Yo!"
+      },
+      {
+        "id": "s31",
+        "first_id": 537016499,
+        "last_id": 537016713,
+        "line_count": 71,
+        "preview_ch": "万敌阁下，你…怎么也来了？",
+        "preview_en": "Lord Mydei, what... what brings you here?"
+      },
+      {
+        "id": "s32",
+        "first_id": 831070103,
+        "last_id": 831070122,
+        "line_count": 20,
+        "preview_ch": "我看了刚才的对战。不错，你确实是个强劲的对手。",
+        "preview_en": "I watched your recent battle. Not bad, you're indeed a formidable opponent."
+      },
+      {
+        "id": "s33",
+        "first_id": 835120029,
+        "last_id": 835120111,
+        "line_count": 19,
+        "preview_ch": "听说贵餐馆有位大厨在，我还以为是什么厉害角色。",
+        "preview_en": "I heard your restaurant had a chef. Honestly, I was expecting them to be someone more impressive."
+      },
+      {
+        "id": "s34",
+        "first_id": 835130101,
+        "last_id": 835130807,
+        "line_count": 180,
+        "preview_ch": "甜蜜蜜节的反响很好呢，客人们都很喜欢我们推出的菜品。",
+        "preview_en": "The Sweetie Festival was a big hit! Guests really loved the special dishes we rolled out."
+      },
+      {
+        "id": "s35",
+        "first_id": 835140001,
+        "last_id": 835140407,
+        "line_count": 108,
+        "preview_ch": "两位阁下，知道自己做错了什么吗？",
+        "preview_en": "You two, do you realize what you've done wrong?"
+      },
+      {
+        "id": "s36",
+        "first_id": 835150401,
+        "last_id": 835150416,
+        "line_count": 16,
+        "preview_ch": "…值得回忆的事？没什么印象深刻的。",
+        "preview_en": "...Something worth remembering? Nothing really left a deep impression."
+      },
+      {
+        "id": "s37",
+        "first_id": 835162301,
+        "last_id": 835162305,
+        "line_count": 5,
+        "preview_ch": "…就到此为止吧。",
+        "preview_en": "...That's enough for now."
+      },
+      {
+        "id": "s38",
+        "first_id": 835163308,
+        "last_id": 835163310,
+        "line_count": 3,
+        "preview_ch": "瞧瞧，比拳头还大的土黄豆，我还是第一次见。你那边的收获如何？",
+        "preview_en": "Look here, soybeans bigger than my fist... Never seen anything like it before. How's the harvest going on your end?"
+      },
+      {
+        "id": "s39",
+        "first_id": 835163601,
+        "last_id": 835163609,
+        "line_count": 9,
+        "preview_ch": "我不习惯做饭的时候有人看着。什么事？",
+        "preview_en": "I'm not used to cooking with someone watching. What is it?"
+      }
+    ]
+  },
+  "gorgo": {
+    "name_ch": "歌耳戈",
+    "name_en": "Gorgo",
+    "note": "万敌之母，悬锋王妃",
+    "quote_ch": "别停下你的脚步，我不记得我曾教予你「软弱」。",
+    "quote_en": "Don't stop moving forward. I don't remember ever teaching you to be \"weak.\"",
+    "scenes": [
+      {
+        "id": "s01",
+        "first_id": 30403701,
+        "last_id": 30403764,
+        "line_count": 20,
+        "preview_ch": "朋友啊…留下吧，留在冥界，与我们一同享受这永恒静谧的月光……",
+        "preview_en": "My friend... stay here. Remain in the nether realm with us and savor this eternal, serene moonlight together..."
+      },
+      {
+        "id": "s02",
+        "first_id": 104026601,
+        "last_id": 104026642,
+        "line_count": 42,
+        "preview_ch": "欧利庞，这孩子万敌没做错任何事！",
+        "preview_en": "Eurypon, the boy Mydei did nothing wrong!"
+      },
+      {
+        "id": "s03",
+        "first_id": 104033501,
+        "last_id": 104033523,
+        "line_count": 23,
+        "preview_ch": "……",
+        "preview_en": "..."
+      },
+      {
+        "id": "s04",
+        "first_id": 304003301,
+        "last_id": 304003318,
+        "line_count": 18,
+        "preview_ch": "呵，今年的悬锋祭典还真不一般——唯一突破重围杀到朕面前的，竟是一名如此年轻、甚至有些纤弱的斗士？",
+        "preview_en": "Hah, the Kremnos Festival is really something this year... To think that the only person to break through the siege and fight their way to me was such a young and rather frail-looking warrior?"
+      },
+      {
+        "id": "s04b",
+        "first_id": 304003351,
+        "last_id": 304003370,
+        "line_count": 20,
+        "preview_ch": "于此「天谴之矛」神殿、尼卡多利淬炼神锋之处，我等将举行加冕仪式。",
+        "preview_en": "We will hold a coronation ceremony here, in the Lance of Fury's temple where Nikador tempered the divine blade."
+      },
+      {
+        "id": "s05",
+        "first_id": 502370901,
+        "last_id": 502371119,
+        "line_count": 50,
+        "preview_ch": "今天想吃些什么，我亲自下厨。",
+        "preview_en": "What would you like to eat today? I'll be the chef."
+      }
+    ]
+  },
+  "euripon": {
+    "name_ch": "欧利庞",
+    "name_en": "Euripon",
+    "note": "先王",
+    "quote_ch": "宁战死，毋荣归。吾儿迈德漠斯，你不肯战死，执意回归现世，也配自称悬锋人么？",
+    "quote_en": "Valorous death before glorious return. My son, you refused to fall in combat and insisted on returning to the mortal world. Do you still dare call yourself a Kremnoan?",
+    "scenes": [
+      {
+        "id": "s01",
+        "first_id": 30403701,
+        "last_id": 30403764,
+        "line_count": 20,
+        "preview_ch": "朋友啊…留下吧，留在冥界，与我们一同享受这永恒静谧的月光……",
+        "preview_en": "My friend... stay here. Remain in the nether realm with us and savor this eternal, serene moonlight together..."
+      },
+      {
+        "id": "s02",
+        "first_id": 104026601,
+        "last_id": 104026642,
+        "line_count": 42,
+        "preview_ch": "欧利庞，这孩子万敌没做错任何事！",
+        "preview_en": "Eurypon, the boy Mydei did nothing wrong!"
+      },
+      {
+        "id": "s03",
+        "first_id": 104028801,
+        "last_id": 104028819,
+        "line_count": 19,
+        "preview_ch": "……",
+        "preview_en": "..."
+      },
+      {
+        "id": "s04",
+        "first_id": 104031883,
+        "last_id": 104031883,
+        "line_count": 1,
+        "preview_ch": "都一样…你和我…我们都把纷争和恐惧当做食粮……",
+        "preview_en": "You and I, we're both the same... We feast on strife and fear..."
+      },
+      {
+        "id": "s05",
+        "first_id": 304003301,
+        "last_id": 304003318,
+        "line_count": 18,
+        "preview_ch": "呵，今年的悬锋祭典还真不一般——唯一突破重围杀到朕面前的，竟是一名如此年轻、甚至有些纤弱的斗士？",
+        "preview_en": "Hah, the Kremnos Festival is really something this year... To think that the only person to break through the siege and fight their way to me was such a young and rather frail-looking warrior?"
+      },
+      {
+        "id": "s05b",
+        "first_id": 304003351,
+        "last_id": 304003370,
+        "line_count": 20,
+        "preview_ch": "于此「天谴之矛」神殿、尼卡多利淬炼神锋之处，我等将举行加冕仪式。",
+        "preview_en": "We will hold a coronation ceremony here, in the Lance of Fury's temple where Nikador tempered the divine blade."
+      },
+      {
+        "id": "s05c",
+        "first_id": 304003401,
+        "last_id": 304003417,
+        "line_count": 17,
+        "preview_ch": "尊贵的王，无论如何重复预言的步骤，都会是一样的结局……",
+        "preview_en": "Honorable king, it does not matter how you repeat the steps of the prophecy, the outcome will always be the same..."
+      },
+      {
+        "id": "s06",
+        "first_id": 502370901,
+        "last_id": 502371119,
+        "line_count": 50,
+        "preview_ch": "今天想吃些什么，我亲自下厨。",
+        "preview_en": "What would you like to eat today? I'll be the chef."
+      }
+    ]
+  },
+  "krateros": {
+    "name_ch": "克拉特鲁斯",
+    "name_en": "Krateros",
+    "note": "老将",
+    "quote_ch": "可别跟丢了，鬣…抱歉，是宪兵队的军官们。",
+    "quote_en": "Keep up with us, you hyen... oh, sorry, I meant officers.",
+    "scenes": [
+      {
+        "id": "s01",
+        "first_id": 104020029,
+        "last_id": 104020035,
+        "line_count": 7,
+        "preview_ch": "可别跟丢了，鬣…抱歉，是宪兵队的军官们。",
+        "preview_en": "Keep up with us, you hyen... oh, sorry, I meant officers."
+      },
+      {
+        "id": "s02",
+        "first_id": 104026401,
+        "last_id": 104026534,
+        "line_count": 59,
+        "preview_ch": "糟了，是他，那悬锋城的王储……",
+        "preview_en": "Drat! It's the crown prince of Castrum Kremnos..."
+      },
+      {
+        "id": "s02b",
+        "first_id": 104026601,
+        "last_id": 104026642,
+        "line_count": 42,
+        "preview_ch": "欧利庞，这孩子万敌没做错任何事！",
+        "preview_en": "Eurypon, the boy Mydei did nothing wrong!"
+      },
+      {
+        "id": "s03",
+        "first_id": 104028602,
+        "last_id": 104028725,
+        "line_count": 44,
+        "preview_ch": "…克拉特鲁斯！这是怎么回事？",
+        "preview_en": "...Krateros! What's going on?"
+      },
+      {
+        "id": "s04",
+        "first_id": 104031884,
+        "last_id": 104032126,
+        "line_count": 90,
+        "preview_ch": "你若真能带领族人打破这染血的命运，就再次证明给我看吧，迈德漠斯。",
+        "preview_en": "If you're truly capable of leading our people beyond this bloodstained fate, then prove it to me once more, Mydeimos."
+      },
+      {
+        "id": "s05",
+        "first_id": 104034062,
+        "last_id": 104034075,
+        "line_count": 14,
+        "preview_ch": "呵。",
+        "preview_en": "Heh."
+      },
+      {
+        "id": "s06",
+        "first_id": 140317718,
+        "last_id": 140317744,
+        "line_count": 27,
+        "preview_ch": "久违了，两位。",
+        "preview_en": "It's been a while."
+      },
+      {
+        "id": "s07",
+        "first_id": 144021219,
+        "last_id": 144021238,
+        "line_count": 20,
+        "preview_ch": "嘻，小伊卡还是很喜欢听这些传说故事呢。你肯定也想象着，自己有朝一日能和英雄塞涅俄丝身边的翼兽一样威风吧？",
+        "preview_en": "Heh, Little Ica loves listening to the stories from the legends. I'm sure you're also imagining, one day, you'll be as awe-inspiring as the winged beasts by Seliose's side?"
+      },
+      {
+        "id": "s08",
+        "first_id": 144040113,
+        "last_id": 144040621,
+        "line_count": 101,
+        "preview_ch": "…不知{NICKNAME}现在在哪。如果我被他们盯上了，那{F#她}{M#他}肯定也逃不过这遭。希望一切安好……",
+        "preview_en": "...I wonder where {NICKNAME} is now. If they're targeting me, {F#s}he definitely won't escape their notice either. I hope all is well..."
+      },
+      {
+        "id": "s09",
+        "first_id": 304003351,
+        "last_id": 304003370,
+        "line_count": 20,
+        "preview_ch": "于此「天谴之矛」神殿、尼卡多利淬炼神锋之处，我等将举行加冕仪式。",
+        "preview_en": "We will hold a coronation ceremony here, in the Lance of Fury's temple where Nikador tempered the divine blade."
+      },
+      {
+        "id": "s09b",
+        "first_id": 304003451,
+        "last_id": 304003465,
+        "line_count": 15,
+        "preview_ch": "克拉特鲁斯，您当真要离开悬锋城？",
+        "preview_en": "Krateros, are you really going to leave Castrum Kremnos?"
+      },
+      {
+        "id": "s10",
+        "first_id": 500082101,
+        "last_id": 500082115,
+        "line_count": 15,
+        "preview_ch": "你这家伙又来了？就算你这回带上{NICKNAME}阁下一起，我也不会答应你。",
+        "preview_en": "You again? Even if you brought {NICKNAME} along this time, I still won't agree."
+      },
+      {
+        "id": "s11",
+        "first_id": 504090001,
+        "last_id": 504090021,
+        "line_count": 21,
+        "preview_ch": "又见面了，{NICKNAME}阁下。你看上去还挺精神的。找我有什么事？",
+        "preview_en": "Well, hello again, {M#Mr.}{F#Miss} {NICKNAME}. You're looking rather spirited. What brings you here?"
+      },
+      {
+        "id": "s12",
+        "first_id": 537011901,
+        "last_id": 537011918,
+        "line_count": 18,
+        "preview_ch": "克拉特鲁斯爷爷！请再讲讲您和先王那场比拼吧！",
+        "preview_en": "Grandpa Krateros! Please tell us again about your showdown with the late king!"
+      },
+      {
+        "id": "s13",
+        "first_id": 803215854,
+        "last_id": 803215856,
+        "line_count": 3,
+        "preview_ch": "后生可畏啊，好对策！",
+        "preview_en": "Bold and full of potential! What a clever plan!"
+      }
+    ]
+  },
+  "chartonus": {
+    "name_ch": "哈托努斯",
+    "name_en": "Chartonus",
+    "note": "大工匠",
+    "quote_ch": "破坏一切，卑劣的王…来取我性命，终于？",
+    "quote_en": "Destroyed all, the wicked king... Here to take my life, finally?",
+    "scenes": [
+      {
+        "id": "s01",
+        "first_id": 104021462,
+        "last_id": 104021564,
+        "line_count": 16,
+        "preview_ch": "呃啊…！",
+        "preview_en": "Urk...!"
+      },
+      {
+        "id": "s02",
+        "first_id": 104029001,
+        "last_id": 104029024,
+        "line_count": 24,
+        "preview_ch": "大工匠，近来可好？",
+        "preview_en": "Grand Craftsman, how have you been?"
+      },
+      {
+        "id": "s03",
+        "first_id": 104032501,
+        "last_id": 104032507,
+        "line_count": 7,
+        "preview_ch": "悬锋之王，虽无印戒…却更有王相，如今。",
+        "preview_en": "The King of Kremnos, without the signet ring... But looking more like a king now."
+      },
+      {
+        "id": "s04",
+        "first_id": 140122601,
+        "last_id": 140122803,
+        "line_count": 36,
+        "preview_ch": "哈托努斯！",
+        "preview_en": "Chartonus!"
+      },
+      {
+        "id": "s05",
+        "first_id": 140131901,
+        "last_id": 140132101,
+        "line_count": 29,
+        "preview_ch": "…昔日的影子，你还没有走出。黄金裔。",
+        "preview_en": "...Out of the shadow of the past, you've not stepped, Chrysos Heir."
+      },
+      {
+        "id": "s06",
+        "first_id": 140180201,
+        "last_id": 140180310,
+        "line_count": 23,
+        "preview_ch": "哈托努斯…这么说来，我是听说过它为悬锋城打造圣器的故事。",
+        "preview_en": "Chartonus... Come to think of it, I remember hearing about them making a holy vessel for Kremnos."
+      },
+      {
+        "id": "s07",
+        "first_id": 144040402,
+        "last_id": 144041128,
+        "line_count": 146,
+        "preview_ch": "嗯…？",
+        "preview_en": "Mmm...?"
+      },
+      {
+        "id": "s08",
+        "first_id": 144111601,
+        "last_id": 144111628,
+        "line_count": 28,
+        "preview_ch": "哈托努斯！坚持住！",
+        "preview_en": "Chartonus! Hang in there!"
+      },
+      {
+        "id": "s09",
+        "first_id": 240201602,
+        "last_id": 240201611,
+        "line_count": 10,
+        "preview_ch": "不会吧，伟大的大工匠，难道您修不好吗？",
+        "preview_en": "Surely not. Grand Craftsman, are you saying that you cannot repair her?"
+      },
+      {
+        "id": "s10",
+        "first_id": 304009421,
+        "last_id": 304009436,
+        "line_count": 16,
+        "preview_ch": "大工匠，你怎么来了？黎明云崖现在很危险，黑潮怪物纷纷从低处向云崖汇集，已经有不少圣城卫士战死了……",
+        "preview_en": "Grand Craftsman, what brings you here? The Dawncloud is perilous right now. The black tide monsters are gathering from below, and many of the Holy City Guards have already fallen..."
+      },
+      {
+        "id": "s11",
+        "first_id": 500041210,
+        "last_id": 500041704,
+        "line_count": 49,
+        "preview_ch": "我还是不掺和了。",
+        "preview_en": "I'd better not get involved."
+      },
+      {
+        "id": "s12",
+        "first_id": 500047301,
+        "last_id": 500047309,
+        "line_count": 9,
+        "preview_ch": "异邦勇士，有何需要？",
+        "preview_en": "What do you need, warrior of the outlands?"
+      },
+      {
+        "id": "s13",
+        "first_id": 504034001,
+        "last_id": 504034211,
+        "line_count": 81,
+        "preview_ch": "叮，叮，叮。这名身材高大的工匠正在打铁。",
+        "preview_en": "*ding* *ding* *ding* This tall blacksmith is forging iron."
+      },
+      {
+        "id": "s14",
+        "first_id": 537011901,
+        "last_id": 537011918,
+        "line_count": 18,
+        "preview_ch": "克拉特鲁斯爷爷！请再讲讲您和先王那场比拼吧！",
+        "preview_en": "Grandpa Krateros! Please tell us again about your showdown with the late king!"
+      }
+    ]
+  },
+  "ptolemy": {
+    "name_ch": "托勒密",
+    "name_en": "Ptolemy",
+    "note": "万敌已故战友，《悬锋诸王通鉴》作者",
+    "quote_ch": "「迈德漠斯，请你转告我的家人：打倒我托勒密的并非歹毒的诡计，而是翁法罗斯一切历史的重量。」",
+    "quote_en": "\"Mydeimos, please tell my family: It was not cunning schemes that vanquished Ptolemy, but the immense weight of Amphoreus' entire history.\"",
+    "scenes": [
+      {
+        "id": "s01",
+        "first_id": 104027401,
+        "last_id": 104027430,
+        "line_count": 30,
+        "preview_ch": "…我曾经的战友们。",
+        "preview_en": "...My old comrades."
+      },
+      {
+        "id": "s02",
+        "first_id": 104033635,
+        "last_id": 104033635,
+        "line_count": 1,
+        "preview_ch": "快来！看看我新写的……",
+        "preview_en": "Say! Come and check out what I just wrote..."
+      }
+    ]
+  },
+  "perdikkas": {
+    "name_ch": "帕狄卡斯",
+    "name_en": "Perdikkas",
+    "note": "万敌战友，精通制药",
+    "quote_ch": "我名为帕狄卡斯…前来为我同胞复仇。",
+    "quote_en": "My name is Perdikkas... And I am here to avenge my people.",
+    "scenes": [
+      {
+        "id": "s01",
+        "first_id": 104020951,
+        "last_id": 104020976,
+        "line_count": 26,
+        "preview_ch": "野蛮人！告诉我你的名字，好让你那可悲的命运作我酒宴上的谈资！",
+        "preview_en": "Tell me your name, brute! Your demise shall be a tale I boast about at the feast table!"
+      },
+      {
+        "id": "s02",
+        "first_id": 104027401,
+        "last_id": 104027430,
+        "line_count": 30,
+        "preview_ch": "…我曾经的战友们。",
+        "preview_en": "...My old comrades."
+      },
+      {
+        "id": "s03",
+        "first_id": 104033632,
+        "last_id": 104033632,
+        "line_count": 1,
+        "preview_ch": "看啊，迈德漠斯回来了！",
+        "preview_en": "Look, Mydeimos is back!"
+      }
+    ]
+  },
+  "leon": {
+    "name_ch": "莱昂",
+    "name_en": "Leon",
+    "note": "万敌战友，信使，死于暴风雪",
+    "quote_ch": "「多好啊，迈德漠斯…我终于能将你成王的讯息带向冥界了……」",
+    "quote_en": "\"This is perfect, Mydeimos... I can finally deliver the news of you ascending the throne to the nether realm...\"",
+    "scenes": [
+      {
+        "id": "s01",
+        "first_id": 104027401,
+        "last_id": 104027430,
+        "line_count": 30,
+        "preview_ch": "…我曾经的战友们。",
+        "preview_en": "...My old comrades."
+      },
+      {
+        "id": "s02",
+        "first_id": 104033636,
+        "last_id": 104033636,
+        "line_count": 1,
+        "preview_ch": "迈德漠斯！你刚训练回来吗？",
+        "preview_en": "Mydeimos! Did you just come back from training?"
+      }
+    ]
+  },
+  "hephaistin": {
+    "name_ch": "赫菲斯辛",
+    "name_en": "Hephaistin",
+    "note": "万敌战友",
+    "quote_ch": "「身为悬锋人，却只能在床榻上了却一生…说出去要教人笑话啊。」",
+    "quote_en": "\"A Kremnoan dying on a sickbed... I would be a laughingstock to everyone.\"",
+    "scenes": [
+      {
+        "id": "s01",
+        "first_id": 104027401,
+        "last_id": 104027430,
+        "line_count": 30,
+        "preview_ch": "…我曾经的战友们。",
+        "preview_en": "...My old comrades."
+      },
+      {
+        "id": "s02",
+        "first_id": 104031882,
+        "last_id": 104031882,
+        "line_count": 1,
+        "preview_ch": "别了，挚友。你一定要…带领我等还乡……",
+        "preview_en": "Farewell, my dear friend. You must... lead us back home..."
+      },
+      {
+        "id": "s03",
+        "first_id": 104033633,
+        "last_id": 104033633,
+        "line_count": 1,
+        "preview_ch": "新鲜的石榴汁，一起尝尝嘛？",
+        "preview_en": "We've got fresh pomegranate juice. Want to try some?"
+      }
+    ]
+  },
+  "pousetta": {
+    "name_ch": "朴塞塔",
+    "name_en": "Pousetta",
+    "note": "万敌战友",
+    "quote_ch": "「迈德漠斯，戴上王冠吧。」",
+    "quote_en": "\"Mydeimos, don the crown.\"",
+    "scenes": [
+      {
+        "id": "s01",
+        "first_id": 104027401,
+        "last_id": 104027430,
+        "line_count": 30,
+        "preview_ch": "…我曾经的战友们。",
+        "preview_en": "...My old comrades."
+      },
+      {
+        "id": "s02",
+        "first_id": 104033637,
+        "last_id": 104033637,
+        "line_count": 1,
+        "preview_ch": "真是…久违了。",
+        "preview_en": "It's... been a while."
+      }
+    ]
+  },
+  "demetrios": {
+    "name_ch": "德米特里",
+    "name_en": "Demetrios",
+    "note": "悬锋人",
+    "quote_ch": "呀，是王子！王子也是来泡澡吗？",
+    "quote_en": "Hey, it's the crown prince! Are you also here for a bath?",
+    "scenes": [
+      {
+        "id": "s01",
+        "first_id": 104026301,
+        "last_id": 104026333,
+        "line_count": 33,
+        "preview_ch": "孩子们，别在这里嬉戏打闹。",
+        "preview_en": "You shouldn't run around in here, kids."
+      },
+      {
+        "id": "s02",
+        "first_id": 104033603,
+        "last_id": 104033607,
+        "line_count": 5,
+        "preview_ch": "王子来了，快跑！",
+        "preview_en": "The prince is here. Run!"
+      },
+      {
+        "id": "s03",
+        "first_id": 537011901,
+        "last_id": 537011918,
+        "line_count": 18,
+        "preview_ch": "克拉特鲁斯爷爷！请再讲讲您和先王那场比拼吧！",
+        "preview_en": "Grandpa Krateros! Please tell us again about your showdown with the late king!"
+      }
+    ]
+  },
+  "gnaeus": {
+    "name_ch": "格奈乌斯",
+    "name_en": "Gnaeus",
+    "note": "悬锋斗士（尼卡多利神性碎片）",
+    "quote_ch": "让注定赴死之人浪费时间，用意何在？",
+    "quote_en": "Why stall those charging for Death's door?",
+    "scenes": [
+      {
+        "id": "s01",
+        "first_id": 140183301,
+        "last_id": 140184201,
+        "line_count": 108,
+        "preview_ch": "…多么可惜！那三位斗士只差一点便能通过试炼，觐见雄伟的欧利庞王，摘得悬锋勇士的桂冠……",
+        "preview_en": "...Such a pity! Those three warriors were so close to completing the trial, to emerging as victorious Kremnoan warriors, and to earning an audience with our glorious King Eurypon!"
+      },
+      {
+        "id": "s01b",
+        "first_id": 140184401,
+        "last_id": 140184413,
+        "line_count": 13,
+        "preview_ch": "勇者…勇者！靠近些…让我看清你啊……",
+        "preview_en": "Brave one... O Brave one! Come closer... Let me get a good look at you..."
+      },
+      {
+        "id": "s01c",
+        "first_id": 140184501,
+        "last_id": 140186381,
+        "line_count": 301,
+        "preview_ch": "如此惨烈…这祭典究竟是为了满足谁的欲望？",
+        "preview_en": "Such carnage... whose desires does this festival truly serve..."
+      },
+      {
+        "id": "s02",
+        "first_id": 140304602,
+        "last_id": 140304709,
+        "line_count": 34,
+        "preview_ch": "咦？格奈乌斯阁下，此行怎不见汝那伴身的爱枪了？",
+        "preview_en": "Oh? Why didn't you bring your favorite spear with you on this trip, Gnaeus?"
+      },
+      {
+        "id": "s03",
+        "first_id": 140315802,
+        "last_id": 140315811,
+        "line_count": 10,
+        "preview_ch": "哎……",
+        "preview_en": "Tsk..."
+      },
+      {
+        "id": "s04",
+        "first_id": 140319216,
+        "last_id": 140319916,
+        "line_count": 70,
+        "preview_ch": "「试炼」、「预言」…他们在讨论的话题，似乎有点耳熟呢。",
+        "preview_en": "Trial, prophecy... the topics that they're discussing seem familiar."
+      },
+      {
+        "id": "s05",
+        "first_id": 502374301,
+        "last_id": 502374306,
+        "line_count": 6,
+        "preview_ch": "哎呀呀呀，瞧瞧你们，怎么把自己弄得这么狼狈？我在临行前，不是留下了那么多妙策吗？桀桀桀——果然没了我还是不行呀！",
+        "preview_en": "Well, well, well, look at you all! How did you get yourselves into such a mess? Didn't I leave you with so many brilliant strategies before I left? Hehehe... guess you really can't do without me!"
+      },
+      {
+        "id": "s06",
+        "first_id": 537011703,
+        "last_id": 537011703,
+        "line_count": 1,
+        "preview_ch": "呵呵…我看未必。",
+        "preview_en": "Heh... I wouldn't be so sure about that."
+      }
+    ]
+  },
+  "nikador": {
+    "name_ch": "尼卡多利",
+    "name_en": "Nikador",
+    "note": "纷争之泰坦，悬锋守护神",
+    "quote_ch": "拿我打趣就免了。您美丽的脸庞写满了忧虑，我们是否都因面前这只贼灵烦忧？",
+    "quote_en": "Dispense with your teasing. Your beautiful face is fraught with worry. Aren't we all vexed about this Spirithief before us?",
+    "aliases_ch": ["威严的回声"],
+    "scenes": [
+      {
+        "id": "s01",
+        "first_id": 803030201,
+        "last_id": 803030213,
+        "line_count": 13,
+        "preview_ch": "卷轴上的符文亮起，回应着你的来意；信徒们齐声念诵，赞词在你的脑海中回响——",
+        "preview_en": "The runes on the scroll are glowing, responding to your intent. Disciples chant in unison, their praises echoing in your mind..."
+      },
+      {
+        "id": "s02",
+        "first_id": 803030501,
+        "last_id": 803030513,
+        "line_count": 13,
+        "preview_ch": "卷轴上的符文亮起，回应着你的来意；信徒们齐声念诵，赞词在你的脑海中回响——",
+        "preview_en": "The runes on the scroll are glowing, responding to your intent. Disciples chant in unison, their praises echoing in your mind..."
+      }
+    ]
+  },
+  "castrum-kremnos-marshal": {
+    "name_ch": "悬锋城统帅",
+    "name_en": "Castrum Kremnos Marshal",
+    "note": "悬锋城军事统帅",
+    "quote_ch": "勇者不与弱者共舞，悬锋之伟大由鲜血浇灌。",
+    "quote_en": "The brave do not dance with the weak. Kremnos's greatness is watered by blood.",
+    "scenes": [
+      {
+        "id": "s01",
+        "first_id": 803030301,
+        "last_id": 803030313,
+        "line_count": 13,
+        "preview_ch": "卷轴上的符文亮起，回应着你的来意；信徒们齐声念诵，赞词在你的脑海中回响——",
+        "preview_en": "The runes on the scroll are glowing, responding to your intent. Disciples chant in unison, their praises echoing in your mind..."
+      }
+    ]
+  },
+  "kremnos-grand-scholar": {
+    "name_ch": "悬锋的大学者",
+    "name_en": "Kremnos Grand Scholar",
+    "note": "悬锋城德高望重的学者",
+    "quote_ch": "战势千变万化，不可全依典籍记载。",
+    "quote_en": "The tides of war are ever-changing. One cannot rely solely on records from books.",
+    "scenes": [
+      {
+        "id": "s01",
+        "first_id": 803030101,
+        "last_id": 803030111,
+        "line_count": 11,
+        "preview_ch": "卷轴上的符文亮起，回应着你的来意；信徒们齐声念诵，赞词在你的脑海中回响——",
+        "preview_en": "The runes on the scroll are glowing, responding to your intent. Disciples chant in unison, their praises echoing in your mind..."
+      }
+    ]
+  },
+  "nikador's-kin": {
+    "name_ch": "尼卡多利的眷属",
+    "name_en": "Nikador's Kin",
+    "note": "尼卡多利的信众/眷属",
+    "quote_ch": "伟哉，吾主尼卡多利；壮哉，战争之魂不朽。",
+    "quote_en": "Great is our lord Nikador; glorious, for the soul of war is eternal.",
+    "scenes": [
+      {
+        "id": "s01",
+        "first_id": 803030401,
+        "last_id": 803030413,
+        "line_count": 13,
+        "preview_ch": "卷轴上的符文亮起，回应着你的来意；信徒们齐声念诵，赞词在你的脑海中回响——",
+        "preview_en": "The runes on the scroll are glowing, responding to your intent. Disciples chant in unison, their praises echoing in your mind..."
+      }
+    ]
+  },
+  "undaunted-warrior": {
+    "name_ch": "无畏的战士",
+    "name_en": "Undaunted Warrior",
+    "note": "请求追随尼卡多利征战的勇士",
+    "quote_ch": "死亡有何可怖？赴战场，垂英名，纵使葬于他乡，也胜过苟延残喘的安详。",
+    "quote_en": "What is there to fear about death? March onto the battlefield, leave behind a glorious name. Even death in a foreign land is better than a life spent in idle comfort.",
+    "scenes": [
+      {
+        "id": "s01",
+        "first_id": 803030501,
+        "last_id": 803030513,
+        "line_count": 13,
+        "preview_ch": "卷轴上的符文亮起，回应着你的来意；信徒们齐声念诵，赞词在你的脑海中回响——",
+        "preview_en": "The runes on the scroll are glowing, responding to your intent. Disciples chant in unison, their praises echoing in your mind..."
+      }
+    ]
+  },
+  "kokopo-iii": {
+    "name_ch": "科可波三世",
+    "name_en": "Kokopo III",
+    "note": "万敌的坐骑，失恋的大地兽",
+    "quote_ch": "嗡嗡~嗡嗡嗡~嗡嗡~",
+    "quote_en": "Buzz buzz~ Buzz buzz buzz~ Buzz buzz~",
+    "aliases_ch": ["失恋的大地兽"],
+    "scenes": [
+      {
+        "id": "s01",
+        "first_id": 500077001,
+        "last_id": 500077037,
+        "line_count": 37,
+        "preview_ch": "砰——你感到一阵天旋地转，耳朵嗡嗡作响。清晰的理性离你远去……",
+        "preview_en": "Bang — You feel a sudden dizziness, your ears ringing loudly. Clarity and reason slip away..."
+      },
+      {
+        "id": "s02",
+        "first_id": 500077101,
+        "last_id": 500077317,
+        "line_count": 50,
+        "preview_ch": "「忘记是普通人能做的唯一的事，但是我决定不忘记她——」",
+        "preview_en": "\"Forgetting is the only thing ordinary people can do, but for her, I've decided not to —\""
+      },
+      {
+        "id": "s04",
+        "first_id": 500077401,
+        "last_id": 500077506,
+        "line_count": 20,
+        "preview_ch": "嗡嗡…呜嗡嗡！",
+        "preview_en": "Grumph... Grumphhh!"
+      },
+      {
+        "id": "s06",
+        "first_id": 500077507,
+        "last_id": 500077743,
+        "line_count": 86,
+        "preview_ch": "列队！齐步跑！紧跟殿下的步伐！",
+        "preview_en": "Line up! March in step! Keep pace with His Highness!"
+      },
+      {
+        "id": "s08",
+        "first_id": 500077801,
+        "last_id": 500078002,
+        "line_count": 10,
+        "preview_ch": "你是来探望科可波三世的吧？来得正好，看——那些悬锋人给它准备了什么！",
+        "preview_en": "You're here to check on Kokopo III, right? Perfect timing — look what the Kremnoans have prepared for it!"
+      },
+      {
+        "id": "s09",
+        "first_id": 537013004,
+        "last_id": 537013030,
+        "line_count": 27,
+        "preview_ch": "你听听这个…黑土好，充饥快！黄土好，治馋病！",
+        "preview_en": "How about this... Blacksoil's good, it fills you up quick! Yellowsoil's good, it cures your cravings!"
+      }
+    ]
+  },
+  "fig-stew": {
+    "name_ch": "蜜果羹",
+    "name_en": "Fig Stew",
+    "note": "万敌的专属奇美拉",
+    "quote_ch": "HKS！",
+    "quote_en": "HKS!",
+    "scenes": [
+      {
+        "id": "s01",
+        "first_id": 831070103,
+        "last_id": 831070109,
+        "line_count": 7,
+        "preview_ch": "我看了刚才的对战。不错，你确实是个强劲的对手。",
+        "preview_en": "I watched your recent battle. Not bad, you're indeed a formidable opponent."
+      }
+    ]
+  },
+  "impetuous-kremnoan": {
+    "name_ch": "激进的悬锋族人",
+    "name_en": "Impetuous Kremnoan",
+    "note": "主张返乡的悬锋战士",
+    "quote_ch": "哼，还是悬锋城的土质尝起来更美味，对吧？",
+    "quote_en": "Hmph, but Kremnos' soil must taste better, right?",
+    "scenes": [
+      {
+        "id": "s01",
+        "first_id": 500077507,
+        "last_id": 500077743,
+        "line_count": 86,
+        "preview_ch": "列队！齐步跑！紧跟殿下的步伐！",
+        "preview_en": "Line up! March in step! Keep pace with His Highness!"
+      },
+      {
+        "id": "s02",
+        "first_id": 500077801,
+        "last_id": 500078002,
+        "line_count": 10,
+        "preview_ch": "你是来探望科可波三世的吧？来得正好，看——那些悬锋人给它准备了什么！",
+        "preview_en": "You're here to check on Kokopo III, right? Perfect timing — look what the Kremnoans have prepared for him!"
+      },
+      {
+        "id": "s03",
+        "first_id": 500078101,
+        "last_id": 500078106,
+        "line_count": 6,
+        "preview_ch": "（那群悬锋族人真打算返乡吗…去奥赫玛的城门口看看吧。）",
+        "preview_en": "(Are those Kremnoans really planning to go back? Maybe I should check the gates of Okhema.)"
+      }
+    ]
+  },
+  "rational-kremnoan": {
+    "name_ch": "理性的悬锋族人",
+    "name_en": "Rational Kremnoan",
+    "note": "劝说众人留下的悬锋族人",
+    "quote_ch": "就好像，大家仍在随殿下作战那般……",
+    "quote_en": "It's as if... we're still following His Highness into battle...",
+    "scenes": [
+      {
+        "id": "s01",
+        "first_id": 500077507,
+        "last_id": 500077743,
+        "line_count": 86,
+        "preview_ch": "列队！齐步跑！紧跟殿下的步伐！",
+        "preview_en": "Line up! March in step! Keep pace with His Highness!"
+      },
+      {
+        "id": "s02",
+        "first_id": 500078101,
+        "last_id": 500078106,
+        "line_count": 6,
+        "preview_ch": "（那群悬锋族人真打算返乡吗…去奥赫玛的城门口看看吧。）",
+        "preview_en": "(Are those Kremnoans really planning to go back? Maybe I should check the gates of Okhema.)"
+      }
+    ]
+  },
+  "friendly-kremnoan": {
+    "name_ch": "和善的悬锋族人",
+    "name_en": "Friendly Kremnoan",
+    "note": "温和包容的悬锋族人",
+    "quote_ch": "可这是王的意志！你要公然违背万敌殿下的命令吗？",
+    "quote_en": "But this is the will of our king! Are you going to openly defy Lord Mydei's orders?",
+    "scenes": [
+      {
+        "id": "s01",
+        "first_id": 500077507,
+        "last_id": 500077743,
+        "line_count": 86,
+        "preview_ch": "列队！齐步跑！紧跟殿下的步伐！",
+        "preview_en": "Line up! March in step! Keep pace with His Highness!"
+      },
+      {
+        "id": "s02",
+        "first_id": 500077801,
+        "last_id": 500078002,
+        "line_count": 10,
+        "preview_ch": "你是来探望科可波三世的吧？来得正好，看——那些悬锋人给它准备了什么！",
+        "preview_en": "You're here to check on Kokopo III, right? Perfect timing — look what the Kremnoans have prepared for him!"
+      },
+      {
+        "id": "s03",
+        "first_id": 500078101,
+        "last_id": 500078106,
+        "line_count": 6,
+        "preview_ch": "（那群悬锋族人真打算返乡吗…去奥赫玛的城门口看看吧。）",
+        "preview_en": "(Are those Kremnoans really planning to go back? Maybe I should check the gates of Okhema.)"
+      }
+    ]
+  },
+  "golden-mane": {
+    "name_ch": "黄金狮首",
+    "name_en": "Golden Mane",
+    "note": "悬锋相关存在",
+    "quote_ch": "我不会…忘记您的声音。我一直…在等待这个时刻。",
+    "quote_en": "I could never... forget your voice. I've been waiting for this moment... all along.",
+    "scenes": [
+      {
+        "id": "s01",
+        "first_id": 140153201,
+        "last_id": 140153224,
+        "line_count": 24,
+        "preview_ch": "这个大家伙，莫非是真言狮口？",
+        "preview_en": "Wow, look at this big guy. Could this be Verax Leo?"
+      },
+      {
+        "id": "s02",
+        "first_id": 140184401,
+        "last_id": 140184413,
+        "line_count": 13,
+        "preview_ch": "勇者…勇者！靠近些…让我看清你啊……",
+        "preview_en": "Brave one... O Brave one! Come closer... Let me get a good look at you..."
+      },
+      {
+        "id": "s03",
+        "first_id": 140186360,
+        "last_id": 140186362,
+        "line_count": 3,
+        "preview_ch": "勇者…勇者。上前来，上前来啊……",
+        "preview_en": "Brave one... Step forth..."
+      }
+    ]
+  },
+  "andriskos": {
+    "name_ch": "安德里斯库斯",
+    "name_en": "Andriskos",
+    "note": "",
+    "quote_ch": "没错，我们都是悬锋人！听长辈说，我家以前就住在竞技场隔壁…的隔壁！",
+    "quote_en": "Yeah, we are! The grown-ups said we used to live next to the arena! ...Well, next to the parts next to it anyway!",
+    "scenes": [
+      {
+        "id": "s01",
+        "first_id": 104026301,
+        "last_id": 104026333,
+        "line_count": 33,
+        "preview_ch": "孩子们，别在这里嬉戏打闹。",
+        "preview_en": "You shouldn't run around in here, kids."
+      },
+      {
+        "id": "s02",
+        "first_id": 104033603,
+        "last_id": 104033607,
+        "line_count": 5,
+        "preview_ch": "王子来了，快跑！",
+        "preview_en": "The prince is here. Run!"
+      },
+      {
+        "id": "s03",
+        "first_id": 537011901,
+        "last_id": 537011918,
+        "line_count": 18,
+        "preview_ch": "克拉特鲁斯爷爷！请再讲讲您和先王那场比拼吧！",
+        "preview_en": "Grandpa Krateros! Please tell us again about your showdown with the late king!"
+      }
+    ]
+  },
+  "marsyas": {
+    "name_ch": "马耳叙阿斯",
+    "name_en": "Marsyas",
+    "note": "悬锋人",
+    "quote_ch": "我爸爸是蛇妖枪骑兵队的百夫长，妈妈是神盾旅最勇敢的战士，<color=#dbc291ff>克拉特鲁斯爷爷</color>给我家发过好多好多银币呢！",
+    "quote_en": "My dad is a centurion with the Hydra Lancers, and my mom is the bravest warrior in the Godshield Brigade. We used to get tons of silver coins from <color=#dbc291ff>Mr. Krateros</color>!",
+    "scenes": [
+      {
+        "id": "s01",
+        "first_id": 104026301,
+        "last_id": 104026333,
+        "line_count": 33,
+        "preview_ch": "孩子们，别在这里嬉戏打闹。",
+        "preview_en": "You shouldn't run around in here, kids."
+      },
+      {
+        "id": "s02",
+        "first_id": 104033603,
+        "last_id": 104033607,
+        "line_count": 5,
+        "preview_ch": "王子来了，快跑！",
+        "preview_en": "The prince is here. Run!"
+      },
+      {
+        "id": "s03",
+        "first_id": 537011901,
+        "last_id": 537011918,
+        "line_count": 18,
+        "preview_ch": "克拉特鲁斯爷爷！请再讲讲您和先王那场比拼吧！",
+        "preview_en": "Grandpa Krateros! Please tell us again about your showdown with the late king!"
+      }
+    ]
+  },
+  "ulixes": {
+    "name_ch": "尤利克赛斯",
+    "name_en": "Ulixes",
+    "note": "悬锋人",
+    "quote_ch": "行了，今天就先练到这吧。小毛病很多，但大问题只有一个——",
+    "quote_en": "Alright, that's enough practice for today. There are lots of small issues, but only one major problem...",
+    "scenes": [
+      {
+        "id": "s01",
+        "first_id": 504030002,
+        "last_id": 504030402,
+        "line_count": 67,
+        "preview_ch": "行了，今天就先练到这吧。小毛病很多，但大问题只有一个——",
+        "preview_en": "Alright, that's enough practice for today. There are lots of small issues, but only one major problem..."
+      },
+      {
+        "id": "s02",
+        "first_id": 504851035,
+        "last_id": 504851035,
+        "line_count": 1,
+        "preview_ch": "来吧，我愿意向年轻人分享我的智慧和狡猾。",
+        "preview_en": "Come. I am willing to share my wisdom and cunning with the youth."
+      },
+      {
+        "id": "s03",
+        "first_id": 537011701,
+        "last_id": 537011702,
+        "line_count": 2,
+        "preview_ch": "生面孔，你是刚来的新兵吧？如今我没什么可教你的，唯有一句：别被荣耀的枷锁束缚，去做你想做的事吧。",
+        "preview_en": "New kid, you must be a fresh recruit, huh? I've got nothing much to teach you these days, just one thing: Don't let the shackles of glory hold you back. Go do whatever your heart desires."
+      }
+    ]
+  },
+  "herklas": {
+    "name_ch": "赫克鲁斯",
+    "name_en": "Herklas",
+    "note": "悬锋人",
+    "quote_ch": "到时候就这么说吧：「我是赫克鲁斯。我以荣耀发誓，宁死也不抛弃同伴！」",
+    "quote_en": "I know. I'll say: \"I am Herklas. I vow upon my honor that I won't abandon my friends, even in death!\"",
+    "scenes": [
+      {
+        "id": "s01",
+        "first_id": 504031002,
+        "last_id": 504031302,
+        "line_count": 44,
+        "preview_ch": "到时候就这么说吧：「我是赫克鲁斯。我以荣耀发誓，宁死也不抛弃同伴！」",
+        "preview_en": "I know. I'll say: \"I am Herklas. I vow upon my honor that I won't abandon my friends, even in death!\""
+      },
+      {
+        "id": "s02",
+        "first_id": 537011601,
+        "last_id": 537011616,
+        "line_count": 16,
+        "preview_ch": "既然我们在此处相会，想必那伟大的仗已经打完了吧？",
+        "preview_en": "Since we're meeting here, I take it that the great battle is already over?"
+      }
+    ]
+  },
+  "erinys": {
+    "name_ch": "厄里倪厄斯",
+    "name_en": "Erinys",
+    "note": "悬锋人",
+    "quote_ch": "我不是说了吗？前一批斗士的试炼还没结束，你得先耐心等待。",
+    "quote_en": "Didn't I already mention it? The trial for the previous batch of gladiators isn't over. You'll have to wait.",
+    "scenes": [
+      {
+        "id": "s01",
+        "first_id": 504032002,
+        "last_id": 504032303,
+        "line_count": 40,
+        "preview_ch": "我不是说了吗？前一批斗士的试炼还没结束，你得先耐心等待。",
+        "preview_en": "Didn't I already mention it? The trial for the previous batch of gladiators isn't over. You'll have to wait."
+      },
+      {
+        "id": "s02",
+        "first_id": 537011601,
+        "last_id": 537011616,
+        "line_count": 16,
+        "preview_ch": "既然我们在此处相会，想必那伟大的仗已经打完了吧？",
+        "preview_en": "Since we're meeting here, I take it that the great battle is already over?"
+      }
+    ]
+  },
+  "aulus": {
+    "name_ch": "奥卢斯",
+    "name_en": "Aulus",
+    "note": "悬锋人",
+    "quote_ch": "免费的肉片麦粥，每人一份，自主领取！",
+    "quote_en": "Free meat n' wheat porridge, one for everyone, come get yours!",
+    "scenes": [
+      {
+        "id": "s01",
+        "first_id": 504044301,
+        "last_id": 504044518,
+        "line_count": 26,
+        "preview_ch": "免费的肉片麦粥，每人一份，自主领取！",
+        "preview_en": "Free meat n' wheat porridge, one for everyone, come get yours!"
+      },
+      {
+        "id": "s02",
+        "first_id": 537011601,
+        "last_id": 537011616,
+        "line_count": 16,
+        "preview_ch": "既然我们在此处相会，想必那伟大的仗已经打完了吧？",
+        "preview_en": "Since we're meeting here, I take it that the great battle is already over?"
+      }
+    ]
+  },
+  "georgious": {
+    "name_ch": "乔治斯",
+    "name_en": "Georgious",
+    "note": "悬锋人",
+    "quote_ch": "敲击，呐喊，欢呼…瞧瞧这地方，气氛多么热闹啊。你也是来参加祭典的勇士吗？",
+    "quote_en": "Knocking, shouting, cheering... Just look at this place. Such a lively vibe. You're a warrior here to join the festival too?",
+    "scenes": [
+      {
+        "id": "s01",
+        "first_id": 504044601,
+        "last_id": 504044817,
+        "line_count": 24,
+        "preview_ch": "敲击，呐喊，欢呼…瞧瞧这地方，气氛多么热闹啊。你也是来参加祭典的勇士吗？",
+        "preview_en": "Knocking, shouting, cheering... Just look at this place. Such a lively vibe. You're a warrior here to join the festival too?"
+      },
+      {
+        "id": "s02",
+        "first_id": 537011601,
+        "last_id": 537011616,
+        "line_count": 16,
+        "preview_ch": "既然我们在此处相会，想必那伟大的仗已经打完了吧？",
+        "preview_en": "Since we're meeting here, I take it that the great battle is already over?"
+      }
+    ]
+  },
+  "empousa": {
+    "name_ch": "恩普莎",
+    "name_en": "Empousa",
+    "note": "悬锋人",
+    "quote_ch": "嗝…这么盛大的日子，当然要来一杯…嗝，鲜血蜜酿了。敬欧利庞王和他的勇士们！",
+    "quote_en": "*hic*... Such a momentous day, of course we must have a drink with... *hic* sanguine honey brew. Praise King Eurypon and his warriors!",
+    "scenes": [
+      {
+        "id": "s01",
+        "first_id": 504044001,
+        "last_id": 504044216,
+        "line_count": 24,
+        "preview_ch": "嗝…这么盛大的日子，当然要来一杯…嗝，鲜血蜜酿了。敬欧利庞王和他的勇士们！",
+        "preview_en": "*hic*... Such a momentous day, of course we must have a drink with... *hic* sanguine honey brew. Praise King Eurypon and his warriors!"
+      },
+      {
+        "id": "s02",
+        "first_id": 537011601,
+        "last_id": 537011616,
+        "line_count": 16,
+        "preview_ch": "既然我们在此处相会，想必那伟大的仗已经打完了吧？",
+        "preview_en": "Since we're meeting here, I take it that the great battle is already over?"
+      }
+    ]
+  },
+  "weapon-merchant": {
+    "name_ch": "武器商人",
+    "name_en": "Weapon Merchant",
+    "note": "悬锋人",
+    "quote_ch": "上等武器！都来看啊，悬锋城最锋利的武器！",
+    "quote_en": "Finest weapons for sale! Come take a look! The sharpest blades in all of Kremnos!",
+    "scenes": [
+      {
+        "id": "s01",
+        "first_id": 140182601,
+        "last_id": 140183001,
+        "line_count": 28,
+        "preview_ch": "上等武器！都来看啊，悬锋城最锋利的武器！",
+        "preview_en": "Finest weapons for sale! Come take a look! The sharpest blades in all of Kremnos!"
+      },
+      {
+        "id": "s02",
+        "first_id": 140183901,
+        "last_id": 140184201,
+        "line_count": 41,
+        "preview_ch": "…等等。",
+        "preview_en": "...Wait."
+      }
+    ]
+  },
+  "recruiter": {
+    "name_ch": "悬锋报名官",
+    "name_en": "Recruiter",
+    "note": "悬锋人",
+    "quote_ch": "…多么可惜！那三位斗士只差一点便能通过试炼，觐见雄伟的欧利庞王，摘得悬锋勇士的桂冠……",
+    "quote_en": "...Such a pity! Those three warriors were so close to completing the trial, to emerging as victorious Kremnoan warriors, and to earning an audience with our glorious King Eurypon!",
+    "scenes": [
+      {
+        "id": "s01",
+        "first_id": 140183301,
+        "last_id": 140183402,
+        "line_count": 42,
+        "preview_ch": "…多么可惜！那三位斗士只差一点便能通过试炼，觐见雄伟的欧利庞王，摘得悬锋勇士的桂冠……",
+        "preview_en": "...Such a pity! Those three warriors were so close to completing the trial, to emerging as victorious Kremnoan warriors, and to earning an audience with our glorious King Eurypon!"
+      }
+    ]
+  },
+  "irate-gladiator": {
+    "name_ch": "急躁的斗士",
+    "name_en": "Irate Gladiator",
+    "note": "悬锋人",
+    "quote_ch": "呵！我闭关修炼了二十年，早就忘记怎么交朋友了。你让我去找两个志同道合的伙伴，不是存心刁难我吗？",
+    "quote_en": "Hah! I've been training for twenty years as a recluse, and have long forgotten how to make friends. Now you're making me find two like-minded comrades? That's deliberate sabotage!",
+    "scenes": [
+      {
+        "id": "s01",
+        "first_id": 504032002,
+        "last_id": 504032013,
+        "line_count": 12,
+        "preview_ch": "我不是说了吗？前一批斗士的试炼还没结束，你得先耐心等待。",
+        "preview_en": "Didn't I already mention it? The trial for the previous batch of gladiators isn't over. You'll have to wait."
+      }
+    ]
+  },
+  "furiae-praetor": {
+    "name_ch": "天谴先锋",
+    "name_en": "Furiae Praetor",
+    "note": "悬锋人",
+    "quote_ch": "",
+    "quote_en": "",
+    "scenes": [
+      {
+        "id": "s01",
+        "first_id": 140185101,
+        "last_id": 140185303,
+        "line_count": 34,
+        "preview_ch": "是眷属…当心。",
+        "preview_en": "The Titan's kin... Be careful."
+      }
+    ]
+  },
+  "shy-recruit": {
+    "name_ch": "腼腆的新兵",
+    "name_en": "Shy Recruit",
+    "note": "悬锋人",
+    "quote_ch": "这未免有些卑鄙吧……",
+    "quote_en": "Isn't that a little shameless...?",
+    "scenes": [
+      {
+        "id": "s01",
+        "first_id": 504030002,
+        "last_id": 504030010,
+        "line_count": 9,
+        "preview_ch": "行了，今天就先练到这吧。小毛病很多，但大问题只有一个——",
+        "preview_en": "Alright, that's enough practice for today. There are lots of small issues, but only one major problem..."
+      }
+    ]
+  },
+  "furiae-archer": {
+    "name_ch": "天谴猎手",
+    "name_en": "Furiae Archer",
+    "note": "悬锋人",
+    "quote_ch": "{RUBY_B#泰坦詈语}<i>Hinas</i>{RUBY_E#}……",
+    "quote_en": "{RUBY_B#Titan curses}<i>Hinas</i>{RUBY_E#}...",
+    "scenes": [
+      {
+        "id": "s01",
+        "first_id": 240200002,
+        "last_id": 240203903,
+        "line_count": 787,
+        "preview_ch": "帕…帕里斯……",
+        "preview_en": "Pa... Paris..."
+      },
+      {
+        "id": "s02",
+        "first_id": 537012104,
+        "last_id": 537012125,
+        "line_count": 22,
+        "preview_ch": "感谢你们的好意，但我这幅身躯由笨重石料铸就，比起宴会，更适合在战场上起舞。",
+        "preview_en": "I'm grateful for the thought, but my stone-forged body was made to dance in battle, not during banquets."
+      }
+    ]
+  },
+  "yourdei": {
+    "name_ch": "十敌",
+    "name_en": "Yourdei",
+    "note": "悬锋斗士，克拉特鲁斯门徒，自称万敌十分之一",
+    "quote_ch": "…哼！现在我的实力只有吾王「万敌」的十分之一，所以我叫「十敌」。",
+    "quote_en": "Hmph! For His Majesty Mydei, every day is his day. But I am but a pale shadow of his strength, and I must seize the day — hence the name Yourdei.",
+    "scenes": [
+      {
+        "id": "s01",
+        "first_id": 803213151,
+        "last_id": 803213270,
+        "line_count": 36,
+        "preview_ch": "淘汰赛第一轮，{NICKNAME}选手将对战悬锋城的「十敌」选手。",
+        "preview_en": "Opening the Elimination Rounds, {NICKNAME} will challenge Yourdei from Castrum Kremnos."
+      },
+      {
+        "id": "s02",
+        "first_id": 803215852,
+        "last_id": 803215853,
+        "line_count": 2,
+        "preview_ch": "吾师，我已经有了新的对策。",
+        "preview_en": "Master, I've come up with a new strategy."
+      }
+    ]
+  },
+  "priest": {
+    "name_ch": "神官",
+    "name_en": "Priest",
+    "note": "悬锋人",
+    "quote_ch": "他将成为亡国的王储。",
+    "quote_en": "He will become the crown prince of a vanquished nation.",
+    "scenes": [
+      {
+        "id": "s01",
+        "first_id": 304003401,
+        "last_id": 304003417,
+        "line_count": 17,
+        "preview_ch": "尊贵的王，无论如何重复预言的步骤，都会是一样的结局……",
+        "preview_en": "Honorable king, it does not matter how you repeat the steps of the prophecy, the outcome will always be the same..."
+      }
+    ]
+  },
+  "ephor": {
+    "name_ch": "督政官",
+    "name_en": "Ephor",
+    "note": "悬锋人",
+    "quote_ch": "王欧利庞，您还在犹豫什么！",
+    "quote_en": "King Eurypon, what are you waiting for!?",
+    "scenes": [
+      {
+        "id": "s01",
+        "first_id": 304003401,
+        "last_id": 304003417,
+        "line_count": 17,
+        "preview_ch": "尊贵的王，无论如何重复预言的步骤，都会是一样的结局……",
+        "preview_en": "Honorable king, it does not matter how you repeat the steps of the prophecy, the outcome will always be the same..."
+      }
+    ]
+  },
+  "ignis": {
+    "name_ch": "伊格尼斯",
+    "name_en": "Ignis",
+    "note": "悬锋人",
+    "quote_ch": "克拉特鲁斯，您当真要离开悬锋城？",
+    "quote_en": "Krateros, are you really going to leave Castrum Kremnos?",
+    "scenes": [
+      {
+        "id": "s01",
+        "first_id": 304003451,
+        "last_id": 304003465,
+        "line_count": 15,
+        "preview_ch": "克拉特鲁斯，您当真要离开悬锋城？",
+        "preview_en": "Krateros, are you really going to leave Castrum Kremnos?"
+      }
+    ]
+  },
+  "magistrate": {
+    "name_ch": "裁判官",
+    "name_en": "Magistrate",
+    "note": "悬锋人",
+    "quote_ch": "五……",
+    "quote_en": "Five...",
+    "scenes": [
+      {
+        "id": "s01",
+        "first_id": 104026601,
+        "last_id": 104026642,
+        "line_count": 42,
+        "preview_ch": "欧利庞，这孩子万敌没做错任何事！",
+        "preview_en": "Eurypon, the boy Mydei did nothing wrong!"
+      }
+    ]
+  }
+}

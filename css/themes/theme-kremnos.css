@@ -1,0 +1,223 @@
+/* ================================
+   Theme: Kremnos — full-page painting
+   ================================ */
+
+/* --- Color tokens (warm stone palette keyed to painting) --- */
+:root {
+  --bg-base:        transparent;
+  --bg-surface:     rgba(240, 233, 218, 0.55);
+  --bg-elevated:    rgba(232, 224, 208, 0.60);
+  --bg-card:        rgba(238, 230, 215, 0.62);
+  --bg-card-hover:  rgba(176, 80, 60, 0.06);
+
+  --text-primary:   #1c1710;
+  --text-secondary: #332b1e;
+  --text-muted:     #6b5f4e;
+  --text-accent:    #8a4a2c;
+
+  --gold:        #8a4a2c;
+  --gold-dim:    #6a3820;
+  --gold-bright: #a86040;
+  --gold-glow:   rgba(138, 74, 44, 0.10);
+  --amber:       #7a3820;
+  --warm-white:  #f5f0e8;
+
+  --border-subtle: rgba(60, 44, 28, 0.13);
+  --border-medium: rgba(60, 44, 28, 0.22);
+  --border-accent: rgba(138, 74, 44, 0.35);
+
+  --search-btn-bg:    rgba(138, 74, 44, 0.88);
+  --search-btn-border: rgba(138, 74, 44, 0.75);
+  --search-btn-hover:  rgba(110, 56, 32, 0.98);
+
+  --hero-btn-bg:    rgba(138, 74, 44, 0.82);
+  --hero-btn-border: rgba(138, 74, 44, 0.70);
+  --hero-btn-hover: rgba(138, 74, 44, 0.98);
+}
+
+/* --- Full-page painting background --- */
+html {
+  background-color: #d4c9b0;
+  background-image: url('../../images/bg-kremnos.jpg');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  min-height: 100%;
+}
+
+body {
+  background: transparent !important;
+}
+
+/* Subtle warm overlay to unify text readability across the whole page */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: rgba(228, 215, 190, 0.18);
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* --- Hero: hide its own img, the body bg IS the painting --- */
+body.page-home .hero-img {
+  opacity: 0;
+}
+
+/* No hero gradient — painting shows fully */
+body.page-home .hero::after {
+  background: transparent;
+}
+
+/* Hero bridge: fully transparent */
+body.page-home .hero-bridge {
+  background: transparent;
+}
+
+/* Hide the default hero painting credit (Delacroix / Lion Hunt) */
+body.page-home .hero .painting-credit {
+  display: none;
+}
+
+/* Epigraph: thin translucent veil to mark the hero→content transition */
+body.page-home .epigraph {
+  background: rgba(228, 215, 190, 0.16);
+}
+
+/* ===== Kremnos Bento: Annotation Labels on the Painting ===== */
+
+/* All cards: near-ghostly, recede behind content */
+body.page-home .bento-card {
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  background: rgba(232, 224, 208, 0.08) !important;
+  border: 1px solid rgba(60, 44, 28, 0.18) !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+body.page-home .bento-card:hover {
+  background: rgba(232, 224, 208, 0.18) !important;
+  border-color: rgba(60, 44, 28, 0.30) !important;
+}
+
+body.page-home .bento-accent {
+  border-left: 2px solid rgba(138, 74, 44, 0.42) !important;
+}
+
+/* Desktop: drifting placement — not a grid, not strict columns */
+@media (min-width: 900px) {
+  body.page-home .directory-bento {
+    max-width: none !important;
+    width: 100%;
+    margin: 0 !important;
+    padding: 5rem 0 7rem !important;
+    display: flex !important;
+    flex-direction: column;
+    gap: 0;
+    background: transparent !important;
+  }
+
+  body.page-home .bento-card {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    padding: 1.35rem 1.75rem !important;
+    height: auto !important;
+    min-height: 0 !important;
+    grid-column: unset !important;
+    grid-row: unset !important;
+  }
+
+  /* 公民辑录 — near-left, starts the drift */
+  body.page-home .bento-featured {
+    align-self: flex-start;
+    width: 340px;
+    margin-left: clamp(4rem, 7vw, 9rem) !important;
+    margin-right: 0 !important;
+    margin-bottom: 4rem;
+  }
+
+  /* 档案 — right, pulled a little further from edge */
+  body.page-home .bento-solid {
+    align-self: flex-end;
+    width: 295px;
+    margin-right: clamp(6rem, 10vw, 13rem) !important;
+    margin-left: 0 !important;
+    margin-bottom: 3.5rem;
+  }
+
+  /* 画廊 — left but stepped inward from 公民辑录, creates diagonal drift */
+  body.page-home .bento-overlay {
+    align-self: flex-start;
+    width: 315px;
+    margin-left: clamp(8rem, 13vw, 17rem) !important;
+    margin-right: 0 !important;
+    margin-bottom: 4.5rem;
+  }
+
+  /* 检索 — right, closer to edge than 档案, tightens toward center */
+  body.page-home .bento-accent {
+    align-self: flex-end;
+    width: 260px;
+    margin-right: clamp(4rem, 6.5vw, 8rem) !important;
+    margin-left: 0 !important;
+  }
+
+  /* Hide images */
+  body.page-home .bento-img-wrap,
+  body.page-home .bento-overlay > .bento-card-img { display: none !important; }
+
+  /* Overlay card colors */
+  body.page-home .bento-overlay .bento-title { color: var(--text-primary) !important; }
+  body.page-home .bento-overlay .bento-tag   { color: var(--gold) !important; }
+
+  /* Title sizing — refined, label scale */
+  body.page-home .bento-featured .bento-title { font-size: 1.65rem !important; }
+  body.page-home .bento-solid .bento-title    { font-size: 1.45rem !important; }
+  body.page-home .bento-overlay .bento-title  { font-size: 1.55rem !important; }
+  body.page-home .bento-accent .bento-title   { font-size: 1.3rem !important; }
+}
+
+/* Footer: transparent so painting shows through, with top rule */
+body.page-home .colophon {
+  background: transparent;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  border-top: 1px solid rgba(60, 44, 28, 0.20);
+  color: rgba(60, 44, 28, 0.72);
+}
+
+/* Painting credit: very bottom of page, right-aligned */
+body.page-home #painting-credit-main {
+  display: block !important;
+  text-align: right;
+  padding: 0 1.5rem 1.25rem;
+  font-size: 0.72rem;
+  font-style: italic;
+  letter-spacing: 0.03em;
+  color: rgba(232, 220, 198, 0.88);
+}
+
+/* Non-homepage: semi-transparent parchment + backdrop-filter blurs the html painting behind */
+body:not(.page-home) {
+  background: rgba(218, 208, 190, 0.56) !important;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+/* Header: always frosted — midpoint between transparent and fully scrolled */
+body.page-home .site-header {
+  background: linear-gradient(to bottom, rgba(220, 210, 190, 0.28) 0%, rgba(220, 210, 190, 0) 100%) !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  border-bottom-color: transparent !important;
+}
+
+/* Header scrolled state — slightly more opaque as content scrolls behind */
+.site-header.scrolled {
+  background: rgba(220, 210, 190, 0.82) !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  border-bottom-color: rgba(60, 44, 28, 0.16) !important;
+}

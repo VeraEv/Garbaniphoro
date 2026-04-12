@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>宋体/衬线字体预览</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;500;600;700&family=LXGW+WenKai:wght@300;400;700&family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+  <!-- 朱雀仿宋 via CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/@aspect-build/zhuque-fangsong@0.0.5/dist/style.css" rel="stylesheet">
+  <style>
+    body {
+      background: #c8c0ae;
+      color: #1a1610;
+      padding: 3rem 2rem;
+      max-width: 800px;
+      margin: 0 auto;
+      line-height: 1.8;
+    }
+    h1 {
+      font-family: 'Cinzel', serif;
+      font-size: 1.1rem;
+      font-weight: 400;
+      letter-spacing: 0.1em;
+      color: #6b6152;
+      margin-bottom: 0.3rem;
+    }
+    .intro {
+      font-size: 0.78rem;
+      color: #6b6152;
+      margin-bottom: 3rem;
+      border-bottom: 1px solid rgba(40,32,18,0.15);
+      padding-bottom: 1.5rem;
+    }
+    .font-sample {
+      margin-bottom: 2.5rem;
+      padding-bottom: 2rem;
+      border-bottom: 1px solid rgba(40,32,18,0.08);
+    }
+    .font-label {
+      font-family: 'Inter', system-ui, sans-serif;
+      font-size: 0.68rem;
+      letter-spacing: 0.08em;
+      color: #8a6d2e;
+      text-transform: uppercase;
+      margin-bottom: 0.6rem;
+    }
+    .font-label span {
+      color: #6b6152;
+      text-transform: none;
+      letter-spacing: 0;
+      margin-left: 0.5rem;
+    }
+    .sample-heading {
+      font-size: 1.5rem;
+      margin-bottom: 0.4rem;
+      color: #1a1610;
+    }
+    .sample-sub {
+      font-size: 1rem;
+      color: #3d3629;
+      margin-bottom: 0.5rem;
+    }
+    .sample-body {
+      font-size: 0.88rem;
+      color: #3d3629;
+      line-height: 2;
+      max-width: 580px;
+    }
+    .sample-small {
+      font-size: 0.75rem;
+      color: #6b6152;
+      margin-top: 0.3rem;
+    }
+    .sample-dialogue {
+      font-size: 0.88rem;
+      color: #3d3629;
+      line-height: 2;
+      max-width: 580px;
+      margin-top: 0.5rem;
+      padding-left: 1rem;
+      border-left: 2px solid rgba(138, 109, 46, 0.25);
+    }
+    .sample-dialogue .speaker {
+      font-size: 0.75rem;
+      color: #8a6d2e;
+      margin-bottom: 0.1rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>SERIF FONT PREVIEW</h1>
+  <p class="intro">宋体及衬线类中文字体。同一内容展示标题、正文、台词、小字四个层级。</p>
+
+  <!-- 1. Noto Serif SC Light -->
+  <div class="font-sample">
+    <div class="font-label">Noto Serif SC Light (300) <span>思源宋体 细体 — 纤细优雅，适合大面积阅读</span></div>
+    <div class="sample-heading" style="font-family:'Noto Serif SC',serif; font-weight:300;">悬锋城档案馆</div>
+    <div class="sample-sub" style="font-family:'Noto Serif SC',serif; font-weight:300;">记录悬锋城的一切。万敌与翁法罗斯诸英雄的台词、文本、影像，皆汇于此。</div>
+    <div class="sample-dialogue" style="font-family:'Noto Serif SC',serif; font-weight:300;">
+      <div class="speaker">万敌</div>
+      这深不见底的杀意...是尼卡多利的怒火啊。留神。空气中的铁锈味极其浓烈。
+    </div>
+    <div class="sample-small" style="font-family:'Noto Serif SC',serif; font-weight:300;">按角色浏览每一段台词，135 段场景</div>
+  </div>
+
+  <!-- 2. Noto Serif SC Regular -->
+  <div class="font-sample">
+    <div class="font-label">Noto Serif SC Regular (400) <span>思源宋体 常规 — 标准宋体，最经典</span></div>
+    <div class="sample-heading" style="font-family:'Noto Serif SC',serif; font-weight:400;">悬锋城档案馆</div>
+    <div class="sample-sub" style="font-family:'Noto Serif SC',serif; font-weight:400;">记录悬锋城的一切。万敌与翁法罗斯诸英雄的台词、文本、影像，皆汇于此。</div>
+    <div class="sample-dialogue" style="font-family:'Noto Serif SC',serif; font-weight:400;">
+      <div class="speaker">万敌</div>
+      这深不见底的杀意...是尼卡多利的怒火啊。留神。空气中的铁锈味极其浓烈。
+    </div>
+    <div class="sample-small" style="font-family:'Noto Serif SC',serif; font-weight:400;">按角色浏览每一段台词，135 段场景</div>
+  </div>
+
+  <!-- 3. Noto Serif SC SemiBold -->
+  <div class="font-sample">
+    <div class="font-label">Noto Serif SC SemiBold (600) <span>思源宋体 半粗 — 更有分量，适合标题</span></div>
+    <div class="sample-heading" style="font-family:'Noto Serif SC',serif; font-weight:600;">悬锋城档案馆</div>
+    <div class="sample-sub" style="font-family:'Noto Serif SC',serif; font-weight:400;">记录悬锋城的一切。万敌与翁法罗斯诸英雄的台词、文本、影像，皆汇于此。</div>
+    <div class="sample-dialogue" style="font-family:'Noto Serif SC',serif; font-weight:400;">
+      <div class="speaker">万敌</div>
+      这深不见底的杀意...是尼卡多利的怒火啊。留神。空气中的铁锈味极其浓烈。
+    </div>
+    <div class="sample-small" style="font-family:'Noto Serif SC',serif; font-weight:400;">按角色浏览每一段台词，135 段场景</div>
+  </div>
+
+  <!-- 4. 朱雀仿宋 -->
+  <div class="font-sample">
+    <div class="font-label">Zhuque Fangsong <span>朱雀仿宋 — 开源仿宋体，比宋体更柔和、更有书卷气</span></div>
+    <div class="sample-heading" style="font-family:'LXGW ZhuQue FangSong', 'Zhuque Fangsong', serif;">悬锋城档案馆</div>
+    <div class="sample-sub" style="font-family:'LXGW ZhuQue FangSong', 'Zhuque Fangsong', serif;">记录悬锋城的一切。万敌与翁法罗斯诸英雄的台词、文本、影像，皆汇于此。</div>
+    <div class="sample-dialogue" style="font-family:'LXGW ZhuQue FangSong', 'Zhuque Fangsong', serif;">
+      <div class="speaker">万敌</div>
+      这深不见底的杀意...是尼卡多利的怒火啊。留神。空气中的铁锈味极其浓烈。
+    </div>
+    <div class="sample-small" style="font-family:'LXGW ZhuQue FangSong', 'Zhuque Fangsong', serif;">按角色浏览每一段台词，135 段场景</div>
+  </div>
+
+  <!-- 5. LXGW WenKai as serif comparison -->
+  <div class="font-sample">
+    <div class="font-label">LXGW WenKai <span>霞鹜文楷 — 楷体，比宋体温润，但仍有笔锋</span></div>
+    <div class="sample-heading" style="font-family:'LXGW WenKai',cursive;">悬锋城档案馆</div>
+    <div class="sample-sub" style="font-family:'LXGW WenKai',cursive;">记录悬锋城的一切。万敌与翁法罗斯诸英雄的台词、文本、影像，皆汇于此。</div>
+    <div class="sample-dialogue" style="font-family:'LXGW WenKai',cursive;">
+      <div class="speaker">万敌</div>
+      这深不见底的杀意...是尼卡多利的怒火啊。留神。空气中的铁锈味极其浓烈。
+    </div>
+    <div class="sample-small" style="font-family:'LXGW WenKai',cursive;">按角色浏览每一段台词，135 段场景</div>
+  </div>
+
+  <!-- 6. System Songti -->
+  <div class="font-sample">
+    <div class="font-label">Songti SC / STSongti <span>系统宋体（macOS 内置）— 无需加载，传统印刷宋体</span></div>
+    <div class="sample-heading" style="font-family:'Songti SC', 'STSongti', 'SimSun', 'NSimSun', serif;">悬锋城档案馆</div>
+    <div class="sample-sub" style="font-family:'Songti SC', 'STSongti', 'SimSun', 'NSimSun', serif;">记录悬锋城的一切。万敌与翁法罗斯诸英雄的台词、文本、影像，皆汇于此。</div>
+    <div class="sample-dialogue" style="font-family:'Songti SC', 'STSongti', 'SimSun', 'NSimSun', serif;">
+      <div class="speaker">万敌</div>
+      这深不见底的杀意...是尼卡多利的怒火啊。留神。空气中的铁锈味极其浓烈。
+    </div>
+    <div class="sample-small" style="font-family:'Songti SC', 'STSongti', 'SimSun', 'NSimSun', serif;">按角色浏览每一段台词，135 段场景</div>
+  </div>
+
+  <!-- 7. System Kaiti -->
+  <div class="font-sample">
+    <div class="font-label">Kaiti SC / STKaiti <span>系统楷体（macOS 内置）— 无需加载，正式楷书</span></div>
+    <div class="sample-heading" style="font-family:'Kaiti SC', 'STKaiti', 'KaiTi', serif;">悬锋城档案馆</div>
+    <div class="sample-sub" style="font-family:'Kaiti SC', 'STKaiti', 'KaiTi', serif;">记录悬锋城的一切。万敌与翁法罗斯诸英雄的台词、文本、影像，皆汇于此。</div>
+    <div class="sample-dialogue" style="font-family:'Kaiti SC', 'STKaiti', 'KaiTi', serif;">
+      <div class="speaker">万敌</div>
+      这深不见底的杀意...是尼卡多利的怒火啊。留神。空气中的铁锈味极其浓烈。
+    </div>
+    <div class="sample-small" style="font-family:'Kaiti SC', 'STKaiti', 'KaiTi', serif;">按角色浏览每一段台词，135 段场景</div>
+  </div>
+
+  <!-- 8. Mixed: heading Noto Serif SC 600 + body 300 -->
+  <div class="font-sample">
+    <div class="font-label">混搭方案 <span>标题 Noto Serif SC 600 + 正文 300 — 同一字体不同字重做层级</span></div>
+    <div class="sample-heading" style="font-family:'Noto Serif SC',serif; font-weight:600;">悬锋城档案馆</div>
+    <div class="sample-sub" style="font-family:'Noto Serif SC',serif; font-weight:300;">记录悬锋城的一切。万敌与翁法罗斯诸英雄的台词、文本、影像，皆汇于此。</div>
+    <div class="sample-dialogue" style="font-family:'Noto Serif SC',serif; font-weight:300;">
+      <div class="speaker">万敌</div>
+      这深不见底的杀意...是尼卡多利的怒火啊。留神。空气中的铁锈味极其浓烈。
+    </div>
+    <div class="sample-small" style="font-family:'Noto Serif SC',serif; font-weight:300;">按角色浏览每一段台词，135 段场景</div>
+  </div>
+
+</body>
+</html>

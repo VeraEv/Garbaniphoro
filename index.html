@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Garbaniphoro Grand Library</title>
+  <script>!function(){var t=new URLSearchParams(location.search).get("theme")||localStorage.getItem("gl-theme")||"terra";document.documentElement.dataset.theme=t;document.write('<link rel="stylesheet" href="css/themes/theme-'+t+'.css">');}();</script>
+  <link rel="stylesheet" href="css/main.css?v=4">
+  <link rel="stylesheet" href="css/components.css?v=5">
+  <style>
+    body {
+      margin: 0;
+    }
+
+    /* --- Hero: full viewport --- */
+    .hero {
+      position: relative;
+      width: 100%;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      overflow: hidden;
+    }
+    .hero-img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 25%;
+      z-index: 0;
+    }
+    /* D2 — warm amber tint: shifts painting hue toward linen/terracotta palette */
+    .hero-tint {
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      background: rgba(200, 150, 70, 0.30);
+      mix-blend-mode: soft-light;
+      pointer-events: none;
+    }
+
+    /* Dark gradient overlay — heavier at bottom for readability */
+    .hero::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(to bottom,
+          rgba(20, 16, 10, 0.1) 0%,
+          rgba(20, 16, 10, 0.05) 25%,
+          rgba(20, 16, 10, 0.25) 55%,
+          rgba(20, 16, 10, 0.6) 75%,
+          rgba(20, 16, 10, 0.78) 90%,
+          rgba(20, 16, 10, 0.88) 100%
+        );
+      pointer-events: none;
+      z-index: 2;
+    }
+
+    /* Method A — gradient bridge dissolving hero bottom into page background */
+    .hero-bridge {
+      position: relative;
+      z-index: 5;
+      margin-top: -90px;
+      height: 90px;
+      background: linear-gradient(to bottom, transparent, var(--bg-base));
+      pointer-events: none;
+    }
+
+    /* --- Content overlay on the painting --- */
+    .hero-content {
+      position: relative;
+      z-index: 3;
+      width: 100%;
+      padding: 0 1.5rem 3.5rem;
+      text-align: center;
+    }
+
+    .hero-title {
+      display: inline-block;
+      font-family: var(--font-heading);
+      font-size: min(2.4rem, 4.6vw);
+      font-weight: 500;
+      color: var(--gold, #b05040);
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 2rem;
+      white-space: nowrap;
+    }
+
+    /* --- Search on painting --- */
+    .hero-search {
+      margin-bottom: 2.2rem;
+    }
+    .hero-search form {
+      display: flex;
+      gap: 0;
+      max-width: 340px;
+      margin: 0 auto;
+    }
+    .hero-search .search-input {
+      background: rgba(255, 250, 240, 0.1);
+      border-color: rgba(200, 185, 150, 0.25);
+      color: #e8e0d0;
+      backdrop-filter: blur(4px);
+      font-family: var(--font-heading);
+      font-size: 0.8rem;
+      letter-spacing: 0.06em;
+      padding: 0.6rem 0.9rem;
+    }
+    .hero-search .search-input::placeholder {
+      color: rgba(200, 185, 150, 0.4);
+      font-family: var(--font-heading);
+      letter-spacing: 0.08em;
+    }
+    .hero-search .search-input:focus {
+      border-color: rgba(200, 185, 150, 0.6);
+      background: rgba(255, 250, 240, 0.18);
+    }
+    .hero-search .search-btn {
+      background: var(--hero-btn-bg, rgba(185, 52, 36, 0.82));
+      border-color: var(--hero-btn-border, rgba(185, 52, 36, 0.70));
+      backdrop-filter: blur(4px);
+      font-size: 0.75rem;
+      padding: 0.6rem 1.2rem;
+    }
+    .hero-search .search-btn:hover {
+      background: var(--hero-btn-hover, rgba(185, 52, 36, 0.98));
+    }
+
+    /* --- Epigraph (rotating quote) --- */
+    .epigraph {
+      max-width: 620px;
+      margin: 0 auto;
+      padding: clamp(3rem, 5vw, 5rem) 2rem clamp(2.5rem, 4vw, 4rem);
+      text-align: center;
+    }
+    .epigraph-rule {
+      width: 40px;
+      height: 1px;
+      background: var(--gold, #b05040);
+      margin: 0 auto clamp(1.5rem, 3vw, 2.5rem);
+      opacity: 0.3;
+    }
+    .epigraph-text {
+      font-family: var(--font-serif, 'Cormorant Garamond', serif);
+      font-size: clamp(1.1rem, 1.6vw, 1.35rem);
+      font-style: italic;
+      color: var(--text-secondary, #3a3028);
+      line-height: 2;
+      letter-spacing: 0.02em;
+      margin: 0 0 1.25rem;
+    }
+    .epigraph-attr {
+      font-family: var(--font-serif, 'Cormorant Garamond', serif);
+      font-size: 0.65rem;
+      font-style: italic;
+      color: var(--text-muted);
+      letter-spacing: 0.02em;
+      opacity: 0.6;
+      display: block;
+      text-align: center;
+      margin-top: 0.25rem;
+    }
+
+    /* --- Directory Bento Grid --- */
+    .directory-bento {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: clamp(0.625rem, 1vw, 1rem);
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 0 clamp(1.5rem, 3vw, 3rem);
+    }
+    .bento-card {
+      text-decoration: none;
+      display: flex;
+      overflow: hidden;
+      transition: all 0.3s ease;
+      color: inherit;
+    }
+    .bento-tag {
+      font-family: var(--font-heading);
+      font-size: 0.58rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold);
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+    .bento-title {
+      font-family: var(--font-heading);
+      font-size: 1.6rem;
+      font-weight: 500;
+      color: var(--text-primary);
+      letter-spacing: 0.06em;
+      margin: 0 0 0.6rem;
+      line-height: 1.2;
+      transition: font-style 0.3s;
+    }
+    .bento-card:hover .bento-title { font-style: italic; }
+    .bento-desc {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      line-height: 1.7;
+      margin: 0;
+    }
+    .bento-cta {
+      font-family: var(--font-heading);
+      font-size: 0.68rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--gold);
+      border-bottom: 1px solid var(--gold-dim);
+      display: inline-block;
+      padding-bottom: 0.15rem;
+      margin-top: 1.25rem;
+      width: max-content;
+    }
+    .bento-arrow {
+      font-family: var(--font-heading);
+      font-size: 1.4rem;
+      color: var(--gold);
+      flex-shrink: 0;
+      transition: transform 0.3s ease;
+    }
+    .bento-card:hover .bento-arrow { transform: translateX(5px); }
+
+    /* Featured: stories — full width, image + text */
+    .bento-featured {
+      flex-direction: row;
+      background: var(--bg-card);
+      border: 1px solid var(--border-subtle);
+      padding: 0.5rem;
+    }
+    .bento-img-wrap {
+      width: 48%;
+      min-height: 280px;
+      overflow: hidden;
+      flex-shrink: 0;
+    }
+    .bento-img-wrap .bento-card-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      filter: grayscale(80%) brightness(0.9);
+      transition: filter 0.7s ease, transform 0.7s ease;
+    }
+    .bento-featured:hover .bento-card-img {
+      filter: grayscale(0%) brightness(1);
+      transform: scale(1.03);
+    }
+    .bento-featured .bento-card-body {
+      width: 52%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 2rem 2.5rem;
+    }
+
+    /* Solid card: archive — text only.
+       justify-content: center packs tag/title/cta together so the card
+       reads the same as 公民辑录 (centered in body) and 画廊 (packed
+       overlay-content) instead of being spread by space-between. */
+    .bento-solid {
+      flex-direction: column;
+      justify-content: center;
+      background: var(--bg-elevated);
+      padding: 2.25rem;
+      min-height: 280px;
+    }
+    .bento-solid .bento-card-footer {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: auto;
+      padding-top: 1.5rem;
+    }
+
+    /* Gallery card */
+    .bento-overlay {
+      position: relative;
+      min-height: 300px;
+      flex-direction: column;
+    }
+    .bento-overlay > .bento-card-img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.8s ease, filter 0.6s ease;
+      filter: brightness(0.65) saturate(0.85);
+    }
+    .bento-overlay:hover > .bento-card-img {
+      transform: scale(1.05);
+      filter: brightness(0.75) saturate(1);
+    }
+    .bento-overlay-content {
+      position: relative;
+      z-index: 1;
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      flex: 1;
+      background: linear-gradient(to bottom, transparent 40%, rgba(20, 16, 10, 0.65) 100%);
+    }
+    .bento-overlay .bento-title { color: rgba(232, 220, 195, 0.92); }
+    .bento-overlay .bento-desc { color: rgba(200, 185, 155, 0.7); }
+    .bento-overlay .bento-tag { color: var(--gold-bright); }
+
+    /* Accent strip: search */
+    .bento-accent {
+      flex-direction: row;
+      align-items: center;
+      background: var(--bg-elevated);
+      border-left: 3px solid var(--gold);
+      padding: 1.5rem 2.25rem;
+      gap: 1.5rem;
+    }
+    .bento-accent .bento-card-body { flex: 1; }
+    .bento-accent .bento-title { font-size: 1.1rem; margin-bottom: 0.2rem; }
+    .bento-accent .bento-desc { font-size: 0.75rem; }
+    .bento-accent .bento-tag { margin-bottom: 0.2rem; }
+
+    @media (min-width: 769px) {
+      .directory-bento { grid-template-columns: 7fr 5fr; }
+      .bento-featured, .bento-accent { grid-column: 1 / -1; }
+    }
+
+    /* B (Kremnos) safeguard: wrappers must not contribute boxes,
+       otherwise their padding/width would deform B's drift cards. */
+    [data-theme="kremnos"] .bento-card-body,
+    [data-theme="kremnos"] .bento-overlay-content { display: contents !important; }
+    [data-theme="kremnos"] .bento-overlay > .bento-card-img { display: none !important; }
+
+    /* --- Painting credit --- */
+    .painting-credit {
+      position: absolute;
+      bottom: 0.6rem;
+      right: 1rem;
+      z-index: 3;
+      font-size: 0.58rem;
+      color: rgba(200, 185, 150, 0.3);
+      font-style: italic;
+    }
+
+    /* --- Colophon below hero --- */
+    .colophon {
+      padding: clamp(3rem, 5vw, 5rem) 1.5rem;
+      font-size: 0.65rem;
+      color: var(--text-muted);
+      line-height: 1.8;
+      text-align: center;
+      letter-spacing: 0.08em;
+      font-family: var(--font-heading);
+    }
+
+    /* --- Responsive --- */
+    @media (max-width: 768px) {
+      .hero-title {
+        letter-spacing: 0.05em;
+      }
+      .hero-content {
+        padding-bottom: 2.5rem;
+      }
+      .directory-bento {
+        padding: 0 1rem;
+      }
+      .bento-featured,
+      .bento-solid,
+      .bento-overlay {
+        flex-direction: column;
+        min-height: auto;
+        padding: 1.5rem;
+      }
+      /* On mobile the wrappers are transparent so all 3 cards have the
+         same flat layout the user already approved. */
+      .bento-img-wrap { display: none; }
+      .bento-overlay > .bento-card-img { display: none; }
+      .bento-featured .bento-card-body,
+      .bento-card-body,
+      .bento-overlay-content { display: contents; }
+      .bento-overlay .bento-title { color: var(--text-primary); }
+      .bento-accent {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .hero-title {
+        letter-spacing: 0.02em;
+      }
+      .bento-title { font-size: 1.3rem; }
+      .bento-img-wrap { min-height: 160px; }
+    }
+  </style>
+</head>
+<body class="page-home">
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="site-logo">Garbaniphoro<br>Grand Library</a>
+      <nav class="main-nav">
+        <a href="index.html" class="nav-link active" data-i18n="nav.home">首页</a>
+        <a href="stories.html" class="nav-link" data-i18n="nav.stories">公民</a>
+        <a href="search.html" class="nav-link" data-i18n="nav.search">检索</a>
+        <a href="lore.html" class="nav-link" data-i18n="nav.lore">档案</a>
+        <a href="gallery.html" class="nav-link" data-i18n="nav.gallery">画廊</a>
+        <button class="lang-toggle" id="lang-toggle">EN</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero: full viewport, everything on the painting -->
+  <section class="hero">
+    <img src="images/hero-lion-hunt.jpg"
+         alt="Eugène Delacroix — The Lion Hunt, 1855"
+         class="hero-img">
+    <div class="hero-tint" aria-hidden="true"></div>
+
+    <div class="hero-content">
+      <h1 class="hero-title">Garbaniphoro Grand Library</h1>
+
+      <div class="hero-search">
+        <form onsubmit="window.location.href='search.html#q='+encodeURIComponent(this.q.value);return false;">
+          <input type="text" name="q" class="search-input" placeholder="Search the archive…">
+          <button type="submit" class="search-btn" data-i18n="search.button">检索</button>
+        </form>
+      </div>
+
+    </div>
+
+    <span class="painting-credit">Eugène Delacroix, <em>The Lion Hunt</em>, 1855</span>
+  </section>
+  <div class="hero-bridge" aria-hidden="true"></div>
+
+  <section class="epigraph" id="epigraph">
+    <div class="epigraph-rule"></div>
+    <blockquote class="epigraph-text" id="epigraph-text"></blockquote>
+    <cite class="epigraph-attr" id="epigraph-attr"></cite>
+  </section>
+
+  <section class="directory-bento">
+    <a href="stories.html" class="bento-card bento-featured">
+      <div class="bento-img-wrap">
+        <img class="bento-card-img" src="images/card-stories.jpg" alt="">
+      </div>
+      <div class="bento-card-body">
+        <span class="bento-tag">KREMNOS CIVIC REGISTRY</span>
+        <h3 class="bento-title">悬锋公民辑录</h3>
+        <span class="bento-cta">浏览全部 →</span>
+      </div>
+    </a>
+    <a href="lore.html" class="bento-card bento-solid">
+      <span class="bento-tag">ARCHIVE</span>
+      <h3 class="bento-title" data-i18n="nav.lore">档案</h3>
+      <span class="bento-cta">浏览全部 →</span>
+    </a>
+    <a href="gallery.html" class="bento-card bento-overlay">
+      <img class="bento-card-img" src="images/card-gallery.jpg" alt="">
+      <div class="bento-overlay-content">
+        <span class="bento-tag">GALLERY</span>
+        <h3 class="bento-title" data-i18n="nav.gallery">画廊</h3>
+        <span class="bento-cta">浏览全部 →</span>
+      </div>
+    </a>
+  </section>
+
+  <footer class="colophon"></footer>
+
+  <aside id="painting-credit-main" style="display:none">Hubert Robert, <em>Capriccio with an Ancient Temple</em>, ca. 1756 · The Metropolitan Museum of Art</aside>
+
+  <script>
+    !function(){
+      var quotes = [
+        { text: '你们的名字，必不遗落于历史。', attr: '万敌' },
+      ];
+      var q = quotes[Math.floor(Math.random() * quotes.length)];
+      document.getElementById('epigraph-text').textContent = '「' + q.text + '」';
+      document.getElementById('epigraph-attr').textContent = 'A man\u2019s handwriting, archived in the Garbaniphoro Library collection';
+    }();
+  </script>
+  <script type="module" src="js/app.mjs?v=5"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+/* ================================
+   Theme: Terra — linen + terracotta
+   ================================ */
+:root {
+  --bg-base: #ece8e0;
+  --bg-surface: #e6e1d8;
+  --bg-elevated: #dedad1;
+  --bg-card: #e9e5dc;
+  --bg-card-hover: rgba(176, 80, 60, 0.045);
+
+  --text-primary: #1a1612;
+  --text-secondary: #3a3028;
+  --text-muted: #787064;
+  --text-accent: #b05040;
+
+  --gold: #b05040;
+  --gold-dim: #8a3c2c;
+  --gold-bright: #c46050;
+  --gold-glow: rgba(176, 80, 64, 0.09);
+  --amber: #9a3c2c;
+  --warm-white: #f5f1ea;
+
+  --border-subtle: rgba(50, 38, 30, 0.11);
+  --border-medium: rgba(50, 38, 30, 0.20);
+  --border-accent: rgba(176, 80, 64, 0.38);
+
+  --search-btn-bg: #b93424;
+  --search-btn-border: #b93424;
+  --search-btn-hover: #a02c1e;
+
+  /* Homepage hero button */
+  --hero-btn-bg: rgba(185, 52, 36, 0.82);
+  --hero-btn-border: rgba(185, 52, 36, 0.70);
+  --hero-btn-hover: rgba(185, 52, 36, 0.98);
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at 18% 45%, rgba(176, 80, 64, 0.03) 0%, transparent 55%),
+    radial-gradient(ellipse at 82% 18%, rgba(140, 110, 90, 0.04) 0%, transparent 45%),
+    radial-gradient(ellipse at 50% 85%, rgba(100, 80, 60, 0.03) 0%, transparent 50%);
+  pointer-events: none;
+  z-index: 0;
+}

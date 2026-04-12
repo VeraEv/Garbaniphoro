@@ -1,0 +1,44 @@
+[
+  {
+    "src": "assets/gallery/mydei_preview.png",
+    "thumb": "assets/gallery/mydei_preview.png",
+    "title_ch": "万敌 预览图",
+    "title_en": "Mydei Preview",
+    "tags": ["mydei", "preview"]
+  },
+  {
+    "src": "assets/gallery/mydei_character_icon.png",
+    "thumb": "assets/gallery/mydei_character_icon.png",
+    "title_ch": "万敌 角色图标",
+    "title_en": "Mydei Character Icon",
+    "tags": ["mydei", "icon"]
+  },
+  {
+    "src": "assets/gallery/Character_Mydei_Splash_Art.webp",
+    "thumb": "assets/gallery/Character_Mydei_Splash_Art.webp",
+    "title_ch": "万敌 立绘",
+    "title_en": "Mydei Splash Art",
+    "tags": ["mydei", "splash-art"]
+  },
+  {
+    "src": "images/lightcones/23039.png",
+    "thumb": "images/lightcones/23039.png",
+    "title_ch": "血火啊，燃烧前路",
+    "title_en": "Flame of Blood, Blaze My Path",
+    "tags": ["lightcone"]
+  },
+  {
+    "src": "images/lightcones/21058.png",
+    "thumb": "images/lightcones/21058.png",
+    "title_ch": "一行往日的血",
+    "title_en": "A Trail of Bygone Blood",
+    "tags": ["lightcone"]
+  },
+  {
+    "src": "images/lightcones/21050.png",
+    "thumb": "images/lightcones/21050.png",
+    "title_ch": "胜利只在朝夕间",
+    "title_en": "Victory In a Blink",
+    "tags": ["lightcone"]
+  }
+]

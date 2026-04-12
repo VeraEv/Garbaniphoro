@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>剧情 - Garbaniphoro Grand Library</title>
+  <script>!function(){var t=new URLSearchParams(location.search).get("theme")||localStorage.getItem("gl-theme")||"terra";document.documentElement.dataset.theme=t;document.write('<link rel="stylesheet" href="css/themes/theme-'+t+'.css">');}();</script>
+  <link rel="stylesheet" href="css/main.css?v=4">
+  <link rel="stylesheet" href="css/components.css?v=4">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="site-logo">Garbaniphoro<br>Grand Library</a>
+      <nav class="main-nav">
+        <a href="index.html" class="nav-link" data-i18n="nav.home">首页</a>
+        <a href="stories.html" class="nav-link" data-i18n="nav.stories">公民</a>
+        <a href="search.html" class="nav-link" data-i18n="nav.search">检索</a>
+        <a href="lore.html" class="nav-link" data-i18n="nav.lore">档案</a>
+        <a href="gallery.html" class="nav-link" data-i18n="nav.gallery">画廊</a>
+        <button class="lang-toggle" id="lang-toggle">EN</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <div id="story-header">
+      <a href="stories.html" class="scene-nav-btn" data-i18n="common.back">返回</a>
+    </div>
+    <div id="story-content" class="dialogue-container">
+      <p class="loading-text" data-i18n="common.loading">加载中…</p>
+    </div>
+    <div id="story-nav" class="scene-nav"></div>
+  </main>
+
+  <footer class="site-footer">
+    <p>A fan-made archive for Castrum Kremnos.</p>
+  </footer>
+
+  <script type="module" src="js/app.mjs?v=5"></script>
+  <script type="module" src="js/story-reader.mjs?v=4"></script>
+</body>
+</html>

@@ -1,0 +1,306 @@
+{
+  "name_ch": "万敌",
+  "name_en": "Mydei",
+  "title_ch": "天谴之矛",
+  "title_en": "Spear of Divine Punishment",
+  "path": "毁灭",
+  "path_en": "Destruction",
+  "element": "虚数",
+  "element_en": "Imaginary",
+  "sections": [
+    {
+      "key": "epigraph",
+      "label_ch": "题记",
+      "label_en": "Epigraph",
+      "entries": [
+        {
+          "ch": "那沉入迷雾的悬锋，纷乱与战争之城！它的王室流着弑亲的血脉，它的神明以灾厄为名。\n不死的迈德漠斯，离群的狮子，逐猎「纷争」火种的黄金裔。你要忍受万死，浴血还乡，孤身背负疯狂的宿命\n——弑王成王，弑神登神。征战的铁蹄踏遍荒野，终归要沾上故乡的血。",
+          "en": "Kremnos, the mist-shrouded city of chaos and war! Its royal lineage is tainted with patricide, and its god bears the name of calamity.\nThe undying Mydeimos, the lion apart from the rest. Chrysos Heir who seeks the Coreflame of Strife, must suffer a thousand deaths, be bathed in blood on the path home, and bear the madness of fate alone.\n— Kingslayer be king, godslayer be god. Iron-hooves pound across the wilderness for the campaign, and must eventually soak in the blood of their homeland."
+        }
+      ]
+    },
+    {
+      "key": "talent",
+      "label_ch": "天赋",
+      "label_en": "Talent",
+      "name_ch": "以血还血",
+      "name_en": "Blood for Blood",
+      "img": "images/skills/mydei/1404_talent.png",
+      "entries": [
+        {
+          "ch": "每损失1%生命值积攒1点充能，最多积攒200点。充能达到100时消耗100点充能进入【血仇】状态并回复等同于万敌30%生命上限的生命值，同时行动提前100%。【血仇】状态下生命上限提高，数值等同于当前生命上限的50%，防御力保持为0。自身回合开始时自动施放【弑王成王】。\n【血仇】状态期间充能达到150点时，万敌立即获得1个额外回合并自动施放【弑神登神】。\n【血仇】状态期间，万敌受到致命攻击时不会陷入无法战斗状态，但会清空充能退出【血仇】状态并回复等同于自身50%生命上限的生命值。",
+          "en": "For each 1% of HP lost, accumulates 1 point of Charge (up to 200 points). When Charge reaches 100, consumes 100 points of Charge to enter the \"Vendetta\" state, restores HP equal to 30% of Mydei's Max HP, and advances action by 100%. While the \"Vendetta\" state is active, Max HP increases by 50% of the current Max HP and DEF remains at 0. At the start of this unit's turn, automatically uses \"Kingslayer Be King.\"\nWhen Charge reaches 150 points during the \"Vendetta\" state, Mydei immediately gains 1 extra turn and automatically uses \"Godslayer Be God.\"\nWhen receiving a killing blow during the \"Vendetta\" state, Mydei will not be knocked down, but will clear his Charge, exits the \"Vendetta\" state, and restores HP by 50% of his Max HP."
+        }
+      ]
+    },
+    {
+      "key": "basic",
+      "label_ch": "普攻",
+      "label_en": "Basic ATK",
+      "name_ch": "踏破征途的誓言",
+      "name_en": "Vow of Voyage",
+      "img": "images/skills/mydei/1404_basic_atk.png",
+      "entries": [
+        {
+          "ch": "对指定敌方单体造成等同于万敌70%生命上限的虚数属性伤害。",
+          "en": "Deals Imaginary DMG equal to 70% of Mydei's Max HP to one designated enemy."
+        }
+      ]
+    },
+    {
+      "key": "skill",
+      "label_ch": "战技",
+      "label_en": "Skill",
+      "name_ch": "万死无悔",
+      "name_en": "Deaths are Legion, Regrets are None",
+      "img": "images/skills/mydei/1404_skill.png",
+      "entries": [
+        {
+          "ch": "消耗等同于万敌当前生命值50%的生命值，对指定敌方单体造成等同于万敌112.5%生命上限的虚数属性伤害，同时对其相邻目标造成等同于万敌62.5%生命上限的虚数属性伤害。\n若当前生命值不足，施放战技时万敌的当前生命值降低至1点。",
+          "en": "Consumes HP by an amount equal to 50% of Mydei's current HP. Deals Imaginary DMG equal to 112.5% of Mydei's Max HP to one designated enemy and Imaginary DMG equal to 62.5% of Mydei's Max HP to adjacent targets.\nIf the current HP is not sufficient, using Skill reduces Mydei's current HP to 1."
+        }
+      ]
+    },
+    {
+      "key": "ultimate",
+      "label_ch": "终结技",
+      "label_en": "Ultimate",
+      "name_ch": "诛天焚骨的王座",
+      "name_en": "Throne of Bones",
+      "img": "images/skills/mydei/1404_ultimate.png",
+      "entries": [
+        {
+          "ch": "回复等同于万敌22.5%生命上限的生命值并积攒20点天赋充能。对指定敌方单体造成等同于万敌192%生命上限的虚数属性伤害，同时对其相邻目标造成等同于万敌120%生命上限的虚数属性伤害，并使目标与相邻目标陷入嘲讽状态，持续2回合。下一次【弑神登神】优先攻击指定敌方单体，该效果仅对最新目标生效。",
+          "en": "Restores HP by 22.5% of Mydei's Max HP and accumulates 20 Talent's Charge point(s). Deals Imaginary DMG equal to 192% of Mydei's Max HP to one designated enemy, and deals Imaginary DMG equal to 120% of Mydei's Max HP to adjacent targets. Additionally, Taunts the target and targets adjacent to it, lasting for 2 turn(s). The next use of \"Godslayer Be God\" prioritizes attacking one designated enemy, and this effect only works on the latest target."
+        }
+      ]
+    },
+    {
+      "key": "technique",
+      "label_ch": "秘技",
+      "label_en": "Technique",
+      "name_ch": "折戟臣服的监牢",
+      "name_en": "Cage of Broken Lance",
+      "img": "images/skills/mydei/1404_technique.png",
+      "entries": [
+        {
+          "ch": "使用秘技后牵引一定区域内的敌人并使其陷入10秒的晕眩状态，晕眩状态下敌人不会主动攻击我方目标。\n若主动攻击陷入晕眩状态的敌人，进入战斗时，对敌方全体造成等同于万敌80%生命上限的虚数属性伤害，并使目标陷入嘲讽状态，持续1回合。自身积攒50点天赋充能。",
+          "en": "After using Technique, pulls in enemies within a certain area and inflicts Daze on them for 10 second(s). Dazed enemies will not actively attack ally targets.\nIf actively attacking Dazed enemies, when entering battle, deals Imaginary DMG equal to 80% of Mydei's Max HP to all enemies, and Taunts the targets, lasting for 1 turn(s). This unit accumulates 50 point(s) of Talent's Charge."
+        }
+      ]
+    },
+    {
+      "key": "traces",
+      "label_ch": "行迹",
+      "label_en": "Traces",
+      "ranks": [
+        {
+          "img": "images/skills/mydei/1404_skilltree1.png",
+          "label_ch": "水与泥土",
+          "label_en": "Earth and Water",
+          "desc_ch": "【血仇】状态下万敌受到致命攻击时不会退出【血仇】状态。该效果单场战斗中可以触发3次。",
+          "desc_en": "During the \"Vendetta\" state, Mydei will not exit the \"Vendetta\" state when receiving a killing blow. This effect can trigger 3 time(s) per battle."
+        },
+        {
+          "img": "images/skills/mydei/1404_skilltree2.png",
+          "label_ch": "三十僭主",
+          "label_en": "Thirty Tyrants",
+          "desc_ch": "【血仇】状态下万敌免疫控制类负面状态。",
+          "desc_en": "While in the \"Vendetta\" state, Mydei is immune to Crowd Control debuffs."
+        },
+        {
+          "img": "images/skills/mydei/1404_skilltree3.png",
+          "label_ch": "血祥罩衫",
+          "label_en": "Bloodied Chiton",
+          "desc_ch": "战斗开始时，若万敌的生命上限高于4000点，每超过100点生命值可使自身暴击率提高1.2%，万敌受到来自敌方目标伤害造成的充能比例提高2.5%，受到治疗时的回复量提高0.75%，超出部分最多计入4000点生命值。",
+          "desc_en": "When battle starts, if Mydei's Max HP exceeds 4000, for every 100 excess HP, Mydei's CRIT Rate increases by 1.2%, his Charge ratio from enemy targets' DMG increases by 2.5%, and his HP restored when receiving healing increases by 0.75%. Up to 4000 excess HP can be taken into account for this effect."
+        }
+      ]
+    },
+    {
+      "key": "eidolons",
+      "label_ch": "星魂",
+      "label_en": "Eidolons",
+      "ranks": [
+        {
+          "img": "images/skills/mydei/1404_rank1.png",
+          "label_ch": "寒风雕琢不屈的脊梁",
+          "label_en": "Frost Hones Spine of Steel",
+          "desc_ch": "【弑神登神】对主目标造成的伤害倍率提高30%，且变成对敌方全体造成等同于主目标伤害倍率的虚数属性伤害。",
+          "desc_en": "Increases the DMG multiplier dealt by \"Godslayer Be God\" to the primary target by 30%. This ability now deals to all enemies Imaginary DMG equal to the DMG multiplier dealt to the primary target."
+        },
+        {
+          "img": "images/skills/mydei/1404_rank2.png",
+          "label_ch": "纷争见证尸骸的喉鸣",
+          "label_en": "Strife Beholds Cry of Dead",
+          "desc_ch": "【血仇】状态期间，万敌造成的伤害无视敌方目标15%的防御力，且接受治疗后会将40%的治疗数值转化为充能，累计转化的充能不超过40点。任意单位行动后重置可累计的充能。",
+          "desc_en": "During \"Vendetta,\" the DMG dealt by Mydei ignores 15% of enemy targets' DEF. After he receives healing, converts 40% of the healed amount to Charge. The tally of the converted Charge cannot exceed 40 point(s). Resets this tally of Charge after any unit takes action."
+        },
+        {
+          "img": "images/skills/mydei/1404_skill.png",
+          "label_ch": "荣耀辉映不渝的筵宴",
+          "label_en": "Honor Exalts Feast of Faith",
+          "desc_ch": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
+          "desc_en": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10."
+        },
+        {
+          "img": "images/skills/mydei/1404_rank4.png",
+          "label_ch": "号角惊觉缄默的狂狮",
+          "label_en": "Siren Jolts the Laconic Lion",
+          "desc_ch": "【血仇】状态期间暴击伤害提高30%，且受到来自敌方目标的攻击后回复等同于自身10%生命上限的生命值。",
+          "desc_en": "While in \"Vendetta,\" increases CRIT DMG by 30% and restores HP by 10% of this unit's Max HP after receiving attacks from enemy targets."
+        },
+        {
+          "img": "images/skills/mydei/1404_ultimate.png",
+          "label_ch": "兵戈雕刻躯身的烈焰",
+          "label_en": "War Chisels Flesh of Flame",
+          "desc_ch": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
+          "desc_en": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15."
+        },
+        {
+          "img": "images/skills/mydei/1404_rank6.png",
+          "label_ch": "往日攀陟沉积的血山",
+          "label_en": "Legacy Scales Mound of Blood",
+          "desc_ch": "进入战斗时立刻进入【血仇】状态且【弑神登神】所需的充能值降低至100点。",
+          "desc_en": "When entering battle, immediately enters the \"Vendetta\" state, and lowers the Charge required for \"Godslayer Be God\" to 100 point(s)."
+        }
+      ]
+    },
+    {
+      "key": "story",
+      "label_ch": "角色故事",
+      "label_en": "Character Story",
+      "entries": [
+        {
+          "title_ch": "角色故事一",
+          "title_en": "Character Story 1",
+          "ch": "<i>「在沿海城邦古老的传说里，冥海曾诞育下堪比神明的生灵。据往来渔船所说，正有这样的『海王』以幼童的相貌出没于波涛之中，面目凶恶，红颜青唇，以侵肌蚀骨的冥海之水沐浴，与凶恶残暴的冥海之兽肉搏，渴饮鲜血，生啖骨肉。\n\n据说它每一次沉入海底，不消多时便会自冥海重生。在约莫九年的时间中，重塑己身不下一万次，最终撕裂巨妖，鲜血染红千里海面，却无有噬肉的海兽敢来接近。\n\n传说那海王尾巴一甩，便可将众多鱼虾卷上沙滩。曾有落难的渔民向天求救，被海王率领水兵救起。传闻愈来愈超凡神妙，久而久之，甚至有渔民为海王绘制画像，贴在船上以求出海平安。\n\n近来又有传言兴起，说那所谓海王其实是王储迈德漠斯的怨灵作祟，先王恐惧他背负的预言，在他出生后便将其掷入冥海，夭折的孩子死不瞑目，誓要猎尽冥海。但笔者认为这只不过是狡猾的悬锋人想为自己脸上贴金，理由有三：\n\n第一，就算悬锋人素来有父子争斗、胜者为王的传统，但怎会一出生将贵为王储的人子扔下海中？\n第二，就算悬锋王欧利庞年老昏聩，听信预言将子嗣扔进海中祭祀，一个幼儿怎么可能有堪比神明的力量与巨妖搏斗？\n第三，就算有这样的幼儿存在，他也绝不可能是悬锋人。悬锋人一个比一个自私粗野，又怎会帮助遭逢海难的渔民？\n诸位读者，接下来我将为你们揭晓真相：其实所谓的海王\n——自然就是海洋的化身！」</i>\n\n<align=\"right\">——选段自歌耳巴尼帕耳图书馆藏\n<i>「威力海王传考据」</i></align>\n\n<i>「强。」</i>\n<align=\"right\">——男人的字迹</align>",
+          "en": "<i>\"In the ancient legends of the coastal city-states, the Sea of Souls is said to have birthed beings as mighty as gods. Fishermen speak of a king of the seas who appears among the waves as a young child, with a fierce countenance and bluish lips, bathing in the bone-chilling waters of the Sea of Souls, wrestling with its savage beasts, thirsting for blood, and devouring flesh and bone.\n\nIt is said that each time they sink to the seabed, they soon resurrect from the Sea of Souls. Over approximately nine years, they reforged themselves no less than ten thousand times, ultimately tearing apart a giant monster, staining the sea red for miles, yet no flesh-eating sea creature dared approach.\n\nLegends speak of how that the king of the seas could sweep countless fish and shrimp onto the shore with a flick of the tail. Once, shipwrecked fishermen praying for salvation were rescued by the king alongside his crew. As the tales grew more fantastical over time, fishermen started painting the king on their boats, in the hope it will grant them safe voyages.\n\nRumors have emerged claiming that this so-called king of the seas is the vengeful spirit of the crown prince Mydeimos. Terrified by the prophecy he carried, his father, the former king, cast him into the Sea of Souls at birth. His life cut short, the child died with his grievances unredressed, vowing to scour the Sea of Souls. However, the writer believes this is merely the cunning Kremnoans trying to glorify themselves, for three reasons:\n\nFirst, though the Kremnoans traditionally engage in father-son struggles where the victor becomes king, why would they throw a newborn crown prince into the sea?\nSecond, even if King Eurypon of Kremnos, grown old and senile, believed the prophecy and sacrificed his heir to the sea, how could an infant possess the divine strength to battle giant monsters?\nThird, even if such a child existed, he could hardly be Kremnoan. Why would a Kremnoan, known for their selfish and brutal nature as they are, assist fishermen struck by disaster?\nDear readers, I will now reveal the truth: the so-called king of the seas\n— Naturally, he is the embodiment of the ocean itself!\"</i>\n\n<align=\"right\">— Excerpt from <i>\"Inquiry into the Legend of the Mighty Sea King\"\n</i>archived in the Garbaniphoro Library collection</align>\n\n<i>\"Strong.\"</i>\n<align=\"right\">— A man's handwriting</align>"
+        },
+        {
+          "title_ch": "角色故事二",
+          "title_en": "Character Story 2",
+          "ch": "<i>「那支孤军散发着浓烈的血腥，像一支染血的长枪。那名领军的战士即是枪尖，永远裹挟着深不见底的愤怒与仇恨刺向敌人。\n\n自拉冬，经哀地里亚，再至厄涅俄努斯，他一次次自死亡回归，也为所经之处带来滔天的战火。那令世人侧目的厄涅俄努斯之战中，未尝一败的克吕提俄斯高举巨斧，万箭自他的身后齐发。然而烟尘散去，火自血中沐浴而出，战士的拳风如尖刺，撕开了克吕提俄斯的咽喉。\n\n在那足以载入史诗的战役后，战士的真实身份越发扑朔迷离。那支军队明显带有悬锋的训练痕迹，但却从未悬挂悬锋的旗帜，无人知晓他们是游荡于战场的悬锋孤魂，还是失落家乡已久的迷途人。\n\n往来的吟游诗人将那孤军行旅编成哀伤的歌，在翁法罗斯带着铁锈味的野风中，孤高的狮子带着成群的老弱残兵迁徙，寻找不存在的家园。\n\n现实绝不会因残酷改变自己的面貌。那些忠心耿耿追随他的悬锋子民，即便曾是精锐，也没有他那神一般的不死之身。随着岁月流逝，连悬锋的神明已陷入疯狂，凡人又该往何处去？\n\n那孤高的人是否会将子民的命运背于己身，是否为自己戴上王的枷锁？还是说，这只是他一厢情愿的徒劳……」</i>\n\n<align=\"right\">——选段自歌耳巴尼帕耳图书馆藏\n<i>「翁法罗斯战争史」</i></align>\n\n<i>「赫菲斯辛、帕狄卡斯、莱昂、托勒密、朴塞塔…你们的名字，必不遗落于历史。」</i>\n<align=\"right\">——男人的字迹</align>",
+          "en": "<i>\"The lone army emits a strong scent of blood, like a blood-stained spear. The leading warrior, the speartip, is always enveloped in unfathomable rage and hatred, thrusting towards the enemy.\n\nFrom Ladon, through Aidonia, to Aenionus, he returned from death time and again, leaving towering infernos of war in his wake. In the infamous Battle of Aenionus, the undefeated Klytius raised his massive axe as thousands of arrows darkened the sky behind him. Yet, when the smoke cleared and fire rose from the blood-soaked ground, the warrior's fist struck like a spear, tearing open Klytius's throat.\n\nAfter that epic battle, the true identity of the warrior became yet more elusive. That army clearly bore the marks of Kremnoan training but had never flown Kremnos's flag. None know whether they are Kremnoan spirits wandering on the battlefield or lost souls who have long been away from their homeland.\n\nWandering bards turned the lone army's journey into mournful songs, while in the rust-flavored winds of Amphoreus, the lone lion led a group of old and weak soldiers as they wandered, searching for a nonexistent homeland.\n\nReality will never alter its face due to cruelty. The once-elite citizens of Kremnos who followed him were loyal but mortal, lacking his god-like immortality. As time wore on, and even the gods of Kremnos succumbed to madness, how could humanity hope to know whither they should go?\n\nWill that proud, lonely man carry the weight of his people's fate alone? Will he bind himself to the chains of kingship? Or was it all just his wishful thinking...\"</i>\n\n<align=\"right\">— Excerpt from <i>\"A History of the Wars of Amphoreus\"\n</i>archived in the Garbaniphoro Library collection</align>\n\n<i>\"Hephaestion, Perdikkas, Leonnius, Ptolemy, Peucesta... your names will not be forgotten by history.\"</i>\n<align=\"right\">— A man's handwriting</align>"
+        },
+        {
+          "title_ch": "角色故事三",
+          "title_en": "Character Story 3",
+          "ch": "<i>「迈德漠斯啊！你这忘恩负义的背叛者，断绝悬锋精神的懦夫！\n\n你弑杀先王，复仇成功，却不接过重振王朝的责任，你的荣誉之心难道在冥海时被鱼兽吞噬一空了么？\n你混迹于逐火的队伍，被妖女的狂言诓骗，与出身低贱的士兵打成一片；你宁愿将希望寄托于虚无缥缈的神谕，也不愿相信你自己的双拳！\n悬锋人渴望回到纷争的故乡，而你却要我们迁往宿敌的城邦，你难道贪恋奥赫玛的奢华么？还是你早已被黄金浴池的水雾弄得神魂颠倒？\n\n迈德漠斯啊！你有高贵的不死之身，岂可由那奥赫玛的女人统领？你是逐猎的狮子，纷争的使者，你难道忘记了捕猎者与猎物的不同吗？\n\n听说不久之前，你与那自称黄金裔的人从尼卡多利眷属手中救下异邦的平民，不惜在那不见天明的长夜里，任由身躯破碎，沐血而狂。\n迈德漠斯啊！你的血不当为了那些无用的人而流，你当纠集军队，劫掠资源，如此，悬锋才能在末世中抢夺一丝生机！\n\n那所谓逐火的路将你变得面目全非，吾王，回来吧！王不需要同等之人，不需要伙伴，不需要怀疑，不需要拯救——倘若你还残存最后一丝清醒，便向吾等发令吧！\n让悬锋的荣耀凌驾于一切城邦之上！」</i>\n\n<align=\"right\">——选段自歌耳巴尼帕耳图书馆藏\n<i>「悬锋元老院决议合集」</i></align>\n\n<i>「继续迁移。」</i>\n<align=\"right\">——男人的批示</align>",
+          "en": "<i>\"Mydeimos! You treacherous ingrate, you coward who has forsaken the spirit of Kremnos!\n\nYou slew the former king and had your vengeance, yet you shirked the duty of restoring the dynasty. Was your honor swallowed whole by the beasts of the Sea of Souls?\nYou roam among those who chase flames, swayed by the wild tales of a witch, fraternizing with low-born soldiers. You choose to pin your hopes on elusive oracles rather than trust in your strength!\nThe Kremnoans yearn to return to their war-torn homeland, yet you urge us to settle in the city-state of our sworn enemies. Have you grown enamored with the opulence of Okhema, or are you already bewitched by the mists rising from its golden baths?\n\nMydeimos! You, with your noble and immortal essence, how can you submit to that woman of Okhema? You are a predator, a messenger of Strife — have you lost sight of the difference between predator and prey?\n\nRumors swirl that you saved outlanders from Nikador's kin alongside the one claiming the mantle of Chrysos Heirs. In that endless long night, you let your body shatter, drenched in blood and madness.\nMydeimos! Your noble blood should not be wasted on such unworthy individuals! You should be rallying your armies and plundering resources to carve out a path for Kremnos's survival in these apocalyptic times!\n\nThat supposed Flame-Chase Journey has distorted you beyond recognition, my king! A king requires no equals, no allies, no doubts, no rescue — if any semblance of your clear mind lingers, command us!\nLet Kremnos's glory eclipse all other city-states!\"</i>\n\n<align=\"right\">— Excerpt from <i>\"Collected Resolutions of the Kremnos Council of Elders\"\n</i>stored in the Garbaniphoro Library collection</align>\n\n<i>\"Keep moving.\"</i>\n<align=\"right\">— A man's directive</align>"
+        },
+        {
+          "title_ch": "角色故事四",
+          "title_en": "Character Story 4",
+          "ch": "<i>「黎明圣城奥赫玛为此世之中黑潮尚无法侵扰的净土，但黑潮对其包围之势已显而易见。\n\n千年历史，黑潮所过之处，生灵异化为非人的怪物，城邦风蚀为无人的废墟，即便强盛如悬锋，其神明亦被黑潮污染，一切荒废无存。\n\n逐火至今，大部分火种都已归位，然而黑潮将临，时间已所剩无几，在再创世之前，如若奥赫玛失守，一切都将前功尽弃。\n\n笔者于此大胆揣测，在不久的将来，逐火的英雄必将与黑潮一战。从以往记录来看，哪怕是最为勇猛的战士，也无法在黑潮中坚持长久。黄金裔英雄各有所长，若说此战的希望，若非那骁勇的白厄，便会落在迈德漠斯身上。\n\n当然，那不仅是因为迈德漠斯作为此世勇者之冠，拒绝死亡的天生之命，也不仅因为悬锋旧城位处抵挡黑潮的关要。纵然迈德漠斯如悬锋的狮子般一生迁徙多次，最后停留在离诞生地极远的地方，孤高的王也绝无可能在他国中称臣。一旦安顿好子民，将使命视作生命的迈德漠斯必定归乡，只不过这一次，他背负的不只是悬锋人的希望，更是世界的未来。\n\n塔兰顿的祭司曾预言，千年纷争的历史始于悬锋，亦将终结于悬锋。或许在未来的某一日，那不死之身踏入黑潮，方生方死，那会是怎样的境况，怎样的悲壮……」</i>\n\n<align=\"right\">——选段自歌耳巴尼帕耳图书馆藏\n<i>「逐火观察：黑潮专题」</i></align>\n\n<i>「一如冥海，一如既往。」</i>\n<align=\"right\">——男人新近的批注</align>",
+          "en": "<i>\"The holy city of Okhema remains one of the last pure lands untouched by the black tide. Yet, the encirclement of the black tide around it has become unmistakably clear.\n\nFor a thousand years, wherever the black tide has swept, life has been twisted into inhuman monstrosities, and city-states have been eroded by the wind into desolate ruins. Even a stronghold like Kremnos saw its gods tainted by the black tide, leaving nothing but wastelands in its wake.\n\nMost of the Coreflames had been restored, yet as the black tide approached, we found ourselves desperately short on time. All we have achieved will have been in vain should Okhema fall before the Era Nova.\n\nThe author boldly speculated that, soon, the heroes chasing the flame would inevitably face a decisive battle against the black tide. Historical records showed that even the most valiant warriors could not endure long within the black tide. Among the Chrysos Heir heroes, if there was any hope for this battle, it would either rest upon the fearless Phainon or fall to Mydeimos.\n\nThis wasn't merely because Mydeimos hailed as the bravest in this world, carried a destiny that defied death, nor was it solely because the old city of Kremnos occupied a strategic choke point against the black tide. Even though Mydeimos, like the lion of Kremnos, had migrated countless times in his life and ultimately settled far from his birthplace, the solitary king would never submit to foreign rule. Once he had settled his people, Mydeimos, who regarded his mission as his very essence, would undoubtedly return home. Yet, this time, he bore not only the hopes of the Kremnoans but also the future of the entire world.\n\nTalanton's priests once prophesied that the millennium of Strife that started in Kremnos would also find its end there. Perhaps, one day, that eternal figure will face the black tide — suspended between life and death. Imagine such a scene, such a profound tragedy...\"</i>\n\n<align=\"right\">— Excerpt from <i>\"Flame-Chasing Observations: Black Tide Special Report\"\n</i>archived in the Garbaniphoro Library collection</align>\n\n<i>\"As with the Sea of Souls, as it has always been.\"</i>\n<align=\"right\">— A recently-made annotation in a man's handwriting</align>"
+        }
+      ]
+    },
+    {
+      "key": "inscriptions",
+      "label_ch": "铭文",
+      "label_en": "Inscriptions",
+      "entries": [
+        {
+          "ch": "以凡人之名——「纷争的冠军，万敌」——此人为荣耀和自由迈向群星，并如愿以偿！",
+          "en": "In the name of the mortal, Mydei, Champion of Strife, this soul rises to the stars, for glory and freedom, to have his wish fulfilled!"
+        },
+        {
+          "ch": "迈德漠斯，往日的英雄……\n他是悬锋的叛徒，\n弑父的王储。",
+          "en": "Mydeimos, a hero of yore..\nNow a traitor to Kremnos,\nthe patricidal crown prince."
+        },
+        {
+          "ch": "「伤及万敌的锋刃，必定足以弑神。」\n人们至今仍在找寻。\n然而那也只是他遵循的传统……",
+          "en": "\"A blade that can cut through the mighty must be enough to slay gods.\"\nThe people to this day still seek it,\nYet it is simply a tradition he follows closely..."
+        },
+        {
+          "ch": "以至明日，星星会如此传唱：\n悬锋的孤王，其人名为万敌。\n\n他一生行向的，是永劫战火，\n他身后留下的，是荣光遍地。",
+          "en": "In the morrow's sky, the stars will chant:\nThe lone king of Kremnos is called Mydei.\n\nHis journey was one of ceaseless, eternal warfare,\nAnd behind him, he left a world ablaze with glory."
+        }
+      ]
+    },
+    {
+      "key": "mydeimos_boss",
+      "label_ch": "天谴之矛，迈德漠斯",
+      "label_en": "Mydeimos, Lance of Fury",
+      "entries": [
+        {
+          "ch": "天谴之矛，迈德漠斯",
+          "en": "Mydeimos, Lance of Fury"
+        },
+        {
+          "ch": "不败者，一切战场的领主，悬锋城与废墟的王，\n战车大匠，尸山王座，胜利父，\n荣耀僭主，裂地惊海的雷，翁法罗斯的守护者，\n纷争的半神，天谴之矛，迈德漠斯。\n全体世间应听遣的将领，永恒且锋利的兵戈，纷争与断绝纷争的法则。\n礼赞迈德漠斯，最伟大的征服者，最伟大的守护者，最强者。",
+          "en": "The undefeated. The sovereign of all battles. The king of Castrum Kremnos and of ruins,\nGrand Artisan of the war chariot, the throne upon a mountain of corpses, and Father of Victory,\nThe tyrant of glories, the lightning that split the sea, the Guardian of Amphoreus,\nThe demigod of Strife, the Lance of Fury, Mydeimos.\nA general that all the world should heed, the eternal sharp sword, the law of Strife and of ending Strife.\nPraise Mydeimos, greatest of conquerors, greatest of guardians, the strongest of all."
+        },
+        {
+          "ch": "我乃天谴之矛，迈德漠斯。以我的一千道伤疤和一百条性命——",
+          "en": "I am Mydeimos, the Lance of Fury. I trade a thousand scars and a hundred lives of mine..."
+        },
+        {
+          "ch": "「天谴之矛，迈德漠斯」征服了目标的魂灵，受到攻击的伤害提高，被我方消灭后解除「受征服」。",
+          "en": "\"Mydeimos, Lance of Fury\" conquered the target's soul. DMG taken from the caster is increased. After being defeated by allies, dispel \"Conquered\"."
+        },
+        {
+          "ch": "【天谴之矛，迈德漠斯】征服了<color=#f29e38ff>%CasterName</color>的魂灵，受到<color=#f29e38ff>%CasterName</color>攻击的伤害提高<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>，被我方消灭后解除<color=#f29e38ff>%CasterName</color>的【受征服】。",
+          "en": "\"Mydeimos, Lance of Fury\" conquered <color=#f29e38ff>%CasterName</color>'s soul and will take <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> more DMG from <color=#f29e38ff>%CasterName</color>'s attacks. After being defeated by targets, dispel \"Conquered\" on <color=#f29e38ff>%CasterName</color>."
+        },
+        {
+          "ch": "【天谴之矛，迈德漠斯】征服了<color=#f29e38ff>%CasterName</color>的魂灵，受到<color=#f29e38ff>%CasterName</color>及其忆灵攻击的伤害提高<color=#f29e38ff><unbreak>#1[i]%</unbreak></color>，被我方消灭后解除<color=#f29e38ff>%CasterName</color>的【受征服】。",
+          "en": "\"Mydeimos, Lance of Fury\" conquers <color=#f29e38ff>%CasterName</color>'s soul and will take <color=#f29e38ff><unbreak>#1[i]%</unbreak></color> more DMG from <color=#f29e38ff>%CasterName</color>'s memosprite attacks. After being defeated by targets, dispel \"Conquered\" on <color=#f29e38ff>%CasterName</color>."
+        },
+        {
+          "ch": "被对应【受征服】状态的目标攻击时，受到的伤害大幅提高。受到致命攻击时消耗【天谴之矛，迈德漠斯】的生命值。",
+          "en": "When attacked by a target with the corresponding \"Conquered\" state, the DMG taken increases greatly. When receiving a killing blow, consumes the HP of \"Mydeimos, Lance of Fury.\""
+        },
+        {
+          "ch": "角色的魂灵被【天谴之矛，迈德漠斯】抽取！",
+          "en": "The character's soul has been extracted by \"Mydeimos, Lance of Fury\"!"
+        },
+        {
+          "ch": "【天谴之矛，迈德漠斯】吸收所有剩余的【征服或被征服】，并强化了【纷争之主】！",
+          "en": "\"Mydeimos, Lance of Fury\" absorbed all remaining \"Conquer or Be Conquered\" and enhanced \"Lord of Strife\"!"
+        }
+      ]
+    },
+    {
+      "key": "misc",
+      "label_ch": "其他",
+      "label_en": "Miscellaneous",
+      "entries": [
+        {
+          "ch": "单次生效，对万敌施放时解除控制类负面状态，若万敌处于【血仇】状态，则使其自动施放【弑神登神】并使暴击伤害提高。若万敌不处于【血仇】状态，使万敌行动提前。",
+          "en": "One-time effect. When used on Mydei, removes Crowd Control debuffs. And if Mydei is in the \"Vendetta\" state, he automatically uses \"Godslayer Be God\" and increases his CRIT DMG. If he is not in the \"Vendetta\" state, Mydei's action advances."
+        },
+        {
+          "ch": "单次生效，对万敌施放时解除万敌陷入的所有控制类负面状态，若万敌处于【血仇】状态，则使其自动施放1次不消耗充能的【弑神登神】，本次攻击中万敌的暴击伤害提高，若施放前目标被消灭则对新入场的敌方目标施放。若万敌不处于【血仇】状态，则使万敌行动提前。",
+          "en": "One-time effect. When used on Mydei, removes all Crowd Control debuffs inflicted on him. And if Mydei is in the \"Vendetta\" state, he automatically uses 1 instance of \"Godslayer Be God\" without consuming Charge. If the target gets defeated before the use, then it will target the newly arriving enemy targets instead. If Mydei is not in the \"Vendetta\" state, then advances Mydei's action."
+        },
+        {
+          "ch": "定分枪的眼睛看着万敌：「0.59？」眼睛流露出七分疑惑，三分怀疑。",
+          "en": "The Rating Pistol gazes at Mydei: \"0.59 points?\" the gaze reveals a look of confusion and semi-suspicion."
+        },
+        {
+          "ch": "马上就要跟万敌汇合了，要不要把这片区域清理干净，多收集些悬锋徽记战利品？",
+          "en": "We'll be meeting up with Mydei soon. Want to clean up this area and increase our Kremnos crest trophy count?"
+        },
+        {
+          "ch": "原来…那头大地兽的恋爱对象，就是万敌啊！",
+          "en": "So... that dromas' true love is none other than Mydei!"
+        },
+        {
+          "ch": "诶呀，看起来你应该会和那位万敌阁下非常有共同语言呢。承蒙惠顾，100利衡币。",
+          "en": "Oh, it looks like you and Lord Mydeimos share a similar taste. That'll be 100 Balance Coins. Thank you for your patronage!"
+        },
+        {
+          "ch": "「看看万敌和那刻夏老师，\n男孩都会变成严肃的大人。」",
+          "en": "\"Look at Mydei and Professor Anaxa.\nBoys all grow up into serious adults.\""
+        },
+        {
+          "ch": "我方所有奇美拉被击倒后，万敌会变身成蜜果羹加入对战。我方被击倒的奇美拉越多，蜜果羹越强！",
+          "en": "After all ally chimeras are defeated, Mydei will transform into Fig Stew and enter the battle. The more defeated ally chimeras, the stronger Fig Stew is!"
+        }
+      ]
+    }
+  ]
+}

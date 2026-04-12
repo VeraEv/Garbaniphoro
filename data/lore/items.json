@@ -1,0 +1,2511 @@
+[
+  {
+    "version": "v3.0",
+    "category_ch": "消耗品",
+    "category_en": "Consumables",
+    "name_ch": "《星穹列车》游戏光碟",
+    "name_en": "<i>Astral Express</i> Game Disk",
+    "icon": "images/items/402029.png",
+    "lore_ch": "琥珀2158纪初叶，武装考古学派在美勒姆基什的拱顶水晶寺遗址中挖掘出了一件特殊的文物——发行于寰宇蝗灾前的古典电子游戏，《星穹列车》。\\n这款游戏以星穹列车参与美勒姆基什独立战争的历史为蓝本，讲述了一段跌宕起伏的英雄冒险，其紧张刺激的回合制玩法更是令人欲罢不能。\\n\\n",
+    "lore_en": "A special relic from the Crystalline Temple's ruins on Memliche, unearthed by the Armed Archaeologists at the beginning of 2158 AE. It was a classic video game that predated the Swarm Disaster named .\\nThis game is based on the historical event of the Express participating in the Memliche War of Independence, depicting a heroic tale of triumphs and defeats, with thrilling turn-based combat mechanics that left all players desperate to play more.\\n\\n",
+    "effect_ch": "使用后立即为我方恢复4点秘技点。",
+    "effect_en": "When used, instantly recovers 4 Technique Points for the team.",
+    "dialogue_ch": [
+      "「愿此行，终抵群星。」"
+    ],
+    "dialogue_en": [
+      "Astral Express",
+      "\"May this journey lead us starward.\""
+    ]
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "消耗品",
+    "category_en": "Consumables",
+    "name_ch": "垂语果干",
+    "name_en": "Dried Sagelore Fruit",
+    "icon": "images/items/401033.png",
+    "lore_ch": "树庭的学者们能够将知识编织进圣树，也能经由瑟希斯的应允，摘下凝聚智慧的果实。这些带有泰坦赐福的种子，每颗都承载着比一座图书馆更厚重的信息——但即使如此，种子也像其他任何信息载体一样，存在着保质期。好在这些种子作为食物的保质期远比作为知识载体的保质期更为长久——于是世界上诞生了这种美味的干果。\\n\\n\\n",
+    "lore_en": "Grove Scholars can weave knowledge into the sacred tree, and with Cerces' permission, they may harvest its fruit that houses condensed wisdom. Each of these Titan-blessed seeds holds information weightier than a library. But even so, like any other information vessel, the seeds have a limited shelf life as carriers of knowledge. Fortunately, their shelf life as food far outlasts that as a knowledge vessel — thus, this delicious dried fruit was born.\\n\\n\\n",
+    "effect_ch": "使用后立即为我方恢复3点秘技点。",
+    "effect_en": "Upon use, immediately recovers 3 Technique Points for the team.",
+    "dialogue_ch": [
+      "「等等…如果能搞一只新鲜的来吃，我是不是就能一跃成为奥赫玛最聪明的人了？」",
+      "「有人试过，后来他疯了。你不能往水盆里灌注一片湖泊。」"
+    ],
+    "dialogue_en": [
+      "\"Wait... if I could get a fresh one to eat, would I become the smartest person in Okhema overnight?\"",
+      "\"Someone tried that once, and they went mad. You can't pour a whole lake into a water bowl.\""
+    ]
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "消耗品",
+    "category_en": "Consumables",
+    "name_ch": "大地兽肉排",
+    "name_en": "Dromas Steak",
+    "icon": "images/items/402032.png",
+    "lore_ch": "奥赫玛的经典美食——用大地兽的肉制作的烤肉排，用红土盛放味道才最为正宗。就像很多世界的肉牛一样，肉用的大地兽和作为运力大地兽严格来说属于两个品种，这种大地兽的肉质肥美可口，但如果制作手法不当，就和吃红土没什么区别。\\n\\n\\n",
+    "lore_en": "A classic Okheman delicacy — grilled dromas steak, best served on redsoil for the most authentic flavor. Much like cattle in many worlds, dromases used for meat are technically a different breed from those used for labor. This variety of dromas has tender and flavorful meat, but if not prepared properly, it's about as enjoyable as eating redsoil.\\n\\n\\n",
+    "effect_ch": "使用后我方全体在下次战斗中造成的持续伤害提高35%。",
+    "effect_en": "Upon use, increases all allies' DoT dealt by 35% for the next battle.",
+    "dialogue_ch": [
+      "「听说特别尊崇吉奥里亚的山之民从来不吃大地兽的肉，是真的吗？」",
+      "「屁。山之民，我就是。饿了，什么都吃，何况好吃。」"
+    ],
+    "dialogue_en": [
+      "\"I heard that the Mountain Dwellers who revere Georios never eat dromas meat. Is that true?\"",
+      "\"Balderdash. Mountain Dweller, I am. When hungry, eat anything, especially if tastes good.\""
+    ]
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "消耗品",
+    "category_en": "Consumables",
+    "name_ch": "大地晶矿",
+    "name_en": "Earth Crystal Ore",
+    "icon": "images/items/408440.png",
+    "lore_ch": "在翁法罗斯民间神话里，这是一种从吉奥里亚神体裂缝中开采的矿石。作为大地泰坦的一部分，至今仍散发着微弱的生机，传来神明的回声。山之民常将它打磨成各类首饰，以此向大地泰坦致敬。\\n\\n\\n",
+    "lore_en": "In the folk mythology of Amphoreus, this is a mineral extracted from the fissures of Georios' divine body. As a part of the Earth Titan, it still emanates a faint vitality, carrying the echoes of the divine. The Mountain Dwellers often polish it into various jewelry pieces as a tribute to the Earth Titan.\\n\\n\\n",
+    "effect_ch": "使用后立即为我方指定单体恢复等同于自身能量上限30%能量。",
+    "effect_en": "Upon use, immediately regenerates 30% of Max Energy for one designated ally.",
+    "dialogue_ch": [
+      "「把耳朵凑上去就能听见吉奥里亚的叹息…」",
+      "「我怎么觉得是呼噜声？」"
+    ],
+    "dialogue_en": [
+      "\"If you put your ear close, you can hear Georios' sighs...\"",
+      "\"I don't know. It sounds more like snoring to me.\""
+    ]
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "消耗品",
+    "category_en": "Consumables",
+    "name_ch": "天帷包裹",
+    "name_en": "Veil Bundle",
+    "icon": "images/items/403013.png",
+    "lore_ch": "翁法罗斯的商队经常会售卖这种内容不明的包裹，随意地用麻绳扎着，有可能是别人不要的垃圾，也可能是泰坦给凡人的礼物，打开时会带来难以预料的变化。据说这是欧洛尼斯信徒们的习俗，他们将这种莫测的商品视作一种向命运敬献利衡的典仪，将决定价值的权力交给变幻莫测的永夜天帷。\\n\\n",
+    "lore_en": "Caravans in Amphoreus often sell these mysterious, loosely twine-wrapped bundles. They could be unwanted trash or gifts from the Titans to mortals, with unpredictable surprises upon opening. It's said that this is a tradition among Oronyx's followers, who view such enigmatic goods as a ritual of offering pros and cons to fate, leaving the power of determining value to the Evernight Veil's capriciousness.\\n\\n",
+    "effect_ch": "使用后我方全体在下次战斗中随机生效1个效果：速度提高20%；击破特攻提高60%；效果命中提高60%。",
+    "effect_en": "Upon use, one of the following effects will be randomly applied to all allies in the next battle: SPD increases by 20%; Break Effect increases by 60%; Effect Hit Rate increases by 60%.",
+    "dialogue_ch": [
+      "「桀桀桀，其实这个概念是扎格列斯老祖编造的，购买此物的信徒也根本就不是为了信仰——而是因为抽奖很爽！」"
+    ],
+    "dialogue_en": [
+      "\"Heh heh heh, in truth, this idea was invented by old Zagreus, and the faithful who buy it aren't motivated by piety at all — they just love the thrill of the gamble!\""
+    ]
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "消耗品",
+    "category_en": "Consumables",
+    "name_ch": "悬锋盾牌",
+    "name_en": "Kremnos Shield",
+    "icon": "images/items/402033.png",
+    "lore_ch": "悬锋城使用的古典盾牌，数量稀少，往往会作为荣耀的象征赐予强者。举起后能够护住身体的大半部分，但一昧格挡并非战士之道。\\n\\n",
+    "lore_en": "The classical shield used in Castrum Kremnos is rare and often granted as a symbol of honor to the strong. When raised, it can protect most of the body, but blocking alone is not the way of a true warrior.\\n\\n",
+    "effect_ch": "使用后我方全体在下次战斗中防御力提高15%，获得的护盾量提高18%。",
+    "effect_en": "Upon use, increases all allies' DEF by 15% and Shield Effect received by 18% in the next battle.",
+    "dialogue_ch": [
+      "「要么高举着它凯旋，要么躺在上面荣归。」\\n——悬锋城母亲教育孩子的俗语"
+    ],
+    "dialogue_en": [
+      "\"Either raise it high in triumph or return home on it.\"\\n — A saying mothers teach their children in Castrum Kremnos"
+    ]
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "消耗品",
+    "category_en": "Consumables",
+    "name_ch": "悬锋重剑",
+    "name_en": "Greatsword of Kremnos",
+    "icon": "images/items/408639.png",
+    "lore_ch": "尺寸夸张的大型武器，一击即可击碎铠甲。并非精铁材质，而是由锋利的符石制成，蕴藏纷争的力量。山之民士兵与泰坦的眷属才能挥舞，至于凡人…坚持锻炼或许也有机会。\\n\\n",
+    "lore_en": "A large weapon of exaggerated size, capable of shattering armor with a single strike. It is not made of fine iron, but rather from sharp rune stones and imbued with the power of Strife. Only Mountain Dweller soldiers and Titankins can wield it. As for humans... with enough training, they may have a chance.\\n\\n",
+    "effect_ch": "使用后我方全体在下次战斗中暴击率提高8%，暴击伤害提高16%。",
+    "effect_en": "In the next battle, increases all allies' CRIT Rate by 8% and CRIT DMG by 16%.",
+    "dialogue_ch": [
+      "「并非只有精铁才配作武器，并非只有英雄才配当士兵。」"
+    ],
+    "dialogue_en": [
+      "\"It's not only fine iron that makes a weapon, and it's not only heroes who can be soldiers.\""
+    ]
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "消耗品",
+    "category_en": "Consumables",
+    "name_ch": "欧洛尼斯石板",
+    "name_en": "Oronyx Slate",
+    "icon": "images/items/408439.png",
+    "lore_ch": "神秘的石板，表面镌刻着命运泰坦的隐晦预言。石板边缘被精心打磨成星辰形状，在黎明机器的光芒下会泛起微弱的荧光。在传闻中，受岁月眷顾者可从中窥见不为人知的过去…亦或未来。\\n\\n",
+    "lore_en": "A mysterious slate etched with the cryptic prophecies of the Fate Titans. Its edges are carefully shaped into stars and emit a faint glow under the light of the Dawn Device. According to legend, those favored by time may glimpse unknown pasts... or futures within its depths.\\n\\n",
+    "effect_ch": "使用后立即使我方处于无法战斗状态的指定单体，回复等同于自身生命上限10%的生命值。",
+    "effect_en": "Upon use, immediately heals one designated downed ally and restores for 10% of their Max HP.",
+    "dialogue_ch": [
+      "「所有预言都写于黑夜之中，欧洛尼斯只是让我们学会如何仰望。」"
+    ],
+    "dialogue_en": [
+      "\"All prophecies are written in the night. Oronyx simply taught us how to look up.\""
+    ]
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "消耗品",
+    "category_en": "Consumables",
+    "name_ch": "烈焰椒椒酱",
+    "name_en": "Flaming Chili Sauce",
+    "icon": "images/items/402031.png",
+    "lore_ch": "某位著名厨师医士研发的辣椒酱。拥有在严寒之中暖人肠胃的效用，且味道鲜辣，令人欲罢不能。\\n但研发者本人说，本产品最大的「医疗作用」，莫过于为那些自诩「完全不怕辣」的食客，治好嘴硬的毛病。\\n\\n",
+    "lore_en": "A chili sauce crafted by a renowned chefhealer, known for its ability to warm the stomach even in the harshest cold. Its fiery flavor is so irresistible, it's to die for — figuratively, of course. \\nHowever, the creator cheekily claims that its most effective \"medical benefit\" is curing those who boast about being \"immune to spiciness.\"\\n\\n",
+    "effect_ch": "使用后我方全体在下次战斗中速度提高8%，攻击力提高15%。",
+    "effect_en": "Upon use, increases all allies' SPD by 8% and their ATK by 15% for the next battle.",
+    "dialogue_ch": [
+      "「呼哧呼哧…不辣帕！真的不辣帕！一点都不辣帕！」"
+    ],
+    "dialogue_en": [
+      "\"Hashafasasha... Not spicy at all! I am serious! This ain't spicy at all!\""
+    ]
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "消耗品",
+    "category_en": "Consumables",
+    "name_ch": "粗制秘酿",
+    "name_en": "Rough-Brew Ambrosia",
+    "icon": "images/items/401032.png",
+    "lore_ch": "通过极其简单的仪式流程所制作出的秘酿，口感粗糙，但由于价格非常便宜，仍旧有不小的市场。据说当年抗击黑潮时，由于干净的水源十分匮乏，人们曾一度依靠这种粗制秘酿补充水分与养分。\\n\\n",
+    "lore_en": "The ambrosia made through an incredibly simple ritual process has a rough taste, but due to its very low price, it still has a considerable market. It is said that during the fight against the black tide, when clean water was scarce, people relied on this rough-brew ambrosia to supplement their hydration and nutrients.\\n\\n",
+    "effect_ch": "使用后我方全体在下次战斗中生命上限提高20%。",
+    "effect_en": "Upon use, increases Max HP of all allies by 20% for the next battle.",
+    "dialogue_ch": [
+      "「奥赫玛现在有干净的水喝，孩子他爸，别再找借口天天买秘酿了。」"
+    ],
+    "dialogue_en": [
+      "\"Okhema now has clean water, o sire of my children. Stop making excuses to buy ambrosia every day.\""
+    ]
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "消耗品",
+    "category_en": "Consumables",
+    "name_ch": "红土饲料",
+    "name_en": "Redsoil Feed",
+    "icon": "images/items/140544.png",
+    "lore_ch": "高纯度的红土是一种相当奇特的材料：在被晾干的过程里，其中逐渐结晶的难溶盐分会让整块红土逐渐板结为一个紧密的整体，即使是风吹雨打也很难将它破坏。有意思的是，对大地兽而言，最美味的红土就处于湿和干的临界点上。\\n\\n\\n",
+    "lore_en": "High-purity redsoil is a rather unusual material: During the drying process, the crystallizing insoluble salts cause the entire block of redsoil to harden into a compact whole that is difficult to erode, even by wind and rain. Interestingly, for dromases, the most delicious redsoil lies right at the threshold between wet and dry.\\n\\n\\n",
+    "effect_ch": "使用后立即为我方指定单体回复等同于自身生命上限20%的生命值。",
+    "effect_en": "Upon use, immediately heals one designated ally for 20% of their Max HP.",
+    "dialogue_ch": [
+      "「那如果天气一直下雨…大地兽们会得厌食症吗？」",
+      "「理论上有可能，不过艾格勒肯定不会让那种事发生，放心好了。」"
+    ],
+    "dialogue_en": [
+      "\"So if it keeps raining... would the dromases get eating disorders?\"",
+      "\"In theory, it's possible, but Aquila would never let that happen, rest assured.\""
+    ]
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "消耗品",
+    "category_en": "Consumables",
+    "name_ch": "钢爪匕首",
+    "name_en": "Steelclaw Dagger",
+    "icon": "images/items/408437.png",
+    "lore_ch": "钢爪兽，又名执刃黑绒，是生活在古悬锋城境内的危险怪兽。这种怪物拥有夸张如剑的指爪，足以在一挥间斩断精工兵器。如今钢爪兽已经灭绝，但战士们仿照它的指爪结构制造出了这种武器，其独特的刀刃能让伤口血流不止。\\n\\n",
+    "lore_en": "Steelclaw Beasts, also known as Bladed Black Velvets, were a type of dangerous creatures once found in the ancient lands of Castrum Kremnos. The beast had exaggerated sword-like claws capable of slicing through finely crafted weapons in a single swipe. Although now extinct, warriors have crafted weapons mimicking the anatomy of their claws, with unique blades that cause wounds to bleed continuously.\\n\\n",
+    "effect_ch": "使用后我方全体在下次战斗中攻击力提高20%，若当前生命值百分比小于50%，攻击力额外提高20%。",
+    "effect_en": "Upon use, increases ATK of all allies by 20% in the next battle. If their current HP percentage is less than 50%, ATK will additionally increase by 20%.",
+    "dialogue_ch": [
+      "「绝大多数生物会在死后停止战斗，但它不会。」"
+    ],
+    "dialogue_en": [
+      "\"Most creatures stop fighting when they die, but this one doesn't.\""
+    ]
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "消耗品",
+    "category_en": "Consumables",
+    "name_ch": "黄金蜜饼",
+    "name_en": "Golden Honeycake",
+    "icon": "images/items/401031.png",
+    "lore_ch": "黄金蜜饼，可以称得上是翁法罗斯历史最悠久的美食，也是过去贵族们热爱享用的高级甜品。在奥赫玛的传信石版上，它正在成为一种具有时尚性质的热门食物……\\n\\n\\n\\n",
+    "lore_en": "Golden Honeycakes, one of the oldest delicacies in Amphoreus history, was once a favorite high-end dessert among the nobility. Now, it's becoming a trendy, fashionable food on Okhema's teleslate...\\n\\n\\n\\n",
+    "effect_ch": "使用后在下次战斗中，进入战斗时立即为我方全体回复等同于各自生命上限24%的生命值。",
+    "effect_en": "When entering the next battle, all allies immediately heal for 24% of their respective Max HP.",
+    "dialogue_ch": [
+      "「这东西最近火得也太快了吧…我可是土生土长的奥赫玛人，但我小时候都没在家里吃过甜味的煎饼！」",
+      "「好像是说有一家甜品店找万敌先生在传信石版上做了广告，爆火之后其他商家也眼红了起来……」",
+      "「…不过你别说，他们几家开发出来的味道确实都挺不错。」"
+    ],
+    "dialogue_en": [
+      "\"This thing blew up way too fast... I'm a native Okheman, but I never had sweet pancakes at home growing up!\"",
+      "\"Apparently, a dessert shop got Mr. Mydei to advertise it on the teleslate, and after it went viral, other businesses got envious...\"",
+      "\"...But honestly, you have to admit, the new flavors they've developed are actually pretty good.\""
+    ]
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "消耗品",
+    "category_en": "Consumables",
+    "name_ch": "黄金裔陶罐",
+    "name_en": "Chrysos Heir Dolium",
+    "icon": "images/items/408438.png",
+    "lore_ch": "以翁法罗斯传统工艺制成的陶罐，罐身绘制着黄金裔英雄们过往的英勇场景，颈部与底座则饰以精致的几何纹样。既可用于日常储水，也可作为祭祀供器。\\n\\n",
+    "lore_en": "A dolium crafted via traditional Amphoreus crafts, its surface adorned with scenes of past heroics by Chrysos Heirs. The neck and base feature intricate geometric patterns. It serves both as an everyday water vessel and as an offering in rituals.\\n\\n",
+    "effect_ch": "使用后我方全体在下次战斗中造成的伤害提高10%，造成的忆灵技伤害额外提高10%。",
+    "effect_en": "Upon use, increases all allies' DMG dealt by 10% and Memosprite Skill DMG dealt by an additional 10%.",
+    "dialogue_ch": [
+      "「我们用它盛水、祭祀，也用它讲述那些未竟的故事。」"
+    ],
+    "dialogue_en": [
+      "\"We use it to hold water, to make offerings, and to tell the stories yet unfinished.\""
+    ]
+  },
+  {
+    "version": "v3.3",
+    "category_ch": "消耗品",
+    "category_en": "Consumables",
+    "name_ch": "北地头盔",
+    "name_en": "Northern Helm",
+    "icon": "images/items/401034.png",
+    "lore_ch": "曾属于哀地里亚士兵的面甲，以极地冰原狼的鬃毛鞣制而成。外形可怖，畏惧死亡的敌人光是看见它就会丧失战意。\\n戴着它的战士们如野草般踏上战场，如露水般消逝。\\n\\n",
+    "lore_en": "Once belonged to a soldier of Aidonia, this helmet is crafted from the tanned mane of a direwolf. Its fearsome appearance alone is enough to sap the will of enemies who fear death.\\nWarriors who wore this helmet crept onto the battlefield like wild grass, and vanished like morning dew. \\n\\n",
+    "effect_ch": "使用后我方全体在下次战斗中获得的护盾量提高18%。",
+    "effect_en": "Upon use, all allies gain 18% increased Shield Effect for the next battle.",
+    "dialogue_ch": [
+      "「生者终将与亡魂同列，冥河渡桥不分先后。」——哀地里亚箴言"
+    ],
+    "dialogue_en": [
+      "\"The living shall one day join the dead. The bridge across the Styx knows no order.\" — Aidonia"
+    ]
+  },
+  {
+    "version": "v3.3",
+    "category_ch": "消耗品",
+    "category_en": "Consumables",
+    "name_ch": "君王的执棋",
+    "name_en": "Monarch's Maneuver",
+    "icon": "images/items/403014.png",
+    "lore_ch": "一种由宝石制成的新兴玩具。玩家各执黑白一方、效仿两军对垒，率先擒杀敌军王棋者方可取胜。然而在遥远的北地，却有这样一位独特的棋手——她总会在第一步挪动王棋，并且屡战屡胜。\\n\\n",
+    "lore_en": "A new toy made of gemstones. Players take turns as opposing sides, black and white, simulating a battlefield where victory is claimed by capturing the enemy's king. Yet in the distant Northern Lands, there exists a unique player, she always moves her king first, and wins time and time again.\\n\\n",
+    "effect_ch": "使用后我方全体在下次战斗中，速度提高16%，攻击力提高10%。",
+    "effect_en": "Upon use, increases all allies' SPD by 16% and their ATK by 10% for the next battle.",
+    "dialogue_ch": [
+      "「王不为先，臣岂愿随之？」"
+    ],
+    "dialogue_en": [
+      "\"Should the king not lead, how could the vassals be willing to follow?\""
+    ]
+  },
+  {
+    "version": "v3.3",
+    "category_ch": "消耗品",
+    "category_en": "Consumables",
+    "name_ch": "唤鱼骨笛",
+    "name_en": "Boneflute of Fish-Calling",
+    "icon": "images/items/403015.png",
+    "lore_ch": "相传在古老的斯缇科西亚海滨，渔民们会吹奏一种骨笛来吸引鱼群。有时潜伏于礁石中的海妖也会被这乐声吸引，冒出水面与渔民对唱；有时渔民会将骨笛赠予海妖，海妖则以鳞片作为回礼。\\n\\n",
+    "lore_en": "It is said that in the ancient coastal region of Styxia, fishermen would play a bone flute to attract schools of fish. Sometimes, sea sirens lurking among the reefs would also be drawn to the music, rising from the water to sing in duet with the fishermen. At times, the fishermen would gift the bone flute to the sea sirens, who in turn would offer their scales in return.\\n\\n",
+    "effect_ch": "使用后我方全体在下次战斗中攻击力提高15%，造成的持续伤害提高30%。",
+    "effect_en": "Upon use, increases ATK of all allies by 15% and DoT dealt by 30% for the next battle.",
+    "dialogue_ch": [
+      "「人们与海妖缔结盟约，许诺以一场盛宴，而那盛宴的主宾却被困于海面之下。」"
+    ],
+    "dialogue_en": [
+      "\"Humans and sea sirens forged a pact, promising a grand feast, yet the guest of honor was left trapped beneath the waves.\""
+    ]
+  },
+  {
+    "version": "v3.3",
+    "category_ch": "消耗品",
+    "category_en": "Consumables",
+    "name_ch": "奇兽残留物",
+    "name_en": "Bestial Remnant",
+    "icon": "images/items/402034.png",
+    "lore_ch": "众所周知，人不过是骨骼、血肉和几十克灵魂的结合，将其中任何一部分拆出来都不能独自存活。然而这块奇兽零件仍会时不时跳动，仿佛在发出不甘的呐喊。有学者解释说，这是因为它神经中的电信号尚未彻底湮灭。\\n\\n",
+    "lore_en": "It is well known that a human is merely the combination of bones, flesh, and a few dozen grams of soul. None of which can survive alone once separated. Yet this piece of a chimeric beast continues to twitch from time to time, as if letting out a defiant cry. Some scholars claim it's due to lingering neural impulses that haven't completely faded.\\n\\n",
+    "effect_ch": "使用后我方全体在下次战斗中的效果抵抗提高30%。",
+    "effect_en": "Upon use, increases Effect RES of all allies by 30% for the next battle.",
+    "dialogue_ch": [
+      "「又或者，生命真如我们想象中那样脆弱吗……」"
+    ],
+    "dialogue_en": [
+      "\"Or perhaps... life isn't as fragile as we've always believed...\""
+    ]
+  },
+  {
+    "version": "v3.3",
+    "category_ch": "消耗品",
+    "category_en": "Consumables",
+    "name_ch": "面包「干」",
+    "name_en": "\"Dried\" Bread",
+    "icon": "images/items/401036.png",
+    "lore_ch": "小麦是哀丽秘榭最主要的物产，以之为原材料制成的面包香甜可口、松软无比。如今村庄被黑潮摧毁，仅存的少量面包也早已风干变硬，只能作为纪念品而非食品。\\n\\n",
+    "lore_en": "Wheat was Aedes Elysiae's main produce. Bread made from it was sweet, soft, and incredibly delicious. Now that the village has been destroyed by the black tide, the few loaves that remain have long since dried out and hardened, serving only as mementos rather than food.\\n\\n",
+    "effect_ch": "使用后立即为我方指定单体回复等同于自身生命上限24%的生命值，并额外回复300点生命值。",
+    "effect_en": "Restores HP to one designated ally equal to 24% of their Max HP and additionally restores 300 HP immediately after use.",
+    "dialogue_ch": [
+      "「如果你足够坚持，其实也不是不能吃……」"
+    ],
+    "dialogue_en": [
+      "\"If you're determined enough, it's not entirely inedible...\""
+    ]
+  },
+  {
+    "version": "v3.3",
+    "category_ch": "消耗品",
+    "category_en": "Consumables",
+    "name_ch": "香炸蜜酪",
+    "name_en": "Deep-fried Honey Curd",
+    "icon": "images/items/401035.png",
+    "lore_ch": "受到贵族和公民们一致欢迎的昂贵美食，表面用甘蜜烤制出脆壳，内部是半融化的柔软奶酪。相传其发明者是黎明云崖的一位佚名祭司——他在挑选祭品时误将容器放在了燃烧的火炉旁。\\n\\n",
+    "lore_en": "A luxurious delicacy beloved by both nobles and citizens alike. Its surface is caramelized into a crisp shell with sweet honey, while the inside remains a soft, semi-melted cheese. It's said to have been invented by an anonymous priest from the Dawncloud, who accidentally left the offering vessel too close to a burning hearth during a ritual. \\n\\n",
+    "effect_ch": "使用后立即为我方指定单体恢复等同于自身能量上限30%能量。",
+    "effect_en": "Upon use, immediately regenerates energy to a designated ally equal to 30% of their maximum energy.",
+    "dialogue_ch": [
+      "「人类精心设计的食谱，常常败给偶然的神启。」"
+    ],
+    "dialogue_en": [
+      "\"Recipes meticulously crafted by humans are often bested by the gods' serendipitous revelations.\""
+    ]
+  },
+  {
+    "version": "v3.5",
+    "category_ch": "消耗品",
+    "category_en": "Consumables",
+    "name_ch": "好运满杯",
+    "name_en": "Abundance of Luck",
+    "icon": "images/items/402035.png",
+    "lore_ch": "那位灰发的异邦人为奥赫玛带来了很多新鲜概念，这款饮料就是其中之一。几位最顶尖的调饮师，经历十数个通宵的苦战，终于还原出了异邦人记忆中，那杯由领航员精心调配的「咖啡」。\\n据说，这甚至比记忆中的风味还要好上许多。\\n\\n",
+    "lore_en": "The gray-haired outlander brought many novel concepts to Okhema, and this drink was one of them. After countless sleepless nights and tireless effort, several of the best drinksmiths finally recreated the \"coffee\" that the Navigator had carefully crafted in the outlander's memories.\\nAccording to , it tasted even better than what  remembered.\\n\\n",
+    "effect_ch": "使用后立即为我方全体恢复30%的能量，在下次战斗中造成的伤害提高15%。",
+    "effect_en": "Upon use, immediately regenerates 30% Energy for all allies and increases DMG dealt by 15% for the next battle.",
+    "dialogue_ch": [
+      "「啊…原来咖啡不一定会灼伤食道啊！」"
+    ],
+    "dialogue_en": [
+      "\"Ah... so coffee doesn't have to scald your esophagus after all!\""
+    ]
+  },
+  {
+    "version": "v3.7",
+    "category_ch": "消耗品",
+    "category_en": "Consumables",
+    "name_ch": "扎格列斯严选红豆",
+    "name_en": "Zagreus' Premium Red Beans",
+    "icon": "images/items/180007.png",
+    "lore_ch": "据说是扎格列斯从树庭的花圃里收获的珍贵食材，不知道为什么储存在巴特鲁斯的大胃袋里。",
+    "lore_en": "Rumor has it that it's a precious ingredient that Zagreus harvested from the Grove's garden, but somehow ended up in Big Chungus Bartholos's massive belly.",
+    "effect_ch": "使用后我方全体在下次战斗中防御力提高30%。",
+    "effect_en": "Upon use, increases DEF of all allies by 30% for the next battle."
+  },
+  {
+    "version": "v3.7",
+    "category_ch": "消耗品",
+    "category_en": "Consumables",
+    "name_ch": "扎格列斯严选蜜酪",
+    "name_en": "Zagreus' Premium Honey Curd",
+    "icon": "images/items/401035.png",
+    "lore_ch": "据说是扎格列斯从奥赫玛名厨的灶台上偷来的昂贵美食，不知道为什么储存在巴特鲁斯的大胃袋里。",
+    "lore_en": "Rumor has it that it's an expensive delicacy stolen by Zagreus from the kitchen of Okhema's master chef, but somehow ended up in Big Chungus Bartholos's massive belly.",
+    "effect_ch": "使用后立即为我方指定单体恢复等同于自身能量上限25%能量。",
+    "effect_en": "Upon use, immediately regenerates 25% of Max Energy for one designated ally."
+  },
+  {
+    "version": "v3.7",
+    "category_ch": "消耗品",
+    "category_en": "Consumables",
+    "name_ch": "扎格列斯严选视肉",
+    "name_en": "Zagreus' Premium Viscorpus",
+    "icon": "images/items/403007.png",
+    "lore_ch": "据说是扎格列斯…咳咳，不要问巴特鲁斯从哪里搞到这种异世文明的食材。反正和巴特鲁斯的胃没有关系。",
+    "lore_en": "Rumor has it that it's from Zagreus... *ahem*, don't ask where Bartholos got these otherworldly ingredients from. It matters not to his stomach anyway.",
+    "effect_ch": "使用后我方全体在下次战斗中造成的冰属性伤害提高20%。",
+    "effect_en": "Upon use, increases Ice DMG of all allies by 20% for the next battle."
+  },
+  {
+    "version": "v3.7",
+    "category_ch": "消耗品",
+    "category_en": "Consumables",
+    "name_ch": "扎格列斯严选面包干",
+    "name_en": "Zagreus' Premium Bread Crisps",
+    "icon": "images/items/401036.png",
+    "lore_ch": "据说是扎格列斯在某个乡村收获的土特产纪念品，不知道为什么储存在巴特鲁斯的大胃袋里。",
+    "lore_en": "Rumor has it that it's a local souvenir Zagreus picked up from a particular village, but somehow ended up in Big Chungus Bartholos's massive belly.",
+    "effect_ch": "使用后立即为我方指定单体回复等同于自身生命上限20%的生命值，并额外回复240点生命值。",
+    "effect_en": "Upon use, immediately heals one designated ally by 20% of their Max HP plus 240 extra HP."
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "「命运重渊」的颂言石板",
+    "name_en": "\"Abyss of Fate\" Hymn Tablet",
+    "icon": "images/items/150056.png",
+    "lore_ch": "记载颂诗与其它什么的石板，预言所指向的终点。据说这些碎片中藏着一个秘密，那秘密是如此重大，以至于它自己都希望被人发现。\\n\\n",
+    "lore_en": "A tablet inscribed with hymns and other writings, prophesying towards the end. It is said that within these fragments lies a secret so profound that it longs to be uncovered.\\n\\n",
+    "dialogue_ch": [
+      "「神谕从不以直白的言辞承载。」——佚名祭司"
+    ],
+    "dialogue_en": [
+      "\"Prophecies never carry their message in plain words.\" — Anonymous Priest"
+    ]
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "「永恒圣城」的颂言石板",
+    "name_en": "\"Eternal Holy City\" Hymn Tablet",
+    "icon": "images/items/150059.png",
+    "lore_ch": "记载颂诗与其它什么的石板，预言所指向的终点。据说这些碎片中藏着一个秘密，那秘密是如此重大，以至于它自己都希望被人发现。\\n\\n",
+    "lore_en": "A tablet inscribed with hymns and other writings, prophesying towards the end. It is said that within these fragments lies a secret so profound that it longs to be uncovered.\\n\\n",
+    "dialogue_ch": [
+      "「神谕从不以直白的言辞承载。」——佚名祭司"
+    ],
+    "dialogue_en": [
+      "\"Prophecies never carry their message in plain words.\" — Anonymous Priest"
+    ]
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "「浴血战端」的颂言石板",
+    "name_en": "\"Bloodbathed Battlefront\" Hymn Tablet",
+    "icon": "images/items/150058.png",
+    "lore_ch": "记载颂诗与其它什么的石板，预言所指向的终点。据说这些碎片中藏着一个秘密，那秘密是如此重大，以至于它自己都希望被人发现。\\n\\n",
+    "lore_en": "A tablet inscribed with hymns and other writings, prophesying towards the end. It is said that within these fragments lies a secret so profound that it longs to be uncovered.\\n\\n",
+    "dialogue_ch": [
+      "「神谕从不以直白的言辞承载。」——佚名祭司"
+    ],
+    "dialogue_en": [
+      "\"Prophecies never carry their message in plain words.\" — Anonymous Priest"
+    ]
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "「纷争荒墟」的颂言石板",
+    "name_en": "\"Strife Ruins\" Hymn Tablet",
+    "icon": "images/items/150057.png",
+    "lore_ch": "记载颂诗与其它什么的石板，预言所指向的终点。据说这些碎片中藏着一个秘密，那秘密是如此重大，以至于它自己都希望被人发现。\\n\\n",
+    "lore_en": "A tablet inscribed with hymns and other writings, prophesying towards the end. It is said that within these fragments lies a secret so profound that it longs to be uncovered.\\n\\n",
+    "dialogue_ch": [
+      "「神谕从不以直白的言辞承载。」——佚名祭司"
+    ],
+    "dialogue_en": [
+      "\"Prophecies never carry their message in plain words.\" — Anonymous Priest"
+    ]
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "三月七的相机",
+    "name_en": "March 7th's Camera",
+    "icon": "images/items/140540.png",
+    "lore_ch": "重要伙伴三月七托付给你的照相机，联想到她的网名，或许相机才是三月七的本体。\\n\\n",
+    "lore_en": "A camera entrusted to you by your dear companion, March 7th. Taking her alias into account... Perhaps this camera is actually March 7th's true form. \\n\\n",
+    "dialogue_ch": [
+      "「记得多拍些照片啊，我会检查作业的！」"
+    ],
+    "dialogue_en": [
+      "\"Remember to take more photographs. I'll check on you!\""
+    ]
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "个头不大的悬锋重剑",
+    "name_en": "Relatively Small Greatsword of Kremnos",
+    "icon": "images/items/140536.png",
+    "lore_ch": "悬锋城特色武器悬锋重剑，只是似乎断了一截，好像被人重新翻修过。",
+    "lore_en": "A Kremnos Greatsword, a type of weapon unique to Castrum Kremnos. Its blade appears to be fractured, as though it has been reforged."
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "传信石版",
+    "name_en": "Teleslate",
+    "icon": "images/items/408439.png",
+    "lore_ch": "属于波瑟芬妮的传信石版。根据你所看到的记忆，波瑟芬妮似乎确有一丝可能从哈德斯手中成功逃脱。",
+    "lore_en": "A teleslate belonging to Possephone. From the memory you observed, it seems there was a glimmer of hope that Possephone could have escaped from Hadez."
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "卷轴",
+    "name_en": "Scroll",
+    "icon": "images/items/190017.png",
+    "lore_ch": "一个破破烂烂的卷轴，根据记忆中所见，这玩意是拉达曼用来坑害两人的仿制品。",
+    "lore_en": "A tattered and torn scroll. Based on the memory you observed, it is a replica of the one Rhadaman used to trap the married couple."
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "吉奥里亚的余火",
+    "name_en": "Georios' Embers",
+    "icon": "images/items/140539.png",
+    "lore_ch": "造型古旧的火炬，据说其中盛放的是吉奥里亚尚未燃尽的火苗。待到长夜降临时，或许能为黑暗中的世界带来一丝光明。\\n\\n",
+    "lore_en": "An ancient-looking torch, said to hold the last unextinguished cinders of Georios. When the long night descends, it might bring a glimmer of light to a world in darkness.\\n\\n",
+    "dialogue_ch": [
+      "「呼呼，怕黑的话，就把我时刻带在身边吧。」"
+    ],
+    "dialogue_en": [
+      "\"Heh, if you're afraid of the dark, just keep me by your side.\""
+    ]
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "吟游诗人的记忆碎片",
+    "name_en": "Bard's Memory Fragment",
+    "icon": "images/items/140519.png",
+    "lore_ch": "这份有关悬锋城过往的记忆来自一名吟游诗人，赞美着纷争泰坦永不磨灭的荣耀。",
+    "lore_en": "This memory of Castrum Kremnos comes from a bard, who praises the never-ending glory of the Strife Titan."
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "哈托努斯的记忆碎片",
+    "name_en": "Chartonus' Memory Fragment",
+    "icon": "images/items/140520.png",
+    "lore_ch": "这份有关悬锋城过往的记忆来自大工匠哈托努斯，似乎印刻着山之民一族的沉重历史。",
+    "lore_en": "This memory of Castrum Kremnos originates from the Grand Craftsman Chartonus, seemingly carrying with it the profound and weighty history of the Mountain Dwellers."
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "少量红土饲料",
+    "name_en": "Small Amount of Redsoil Feed",
+    "icon": "images/items/140544.png",
+    "lore_ch": "干湿比例正好的高纯度红土，大地兽们最爱的食粮。",
+    "lore_en": "Exceptionally pure redsoil feed, crafted with the ideal wet-to-dry ratio. It's the absolute favorite treat of dromases."
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "廉价物资",
+    "name_en": "Cheap Supplies",
+    "icon": "images/items/300051.png",
+    "lore_ch": "最廉价的食物，有些已经腐败，但对快饿死的人来说也没什么可挑剔的。",
+    "lore_en": "The cheapest food available — some of it already spoiled — but for the starving, there's no room for choice."
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "悬锋城徽记",
+    "name_en": "Castrum Kremnos Crest",
+    "icon": "images/items/140513.png",
+    "lore_ch": "象征尼卡多利赐福的徽记，拥有赐福徽记的泰坦眷属往往高呼荣耀、百战不倒。\\n\\n",
+    "lore_en": "A crest representing the benediction of Nikador — Titankins bearing this crest often proclaim their glory and invincibility in battle. \\n\\n",
+    "dialogue_ch": [
+      "「掉率好高！慷慨哉，尼卡多利！」"
+    ],
+    "dialogue_en": [
+      "\"What a high drop rate! Thank you for your generosity, Nikador!\""
+    ]
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "悬锋祭典的老照片",
+    "name_en": "Old Kremnos Festival Photo",
+    "icon": "images/items/140543.png",
+    "lore_ch": "达米亚诺斯所摄有关悬锋祭典的老照片，照片有些模糊，但依稀能看出祭典规模之宏。",
+    "lore_en": "An old photograph of the Kremnos Festival, taken by Damionis. Though slightly blurred, it still faintly captures the grand scale of the festival."
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "标准物资",
+    "name_en": "Standard Supplies",
+    "icon": "images/items/300051.png",
+    "lore_ch": "新鲜的食物，有简单的营养搭配。寻常人家吃上几顿也不会嫌弃，将死之人见了如沐甘霖。",
+    "lore_en": "Fresh food with simple, balanced nutrition. Commoners might tolerate it for a few meals, but for those on the brink of starvation, it tastes as sweet as honey."
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "画作《尼卡多利鏖战粉霞天女》",
+    "name_en": "Artwork <i>Nikador Battles the Rosy Celestial Maiden</i>",
+    "icon": "images/items/140542.png",
+    "lore_ch": "艺术商趁浪逐波推出的「粉霞天女」系列画作之一，你一看到上面三月七鏖战的英姿就忍俊不禁。\\n\\n",
+    "lore_en": "A painting from the Rosy Celestial Maiden series, released by an opportunistic art dealer. You can't help but chuckle upon seeing March 7th's dashing form as she fights in this painting.\\n\\n",
+    "dialogue_ch": [
+      "「地摊文学，永不过时的艺术。」"
+    ],
+    "dialogue_en": [
+      "\"Street stall art can never go out of style.\""
+    ]
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "石板",
+    "name_en": "Slate",
+    "icon": "images/items/190020.png",
+    "lore_ch": "波瑟芬妮藏在软垫中的石板。上面所记录的内容，似乎是哈德斯对她动手的主要理由。",
+    "lore_en": "A slate that is hidden by Possephone within the cushion. Its contents appear to reveal why Hadez acted against her."
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "神秘的佳酿",
+    "name_en": "Mystical Philter",
+    "icon": "images/items/401032.png",
+    "lore_ch": "神秘仪式上必备的献祭用品，闻起来似乎有点古怪的酸味。",
+    "lore_en": "An essential sacrificial item for a mysterious ritual. It smells a little sour."
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "神秘的种子",
+    "name_en": "Mystical Seeds",
+    "icon": "images/items/180007.png",
+    "lore_ch": "神秘仪式上必备的献祭用品，看上去有点干瘪。",
+    "lore_en": "An essential sacrificial item for a mysterious ritual. It looks slightly dried up."
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "神秘的黑土",
+    "name_en": "Mystical Blacksoil",
+    "icon": "images/items/408001.png",
+    "lore_ch": "神秘仪式上必备的献祭用品，有点结块。",
+    "lore_en": "An essential sacrificial item for a mysterious ritual. It's somewhat clotted."
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "神秘礼物（大）",
+    "name_en": "Mysterious Gift (L)",
+    "icon": "images/items/300052.png",
+    "lore_ch": "隐藏在门扉后的神秘礼物，看起来就很贵重，究竟会是什么呢？",
+    "lore_en": "A mysterious gift hidden behind the door, looking very valuable. What could it be?"
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "神秘礼物（小）",
+    "name_en": "Mysterious Gift (S)",
+    "icon": "images/items/300051.png",
+    "lore_ch": "隐藏在门扉后的神秘礼物，外观似乎有些简陋，究竟会是什么呢？",
+    "lore_en": "A mysterious gift hidden behind the door, looking somewhat plain in appearance. What could it be?"
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "纹路稍浅的钢爪匕首",
+    "name_en": "Steel Claw Dagger with Faded Patterns",
+    "icon": "images/items/140534.png",
+    "lore_ch": "悬锋城特色武器钢爪匕首，只是握柄处纹路已被磨损，看上去并不完全崭新。",
+    "lore_en": "A Steelclaw Dagger, a type of weapon unique to Castrum Kremnos. Its grip shows signs of wear, with the patterns faded, giving it the look of an old blade."
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "翻飞之币",
+    "name_en": "Coin of Whimsy",
+    "icon": "images/items/150060.png",
+    "lore_ch": "诡计的泰坦之信物，如同它在神话中的身形，哭笑两面，翻飞自如。最早是欺诈者用来顶替利衡的伪币，他们担忧这样的行为会招来塔兰顿的惩戒，所以将其制成扎格列斯的样子，借此寻求诡计的赐福。\\n但随着岁月流转，这种硬币反倒因为制作困难而变得比利衡更加珍贵，成为了贵族与艺术家们钟爱的收藏品——当然，这也可能是扎格列斯的诡计之一。\\n\\n",
+    "lore_en": "The token of the Trickery Titan. Like the Titan's mythical form, the coin has two faces, one smiling, one crying, effortlessly flipping in the air. It was originally used by fraudsters as counterfeit coins to replace the Balance Coins. Fearing that such actions would invoke Talanton's punishment, they crafted it in the image of Zagreus, seeking the blessing of Trickery.\\nHowever, as time passed, these coins became more precious than the Balance Coins due to the difficulty of their creation, becoming a favorite collectible of nobles and artists — though this could also be one of Zagreus' tricks.\\n\\nOde of Trickery",
+    "dialogue_ch": [
+      "「滚动的金币化作车轮，盗贼隐匿身形，赌徒一掷千金。」——《诡计颂歌》"
+    ],
+    "dialogue_en": [
+      "\"Rolling coins turn into wheels, thieves conceal their forms, gamblers wager fortunes.\" —"
+    ]
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "色泽黯淡的悬锋盾牌",
+    "name_en": "Dull Kremnos Shield",
+    "icon": "images/items/140535.png",
+    "lore_ch": "悬锋城特色武器悬锋盾牌，只是色泽有些黯淡，看上去有些年份了。",
+    "lore_en": "The Kremnos Shield, a type of weapon unique to Castrum Kremnos. It just has a slightly dull coloration, giving it an aged appearance."
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "记忆残晶",
+    "name_en": "Memory Crystal Shard",
+    "icon": "images/items/140531.png",
+    "lore_ch": "储存着记忆力量的奇异晶体，随着你旅途中的见闻而出现。晶体映出的光影似乎在演绎着熟悉的情景，将其置于耳畔，也能听到熟悉的低语声……",
+    "lore_en": "Strange crystals that store the power of Remembrance appear as you journey along. The light and shadows cast by the crystals seem to play out familiar scenes, and if you place them close to your ear, you can even hear the familiar whispers..."
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "记载着神秘仪式的卷轴",
+    "name_en": "Scroll of Mysterious Rites",
+    "icon": "images/items/190016.png",
+    "lore_ch": "破旧的卷轴，上面记载着某个流传已久的神秘仪式的步骤，并附带了不知名人士的批注。\\n\\n",
+    "lore_en": "A tattered scroll detailing the steps of an ancient, mysterious ritual, with annotations from an unknown person.\\n\\n",
+    "dialogue_ch": [
+      "「天知道能召唤出什么东西……」"
+    ],
+    "dialogue_en": [
+      "\"Who knows what this might summon...\""
+    ]
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "记载预言的金织-「命运重渊」",
+    "name_en": "Portentous Goldwoven: Abyss of Fate",
+    "icon": "images/items/190017.png",
+    "lore_ch": "记载了预言的卷册。仔细观察才能发现，卷面是由金丝织就的。\\n\\n",
+    "lore_en": "A tome containing prophecies. Upon closer inspection, one will discover that the scroll is woven from golden threads.\\n\\n",
+    "dialogue_ch": [
+      "「此中包含着一则预言，它只向开卷者示现。」"
+    ],
+    "dialogue_en": [
+      "\"There is a prophecy within that will only be revealed to the one who opens the scroll.\""
+    ]
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "记载预言的金织-「浴血战端」",
+    "name_en": "Portentous Goldwoven: Bloodbathed Battlefront",
+    "icon": "images/items/190017.png",
+    "lore_ch": "记载了预言的卷册。仔细观察才能发现，卷面是由金丝织就的。\\n\\n",
+    "lore_en": "A tome containing prophecies. Upon closer inspection, one will discover that the scroll is woven from golden threads.\\n\\n",
+    "dialogue_ch": [
+      "「此中包含着一则预言，它只向开卷者示现。」"
+    ],
+    "dialogue_en": [
+      "\"There is a prophecy within that will only be revealed to the one who opens the scroll.\""
+    ]
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "记载预言的金织-「纷争荒墟」",
+    "name_en": "Portentous Goldwoven: Strife Ruins",
+    "icon": "images/items/190017.png",
+    "lore_ch": "记载了预言的卷册。仔细观察才能发现，卷面是由金丝织就的。\\n\\n",
+    "lore_en": "A tome containing prophecies. Upon closer inspection, one will discover that the scroll is woven from golden threads.\\n\\n",
+    "dialogue_ch": [
+      "「此中包含着一则预言，它只向开卷者示现。」"
+    ],
+    "dialogue_en": [
+      "\"There is a prophecy within that will only be revealed to the one who opens the scroll.\""
+    ]
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "豪华物资",
+    "name_en": "Luxurious Supplies",
+    "icon": "images/items/300051.png",
+    "lore_ch": "堪称奢侈的精加工食物，每道都是十足的珍馐。寻常人家吃了能回味一周，饥民则会从地狱直达天堂。",
+    "lore_en": "Exquisitely refined dishes, each a delicate masterpiece. An ordinary family may savor them for a week, while the starving would be swept straight to heaven with each bite."
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "达米亚诺斯的记忆碎片",
+    "name_en": "Damionis' Memory Fragment",
+    "icon": "images/items/140521.png",
+    "lore_ch": "这份有关悬锋城过往的记忆来自冒险家达米亚诺斯，展现了悬锋城曾经的辉煌时刻。",
+    "lore_en": "This memory of Castrum Kremnos stems from an adventurer named Damionis, showcasing the golden era of the city's grandeur."
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "金色遗骨",
+    "name_en": "Golden Remains",
+    "icon": "images/items/140526.png",
+    "lore_ch": "完成神秘挑战后获得的战利品。如果仔细聆听，空洞的颅骨中似乎回荡着某种悲怆的低语。\\n\\n",
+    "lore_en": "A trophy obtained after completing a mysterious challenge. If you listen carefully, you will hear some mournful mutters reverberating within the hollow skull.\\n\\n",
+    "dialogue_ch": [
+      "「乐园是这样一种地方：知道它是乐园的人没法回去；不知道它是乐园的人正在那里寻找乐园。」"
+    ],
+    "dialogue_en": [
+      "\"This is what paradise is like: Those who know that it is a paradise cannot return. Those who do not know it is a paradise seek wonderland within its expanse.\""
+    ]
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "雅努斯祭司符节",
+    "name_en": "Janus Priest's Talisman",
+    "icon": "images/items/140556.png",
+    "lore_ch": "象征雅努斯祭司身份的石符，能够响应并开启万径之门。",
+    "lore_en": "A stone seal that symbolizes one's identity as a priest of Janus. It can resound with and open the Gate of Infinity."
+  },
+  {
+    "version": "v3.1",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "「呓语密林」的颂言石板（其一）",
+    "name_en": "\"Murmuring Woods\" Hymn Tablet (I)",
+    "icon": "images/items/150065.png",
+    "lore_ch": "记载颂诗与其它什么的石板，预言所指向的终点。据说这些碎片中藏着一个秘密，那秘密是如此重大，以至于它自己都希望被人发现。\\n\\n",
+    "lore_en": "A tablet inscribed with hymns and other writings, prophesying towards the end. It is said that within these fragments lies a secret so profound that it longs to be uncovered.\\n\\n",
+    "dialogue_ch": [
+      "「神谕从不以直白的言辞承载。」——佚名祭司"
+    ],
+    "dialogue_en": [
+      "\"Prophecies never carry their message in plain words.\" — Anonymous Priest"
+    ]
+  },
+  {
+    "version": "v3.1",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "「呓语密林」的颂言石板（其二）",
+    "name_en": "\"Murmuring Woods\" Hymn Tablet (II)",
+    "icon": "images/items/150066.png",
+    "lore_ch": "记载颂诗与其它什么的石板，预言所指向的终点。据说这些碎片中藏着一个秘密，那秘密是如此重大，以至于它自己都希望被人发现。\\n\\n",
+    "lore_en": "A tablet inscribed with hymns and other writings, prophesying towards the end. It is said that within these fragments lies a secret so profound that it longs to be uncovered.\\n\\n",
+    "dialogue_ch": [
+      "「神谕从不以直白的言辞承载。」——佚名祭司"
+    ],
+    "dialogue_en": [
+      "\"Prophecies never carry their message in plain words.\" — Anonymous Priest"
+    ]
+  },
+  {
+    "version": "v3.1",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "「岁月」的火种",
+    "name_en": "Coreflame of Time",
+    "icon": "images/items/140569.png",
+    "lore_ch": "岁月之泰坦，欧洛尼斯陨落的灵魂。火种亟待归位，半神将在战胜试炼后接过虚位的权柄。",
+    "lore_en": "The fallen soul of Oronyx the Time Titan. The Coreflame urgently awaits to return to its place, and its demigod will assume the authority of the vacant station after completing the trial."
+  },
+  {
+    "version": "v3.1",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "「工作冠军」奖章",
+    "name_en": "\"Work Champion\" Medal",
+    "icon": "images/items/140568.png",
+    "lore_ch": "生命花园颁发的纪念奖章，用以表彰获得冠军的奇美拉小队所付出的辛劳与汗水。\\n\\n",
+    "lore_en": "A memorial medal issued by the Garden of Life to reward the sweat and tears shed by Chimera Squad that took the crown.\\n\\n",
+    "dialogue_ch": [
+      "「——给最勤劳的奇美拉。期望看到你在后续工作中的成长与突破！」"
+    ],
+    "dialogue_en": [
+      "\"To the most diligent chimera. We hope to see growth and improvement in your future work!\""
+    ]
+  },
+  {
+    "version": "v3.1",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "「阿塔卡玛的佩剑」",
+    "name_en": "Artakama's Sword",
+    "icon": "images/items/140534.png",
+    "lore_ch": "树庭的黄金裔学者——阿塔卡玛的佩剑。在那场抵御黑潮的战役中，这柄剑陪伴着主人战斗到了最后一刻；而在阿塔卡玛倒下后，又由其妹库娜涅拾起，直至无穷无尽的怪物们将一切鲜活血肉吞噬殆尽。",
+    "lore_en": "The sword once wielded by Artakama, a Chrysos Heir scholar of the Grove. In the dire battle against the black tide, this sword stood steadfast by its master until her final breath. Following Artakama's demise, her younger sister, Cynane, picked up the sword and continued the fight until the ceaseless swarms of monsters devoured everything living."
+  },
+  {
+    "version": "v3.1",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "安德烈亚斯的仪式药引",
+    "name_en": "Andreas' Ceremonial Medicine Enhancer",
+    "icon": "images/items/402008.png",
+    "lore_ch": "据说，这种看起来有些危险的粉末，能在祭拜泰坦的仪式中让参与者的意识更接近泰坦的思想。\\n\\n\\n\\n\\n\\n",
+    "lore_en": "It is said that this somewhat hazardous-looking powder helps participants in Titan-worship ceremonies attune their consciousness to the thoughts of the Titans.\\n\\n\\n\\n\\n\\n",
+    "dialogue_ch": [
+      "「所以它的成分到底是什么？」",
+      "「一种未提纯的植物性糖分。」",
+      "「啊？所以吃它只是吃糖？」",
+      "「是的。仪式的时间毕竟很长，空腹的参与者很容易因为低血糖而无法坚持。」",
+      "「……」"
+    ],
+    "dialogue_en": [
+      "\"So, what exactly is it made of?\"",
+      "\"An unrefined plant-based sugar.\"",
+      "\"Huh? So eating it just means eating sugar?\"",
+      "\"Yes. The ceremonies are quite lengthy, and fasting participants often struggle to endure due to low blood sugar.\"",
+      "\"...\""
+    ]
+  },
+  {
+    "version": "v3.1",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "安德烈亚斯的工作证",
+    "name_en": "Andreas' Work Permit",
+    "icon": "images/items/190020.png",
+    "lore_ch": "一张破损的树庭工作证，上面依稀可辨的名字是「安德烈亚斯」。",
+    "lore_en": "A damaged Grove of Epiphany work permit with the name \"Andreas.\""
+  },
+  {
+    "version": "v3.1",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "尼科马库斯的工作证",
+    "name_en": "Nicomachus' Work Permit",
+    "icon": "images/items/190020.png",
+    "lore_ch": "一张沾染了血迹的树庭工作证，上面的名字是「尼科马库斯」。",
+    "lore_en": "A bloodied Grove of Epiphany work permit with the name \"Nicomachus.\""
+  },
+  {
+    "version": "v3.1",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "尼科马库斯的笔记本",
+    "name_en": "Nicomachus' Notebook",
+    "icon": "images/items/190017.png",
+    "lore_ch": "一个看上去平平无奇的卷轴，内里写满了各种各样的算式和符号，即使联觉信标也很难全部做出可信的翻译。\\n\\n\\n",
+    "lore_en": "A seemingly unremarkable scroll filled with various equations and symbols, so complex that even the Synesthesia Beacon struggles to provide a reliable translation.\\n\\n\\n",
+    "dialogue_ch": [
+      "「自指是最困难的问题——它不仅使得数学丧失了完备性，也使得我们的灵魂在逻辑系统中变得扑朔迷离。」",
+      "「这个方程应当是成立的，我有个很棒的证明…可惜这里空白太小，写不下。」"
+    ],
+    "dialogue_en": [
+      "\"Self-reference is the most challenging problem — it not only strips mathematics of its completeness but also renders our souls enigmatic within the logical system.\"",
+      "\"This equation should hold true. I have an excellent proof... but alas, the space here is too tiny for it.\""
+    ]
+  },
+  {
+    "version": "v3.1",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "引纬",
+    "name_en": "Weft",
+    "icon": "images/items/140566.png",
+    "lore_ch": "黄金的纺锤，为「金织」阿格莱雅所有，是为传世珍品。\\n\\n",
+    "lore_en": "A golden spindle that belongs to \"Goldweaver\" Aglaea. A legendary treasure.\\n\\n",
+    "dialogue_ch": [
+      "「循金丝去，如神那般收敛一切的爱。」"
+    ],
+    "dialogue_en": [
+      "\"Follow the golden thread, the love that contains all like the gods.\""
+    ]
+  },
+  {
+    "version": "v3.1",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "燃烧金枝誓言",
+    "name_en": "Burning Golden Bough of Vows",
+    "icon": "images/items/140533.png",
+    "lore_ch": "奇异的水生花朵，琥珀色的余火隐隐摇动。\\n传闻是为两位尊神永恒誓愿的信物，如今承托其中一方灵魂。",
+    "lore_en": "Strange aquatic flowers, their amber-colored soft flames sway imperceptibly.\\nIt is said that they are tokens of the eternal vows between two revered deities, and now it holds the soul of one of them."
+  },
+  {
+    "version": "v3.1",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "神血蜜露",
+    "name_en": "Dew of Divine Blood",
+    "icon": "images/items/140567.png",
+    "lore_ch": "翁法罗斯稀世佳酿，传说用众泰坦各自神血浇灌的作物酿成。\\n此樽源于黄金之茧，墨涅塔之「浪漫」。",
+    "lore_en": "A rare Amphorean fine wine. It is said to be brewed from crops nourished by the divine blood of each Titan.\\nThis particular bottle originates from the Chrysalis of Gold, Mnestia of Romance."
+  },
+  {
+    "version": "v3.1",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "神血蜜露",
+    "name_en": "Dew of Divine Blood",
+    "icon": "images/items/140591.png",
+    "lore_ch": "据传法吉娜曾于海床中埋下十二瓶佳酿，以待千年后品尝。然而直到黑潮吞噬了「满溢之杯」的歌声，这些陈酿也未被启封分毫。\\n\\n此为十二宝瓶中最为甜美的一樽，经由最后一位海妖之手来到陆地。其中蕴含的神力足以驱散一切迷雾。",
+    "lore_en": "Phagousa was said to have buried twelve bottles of fine vintage beneath the seabed, hoping to savor them a thousand years later. But even as the black tide silenced the song of Chalice of Plenty, not a single drop had been uncorked.\\n\\nThis bottle, sweetest of the twelve vintages, was brought ashore by the last surviving sea siren. The divine power it holds can pierce through any fog."
+  },
+  {
+    "version": "v3.1",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "科洛埃的实验作物",
+    "name_en": "Clio's Experimental Crop",
+    "icon": "images/items/180009.png",
+    "lore_ch": "一束在天外世界非常普通，但于翁法罗斯不算常见的谷物。\\n标本上的标签显示，它是实验的第330代成果——或许这项实验已经持续了数百年之久。\\n\\n",
+    "lore_en": "A grain that is quite ordinary in realms beyond the sky but uncommon in Amphoreus.\\nThe label on the specimen indicates it is the 330th generation of an experiment — perhaps the experiment has been ongoing for centuries.\\n\\n",
+    "dialogue_ch": [
+      "「在选育过程中，作物对黑潮的耐性已经大幅提升。下一步将尝试让它们从黑潮中吸收能量，在无光的环境也能生存，打破没有生物能够在黑潮中存活的一般认知。」"
+    ],
+    "dialogue_en": [
+      "\"During the breeding process, the crop's resistance to the black tide has significantly improved. The next step will attempt to enable the crops to absorb energy from the black tide and survive in lightless environments, challenging the conventional belief that no life can endure within the black tide.\""
+    ]
+  },
+  {
+    "version": "v3.1",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "科洛埃的工作证",
+    "name_en": "Clio's Work Permit",
+    "icon": "images/items/190020.png",
+    "lore_ch": "一张被汗水渗得皱巴巴的树庭工作证，上面的名字是「科洛埃」。",
+    "lore_en": "A Grove of Epiphany work permit wrinkled with sweat with the name \"Clio.\""
+  },
+  {
+    "version": "v3.1",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "记载预言的金织-「呓语密林」",
+    "name_en": "Portentous Goldwoven: Murmuring Woods",
+    "icon": "images/items/190017.png",
+    "lore_ch": "记载了预言的卷册。仔细观察才能发现，卷面是由金丝织就的。\\n",
+    "lore_en": "A tome containing prophecies. Upon closer inspection, one will discover that the scroll is woven from golden threads.\\n",
+    "dialogue_ch": [
+      "「此中包含着一则预言，它只向开卷者示现。」"
+    ],
+    "dialogue_en": [
+      "\"There is a prophecy within that will only be revealed to the one who opens the scroll.\""
+    ]
+  },
+  {
+    "version": "v3.1",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "记载预言的金织-「神谕圣地」",
+    "name_en": "Portentous Goldwoven: Sanctum of Prophecy",
+    "icon": "images/items/190017.png",
+    "lore_ch": "记载了预言的卷册。仔细观察才能发现，卷面是由金丝织就的。\\n",
+    "lore_en": "A tome containing prophecies. Upon closer inspection, one will discover that the scroll is woven from golden threads.\\n",
+    "dialogue_ch": [
+      "「此中包含着一则预言，它只向开卷者示现。」"
+    ],
+    "dialogue_en": [
+      "\"There is a prophecy within that will only be revealed to the one who opens the scroll.\""
+    ]
+  },
+  {
+    "version": "v3.1",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "金枝誓言",
+    "name_en": "Golden Bough of Vows",
+    "icon": "images/items/140532.png",
+    "lore_ch": "奇异的水生花朵，光泽耀眼而温暖。\\n传闻是为两位尊神永恒誓愿的信物。",
+    "lore_en": "Strange aquatic flowers, their sheen dazzling and warm.\\nIt is said that they are tokens of the eternal vows between two revered deities."
+  },
+  {
+    "version": "v3.2",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "「死亡」的火种",
+    "name_en": "Coreflame of Death",
+    "icon": "images/items/140574.png",
+    "lore_ch": "死亡之泰坦，塞纳托斯陨落的灵魂。火种亟待归位，「死亡」的半神已战胜试炼、接过泰坦的权柄。",
+    "lore_en": "The fallen soul of Thanatos the Death Titan. The Coreflame urgently awaits to return to its place. The demigod of Death has already overcome the trial and assumed the authority of the Titan."
+  },
+  {
+    "version": "v3.2",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "「神谕圣地」的颂言石板（其一）",
+    "name_en": "\"Sanctum of Prophecy\" Hymn Tablet (I)",
+    "icon": "images/items/150063.png",
+    "lore_ch": "记载颂诗与其它什么的石板，预言所指向的终点。据说这些碎片中藏着一个秘密，那秘密是如此重大，以至于它自己都希望被人发现。\\n\\n",
+    "lore_en": "A tablet inscribed with hymns and other writings, prophesying towards the end. It is said that within these fragments lies a secret so profound that it longs to be uncovered.\\n\\n",
+    "dialogue_ch": [
+      "「神谕从不以直白的言辞承载。」——佚名祭司"
+    ],
+    "dialogue_en": [
+      "\"Prophecies never carry their message in plain words.\" — Anonymous Priest"
+    ]
+  },
+  {
+    "version": "v3.2",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "「神谕圣地」的颂言石板（其二）",
+    "name_en": "\"Sanctum of Prophecy\" Hymn Tablet (II)",
+    "icon": "images/items/150064.png",
+    "lore_ch": "记载颂诗与其它什么的石板，预言所指向的终点。据说这些碎片中藏着一个秘密，那秘密是如此重大，以至于它自己都希望被人发现。\\n\\n",
+    "lore_en": "A tablet inscribed with hymns and other writings, prophesying towards the end. It is said that within these fragments lies a secret so profound that it longs to be uncovered.\\n\\n",
+    "dialogue_ch": [
+      "「神谕从不以直白的言辞承载。」——佚名祭司"
+    ],
+    "dialogue_en": [
+      "\"Prophecies never carry their message in plain words.\" — Anonymous Priest"
+    ]
+  },
+  {
+    "version": "v3.2",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "「豹豹碰碰大作战」的留影石板",
+    "name_en": "Seal Slammers Photo Slate",
+    "icon": "images/items/140557.png",
+    "lore_ch": "赢得「豹豹碰碰大作战」冠军后，阿波菲斯兄弟为你们拍下的留影石板，参赛选手特邀出镜，C位属于冠军。\\n\\n\\n",
+    "lore_en": "A photo slate Apophis took of you after winning the Seal Slammers championship. The contestants were specially invited to appear in the photo, and the champion takes center stage.\\n\\n\\n",
+    "effect_ch": "在背包中使用后，即可查看合影。",
+    "effect_en": "Use from your Inventory to view the group photo.",
+    "dialogue_ch": [
+      "「丹恒，海豹墨镜给我戴会儿~」",
+      "「…你已经有奖杯了。」"
+    ],
+    "dialogue_en": [
+      "\"Dan Heng, let me wear the seal sunglasses for a while~\"",
+      "\"...You already have a trophy.\""
+    ]
+  },
+  {
+    "version": "v3.2",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "「黎明云崖」的颂言石板（其一）",
+    "name_en": "\"Dawncloud\" Hymn Tablet (I)",
+    "icon": "images/items/150071.png",
+    "lore_ch": "记载颂诗与其它什么的石板，预言所指向的终点。据说这些碎片中藏着一个秘密，那秘密是如此重大，以至于它自己都希望被人发现。\\n\\n",
+    "lore_en": "A tablet inscribed with hymns and other writings, prophesying towards the end. It is said that within these fragments lies a secret so profound that it longs to be uncovered.\\n\\n",
+    "dialogue_ch": [
+      "「神谕从不以直白的言辞承载。」——佚名祭司"
+    ],
+    "dialogue_en": [
+      "\"Prophecies never carry their message in plain words.\" — Anonymous Priest"
+    ]
+  },
+  {
+    "version": "v3.2",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "「黎明云崖」的颂言石板（其二）",
+    "name_en": "\"Dawncloud\" Hymn Tablet (II)",
+    "icon": "images/items/150072.png",
+    "lore_ch": "记载颂诗与其它什么的石板，预言所指向的终点。据说这些碎片中藏着一个秘密，那秘密是如此重大，以至于它自己都希望被人发现。\\n\\n",
+    "lore_en": "A tablet inscribed with hymns and other writings, prophesying towards the end. It is said that within these fragments lies a secret so profound that it longs to be uncovered.\\n\\n",
+    "dialogue_ch": [
+      "「神谕从不以直白的言辞承载。」——佚名祭司"
+    ],
+    "dialogue_en": [
+      "\"Prophecies never carry their message in plain words.\" — Anonymous Priest"
+    ]
+  },
+  {
+    "version": "v3.2",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "「龙骸古城」的颂言石板（其一）",
+    "name_en": "\"Dragonbone City\" Hymn Tablet (I)",
+    "icon": "images/items/150069.png",
+    "lore_ch": "记载颂诗与其它什么的石板，预言所指向的终点。据说这些碎片中藏着一个秘密，那秘密是如此重大，以至于它自己都希望被人发现。\\n\\n",
+    "lore_en": "A tablet inscribed with hymns and other writings, prophesying towards the end. It is said that within these fragments lies a secret so profound that it longs to be uncovered.\\n\\n",
+    "dialogue_ch": [
+      "「神谕从不以直白的言辞承载。」——佚名祭司"
+    ],
+    "dialogue_en": [
+      "\"Prophecies never carry their message in plain words.\" — Anonymous Priest"
+    ]
+  },
+  {
+    "version": "v3.2",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "「龙骸古城」的颂言石板（其二）",
+    "name_en": "\"Dragonbone City\" Hymn Tablet (II)",
+    "icon": "images/items/150070.png",
+    "lore_ch": "记载颂诗与其它什么的石板，预言所指向的终点。据说这些碎片中藏着一个秘密，那秘密是如此重大，以至于它自己都希望被人发现。\\n\\n",
+    "lore_en": "A tablet inscribed with hymns and other writings, prophesying towards the end. It is said that within these fragments lies a secret so profound that it longs to be uncovered.\\n\\n",
+    "dialogue_ch": [
+      "「神谕从不以直白的言辞承载。」——佚名祭司"
+    ],
+    "dialogue_en": [
+      "\"Prophecies never carry their message in plain words.\" — Anonymous Priest"
+    ]
+  },
+  {
+    "version": "v3.2",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "冥蝶遐思",
+    "name_en": "Nether Butterfly's Pondering",
+    "icon": "images/items/140570.png",
+    "lore_ch": "手工雕琢的银戒，附耳能够听到雪融的声音。\\n在哀地里亚，逝者临行前将冰雪封入戒指，献给生者，代为同行余下生路。\\n\\n",
+    "lore_en": "A handcrafted silver ring — if you hold it to your ear, you can hear the sound of melting snow.\\nIn Aidonia, the departed seal ice and snow into a ring before their final journey, offering it to the living as a token to walk the rest of the path in their stead.\\n\\n",
+    "dialogue_ch": [
+      "「冰消雪释时，花会盛开，你会找到我。」"
+    ],
+    "dialogue_en": [
+      "\"When the ice melts and the snow fades, the flowers will bloom, and you will find me.\""
+    ]
+  },
+  {
+    "version": "v3.2",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "缇安的手绘图画",
+    "name_en": "Trianne's Hand-Drawn Picture",
+    "icon": "images/items/140573.png",
+    "lore_ch": "缇安偷偷为遐蝶准备了一份小礼物，童真的笔触上绘制着「逐火之旅」的伙伴。\\n遐蝶敏锐地意识到，它，以及它所代表的回忆，将是拯救走出冥界的关键。\\n\\n",
+    "lore_en": "Trianne secretly prepared a small gift for Castorice — a childlike drawing of the companions on their Flame-Chase Journey.\\nCastorice perceptively noticed that it, and the memory it represents, would be the key to saving  from the nether realm.\\n\\n",
+    "dialogue_ch": [
+      "「小小蝶可以不用再害怕：因为，在逐火的旅途里，我们大家，都陪在你的身边！」"
+    ],
+    "dialogue_en": [
+      "\"But Little Cas no longer has anything to fear now, because everyone is here with you in this Flame-Chase Journey!\""
+    ]
+  },
+  {
+    "version": "v3.2",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "记载预言的金织-「龙骸古城」",
+    "name_en": "Portentous Goldwoven: Dragonbone City",
+    "icon": "images/items/190017.png",
+    "lore_ch": "记载了预言的卷册。仔细观察才能发现，卷面是由金丝织就的。\\n",
+    "lore_en": "A tome containing prophecies. Upon closer inspection, one will discover that the scroll is woven from golden threads.\\n",
+    "dialogue_ch": [
+      "「此中包含着一则预言，它只向开卷者示现。」"
+    ],
+    "dialogue_en": [
+      "\"There is a prophecy within that will only be revealed to the one who opens the scroll.\""
+    ]
+  },
+  {
+    "version": "v3.2",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "赛飞儿的怪盗信",
+    "name_en": "Letter from the Phantom Thief Cipher",
+    "icon": "images/items/140571.png",
+    "lore_ch": "猫咪怪盗赛飞儿出于「礼节」与「道义」而留下的怪盗信。\\n\\n",
+    "lore_en": "A phantom thief's letter left behind by Kitty Phantom Thief, Cipher, out of \"courtesy\" and \"honor.\"\\n\\n",
+    "dialogue_ch": [
+      "「我相信它容易被缺乏品味的小毛贼盯上，只好勉为其难地暂时替你保管一下。」"
+    ],
+    "dialogue_en": [
+      "\"I fear it would attract tasteless little thieves, so I shall safeguard it for now.\""
+    ]
+  },
+  {
+    "version": "v3.2",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "赛飞儿的硬币",
+    "name_en": "Cipher's Coin",
+    "icon": "images/items/140572.png",
+    "lore_ch": "猫咪怪盗赛飞儿出于「礼节」与「道义」而留下的硬币。\\n\\n",
+    "lore_en": "A coin left behind by Kitty Phantom Thief, Cipher, out of \"courtesy\" and \"honor.\"\\n\\n",
+    "dialogue_ch": [
+      "「当然，我已提供了合适的价码，并将一枚硬币留在此处。」"
+    ],
+    "dialogue_en": [
+      "\"Naturally, I've left appropriate payment — a single coin.\""
+    ]
+  },
+  {
+    "version": "v3.3",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "「云端遗堡」晨昏之眼的颂言石板",
+    "name_en": "\"Cloudedge Bastion Ruins\" Eye of Twilight Hymn Tablet",
+    "icon": "images/items/150076.png",
+    "lore_ch": "记载颂诗与其它什么的石板，预言所指向的终点。据说这些碎片中藏着一个秘密，那秘密是如此重大，以至于它自己都希望被人发现。\\n\\n",
+    "lore_en": "A tablet inscribed with hymns and other writings, prophesying towards the end. It is said that within these fragments lies a secret so profound that it longs to be uncovered.\\n\\n",
+    "dialogue_ch": [
+      "「神谕从不以直白的言辞承载。」——佚名祭司"
+    ],
+    "dialogue_en": [
+      "\"Prophecies never carry their message in plain words.\" — Anonymous Priest"
+    ]
+  },
+  {
+    "version": "v3.3",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "「无晖祈堂」黎明云崖的颂言石板",
+    "name_en": "\"Lightless Chapel\" Dawncloud Hymn Tablet",
+    "icon": "images/items/150074.png",
+    "lore_ch": "记载颂诗与其它什么的石板，预言所指向的终点。据说这些碎片中藏着一个秘密，那秘密是如此重大，以至于它自己都希望被人发现。\\n\\n",
+    "lore_en": "A tablet inscribed with hymns and other writings, prophesying towards the end. It is said that within these fragments lies a secret so profound that it longs to be uncovered.\\n\\n",
+    "dialogue_ch": [
+      "「神谕从不以直白的言辞承载。」——佚名祭司"
+    ],
+    "dialogue_en": [
+      "\"Prophecies never carry their message in plain words.\" — Anonymous Priest"
+    ]
+  },
+  {
+    "version": "v3.3",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "「沉沦暮城」奥赫玛的颂言石板",
+    "name_en": "\"Fallen Twilight City\" Okhema Hymn Tablet",
+    "icon": "images/items/150075.png",
+    "lore_ch": "记载颂诗与其它什么的石板，预言所指向的终点。据说这些碎片中藏着一个秘密，那秘密是如此重大，以至于它自己都希望被人发现。\\n\\n",
+    "lore_en": "A tablet inscribed with hymns and other writings, prophesying towards the end. It is said that within these fragments lies a secret so profound that it longs to be uncovered.\\n\\n",
+    "dialogue_ch": [
+      "「神谕从不以直白的言辞承载。」——佚名祭司"
+    ],
+    "dialogue_en": [
+      "\"Prophecies never carry their message in plain words.\" — Anonymous Priest"
+    ]
+  },
+  {
+    "version": "v3.3",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "「穹顶关塞」晨昏之眼的颂言石板",
+    "name_en": "\"Fortress of Dome\" Eye of Twilight Hymn Tablet",
+    "icon": "images/items/150077.png",
+    "lore_ch": "记载颂诗与其它什么的石板，预言所指向的终点。据说这些碎片中藏着一个秘密，那秘密是如此重大，以至于它自己都希望被人发现。\\n\\n",
+    "lore_en": "A tablet inscribed with hymns and other writings, prophesying towards the end. It is said that within these fragments lies a secret so profound that it longs to be uncovered.\\n\\n",
+    "dialogue_ch": [
+      "「神谕从不以直白的言辞承载。」——佚名祭司"
+    ],
+    "dialogue_en": [
+      "\"Prophecies never carry their message in plain words.\" — Anonymous Priest"
+    ]
+  },
+  {
+    "version": "v3.3",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "螺语：冬",
+    "name_en": "Conch Echo: Winter",
+    "icon": "images/items/150080.png",
+    "lore_ch": "把这段记忆喂给留声海螺，然后侧耳聆听——那道音色或诉说着自然，或吐露着思绪。\\n这是关于「雪」的记忆。\\n",
+    "lore_en": "Feed this memory into the Recording Conch and listen closely — the voice may speak of nature's secrets or confide hidden thoughts.\\nThis is a memory of \"Snow.\"\\n",
+    "dialogue_ch": [
+      "「把所有颜料都用光了？你画了什么？」\\n「我想，应该是一片纯白」"
+    ],
+    "dialogue_en": [
+      "\"You used up all the paint? What did you draw?\"\\n\"I think... just pure white.\""
+    ]
+  },
+  {
+    "version": "v3.3",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "螺语：燃薪",
+    "name_en": "Conch Echo: Kindling",
+    "icon": "images/items/150080.png",
+    "lore_ch": "把这段记忆喂给留声海螺，然后侧耳聆听——那道音色或诉说着自然，或吐露着思绪。\\n这是关于「壁炉」的记忆。\\n",
+    "lore_en": "Feed this memory into the Recording Conch and listen closely — the voice may speak of nature's secrets or confide hidden thoughts.\\nThis is a memory about the \"Hearth.\"\\n",
+    "dialogue_ch": [
+      "「热茶，针织围巾，以及一个永远讲不完的故事」"
+    ],
+    "dialogue_en": [
+      "\"Steaming tea, knitted scarves, and a tale without end.\""
+    ]
+  },
+  {
+    "version": "v3.3",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "螺语：隆隆",
+    "name_en": "Conch Echo: Rumble",
+    "icon": "images/items/150080.png",
+    "lore_ch": "把这段记忆喂给留声海螺，然后侧耳聆听——那道音色或诉说着自然，或吐露着思绪。\\n这是关于「雷声」的记忆。\\n",
+    "lore_en": "Feed this memory into the Recording Conch and listen closely — the voice may speak of nature's secrets or confide hidden thoughts.\\nThis is a memory of \"Thunder.\"\\n",
+    "dialogue_ch": [
+      "「我喜欢打雷」\\n「咦？你不是害怕打雷吗？每次都吓得躲到我家里来…」\\n「嗯，所以才喜欢」"
+    ],
+    "dialogue_en": [
+      "\"I like thunderstorms.\"\\n\"Huh? Weren't you scared of thunder? You always came running to my place...\"\\n\"Yeah. That's why I like them.\""
+    ]
+  },
+  {
+    "version": "v3.3",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "螺语：雨中",
+    "name_en": "Conch Echo: In the Rain",
+    "icon": "images/items/150080.png",
+    "lore_ch": "把这段记忆喂给留声海螺，然后侧耳聆听——那道音色或诉说着自然，或吐露着思绪。\\n这是关于「雨夜」的记忆。\\n",
+    "lore_en": "Feed this memory into the Recording Conch and listen closely — the voice may speak of nature's secrets or confide hidden thoughts.\\nThis is a memory of \"A Rainy Night.\"\\n",
+    "dialogue_ch": [
+      "「我伸出手掌，贴在那片玻璃上」\\n「它带给我一丝凉意，以及某种持续不断的触动」"
+    ],
+    "dialogue_en": [
+      "\"I stretched out my palm and pressed it against the glass.\"\\n\"It brought a coolness to my skin... and something that kept stirring inside me.\""
+    ]
+  },
+  {
+    "version": "v3.3",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "记载预言的金织-「无晖祈堂」",
+    "name_en": "Portentous Goldwoven: \"Lightless Chapel\"",
+    "icon": "images/items/190017.png",
+    "lore_ch": "记载了预言的卷册。仔细观察才能发现，卷面是由金丝织就的。\\n",
+    "lore_en": "A tome containing prophecies. Upon closer inspection, one will discover that the scroll is woven from golden threads.\\n",
+    "dialogue_ch": [
+      "「此中包含着一则预言，它只向开卷者示现。」"
+    ],
+    "dialogue_en": [
+      "\"There is a prophecy within that will only be revealed to the one who opens the scroll.\""
+    ]
+  },
+  {
+    "version": "v3.4",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "「时光硕果」",
+    "name_en": "\"Fruit of Time\"",
+    "icon": "images/items/150088.png",
+    "lore_ch": "完成每个衣匠对应的若虫预言谜题后获得，可在一页永恒兑换独特纪念品。\\n冒险终幕的宝藏、传奇序章的道标，诞生自「再创世」后的崭新架构。\\n受到翁法罗斯英雄史诗的影响，它以一枚金苹果的模样呈现。\\n\\n",
+    "lore_en": "Obtained by solving the nymph prophecy puzzle for each Garmentmaker. Redeemable at An Eternal Page for unique keepsakes.\\nIt is the treasure at the end of the adventure, and the benchmark of a legend's prologue, born from the brand-new structure born after the Era Nova.\\nInfluenced by Amphorean sagas of heroes, it presents itself in the current space-time as a golden apple.\\n\\n",
+    "dialogue_ch": [
+      "「给岁月以文明，给时光以生命。」"
+    ],
+    "dialogue_en": [
+      "\"To give civilizations to time, to give years their life.\""
+    ]
+  },
+  {
+    "version": "v3.4",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "英雄变量",
+    "name_en": "Heroic Variable",
+    "icon": "images/items/150086.png",
+    "lore_ch": "世界的微小「变量」，诞生自「再创世」后的崭新架构。\\n每当你凝望瓶中星点时，总会有潮水般的记忆涌入思绪，彷佛翁法罗斯岁月的一部分正封装于此。\\n也许它能帮到你，在某个你尚未抵达的时刻。\\n\\n",
+    "lore_en": "A minute \"variable\" of the world, born from the brand-new structure born after the Era Nova.\\nEach time you gaze at it, memories surge like a tide — as if a fragment of Amphoreus's years lies sealed within.\\nIt might help you in a time you've not yet reached.\\n\\n",
+    "dialogue_ch": [
+      "「究竟是书写传奇的人才能成为英雄，还是必须成为英雄才能书写传奇？」"
+    ],
+    "dialogue_en": [
+      "\"Is it the legend-writers who become heroes, or must one first become a hero to write legends?\""
+    ]
+  },
+  {
+    "version": "v3.4",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "记载预言的金织-「哀丽秘榭」",
+    "name_en": "Portentous Goldwoven: Aedes Elysiae",
+    "icon": "images/items/190017.png",
+    "lore_ch": "记载了预言的卷册。仔细观察才能发现，卷面是由金丝织就的。\\n",
+    "lore_en": "A scroll with prophecies inscribed. Upon closer inspection, one will discover that the scroll is woven from golden threads.\\n",
+    "dialogue_ch": [
+      "「此中包含着一则预言，它只向开卷者示现。」"
+    ],
+    "dialogue_en": [
+      "\"There is a prophecy within that will only be revealed to the one who opens the scroll.\""
+    ]
+  },
+  {
+    "version": "v3.4",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "识刻锚",
+    "name_en": "Chronocognitive Anchor",
+    "icon": "images/items/140577.png",
+    "lore_ch": "奇物，「智识」世界中的界域定锚，能够保护个体数据结构不受激烈的数字海啸影响。\\n必要时，它也能成为内外沟通的桥梁。",
+    "lore_en": "A Curio and Space Anchor from the world of Erudition that protects your individual data structure from the influences of digital tsunamis.\\nWhen necessary, it can also serve as a bridge for communications between the internal and external world."
+  },
+  {
+    "version": "v3.5",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "「云酿」",
+    "name_en": "\"Cloud Brew\"",
+    "icon": "images/items/401032.png",
+    "lore_ch": "摘取永夜交界线上的葡萄云萃取灌装，幽紫而神秘的…原味饮用水。",
+    "lore_en": "Harvesting grape clouds at the intersection of Evernight for extraction and bottling... mysterious purple-tinted... plain drinking water."
+  },
+  {
+    "version": "v3.5",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "「把欢宴带去明天」",
+    "name_en": "\"Take the Feast to Tomorrow\"",
+    "icon": "images/items/140567.png",
+    "lore_ch": "那是一份遥远的愿望，也是她的祝福。",
+    "lore_en": "It was a distant wish, and also her blessing."
+  },
+  {
+    "version": "v3.5",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "「深海」",
+    "name_en": "\"The Deep Sea\"",
+    "icon": "images/items/401032.png",
+    "lore_ch": "潮起潮落，涛声依旧。",
+    "lore_en": "Tides rise and fall, but the sound of waves remains eternal."
+  },
+  {
+    "version": "v3.5",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "「炽热如记忆中的火」",
+    "name_en": "\"Scorching Like Fire in My Memories\"",
+    "icon": "images/items/401032.png",
+    "lore_ch": "味道就像迎面被人打了一拳，或许很适合拿来疗伤。",
+    "lore_en": "The taste hits you like a punch to the face. Might be just what you need for healing wounds."
+  },
+  {
+    "version": "v3.5",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "「留情奥赫玛」",
+    "name_en": "\"Have Mercy, Okhema\"",
+    "icon": "images/items/401032.png",
+    "lore_ch": "云石天宫客房内的随附饮品，与那带着古怪甜腻感的命名品味不同，它的味道只有寻常的清甜。",
+    "lore_en": "Despite the oddly saccharine naming sense, the complimentary drinks in the Marmoreal Palace guest rooms taste just ordinarily sweet."
+  },
+  {
+    "version": "v3.5",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "「粗制蜜酿！」",
+    "name_en": "\"Rough-Brew Ambrosia!\"",
+    "icon": "images/items/401032.png",
+    "lore_ch": "不想思考为什么这瓶秘酿的名字会带个叹号，猫儿也不知道。",
+    "lore_en": "The kitty doesn't want to think about why this bottle of ambrosia has an exclamation mark in its name, and honestly, she has no clue either."
+  },
+  {
+    "version": "v3.5",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "「致大地兽」",
+    "name_en": "\"To Dromas\"",
+    "icon": "images/items/401032.png",
+    "lore_ch": "思路如泉涌，笔止时，蜜酿仅余半瓶。",
+    "lore_en": "Thoughts flowed like a fountain. By the time the pen stopped, only half a bottle of honey brew remained."
+  },
+  {
+    "version": "v3.5",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "「负世」的火种",
+    "name_en": "Coreflame of Worldbearing",
+    "icon": "images/items/140592.png",
+    "lore_ch": "负世之泰坦，刻法勒陨落的灵魂，但似乎蒙受了其他力量的干涉，神力与过往的轮回不同。火种亟待归位，最后的救世主将借此完成新的「再创世」。",
+    "lore_en": "The Worldbearing Titan, Kephale's fallen soul. Yet seemingly some foreign force has tampered with them, making their divinity different from the one in the past Cycle. The Coreflame awaits its rightful return, through which the final Deliverer shall forge a new Era Nova."
+  },
+  {
+    "version": "v3.5",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "「赤血蜜酿」",
+    "name_en": "\"Scarlet Honey Brew\"",
+    "icon": "images/items/401032.png",
+    "lore_ch": "瓶中承装着厮杀至终的石榴之英魂，饮下它，称颂它们的生涯吧。",
+    "lore_en": "The bottle contains the heroic souls of pomegranates who fought to their last breath. Drink it, and honor their journey."
+  },
+  {
+    "version": "v3.5",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "「金色之露」",
+    "name_en": "\"Golden Dew\"",
+    "icon": "images/items/401032.png",
+    "lore_ch": "醇厚，剧烈，清甜。\\n\\n",
+    "lore_en": "Rich, intense, sweet.\\n\\n",
+    "dialogue_ch": [
+      "其实不算甜，但反衬得很明显。"
+    ],
+    "dialogue_en": [
+      "Not exactly sweet, but the contrast is obvious."
+    ]
+  },
+  {
+    "version": "v3.5",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "「门缤纷」",
+    "name_en": "\"Colorful Gate\"",
+    "icon": "images/items/401032.png",
+    "lore_ch": "这里面能喝到翁法罗斯所有水果的味道！迷醉指数为零，安全放心！",
+    "lore_en": "You can taste all the Amphorean fruits in this! Zero intoxication level, totally safe and worry-free!"
+  },
+  {
+    "version": "v3.5",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "「黯淡冥河」",
+    "name_en": "\"Dark River of Souls\"",
+    "icon": "images/items/401032.png",
+    "lore_ch": "别担心，它只是长得很像冥河水…应该。",
+    "lore_en": "Don't worry. It just looks like water from the River of Souls... probably."
+  },
+  {
+    "version": "v3.5",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "异乡的骑士王木偶",
+    "name_en": "Outlander King of Knights Puppet",
+    "icon": "images/items/1040536.png",
+    "lore_ch": "被你从幻梦中带走的记忆实体，在某片异乡的土地上，仰慕着王的匠人，饱含敬意雕刻出的木偶。虽然它似乎和真正的王相差甚远，工艺也不甚理想。但英雄为后人们所带来的，正是这样，哪怕蹩脚，也足以支撑心灵的慰藉。\\n\\n\\n",
+    "lore_en": "The memory entity you carried away from a dream, in some foreign land, an artisan who admired the King and carved a puppet with heartfelt reverence. Though it seems far removed from the real King, and the craftsmanship leaves much to be desired, what heroes pass down to later generations is often just like this — crude, yet enough to soothe the soul.\\n\\n\\n",
+    "dialogue_ch": [
+      "「况且，你难道不觉得，在看久了之后，它还挺有灵魂的吗？」",
+      "「我觉得它在摄取我的灵魂！」"
+    ],
+    "dialogue_en": [
+      "\"Besides, don't you think that, after staring at it for a while, it actually kind of feels full of soul?\"",
+      "\"I think it's trying to suck my soul in!\""
+    ]
+  },
+  {
+    "version": "v3.5",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "海瑟音的陶杯",
+    "name_en": "Hysilens's Ceramic Cup",
+    "icon": "images/items/140590.png",
+    "lore_ch": "一盏无奇的陶杯，做工平凡。在那场荒宴之上，冰冷的杯沿将她的蜜酿送入你的唇间，为你赋以放逐的罪，换来一场清醒的梦。\\n\\n",
+    "lore_en": "An unassuming ceramic cup, plain in craftsmanship. At that wanton feast, its cold rim passed her honey brew to your lips, branding you with the sin of exile, yet bestowing a dream of clarity in return.\\n\\n",
+    "dialogue_ch": [
+      "「器皿的价值在于曾盛放何物，又曾被谁所用；正如刀剑因挥舞而成为传奇，勇士因牺牲而名垂青史。」"
+    ],
+    "dialogue_en": [
+      "\"The worth of a vessel lies in what it once held, and who once held it, just as blades earn legend by battle, and heroes are remembered through sacrifice.\""
+    ]
+  },
+  {
+    "version": "v3.5",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "褪色的辉煌",
+    "name_en": "Tarnished Glory",
+    "icon": "images/items/1040538.png",
+    "lore_ch": "一张老旧残破的照片，记录着「音符小姐」的过往。蒙冤入狱的呐喊，打破囚笼时的欢唱，舞台下雷动的掌声，污名带来的唾骂，声音都消泯在历史里，唯余泛黄的过往。\\n\\n",
+    "lore_en": "An old, tattered photograph captures the past of Miss Note — the cries of injustice behind bars, the jubilant song upon breaking free, the thunderous applause beneath the stage, the scorn born of disgrace. All those voices have faded into history, leaving only a yellowed memory behind.\\n\\n",
+    "dialogue_ch": [
+      "「可即便如此，我仍旧要歌唱。」"
+    ],
+    "dialogue_en": [
+      "\"And even so, I still choose to sing.\""
+    ]
+  },
+  {
+    "version": "v3.5",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "迷其林四星级证书",
+    "name_en": "Memchelin 4-Star Certificate",
+    "icon": "images/items/150089.png",
+    "lore_ch": "迷其林美食委员会颁发的四星级证书，代表着对餐馆的最高认可。截至目前，迷路迷境中只有一家餐馆能获得此殊荣。\\n\\n",
+    "lore_en": "A 4-star certification from the Memchelin Gourmet Committee represents the highest recognition for a restaurant. To date, only one restaurant in the Membrance Maze has earned this prestigious honor.\\n\\n",
+    "dialogue_ch": [
+      "「永远不要忘记，做菜的目的，是为了给食客带来幸福哪。」"
+    ],
+    "dialogue_en": [
+      "\"Never forget, the purpose of cooking is to bring happiness to our diners.\""
+    ]
+  },
+  {
+    "version": "v3.5",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "迷其林星级奖章",
+    "name_en": "Memchelin Star Award",
+    "icon": "images/items/150090.png",
+    "lore_ch": "迷其林美食委员会颁发的奖章，是所有餐馆梦寐以求的实力的证明。\\n\\n",
+    "lore_en": "An award from the Memchelin Gourmet Committee is the ultimate proof of excellence that every restaurant dreams of.\\n\\n",
+    "dialogue_ch": [
+      "「——目标，迷其林四星！」"
+    ],
+    "dialogue_en": [
+      "\"Target: Memchelin 4-star!\""
+    ]
+  },
+  {
+    "version": "v3.5",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "逐火铭牌",
+    "name_en": "Flame-Chase Medallion",
+    "icon": "images/items/140589.png",
+    "lore_ch": "逐火军表明身份的铭牌，象征着凯撒的至高授意。佩戴此牌者拥有在城中随意通行的权利。",
+    "lore_en": "An identification badge of the Flame-Chase Army, bearing the Imperator's highest command. The wearer has unrestricted access throughout the city."
+  },
+  {
+    "version": "v3.6",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "记载预言的金织-「全世矩阵」",
+    "name_en": "Portentous Goldwoven: Universal Matrix",
+    "icon": "images/items/190017.png",
+    "lore_ch": "记载了预言的卷册。仔细观察才能发现，卷面是由金丝织就的。\\n",
+    "lore_en": "A scroll with prophecies inscribed. Upon closer inspection, one will discover that the scroll is woven from golden threads.\\n",
+    "dialogue_ch": [
+      "「此中包含着一则预言，它只向开卷者示现。」"
+    ],
+    "dialogue_en": [
+      "\"There is a prophecy within that will only be revealed to the one who opens the scroll.\""
+    ]
+  },
+  {
+    "version": "v3.6",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "记载预言的金织-「辉痕圣林」",
+    "name_en": "Portentous Goldwoven: Radiant Scarwood",
+    "icon": "images/items/190017.png",
+    "lore_ch": "记载了预言的卷册。仔细观察才能发现，卷面是由金丝织就的。\\n",
+    "lore_en": "A scroll with prophecies inscribed. Upon closer inspection, one will discover that the scroll is woven from golden threads.\\n",
+    "dialogue_ch": [
+      "「此中包含着一则预言，它只向开卷者示现。」"
+    ],
+    "dialogue_en": [
+      "\"There is a prophecy within that will only be revealed to the one who opens the scroll.\""
+    ]
+  },
+  {
+    "version": "v3.7",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "「天空」的灵椟",
+    "name_en": "Skybound Spirit Kist",
+    "icon": "images/items/140604.png",
+    "lore_ch": "来自「天空的医师」——风堇的馈赠，象征着她平等爱着世人的温柔与奉献。",
+    "lore_en": "From the \"Healer of the Sky\": Hyacine's bestowal, symbolizing her gentle devotion and indiscriminate love for all of humanity."
+  },
+  {
+    "version": "v3.7",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "「死亡」的寒葩",
+    "name_en": "Winter Blossom of Death",
+    "icon": "images/items/140601.png",
+    "lore_ch": "来自「来生的侍女」——遐蝶的馈赠，象征着她守望于彼岸的坚韧与平和。",
+    "lore_en": "From the \"Servant of the Afterlife\": Castorice's bestowal, symbolizing the tenacity and peace she watches over on the other side."
+  },
+  {
+    "version": "v3.7",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "「浪漫」的珠镯",
+    "name_en": "Bracelet of Romance",
+    "icon": "images/items/140603.png",
+    "lore_ch": "来自「浪漫的织者」——阿格莱雅的馈赠，象征着她漠然的至美之下，始终如一的无私与节制。",
+    "lore_en": "From the \"Weaver of Romance\": Aglaea's bestowal, symbolizing her unchanging selflessness and temperance beneath her aloof perfection."
+  },
+  {
+    "version": "v3.7",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "「理性」的至玉",
+    "name_en": "Jade of Reason",
+    "icon": "images/items/140605.png",
+    "lore_ch": "来自「理性的学士」——那刻夏的馈赠，象征着他坦然留给后人的启蒙与批判。",
+    "lore_en": "From the \"Scholar of Reason\": Anaxa's bestowal, symbolizing the enlightenment and critique he calmly left for future generations."
+  },
+  {
+    "version": "v3.7",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "「纷争」的王戒",
+    "name_en": "Imperial Ring of Strife",
+    "icon": "images/items/140599.png",
+    "lore_ch": "来自「纷争的冠军」——万敌的馈赠，象征着他身为王者，亦为守护者的荣耀与约束。",
+    "lore_en": "From the \"Champion of Strife\": Mydei's bestowal, symbolizing both his glory and restraint as a ruler and protector."
+  },
+  {
+    "version": "v3.7",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "「诡计」的礼币",
+    "name_en": "Trickery Coin",
+    "icon": "images/items/140600.png",
+    "lore_ch": "来自「诡计的羁客」——赛飞儿的馈赠，象征着她俏皮却真挚的祝福与渴望。",
+    "lore_en": "From the \"Trickery's Traveler\": Cipher's bestowal, symbolizing her playful yet sincere blessings and desires."
+  },
+  {
+    "version": "v3.7",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "「负世」的愿望",
+    "name_en": "Wish of Worldbearing",
+    "icon": "images/items/140606.png",
+    "lore_ch": "若要救世，则必然负担着沉重的愿望。唯有将其卸下，方能消解执念。",
+    "lore_en": "To save the world, one must shoulder the burden of heavy wishes. Only by leaving it behind, can you absolve the obsession."
+  },
+  {
+    "version": "v3.7",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "「负世」的绝望",
+    "name_en": "Despair of Worldbearing",
+    "icon": "images/items/140607.png",
+    "lore_ch": "若要救世，则必然伴随着滚烫的绝望。唯有将其打碎，方能消解执念。",
+    "lore_en": "To save the world, one must be accompanied by searing despair. Only by shattering it, can you absolve the obsession."
+  },
+  {
+    "version": "v3.7",
+    "category_ch": "任务道具",
+    "category_en": "Quest Items",
+    "name_ch": "「门径」的布偶",
+    "name_en": "Passage Plushie",
+    "icon": "images/items/140602.png",
+    "lore_ch": "来自「门径的圣子」——缇里西庇俄丝的馈赠，象征着她千身远行、从未更改的信念与同理。",
+    "lore_en": "From the \"Holy Child of Passage\": Tribios's bestowal, symbolizing her unwavering faith and empathy throughout her journey in a thousand bodies."
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "材料",
+    "category_en": "Materials",
+    "name_ch": "仙馔秘酿",
+    "name_en": "Celestial Ambrosia",
+    "icon": "images/items/120004.png",
+    "lore_ch": "翁法罗斯千种秘酿中的最上上品，金色的甜美甘露。据说来自于「满溢之杯」泼洒在大地上的神体，乃是献给泰坦的最佳祭礼。只需数滴便可让人沉醉于其醇香之中。自行饮用后会不省人事，如同在汪洋中沉沦。",
+    "lore_en": "The absolute finest of Amphoreus' thousand ambrosias. A golden, sweet nectar. It is said to come from the divine corpus of the Chalice of Plenty spilled onto the earth, making it the perfect offering to the Titans. Just a few drops are enough to inebriate a mortal with its rich fragrance. Consuming it on its own leads to unconsciousness, as if one is drowning in a vast ocean.",
+    "effect_ch": "传说连泰坦都会为之垂涎的美妙饮品，将它投入创世涡心的盆中潮汐吧。",
+    "effect_en": "It was said that even Titans covet this ambrosial libation. Cast it into the Tides of the Basin within the Vortex of Genesis."
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "材料",
+    "category_en": "Materials",
+    "name_ch": "变量骰子",
+    "name_en": "Variable Dice",
+    "icon": "images/items/238.png",
+    "lore_ch": "概率组成的骰子在虚空中孤独自转，被包裹住的不确定性点燃又熄灭，如同恒星的创生与坍缩。宇宙间充满变量，连恒星都有重生的可能，何况一枚遗器呢？\\n\\n",
+    "lore_en": "A die formed from probability spins alone in the void. The bundled uncertainty ignites and goes out like the birth and death of stars. The universe is filled with variables. If even stars have a chance at resurrection, then what say a Relic?\\n\\n",
+    "effect_ch": "可用于重新分配满级5星遗器副属性的升级次数，并随机其数值。",
+    "effect_en": "Use to re-assign the upgrade counts for Subsidiary Stats of fully-enhanced 5-star Relics and randomize their values.",
+    "dialogue_ch": [
+      "「温馨提示：变量有风险，掷骰需谨慎，一个不小心，极品变垃圾。」"
+    ],
+    "dialogue_en": [
+      "\"Attention: Hazardous variable. Be mindful when you roll the die. If you are not careful, a treasure could turn to trash.\""
+    ]
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "材料",
+    "category_en": "Materials",
+    "name_ch": "遂愿尘脂",
+    "name_en": "Wishful Resin",
+    "icon": "images/items/237.png",
+    "lore_ch": "不知名的树脂如水晶般晶莹，似乎是来自裂界之中，靠近时会与心中的愿望产生强烈共鸣。\\n\\n",
+    "lore_en": "An unknown resin that shines like crystals. It seems to have originated from within the Fragmentum. When you draw near, it will resonate strongly with the wishes within your heart.\\n\\n",
+    "effect_ch": "用于定制遗器的稀世材料，可以指定合成最多两种副属性。",
+    "effect_en": "Matchless materials used to customize Relics. Can be used to specify up to 2 Subsidiary Stats when synthesizing.",
+    "dialogue_ch": [
+      "「它试图用裂界的复制之力填补人心中的欲望，却始终填不满。」"
+    ],
+    "dialogue_en": [
+      "\"It tried to use the Fragmentum's duplicative ability to satisfy human desires, but alas, the gulf is insatiable.\""
+    ]
+  },
+  {
+    "version": "v3.2",
+    "category_ch": "材料",
+    "category_en": "Materials",
+    "name_ch": "光锥碎忆",
+    "name_en": "Light Cone Memory Shard",
+    "icon": "images/items/283.png",
+    "lore_ch": "",
+    "lore_en": "",
+    "effect_ch": "可在商店「聚灵铸星」处兑换5星光锥。",
+    "effect_en": "Used to exchange for a 5-star Light Cone at the Stellar Convergence shop.",
+    "dialogue_ch": [
+      "「也许只要追上那束光，就能拼凑出破碎的记忆。」"
+    ],
+    "dialogue_en": [
+      "\"Perhaps I'll be able to piece together the fragmented memories once I catch up to that light.\""
+    ]
+  },
+  {
+    "version": "v3.2",
+    "category_ch": "材料",
+    "category_en": "Materials",
+    "name_ch": "助燃券",
+    "name_en": "Fuel Vouchers",
+    "icon": "images/items/110.png",
+    "lore_ch": "时至今日，人类依旧无法掌握星穹列车在银河间穿梭的具体原理。但古老的烧开水理论告诉我们，锅炉里的可燃物越多，列车就跑得越快。\\n\\n",
+    "lore_en": "To this day, humanity still cannot fully grasp the exact principles behind the Astral Express' traversal of the cosmos. However, as the ancient theory of water boiling tells us, the more fuel in the boiler, the faster the Express goes.\\n\\n",
+    "effect_ch": "配合开拓力使用，可以快速获取拟造花萼/凝滞虚影产出的材料。",
+    "effect_en": "Use with Trailblaze Power to quickly obtain materials from Calyxes / Stagnant Shadows",
+    "dialogue_ch": [
+      "「人类最高级的科技就是烧开水，所以别多问，烧就完事了。」"
+    ],
+    "dialogue_en": [
+      "\"Boiling water is humanity's most advanced technology, so don't worry too much. Just keep burning stuff.\""
+    ]
+  },
+  {
+    "version": "v3.2",
+    "category_ch": "材料",
+    "category_en": "Materials",
+    "name_ch": "实体游戏卡带",
+    "name_en": "Physical Game Cartridge",
+    "icon": "images/items/121004.png",
+    "lore_ch": "在数据传输技术如此完善的今天，依旧会有制作人选择用卡带作为游戏的载体，就像作家享受笔尖划过纸张的触感。",
+    "lore_en": "Even with today's advanced data transfer technology, some developers still prefer cartridges as their game medium, just like writers savoring the sensation of pen on paper.",
+    "effect_ch": "一盒插入即玩的游戏卡带，可用于叠影光锥「宇宙大生意」。",
+    "effect_en": "A plug-and-play cartridge. It can be used to superimpose the Light Cone \"The Great Cosmic Enterprise.\""
+  },
+  {
+    "version": "v3.2",
+    "category_ch": "材料",
+    "category_en": "Materials",
+    "name_ch": "旅伴金灵",
+    "name_en": "Golden Companion Spirit",
+    "icon": "images/items/281.png",
+    "lore_ch": "",
+    "lore_en": "",
+    "effect_ch": "可在商店「聚灵铸星」处兑换5星角色。",
+    "effect_en": "Used to exchange for a 5-star character at the Stellar Convergence shop.",
+    "dialogue_ch": [
+      "「即使是微小的尘灵，在开拓的吸引力下，也能汇聚成璀璨的金色新星。」"
+    ],
+    "dialogue_en": [
+      "\"Even the tiniest speck of dust, drawn by the call of exploration, can gather into a dazzling golden nova.\""
+    ]
+  },
+  {
+    "version": "v3.2",
+    "category_ch": "材料",
+    "category_en": "Materials",
+    "name_ch": "旅伴银灵",
+    "name_en": "Silver Companion Spirit",
+    "icon": "images/items/282.png",
+    "lore_ch": "",
+    "lore_en": "",
+    "effect_ch": "可在商店「聚灵铸星」处兑换旅伴金灵。",
+    "effect_en": "Used to exchange for Golden Companion Spirits at the Stellar Convergence shop.",
+    "dialogue_ch": [
+      "「即使是微小的尘灵，在开拓的吸引力下，也能汇聚成璀璨的银色新星。」"
+    ],
+    "dialogue_en": [
+      "\"Even the tiniest speck of dust, drawn by the call of exploration, can gather into a dazzling silver nova.\""
+    ]
+  },
+  {
+    "version": "v3.2",
+    "category_ch": "材料",
+    "category_en": "Materials",
+    "name_ch": "欢庆旋律",
+    "name_en": "Melody of Celebration",
+    "icon": "images/items/270004.png",
+    "lore_ch": "\\n",
+    "lore_en": "\\n",
+    "effect_ch": "曾经法吉娜的宴会上常演奏的旋律，随着你的胜利又重新奏响。可用于在「兑奖处」中提高「狂欢等级」，换取奖励。",
+    "effect_en": "A melody often played at Phagousa's banquets, now resounding once more with your victory. Can be used at the Prize Exchange to increase the Carnival Level and claim rewards.",
+    "dialogue_ch": [
+      "「感受这节奏。噢，在这停顿！」"
+    ],
+    "dialogue_en": [
+      "\"Feel the rhythm. Oh, pause here!\""
+    ]
+  },
+  {
+    "version": "v3.2",
+    "category_ch": "材料",
+    "category_en": "Materials",
+    "name_ch": "豹币",
+    "name_en": "Seal Token",
+    "icon": "images/items/270005.png",
+    "lore_ch": "\\n",
+    "lore_en": "\\n",
+    "effect_ch": "阿波菲斯手工制作的「豹币」，每一枚都有着独一无二的痕迹。可用于在小海豹商店中购买小海豹。",
+    "effect_en": "Handcrafted \"Seal Tokens\" by Apophis, each bearing a unique mark. Can be used to purchase baby seals at the Baby Seal Shop.",
+    "dialogue_ch": [
+      "「阿波菲斯制作、阿波菲斯发行、阿波菲斯核销、阿波菲斯收藏。」"
+    ],
+    "dialogue_en": [
+      "\"Made by Apophis, issued by Apophis, redeemed by Apophis, collected by Apophis.\""
+    ]
+  },
+  {
+    "version": "v3.2",
+    "category_ch": "材料",
+    "category_en": "Materials",
+    "name_ch": "黄金的祝福",
+    "name_en": "Golden Blessing",
+    "icon": "images/items/803.png",
+    "lore_ch": "献予逐火之人的祝福\\n\\n愿你与神共舞，承英雄之火重燃暮落的巨人。\\n愿你推翻命运，以破晓之辉照拂天地与众生。\\n你在此间的行迹，终将载入亘古传颂的诗篇。",
+    "lore_en": "A blessing bestowed upon those who embark on the Flame-Chase Journey.\\n\\nMay you dance with the gods, reigniting the fallen giant with the fire of heroes.\\nMay you overthrow fate, illuminating the world and all living beings with the light of dawn.\\nYour journey here will forever be etched into the ancient ballads of legend."
+  },
+  {
+    "version": "v3.4",
+    "category_ch": "材料",
+    "category_en": "Materials",
+    "name_ch": "无序秘酿",
+    "name_en": "Disorder Ambrosia",
+    "icon": "images/items/120005.png",
+    "lore_ch": "曾被认知为「仙馔秘酿」的珍馐，在翁法罗斯的轮回被揭示时，也一同展露出了真容。从瓶口逸散出的气息和之前相比似乎更为醇香，但仍然不建议亲自饮用。",
+    "lore_en": "A precious drink that was once considered \"Celestial Ambrosia\" in worldly cognition. As the cycles of Amphoreus were revealed, so did the truth of this drink. The scent wafting out of the bottle's mouth seems even more intense and sweeter than before, but imbibing is still not recommended.",
+    "effect_ch": "存在于时序之外的液体，将它投入创世涡心的盆中潮汐吧。",
+    "effect_en": "A liquid that exists outside temporal order. Cast it into the Tides of the Basin within the Vortex of Genesis."
+  },
+  {
+    "version": "v3.5",
+    "category_ch": "材料",
+    "category_en": "Materials",
+    "name_ch": "黄金汤匙",
+    "name_en": "Chrysos Spoon",
+    "icon": "images/items/121005.png",
+    "lore_ch": "",
+    "lore_en": "",
+    "effect_ch": "妖精们烹饪时使用的传说中的厨具。可用于叠影光锥「永远的迷境饭」。",
+    "effect_en": "A legendary cooking utensil used by fairies. It can be used to superimpose the Light Cone \"The Forever Victual.\"",
+    "dialogue_ch": [
+      "「——拥有掌控大半个迷路迷境的力量迷！」"
+    ],
+    "dialogue_en": [
+      "\"—With the power to control most of the Membrance Maze!\""
+    ]
+  },
+  {
+    "version": "v3.6",
+    "category_ch": "材料",
+    "category_en": "Materials",
+    "name_ch": "孤星明尘",
+    "name_en": "Lone Stardust",
+    "icon": "images/items/263.png",
+    "lore_ch": "天汇座-λ，这颗怪异的星球不仅本身轨迹难以捉摸，其居民有时也会突然望向虚空，做出一些毫无逻辑的行为。公司派人对其进行走访，却总是得到一句荒诞的回应：「因为，*我*这么做了。」最终，博识学会从该世界的凝晶中发现了「均衡」命途影响，于是提出了那个正确的问题：\\n「你们的*我*，在哪里？」\\n「这里，和那里。」\\n人们指着自己，以及世界之外，那不存在的质心，延伸向更远处的虚空……\\n\\n",
+    "lore_en": "The peculiar planet of Convergence-λ possesses an elusive orbit, and its residents occasionally stare into the void, performing acts without logic. The IPC sent people to investigate, but their efforts were always met with one absurd reply: \"Because I did it.\" The Intelligentsia Guild finally detected the influence of the Path of Equilibrium within the world's Crystallite, leading them to pose the crucial question:\\n\"Where is your 'I'?\"\\n\"Here, and there.\"\\nThey gestured to themselves, and to the nonexistent barycenter beyond their world, reaching out into the distant void...\\n\"...They could never walk into the annihilating embrace of a binary star system, for they were never truly able to hold one another.\"",
+    "effect_ch": "可在商店「星尘之礼」处兑换奖励",
+    "effect_en": "Rewards can be redeemed at the Gift of Stardust Store",
+    "dialogue_ch": [
+      "「…它们绝无可能走入双星系统的湮灭结局，毕竟它们本就无法彼此相拥。」"
+    ]
+  },
+  {
+    "version": "v3.6",
+    "category_ch": "材料",
+    "category_en": "Materials",
+    "name_ch": "干涉密钥",
+    "name_en": "Interference Key",
+    "icon": "images/items/239.png",
+    "lore_ch": "密钥内部的集成电路正在进行满负载运算，施放出的干涉因子拦截住无数光线并修正它们的轨迹。在占据整片天穹的信息光幕中，出现了一方小小的黑域，那里是连命运都要避开的地方。\\n\\n",
+    "lore_en": "The integrated circuits within the encryption key are operating at full capacity, emitting interference factors that intercept countless light rays and correct their trajectories. In the information light screen occupying the entire sky dome, a small dark zone appears: a place even destiny must avoid.\\n\\n",
+    "effect_ch": "使用变量骰子重新分配5星遗器的副属性时，可以选择1条副属性进行屏蔽，被屏蔽的副属性在该次重掷中不会被强化。",
+    "effect_en": "When using Variable Dice to reassign Subsidiary Stats of a 5-star Relic, you can select one Subsidiary Stat to block, preventing it from being enhanced during this reroll.",
+    "dialogue_ch": [
+      "「概率学的激流中出现了一枚不和谐的音符，它不愿随波逐流，像一枚钉子般扎进命运的骨髓里。」"
+    ],
+    "dialogue_en": [
+      "\"A discordant note emerges in the rapids of probability, refusing to go with the flow, driving itself like a nail into the marrow of destiny.\""
+    ]
+  },
+  {
+    "version": "v3.7",
+    "category_ch": "材料",
+    "category_en": "Materials",
+    "name_ch": "成为昨日的明天",
+    "name_en": "As Tomorrow Became Yesterday",
+    "icon": "images/items/821.png",
+    "lore_ch": "",
+    "lore_en": "",
+    "effect_ch": "记忆中的信",
+    "effect_en": "Letter in Memory",
+    "dialogue_ch": [
+      "：\\n\\n嗨，我想你啦。会不会有些突然呢？我只是，想再回头看一眼。\\n\\n开拓的旅程一定充满未知吧。所以，我也想在你的生命中再留下一份惊喜，一道记忆的涟漪，还有…妖精的小小魔法。\\n\\n不知不觉中，我们一起走过了好长的路呀。旅途的下一站，你又会写下怎样的故事呢？我会在你的回忆里期待着，只要闭上眼睛，就能看见你的眼睛，里面装着整个宇宙……\\n\\n就像清风吹拂的麦浪，就像群星闪耀的明天♪\\n\\n昔涟"
+    ],
+    "dialogue_en": [
+      ":\\n\\nHey, I miss you. Maybe this feels a bit out of the blue, but I just wanna take a look back one last time.\\n\\nThe journey of Trailblaze must be filled with unknowns. So, I thought... why not leave you one more surprise? A ripple of memories, along with a touch of fairy magic.\\n\\nBefore we knew it, we've shared such a long walk together. I wonder what story you'll write at the next stop on your journey. I will be in your memories, longing... Whenever I close my eyes, I can see yours, carrying the whole universe...\\n\\nLike waves of wheat rustling in the breeze, or the tomorrow where stars shine ♪\\n\\nCyrene"
+    ]
+  },
+  {
+    "version": "v3.7",
+    "category_ch": "材料",
+    "category_en": "Materials",
+    "name_ch": "有瑕的追忆",
+    "name_en": "Flawed Recollection",
+    "icon": "images/items/121006.png",
+    "lore_ch": "",
+    "lore_en": "",
+    "effect_ch": "水晶般的记忆之花，有瑕而易碎。可用于叠影光锥「飞向粉色的明天」。",
+    "effect_en": "A flawed, fragile crystalline flower of Remembrance. It can be used to superimpose the Light Cone \"Fly Into a Pink Tomorrow.\"",
+    "dialogue_ch": [
+      "「水晶花跌落时那真挚的颤抖，就是『生命的因』。」"
+    ],
+    "dialogue_en": [
+      "\"That genuine shiver when crystal flowers fall... That's the 'mover of life.'\""
+    ]
+  },
+  {
+    "version": "v3.7",
+    "category_ch": "材料",
+    "category_en": "Materials",
+    "name_ch": "权限卡",
+    "name_en": "Access Card",
+    "icon": "images/items/123000.png",
+    "lore_ch": "一枚不起眼的卡片，却能开启黑塔空间站安全等级最高的收藏库。若能善加利用，必能寻得遗世珍宝。",
+    "lore_en": "An unassuming card that can unlock Herta Space Station's most secure vault. If used wisely, it could lead to long-lost treasures.",
+    "effect_ch": "可用于开启黑塔空间站神秘收藏库中的「遗器宝箱」。",
+    "effect_en": "Can be used to open the Relic Chest in the mysterious collection at Herta Space Station."
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "合成材料",
+    "category_en": "Compose Materials",
+    "name_ch": "思维枝椁",
+    "name_en": "Bough of Thought",
+    "icon": "images/items/181017.png",
+    "lore_ch": "发光的树杈，枝条狂放不羁地向四周伸展，犹如思想的自然分岔。因学者的发呆而诞生于树庭角落，它们不堪大用，但是瑟希斯好像还挺喜欢这些小玩意的，据说泰坦会挑选枝桠最多的一节，当作自己的头饰。\\n\\n",
+    "lore_en": "A glowing bough with branches sprawling unrestrained in every direction, resembling the organic divergence of thought. It is born in a quiet corner of the Grove where scholars often drift into contemplative dazes. Though lacking any practical use, Cerces appears particularly fond of such curiosities. Legend has it that the Titan would select the bough with the most intricate branching and wear it atop their head as an ornament. \\n\\n",
+    "effect_ch": "2级合成材料。",
+    "effect_en": "Tier 2 Synthesis Material",
+    "dialogue_ch": [
+      "「在很长一段时期里，我都是早早就躺下了，可总清静不下来，上辈子的思想好像经过还魂转世来到我的脑中…我不知道那是几时了，我只看到窗外，长出了一簇虬结交错的枝桠。」"
+    ],
+    "dialogue_en": [
+      "\"For a long time, I've been going to bed early, yet it does little to quiet my restless mind. It feels as though the thoughts from a past life have been reborn within me... At some point, I began to notice a cluster of intertwined branches outside my window.\""
+    ]
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "合成材料",
+    "category_en": "Compose Materials",
+    "name_ch": "深髓岩盐",
+    "name_en": "Deep Marrow Rock Salt",
+    "icon": "images/items/181018.png",
+    "lore_ch": "从裂谷深处开掘出来的盐晶体。从事耕种的农户家中往往都存着这样的一块盐晶体，他们视其若珍宝，认为这是吉奥里亚裸露的脊髓，是对农人的无私馈赠。开垦荒地的时候，只要磨取少量岩盐洒在地里，不久后贫瘠的土壤就能变得肥沃。\\n\\n",
+    "lore_en": "Salt crystals unearthed from the depths of the rift valley, revered by the farmers who toil on the land. Many keep one of these crystals in their homes, treasuring it as the \"bared spine marrow of Georios,\" a generous gift to the farmers. When reclaiming barren land, just a small sprinkling of this rock salt is enough to transform the barren soil into fertile ground, breathing life back into the earth. \\n\\n",
+    "effect_ch": "2级合成材料。",
+    "effect_en": "Tier 2 Synthesis Material",
+    "dialogue_ch": [
+      "「无机无机无机无机无机肥料好！」"
+    ],
+    "dialogue_en": [
+      "\"Non-organic, non-organic, non-organic, non-organic, non-organic fertilizer is the best!\""
+    ]
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "合成材料",
+    "category_en": "Compose Materials",
+    "name_ch": "络缦纺锤",
+    "name_en": "Silk Spindle",
+    "icon": "images/items/182011.png",
+    "lore_ch": "缠绕着丝线的纺锤。曾经，阿格莱雅手制的第一件废衣意外流入市场时，人们纷纷为之倾倒——多么别出心裁的镶边！多么完美无瑕的藏线！多么衬托线条的裁剪！一时间，整个奥赫玛服装市场都陷入模仿阿格莱雅的热潮，她的同款纺锤也流行于衣匠之中，只是纺锤上独属于墨涅塔半神的金线是无论如何都仿制不了的。\\n\\n",
+    "lore_en": "A spindle entwined with silk threads. When the first discarded garment handcrafted by Aglaea accidentally found its way to the market, people were left in awe. What ingenious trimming! What flawless hidden seams! What masterful cutting! For a time, the entire Okhema fashion scene was swept into a frenzy of imitating Aglaea's artistry. The type of spindle she uses also became a must-have among garmentmakers, but the golden thread wound around it — exclusive to the demigod of Mnestia — cannot be replicated no matter what.\\n\\n",
+    "effect_ch": "3级合成材料。",
+    "effect_en": "Tier 3 Synthesis Material",
+    "dialogue_ch": [
+      "「美丽的墨涅塔啊，让我拥有阿格莱雅大人十分之一的制衣才能吧！我什么都会去做的！」"
+    ],
+    "dialogue_en": [
+      "\"O beautiful Mnestia, grant me but one-tenth of Lady Aglaea's talent! I am willing to do anything in exchange!\""
+    ]
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "合成材料",
+    "category_en": "Compose Materials",
+    "name_ch": "醒目残翎",
+    "name_en": "Distinctive Tattered Feather",
+    "icon": "images/items/180013.png",
+    "lore_ch": "一枚印着艾格勒泰坦符号的羽毛。这样的羽毛偶尔会在靠近天空的崖壁上发现，有人认为这是百眼巨鸟艾格勒的睫羽，也有人认为这是那些飞得足够高、被艾格勒的眼睛盯上并坠亡的飞禽留下的残翎。艾格勒的信徒曾经大肆收购过这种羽毛，用来制做祭司的头冠。如果在夜里露天放置太久，羽毛上的泰坦符号就会消褪。\\n\\n\\n",
+    "lore_en": "A feather adorned with the Titan Aquila's symbol, often found on cliff faces near the heavens. Some believe these are ciliary feathers shed by Aquila, the hundred-eyed giant bird, while others think they are remnants of birds of prey that soared too high, caught in Aquila's gaze, and met their demise. In ancient times, Aquila's disciples collected these feathers in bulk, using them to craft the ceremonial priestly miter. Notably, the Titan symbol on the feathers fades if left exposed to the night air for too long. \\n\\n\\n",
+    "effect_ch": "1级合成材料。",
+    "effect_en": "Tier 1 Synthesis Material",
+    "dialogue_ch": [
+      "「如果我对你的爱可以计数…那它比艾格勒的睫毛还要多！」",
+      "「…话说回来，百眼巨鸟真的有睫毛吗？」"
+    ],
+    "dialogue_en": [
+      "\"If my love for you could be measured... it would surpass the number of Aquila's eyelashes!\"",
+      "\"...Though, now that I think about it, does the hundred-eyed giant bird even have eyelashes?\""
+    ]
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "合成材料",
+    "category_en": "Compose Materials",
+    "name_ch": "黎明新籽",
+    "name_en": "Fresh Seed of Dawn",
+    "icon": "images/items/183007.png",
+    "lore_ch": "据说翁法罗斯曾经举办过选美大会，几位绝代佳人各自从金苹果树上摘下一枚果实。墨涅塔说，谁能在明年将金苹果完整带回，谁便是最美之人。\\n第二年，没有一位佳人完成考验：再好的苹果也会腐烂，正如再美的容貌也会衰朽。但到了第三年，一位相貌平平的农家女孩带回了一株新苗——原来她惋惜金苹果美丽的消亡，将腐果细心收检、栽入土中，竟培育出一株新的金苹果。此时，吉奥里亚现身，恳请墨涅塔将最美之人的称号授予这位农家女孩。\\n墨涅塔颇不情愿，因为她看不上女孩的相貌。吉奥里亚便请求欧洛尼斯以夜帏遮住墨涅塔的双眼。失去视野的瞬间，墨涅塔看到了农家女孩闪闪发光的内心，遂欣然授其美名。\\n\\n\\n",
+    "lore_en": "Legend has it that Amphoreus once hosted a beauty pageant where several renowned beauties each plucked a fruit from the golden apple tree. Mnestia declared that the contestant who returned the following year with their golden apple still intact would be deemed the most beautiful.\\nWhen the year passed, none of the contestants succeeded in the trial — even the finest golden apples had rotted, just as even the most radiant faces inevitably fade with time. But in the third year, an ordinary-looking peasant girl returned, not with an apple, but with a new seedling. She explained that she had been deeply saddened by the golden apple's decay and had carefully gathered the seeds from the rotting fruit, planting them to nurture a new tree. Moved by her actions, Georios appeared and urged Mnestia to crown the peasant girl as the most beautiful contestant.\\nMnestia, however, was reluctant, unable to see any beauty in the girl. At that moment, Georios called upon Oronyx to cover Mnestia's eyes with the veil of night. The instant Mnestia lost their sight, they perceived the brilliance of the peasant girl's heart and joyfully awarded her the title.\\n\\n\\n",
+    "effect_ch": "4级合成材料。",
+    "effect_en": "Tier 4 Synthesis Material",
+    "dialogue_ch": [
+      "「阿雅，这个传说和你的过去好像呢！」",
+      "「呵…确实是一个美丽的故事。」"
+    ],
+    "dialogue_en": [
+      "\"Agy, doesn't this legend sound like your story?\"",
+      "\"Heh... a beautiful tale, indeed.\""
+    ]
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "星迹材料",
+    "category_en": "Trace Materials",
+    "name_ch": "思量的种",
+    "name_en": "Bīja of Consciousness",
+    "icon": "images/items/110251.png",
+    "lore_ch": "此物本不存在，直到你见到、听到、感受到某物。这因感受诞生的存在很快便会沉寂，埋在思维的苗床里，或许会在某日发芽，或许不会。\\n\\n",
+    "lore_en": "This thing does not truly exist until you see, hear, or sense something. This existence born from sensations soon falls silent, buried in the soil of thought — it may sprout one day, or it may not.\\n\\n",
+    "effect_ch": "意识与物质交汇，孕育出了记忆的胚胎，可小幅提升记忆角色的命途行迹。",
+    "effect_en": "Consciousness fuses with matter, giving rise to the embryo of memory. Used to level up Traces slightly for Remembrance characters.",
+    "dialogue_ch": [
+      "「那是构成我们身体的质料，因你的铭记而存在。」"
+    ],
+    "dialogue_en": [
+      "\"Such is the substance that forms our bodies, existing because you remember.\""
+    ]
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "星迹材料",
+    "category_en": "Trace Materials",
+    "name_ch": "末那芽苗",
+    "name_en": "Seedling of Manas",
+    "icon": "images/items/110252.png",
+    "lore_ch": "种子萌发，枝芽交错，如突触般传递信号。在岁月的流逝中，这些枝芽有的枯萎，有的生长，直到能承载生命，成为某个灵魂的躯壳。\\n\\n",
+    "lore_en": "The seeds take root and sprout. Branches and buds weave together, transmitting signals like a living network of synapses. Over the passage of years, some wither and fade, while others flourish, growing strong enough to bear life and form the vessel of a soul. \\n\\n",
+    "effect_ch": "记忆的细胞萃取着思绪，于铭刻者的心底滋蔓，可中幅提升记忆角色的命途行迹。",
+    "effect_en": "Memory's cells extract thoughts, propagating in the heart of the inscriber. Used to level up Traces moderately for Remembrance characters.",
+    "dialogue_ch": [
+      "「我们没有抛弃肉体，只是让它变成了一种…更长久的东西。」"
+    ],
+    "dialogue_en": [
+      "\"We did not abandon the flesh. We merely transformed it into something... more enduring.\""
+    ]
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "星迹材料",
+    "category_en": "Trace Materials",
+    "name_ch": "阿赖耶华",
+    "name_en": "Flower of Ālaya",
+    "icon": "images/items/110253.png",
+    "lore_ch": "它成熟了，变作一张收拢历史的网，一朵来自过去的花。生命是它的园圃，也可以是它的花心。若你成为花心，你便记住了宇宙，宇宙便记住了你，你就是记忆。\\n\\n",
+    "lore_en": "It matures. It becomes a web that constrains history, a blossom from the past. Life is its flower bed or its pistil. If you become the pistil, then you remember the universe and the universe remembers you. You are memory. \\n\\n",
+    "effect_ch": "这是生命的另一种存在方式，也是宇宙无法忘却的物质，可大幅提升记忆角色的命途行迹。",
+    "effect_en": "This is another form for life to exist and a substance that the universe cannot forget. Used to level up Traces significantly for Remembrance characters.",
+    "dialogue_ch": [
+      "「记忆即为诸法之实体，故而无漏净土中，无有生灭。」"
+    ],
+    "dialogue_en": [
+      "\"Memory is the true form of all things, thus there is no creation or annihilation in the Anāśrava pure land.\""
+    ]
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "配方",
+    "category_en": "Formulas",
+    "name_ch": "配方：《星穹列车》游戏光碟",
+    "name_en": "Recipe: <i>Astral Express</i> Game Disk",
+    "icon": "images/items/402629.png",
+    "lore_ch": "一份记载着《星穹列车》源代码的文献。\\n据说很多古代技术爱好者，都热衷于尝试使用任何能显示画面的电子设备运行《星穹列车》。\\n\\n\\n",
+    "lore_en": "A document containing 's source code.\\nIt's said that many aficionados of ancient technology will use any device capable of rendering visuals to run .\\n\\n\\nAstral Express",
+    "effect_ch": "一行简洁的等式，输入合成机中可以解锁新的配方。",
+    "effect_en": "A simple equation. When entered into the Synthesizer, it will unlock a new recipe.",
+    "dialogue_ch": [
+      "「可憎的暴君，在处决你之前，我必须得到一个答案——回答我：你这样温和的学者，为何会选择僭称帝王？」",
+      "「我只是…想试试用人列计算机运行《星穹列车》而已……」"
+    ],
+    "dialogue_en": [
+      "Astral Express",
+      "Astral Express",
+      "\"Foul tyrant, before I grant you your end, I wish to hear an answer from you: Tell me, for what reason does a mild scholar such as yourself choose to falsely take the name of emperor?\"",
+      "\"I just... wanted to try running",
+      "on a human-formation computer...\""
+    ]
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "配方",
+    "category_en": "Formulas",
+    "name_ch": "配方：烈焰椒椒酱",
+    "name_en": "Recipe: Flaming Chili Sauce",
+    "icon": "images/items/406023.png",
+    "lore_ch": "",
+    "lore_en": "",
+    "effect_ch": "一行燃烧的等式，输入合成机中可以解锁火辣的配方。",
+    "effect_en": "A flaming equation. When entered into the Synthesizer, it will unlock a spicy recipe.",
+    "dialogue_ch": [
+      "「曜青保密配方，仅供内参。」"
+    ],
+    "dialogue_en": [
+      "\"Confidential recipe. For reference within the Yaoqing only.\""
+    ]
+  },
+  {
+    "version": "v3.5",
+    "category_ch": "配方",
+    "category_en": "Formulas",
+    "name_ch": "配方：好运满杯",
+    "name_en": "Recipe: Abundance of Luck",
+    "icon": "images/items/406035.png",
+    "lore_ch": "一行简洁的食谱，记载着调配「好运满杯」所需要的食材和工序。食谱的内容很简洁，但字字句句都由调饮师们所付出的心血凝成。\\n\\n",
+    "lore_en": "A concise recipe detailing the ingredients and steps needed to make \"Abundance of Luck.\" The recipe is simple, but every word is a testament condensed from the dedication of the drinksmiths.\\n\\n",
+    "effect_ch": "一行简洁的等式，输入合成机中可以解锁新的配方。",
+    "effect_en": "A simple equation. When entered into the Synthesizer, it will unlock a new recipe.",
+    "dialogue_ch": [
+      "「推荐冷饮、多冰、不另外加糖，能给予你一个完美的早晨～」"
+    ],
+    "dialogue_en": [
+      "\"Best served cold with extra ice, and no additional sugar. Guarantees a perfect morning~\""
+    ]
+  },
+  {
+    "version": "v3.0",
+    "category_ch": "礼物",
+    "category_en": "Gifts",
+    "name_ch": "旅程之遇：「地宫迷踪」",
+    "name_en": "Fateful Crossings: Hypogeum Enigma",
+    "icon": "images/items/309001.png",
+    "lore_ch": "「于旅程中，邂逅新的伙伴吧。」",
+    "lore_en": "\"Meet new companions in your journeys.\"",
+    "effect_ch": "漂亮的信封，内含一张定制车票。使用后可从下列4星角色中任选一个：\\n【桂乃芬】【寒鸦】【停云】【虎克】",
+    "effect_en": "A beautiful envelope containing a customized ticket. When used, you can choose one of the following 4-star characters:\\nGuinaifen, Hanya, Tingyun, or Hook."
+  },
+  {
+    "version": "v3.1",
+    "category_ch": "礼物",
+    "category_en": "Gifts",
+    "name_ch": "旅程之遇：「嗷呜嗷呜事务所」",
+    "name_en": "Fateful Crossings: The Awooo Firm",
+    "icon": "images/items/309001.png",
+    "lore_ch": "「于旅程中，邂逅新的伙伴吧。」",
+    "lore_en": "\"Meet new companions in your journeys.\"",
+    "effect_ch": "漂亮的信封，内含一张定制车票。使用后可从下列4星角色中任选一个：\\n【青雀】【佩拉】【希露瓦】【艾丝妲】",
+    "effect_en": "A beautiful envelope containing a customized ticket. When used, you can choose one of the following 4-star characters:\\nQingque, Pela, Serval, Asta"
+  },
+  {
+    "version": "v3.3",
+    "category_ch": "礼物",
+    "category_en": "Gifts",
+    "name_ch": "旅程之遇：「银河球棒侠」",
+    "name_en": "Fateful Crossings: Galactic Baseballer",
+    "icon": "images/items/309001.png",
+    "lore_ch": "「于旅程中，邂逅新的伙伴吧。」",
+    "lore_en": "\"Meet new companions in your journeys.\"",
+    "effect_ch": "漂亮的信封，内含一张定制车票。使用后可从下列4星角色中任选一个：\\n「加拉赫」、「米沙」、「寒鸦」、「雪衣」",
+    "effect_en": "A beautiful envelope containing a customized ticket. When used, you can choose one of the following 4-star characters:\\nGallagher, Misha, Hanya, Xueyi"
+  },
+  {
+    "version": "v3.3",
+    "category_ch": "礼物",
+    "category_en": "Gifts",
+    "name_ch": "记载预言的金织-「无晖祈堂」",
+    "name_en": "Portentous Goldwoven: \"Lightless Chapel\"",
+    "icon": "images/items/190017.png",
+    "lore_ch": "记载了预言的卷册。仔细观察才能发现，卷面是由金丝织就的。\\n\\n",
+    "lore_en": "A tome containing prophecies. Upon closer inspection, one will discover that the scroll is woven from golden threads.\\n\\n",
+    "dialogue_ch": [
+      "「此中包含着一则预言，它只向开卷者示现。」"
+    ],
+    "dialogue_en": [
+      "\"There is a prophecy within that will only be revealed to the one who opens the scroll.\""
+    ]
+  },
+  {
+    "version": "v3.4",
+    "category_ch": "礼物",
+    "category_en": "Gifts",
+    "name_ch": "星海珍藏",
+    "name_en": "Jewels of the Starry Seas",
+    "icon": "images/items/300013.png",
+    "lore_ch": "无数生命的过往回忆，皆封存于一枚枚光锥当中，等待着无名客去开启。",
+    "lore_en": "The memories of countless lives are stored in Light Cones, awaiting a Nameless to unseal them.",
+    "effect_ch": "漂泊于无尽星海的珍贵藏品，可以自选一件特定光锥。",
+    "effect_en": "A precious treasure drifting in the endless sea of stars. Select one Light Cone of your choice."
+  },
+  {
+    "version": "v3.1",
+    "category_ch": "特殊道具",
+    "category_en": "Special",
+    "name_ch": "祭祷之枝",
+    "name_en": "Branch of Rites",
+    "icon": "images/items/281020.png",
+    "lore_ch": "朝圣者，请怀着敬意折下圣树的枝桠，如是，神明将为你留下睿智的垂语。",
+    "lore_en": "Pilgrim, please snap off the Sacred Tree's branch with reverence. In return, the god shall bestow upon you words of wisdom and guidance.",
+    "effect_ch": "很难描述的材料，用于解锁「千面英雄」的技能系统。",
+    "effect_en": "Indescribable materials used to unlock the ability system in Protean Hero."
+  },
+  {
+    "version": "v3.2",
+    "category_ch": "特殊道具",
+    "category_en": "Special",
+    "name_ch": "金币",
+    "name_en": "Gold Coin",
+    "icon": "images/items/281031.png",
+    "lore_ch": "在各个文明间都有将黄金铸造成圆形货币的古老传统，即使在数字货币流行的今天，一枚沉甸甸的金币还是能给人们带来十足的安全感。",
+    "lore_en": "Throughout civilizations, there's an ancient tradition of minting gold into round coins. Even in today's era of digital currencies, a hefty gold coin still gives people a solid sense of security.",
+    "effect_ch": "「货币战争」玩法内的核心经济资源，可用于购买小队成员、提升经验、刷新商店。",
+    "effect_en": "The core economic resource in Currency Wars gameplay, used for purchasing squad members, increasing Experience, and refreshing the Store."
+  },
+  {
+    "version": "v3.7",
+    "category_ch": "特殊道具",
+    "category_en": "Special",
+    "name_ch": "晋升点",
+    "name_en": "Ascension Points",
+    "icon": "images/items/281033.png",
+    "lore_ch": "对于任何一位公司员工来说，晋升的意义无须多言。在这条通向权力顶点的道路上，每前进一步都要付出巨大的代价。",
+    "lore_en": "For any IPC Worker, there is no need to explain the significance of ascending the corporate ladder. On this path to the pinnacle of power, every step forward comes with an enormous cost.",
+    "effect_ch": "通过「货币战争」玩法获取，可用于【晋升等级】的提升。",
+    "effect_en": "Obtained through Currency Wars gameplay, can be used to increase your \"Ascension Level.\""
+  },
+  {
+    "version": "v3.7",
+    "category_ch": "特殊道具",
+    "category_en": "Special",
+    "name_ch": "深度沉浸器",
+    "name_en": "Deep Immersifier",
+    "icon": "images/items/34.png",
+    "lore_ch": "深度数字化的开拓之力，仅在「星际和平指南」中使用。\\n\\n",
+    "lore_en": "A deeply digitized form of Trailblaze Power. For use only within the Interastral Peace Guide.\\n\\n",
+    "effect_ch": "可在「星际和平指南」中快速提取位面饰品",
+    "effect_en": "Quickly extract Planar Ornament in the Interastral Peace Guide",
+    "dialogue_ch": [
+      "「开拓并非简单地将未知纳入已知，阿基维利深度地理解和包容他者文明，这份精神依旧在无名客间传承。」"
+    ],
+    "dialogue_en": [
+      "\"Trailblazing is not simply a matter of charting the unknown. Akivili had a profound understanding and acceptance of other civilizations, a spirit that lives on among the Nameless.\""
+    ]
+  },
+  {
+    "version": "v3.7",
+    "category_ch": "特殊道具",
+    "category_en": "Special",
+    "name_ch": "等价钻钞",
+    "name_en": "Equivalent Banknote",
+    "icon": "images/items/281032.png",
+    "lore_ch": "究竟是哪位天才把钻石和钞票糅合在了一起。碳和纸，本是宇宙间最寻常的物品，居然也能跃升为重要等价物。",
+    "lore_en": "I wonder which genius came up with the idea of combining diamonds and banknotes. Carbon and paper, the most ordinary materials in the universe, somehow managed to become such valuable equivalents.",
+    "effect_ch": "通过「货币战争」玩法获取，可用于激活【优势布局】。",
+    "effect_en": "Obtained through Currency Wars gameplay, can be used to activate \"Advantage Layout.\""
+  },
+  {
+    "version": "v3.7",
+    "category_ch": "特殊道具",
+    "category_en": "Special",
+    "name_ch": "蹦蹦点心",
+    "name_en": "Bounce-Bounce Snack",
+    "icon": "images/items/270006.png",
+    "lore_ch": "\\n\\n",
+    "lore_en": "\\n\\n",
+    "effect_ch": "所有造物都喜欢的特制点心。可用于在「点心糕饼向前冲」赛事中为造物应援以及兑换奖励。",
+    "effect_en": "A special snack beloved by all creations. Can be used to cheer for creations in the \"Snack Dash\" event and exchange for rewards.",
+    "dialogue_ch": [
+      "「舔舔…咬咬…蹦高高！」"
+    ],
+    "dialogue_en": [
+      "\"Lick lick... nom nom... bounce bounce!\""
+    ]
+  }
+]

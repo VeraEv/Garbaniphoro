@@ -1,0 +1,4506 @@
+[
+  {
+    "version": "3.0",
+    "achievements": [
+      {
+        "id": "4014001",
+        "name_ch": "与昨日再会",
+        "name_en": "Meet Yesterday Once More",
+        "desc_ch": "开拓者踏上「记忆」命途",
+        "desc_en": "Tread on the Path of Remembrance",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4034001",
+        "name_ch": "面涂黄金的婴孩",
+        "name_en": "Baby with Face Covered in Gold",
+        "desc_ch": "这一次，你们的所作所为将令阿基维利感到骄傲",
+        "desc_en": "This time, your deeds will make Akivili proud",
+        "hint_ch": "※在翁法罗斯插下第一支界域定锚",
+        "hint_en": "※ Place your first Space Anchor in Amphoreus"
+      },
+      {
+        "id": "4034002",
+        "name_ch": "吾好梦中缠人",
+        "name_en": "I Like to Tie People in My Dream",
+        "desc_ch": "信任，是开拓最好的伙伴",
+        "desc_en": "Trust is the best companion for Trailblaze",
+        "hint_ch": "※于阿格莱雅的拷问下生还",
+        "hint_en": "※ Survive Aglaea's interrogation"
+      },
+      {
+        "id": "4034003",
+        "name_ch": "300",
+        "name_en": "300",
+        "desc_ch": "以一千道伤痕和一百条性命，换取最荣耀的死亡",
+        "desc_en": "I trade a thousand scars and a hundred lives for a most glorious death",
+        "hint_ch": "※见证「天谴之矛」的不死之躯",
+        "hint_en": "※ Witness the Lance of Fury's immortal body"
+      },
+      {
+        "id": "4034004",
+        "name_ch": "瓶中萤火",
+        "name_en": "Fireflies in a Bottle",
+        "desc_ch": "※于不存在的记忆中同流萤告别",
+        "desc_en": "※ Bid farewell to Firefly in the nonexistent memory",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4034005",
+        "name_ch": "蛛丝浮沉",
+        "name_en": "Bobbing Spider's Threads",
+        "desc_ch": "※于不存在的记忆中同卡芙卡告别",
+        "desc_en": "※ Bid farewell to Kafka in the nonexistent memory",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4034006",
+        "name_ch": "回来吧，旧日的幻影！",
+        "name_en": "Return, Illusions of the Past!",
+        "desc_ch": "伴随战鼓，破碎的记忆再度浮现于世",
+        "desc_en": "Broken memories will resurface with the war drums",
+        "hint_ch": "※回到全盛时期的悬锋城",
+        "hint_en": "※ Return to Castrum Kremnos in the age of its prime"
+      },
+      {
+        "id": "4034007",
+        "name_ch": "三度迎来日落",
+        "name_en": "Welcome Sunset Thrice",
+        "desc_ch": "追随理性的呼唤，掐灭神性的光芒",
+        "desc_en": "Follow the call of reason and extinguish the light of the divine",
+        "hint_ch": "※回收「天谴之矛」的火种",
+        "hint_en": "※ Reclaim the Lance of Fury's Coreflame"
+      },
+      {
+        "id": "4034008",
+        "name_ch": "世代如落叶",
+        "name_en": "Generations Fall Like Leaves",
+        "desc_ch": "开启你在翁法罗斯的英雄史诗",
+        "desc_en": "Embark on your epic hero's journey in Amphoreus",
+        "hint_ch": "※归还「纷争」的火种，等待白厄归来",
+        "hint_en": "※ Return the Coreflame of Strife and wait for Phainon's return."
+      },
+      {
+        "id": "4034009",
+        "name_ch": "活死人黎明",
+        "name_en": "Dawn of the Living Dead",
+        "desc_ch": "回到翁法罗斯「开拓」的起点",
+        "desc_en": "Return to the place where you began \"trailblazing\" in Amphoreus",
+        "hint_ch": "※回到列车坠毁的地方看看",
+        "hint_en": "※ Return to where the Express car went down"
+      },
+      {
+        "id": "4035103",
+        "name_ch": "我来组成头部！",
+        "name_en": "I'll be the Head!",
+        "desc_ch": "机铠，屹立于大地之上",
+        "desc_en": "Behold the mechatron, standing tall astride the earth!",
+        "hint_ch": "※拼装属于自己的大型机铠，并与破晓战队交手",
+        "hint_en": "※ Assemble your very own giant mechatron and battle against the Daybreak Squadron"
+      },
+      {
+        "id": "4044001",
+        "name_ch": "翁法罗斯掌管宝箱的半神",
+        "name_en": "Amphoreus' Demigod of Treasures",
+        "desc_ch": "开启120次翁法罗斯战利品",
+        "desc_en": "Open Treasures 120 time(s) in Amphoreus",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044002",
+        "name_ch": "顺着这光柱走去",
+        "name_en": "Walk Along This Pillar of Light",
+        "desc_ch": "第一次走入「奇迹宝珠」的照射范围",
+        "desc_en": "Enter the Miracle Orb's illumination radius for the first time",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044003",
+        "name_ch": "虫鸣秘闻：黄金征途",
+        "name_en": "Chirping Secret: Golden Journey",
+        "desc_ch": "蝴蝶们要去向何方？",
+        "desc_en": "Whereto shall the butterflies go?",
+        "hint_ch": "※解开「永恒圣城」奥赫玛的预言谜题",
+        "hint_en": "※ Solve the prophetic riddle in \"Eternal Holy City\" Okhema"
+      },
+      {
+        "id": "4044004",
+        "name_ch": "虫鸣秘闻：捷足悖论",
+        "name_en": "Chirping Secret: Fleetfoot Paradox",
+        "desc_ch": "战士总是在奔跑吗？",
+        "desc_en": "Is the warrior always running?",
+        "hint_ch": "※解开「纷争荒墟」悬锋城的预言谜题",
+        "hint_en": "※ Solve the prophetic riddle in \"Strife Ruins\" Castrum Kremnos"
+      },
+      {
+        "id": "4044005",
+        "name_ch": "虫鸣秘闻：光之瑕玷",
+        "name_en": "Chirping Secret: Blemish of Light",
+        "desc_ch": "阳光能普照所有角落吗？",
+        "desc_en": "Can sunlight shine down on all corners?",
+        "hint_ch": "※解开「浴血战端」悬锋城的预言谜题",
+        "hint_en": "※ Solve the prophetic riddle in \"Bloodbathed Battlefront\" Castrum Kremnos"
+      },
+      {
+        "id": "4044006",
+        "name_ch": "虫鸣秘闻：多重面相",
+        "name_en": "Chirping Secret: Many-Faced",
+        "desc_ch": "命运能仅凭一人解读吗？",
+        "desc_en": "Can destiny be deciphered by only a single person?",
+        "hint_ch": "※解开「命运重渊」雅努萨波利斯的预言谜题",
+        "hint_en": "※ Uncover the prophetic riddle in \"Abyss of Fate\" Janusopolis"
+      },
+      {
+        "id": "4044007",
+        "name_ch": "蝴蝶与灵魂",
+        "name_en": "Butterflies and Souls",
+        "desc_ch": "与泰坦的织者初识",
+        "desc_en": "Encounter the Titan's weavers for the first time",
+        "hint_ch": "※搜集1只创生若虫的赐福",
+        "hint_en": "※ Collect 1 blessing(s) from the Creation Nymphs"
+      },
+      {
+        "id": "4044008",
+        "name_ch": "盒子里的美",
+        "name_en": "Beauty Within a Box",
+        "desc_ch": "为织者们建立一座小型乐园",
+        "desc_en": "Create a small sanctuary for the weavers",
+        "hint_ch": "※搜集70只创生若虫的赐福",
+        "hint_en": "※ Collect 70 blessing(s) from the Creation Nymphs"
+      },
+      {
+        "id": "4044009",
+        "name_ch": "天气预报",
+        "name_en": "Weather Forecast",
+        "desc_ch": "使用「预言算碑」让悬锋城铁链上的「落雷」消散",
+        "desc_en": "Use the Prophecy Tablet to scatter the thunderbolts afflicting the iron chains of Castrum Kremnos",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044010",
+        "name_ch": "反戴的荆棘冠冕",
+        "name_en": "Inverted Crown of Thorns",
+        "desc_ch": "有人头戴荆棘的冠冕。但也有人……",
+        "desc_en": "Some wear a crown of thorns. Some others, however...",
+        "hint_ch": "※在「黄金替罪羊」中，失足跌落在荆棘上",
+        "hint_en": "※ Fall on the thorns in Golden Scapegoat"
+      },
+      {
+        "id": "4044011",
+        "name_ch": "并非盗取的火焰",
+        "name_en": "The Unstolen Flame",
+        "desc_ch": "即使走着荒诞的道路，物质奖励也同样重要",
+        "desc_en": "Even if you tread a ridiculous path, material rewards remain ever-important",
+        "hint_ch": "※在「黄金替罪羊」中，领取一次胜利后的奖励宝箱",
+        "hint_en": "※ Claim a chest after obtaining victory in Golden Scapegoat"
+      },
+      {
+        "id": "4044012",
+        "name_ch": "已成词句的血肉",
+        "name_en": "Flesh and Blood Have Become Words",
+        "desc_ch": "或许，在遥远的过去，也曾有人推石上山",
+        "desc_en": "Perhaps, in the distant past, someone pushed a boulder up a mountain",
+        "hint_ch": "※在「黄金替罪羊」中，集齐所有「黄金替罪羊的呓语」",
+        "hint_en": "※ Gather all Golden Scapegoat's Mutterings in Golden Scapegoat"
+      },
+      {
+        "id": "4044013",
+        "name_ch": "踏入岁月的河流",
+        "name_en": "Into the Currents of Time",
+        "desc_ch": "学会「欧洛尼斯祷言」",
+        "desc_en": "Learn Oronyx's Prayer",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044014",
+        "name_ch": "不在场证明",
+        "name_en": "Alibi",
+        "desc_ch": "利用场景中残留有记忆的物件击败敌人",
+        "desc_en": "Use the memory-laden objects to defeat the enemies in the map",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044015",
+        "name_ch": "完美的不在场证明",
+        "name_en": "The Perfect Alibi",
+        "desc_ch": "利用场景中残留有记忆的物件，同时击倒敌人跟你自己",
+        "desc_en": "Use the memory-laden objects to defeat yourself and enemies in the map at the same time",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044016",
+        "name_ch": "烫手山芋",
+        "name_en": "Hot Potato",
+        "desc_ch": "念错祷言可以重念，但总要有个限度……",
+        "desc_en": "Wrong prayers can be recited once more, but there is always a limit...",
+        "hint_ch": "※使用欧洛尼斯祷言让一个物件维持在回溯过程中的状态超过30秒",
+        "hint_en": "※ Use Oronyx's Prayer to cause an object to remain in the Rewind state for longer than 30 second(s)"
+      },
+      {
+        "id": "4044017",
+        "name_ch": "刹那永远",
+        "name_en": "Frozen in Time",
+        "desc_ch": "当时间逆流撞上时间凝滞，会发生什么？",
+        "desc_en": "What happens when time rewind collides with time freeze?",
+        "hint_ch": "※利用暂停时间的能力凝固回溯中的物件",
+        "hint_en": "※ Use time-stop abilities to immobilize objects during time rewind"
+      },
+      {
+        "id": "4044019",
+        "name_ch": "毁灭雕像的权利",
+        "name_en": "Destroying the Rights of Statues",
+        "desc_ch": "将奥赫玛城内的所有雕塑全部打坏",
+        "desc_en": "Destroy all statues within Okhema city",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044020",
+        "name_ch": "日光节约时制",
+        "name_en": "Daylight Saving Time",
+        "desc_ch": "将奥赫玛城内所有残留有记忆的物件全部回溯完好",
+        "desc_en": "Rewind all memory-laden objects in Okhema city",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044021",
+        "name_ch": "投石入湖",
+        "name_en": "Stone Into Lake",
+        "desc_ch": "在发动「欧洛尼斯祷言」的过程中，被另一个残留有记忆的的物件砸中",
+        "desc_en": "Get hit by an object from another memory-laden object when triggering Oronyx's Prayer",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044022",
+        "name_ch": "夏虫不可忆冰",
+        "name_en": "Sweet Summer Bug Cannot Recall Snow",
+        "desc_ch": "使若虫被残留有记忆的物件砸中",
+        "desc_en": "Cause the nymph to be hit by a memory-laden object",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044023",
+        "name_ch": "同步鸟瞰点",
+        "name_en": "Synchronized Bird's Eye View",
+        "desc_ch": "抵达云石市集的最高处",
+        "desc_en": "Reach the highest point of Marmoreal Market",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044024",
+        "name_ch": "奔河停流，山峦趋步",
+        "name_en": "The River Halts, The Mountain Comes",
+        "desc_ch": "驻足聆听水漫琴的琴声",
+        "desc_en": "Stop and listen to the melody of the Water Lyre",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044025",
+        "name_ch": "高空折返跑",
+        "name_en": "High-Altitude Shuttle Run",
+        "desc_ch": "通过悬锋城的浮空锁链",
+        "desc_en": "Pass through the suspended chains of Castrum Kremnos",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044026",
+        "name_ch": "权衡中",
+        "name_en": "In the Balance",
+        "desc_ch": "通过「命运重渊」雅努萨波利斯中塔兰顿的审判来到第三层区域",
+        "desc_en": "Reach the area on the third level via Talanton's Judgment in \"Abyss of Fate\" Janusopolis",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044027",
+        "name_ch": "雕刻灾难",
+        "name_en": "Engraved Disaster",
+        "desc_ch": "通过「浴血战端」悬锋城中纷争正殿的机关，前往地下的铸魂区",
+        "desc_en": "Reach the underground Soul-Forging Zone via the Hall of Strife mechanism in \"Bloodbathed Battlefront\" Castrum Kremnos",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044028",
+        "name_ch": "懦弱之人，绝不姑息",
+        "name_en": "Exploit Every Weakness",
+        "desc_ch": "使用「扎格列斯之手」的冲拳动作击败掘石场角落的泰坦眷属",
+        "desc_en": "Use the Hand of Zagreus' Punch Action to defeat the Titankin in the corner of the Excavation Ground",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044029",
+        "name_ch": "自我批评",
+        "name_en": "Self-Criticism",
+        "desc_ch": "使用「扎格列斯之手」的冲拳动作攻击自己",
+        "desc_en": "Use the Hand of Zagreus' Punch Action to attack yourself",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044030",
+        "name_ch": "诺维科夫自洽性原则",
+        "name_en": "Novikov Self-Consistency Principle",
+        "desc_ch": "使用「扎格列斯之手」时进入「奇迹宝珠」的照射范围，并停留一段时间",
+        "desc_en": "Use the Hand of Zagreus to enter the Miracle Orb's illumination radius and stay there for a time",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044031",
+        "name_ch": "碎盾一拳",
+        "name_en": "Shieldbreaker Fist",
+        "desc_ch": "使用「扎格列斯之手」的冲拳动作破坏场景中的小型盾构",
+        "desc_en": "Use the Hand of Zagreus' Punch Action to break the small shield structures in the map",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044032",
+        "name_ch": "秋名山之手",
+        "name_en": "Initial D",
+        "desc_ch": "在「地宫迷踪」活动的「扎格列斯之手」房间中，通关时撞墙不超过3次",
+        "desc_en": "Crash into a wall no more than 3 time(s) while in the Hand of Zagreus chamber for the Hypogeum Enigma event",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044033",
+        "name_ch": "禁飞区",
+        "name_en": "No-Fly Zone",
+        "desc_ch": "击碎1个飞天坛递",
+        "desc_en": "Smash 1 Flying Amphora(s)",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044034",
+        "name_ch": "爆裂坛递",
+        "name_en": "Amphora Breaker",
+        "desc_ch": "在「浴血战端」悬锋城击碎超速运行的飞天坛递",
+        "desc_en": "Smash the speeding Flying Amphora in the \"Bloodbathed Battlefront\" Castrum Kremnos",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044035",
+        "name_ch": "雅努斯的馈赠",
+        "name_en": "Janus' Gift",
+        "desc_ch": "在黄金短矛的指引下获得1个战利品",
+        "desc_en": "Obtain 1 treasure(s) under the Golden Short Spear's guidance",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4053057",
+        "name_ch": "林中小屋",
+        "name_en": "The Cabin in the Woods",
+        "desc_ch": "在克劳克影视乐园的某处见证五人组的离奇经历",
+        "desc_en": "Witness the bizarre experience of the five at a certain place in Clock Studios Theme Park",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054001",
+        "name_ch": "招手停",
+        "name_en": "Ring the Bell",
+        "desc_ch": "通过摇铃召唤大地兽5次",
+        "desc_en": "Use the bell to call the dromas 5 time(s)",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054002",
+        "name_ch": "我呼唤永恒的黎明",
+        "name_en": "I Call Upon Eternal Dawn",
+        "desc_ch": "阅读「永恒圣城」奥赫玛所有启目集",
+        "desc_en": "Read all enlightenments in the \"Eternal Holy City\" Okhema",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054003",
+        "name_ch": "我呼唤新王的君临",
+        "name_en": "I Call Upon the New King",
+        "desc_ch": "阅读「纷争荒墟」悬锋城所有启目集",
+        "desc_en": "Read all enlightenments in the \"Strife Ruins\" Castrum Kremnos",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054004",
+        "name_ch": "我呼唤丰盛的和平",
+        "name_en": "I Call Upon Peace and Prosperity",
+        "desc_ch": "阅读「浴血战端」悬锋城所有启目集",
+        "desc_en": "Read all enlightenments in the \"Bloodbathed Battlefront\" Castrum Kremnos",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054005",
+        "name_ch": "我呼唤远古的黑夜",
+        "name_en": "I Call Upon Night of Old",
+        "desc_ch": "阅读「命运重渊」雅努萨波利斯所有启目集",
+        "desc_en": "Read all enlightenments in the \"Abyss of Fate\" Janusopolis",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054006",
+        "name_ch": "大城轶事",
+        "name_en": "Big City Anecdotes",
+        "desc_ch": "窥探「永恒圣城」奥赫玛全部的追忆残像",
+        "desc_en": "Glimpse all Fragments of Recollection at \"Eternal Holy City\" Okhema",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054007",
+        "name_ch": "纷争余夜",
+        "name_en": "Strife's Afterglow",
+        "desc_ch": "窥探「纷争荒墟」悬锋城全部的追忆残像",
+        "desc_en": "Glimpse all Fragments of Recollection at \"Strife Ruins\" Castrum Kremnos",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054008",
+        "name_ch": "战争的黎明",
+        "name_en": "Dawn of War",
+        "desc_ch": "窥探「浴血战端」悬锋城全部的追忆残像",
+        "desc_en": "Glimpse all Fragments of Recollection at \"Bloodbathed Battlefront\" Castrum Kremnos",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054009",
+        "name_ch": "圣鹿之死",
+        "name_en": "The Holy Deer's Death",
+        "desc_ch": "窥探「命运重渊」雅努萨波利斯全部的追忆残像",
+        "desc_en": "Glimpse all Fragments of Recollection at \"Abyss of Fate\" Janusopolis",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054010",
+        "name_ch": "与浪花和兽相戏",
+        "name_en": "Frolic With Waves and Beasts",
+        "desc_ch": "获取声音记录《神性的回响：海洋》",
+        "desc_en": "Obtain the audio record Divine Echo: Ocean",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054011",
+        "name_ch": "停歇疯狂的不和",
+        "name_en": "Cease the Mad Disharmony",
+        "desc_ch": "获取声音记录《神性的回响：纷争》",
+        "desc_en": "Obtain the audio record Divine Echo: Strife",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054012",
+        "name_ch": "驱赶光明至地下",
+        "name_en": "Chase the Light Below",
+        "desc_ch": "获取声音记录《神性的回响：岁月》",
+        "desc_en": "Obtain the audio record Divine Echo: Time",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054013",
+        "name_ch": "平凡的世界",
+        "name_en": "Ordinary World",
+        "desc_ch": "回首来路，你或许已经在许多人的生活里泛起了不小的涟漪",
+        "desc_en": "Looking back from where you began, you might have already left a great many rippling waves in a lot of people's lives",
+        "hint_ch": "※看看那些接受过星穹列车帮助的普通人现在过得如何",
+        "hint_en": "※ Check out how those ordinary people helped by the Astral Express are doing right now"
+      },
+      {
+        "id": "4054014",
+        "name_ch": "大宇宙，小人间",
+        "name_en": "Big Universe, Small World",
+        "desc_ch": "在完成「寻人记」任务后，与星穹列车上的小机器人对话",
+        "desc_en": "After finishing the mission Searching for You, speak with the Little Robot on the Express",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054015",
+        "name_ch": "黑潮时期的爱情",
+        "name_en": "Love in the Time of Black Tide",
+        "desc_ch": "见证厄琉斯与宁芙的结局",
+        "desc_en": "Witness Aelius and Nympha's end",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054016",
+        "name_ch": "无果之树",
+        "name_en": "Fruitless Tree",
+        "desc_ch": "在奥赫玛完成神秘仪式交互事件",
+        "desc_en": "Complete the Secret Ceremony interaction event in Okhema",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054017",
+        "name_ch": "{NICKNAME}悖论",
+        "name_en": "The {NICKNAME} Paradox",
+        "desc_ch": "见证「最强之盾」与「最强之矛」的结局",
+        "desc_en": "Bear witness to the outcome between the Strongest Shield and the Strongest Lance",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054018",
+        "name_ch": "明天又是新的一天",
+        "name_en": "Tomorrow is a New Day",
+        "desc_ch": "※并见证一个孩子的转变",
+        "desc_en": "※ And witness a child's change",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054019",
+        "name_ch": "宿命论",
+        "name_en": "Theory of Predetermination",
+        "desc_ch": "帮助德墨忒尔调查女儿失踪的线索并阐述自己的推论",
+        "desc_en": "Help Demetria investigate clues related to her missing daughter and expound on your own deductions",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054020",
+        "name_ch": "偶像的黄昏",
+        "name_en": "Idol's Dusk",
+        "desc_ch": "在修辞学论辩中，为希诺的观点辩护",
+        "desc_en": "Defend Zeno's arguments in the rhetorical dispute",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054021",
+        "name_ch": "一切皆一",
+        "name_en": "All is One",
+        "desc_ch": "在修辞学论辩中，为帕门弥德的观点辩护",
+        "desc_en": "Defend Parmenides' arguments in the rhetorical dispute",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054022",
+        "name_ch": "形而上的坏死",
+        "name_en": "Death of Metaphysics",
+        "desc_ch": "仅借智慧所创造的一切，都是虚假之物",
+        "desc_en": "Everything created by wisdom is a falsehood",
+        "hint_ch": "※获得第一枚翻飞之币",
+        "hint_en": "※ Obtain your first Coin of Whimsy"
+      },
+      {
+        "id": "4054023",
+        "name_ch": "未选择的路",
+        "name_en": "The Unchosen Path",
+        "desc_ch": "调查位于「纷争荒墟」悬锋城的雅努斯之驹",
+        "desc_en": "Check the Janus' Steed located in \"Strife Ruins\" Castrum Kremnos",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054024",
+        "name_ch": "成神之日",
+        "name_en": "Day of Apotheosis",
+        "desc_ch": "调查位于「浴血战端」悬锋城的雅努斯之驹",
+        "desc_en": "Check the Janus' Steed located in \"Bloodbathed Battlefront\" Castrum Kremnos",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054025",
+        "name_ch": "手拘飞羽",
+        "name_en": "Feather in Hand",
+        "desc_ch": "调查位于「命运重渊」雅努萨波利斯的雅努斯之驹",
+        "desc_en": "Check the Janus' Steed located in \"Abyss of Fate\" Janusopolis",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054026",
+        "name_ch": "尚未揭示的秘密",
+        "name_en": "Untold Secrets",
+        "desc_ch": "在「永恒圣城」奥赫玛、「纷争荒墟」悬锋城、「浴血战端」悬锋城、「命运重渊」雅努萨波利斯阻止「贼灵」的所有盗窃行为。",
+        "desc_en": "Stop all the Spirithief's thefts in \"Eternal Holy City\" Okhema, \"Strife Ruins\" Castrum Kremnos, \"Bloodbathed Battlefront\" Castrum Kremnos, and \"Abyss of Fate\" Janusopolis.",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054027",
+        "name_ch": "火已渐熄",
+        "name_en": "The Fire Is Dying",
+        "desc_ch": "完成「黄金替罪羊」任务",
+        "desc_en": "Complete the Golden Scapegoat mission",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054029",
+        "name_ch": "哲学士",
+        "name_en": "Philosopher",
+        "desc_ch": "找到奥赫玛中所有的吉奥里亚活火",
+        "desc_en": "Find all the Living Flames of Georios in Okhema",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054030",
+        "name_ch": "哲学王",
+        "name_en": "Philosopher King",
+        "desc_ch": "找到奥赫玛中4个真言狮口并回答它们的提问",
+        "desc_en": "Find 4 Verax Leo(s) in Okhema and answer their questions",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054031",
+        "name_ch": "光明行者",
+        "name_en": "Lightwalker",
+        "desc_ch": "找到奥赫玛中8个真言狮口并回答它们的提问",
+        "desc_en": "Find 8 Verax Leo(s) in Okhema and answer their questions",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054032",
+        "name_ch": "寄居蟹",
+        "name_en": "Hermit Crab",
+        "desc_ch": "找到奥赫玛中所有的圣烛并激活互动",
+        "desc_en": "Find and activate all holy candles in Okhema",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054033",
+        "name_ch": "绝对客观记忆",
+        "name_en": "Absolute, Objective Memory",
+        "desc_ch": "调查位于「永恒圣城」奥赫玛的雅努斯之驹",
+        "desc_en": "Check the Janus' Steed located in \"Eternal Holy City\" Okhema",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054034",
+        "name_ch": "重塑雕像的权利",
+        "name_en": "Rebuilding the Rights of Statues",
+        "desc_ch": "收集第一个记忆碎片",
+        "desc_en": "Collect the first memory fragment",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054035",
+        "name_ch": "伪币制造者",
+        "name_en": "The Counterfeiters",
+        "desc_ch": "累积修复奥赫玛城内的3座雕像",
+        "desc_en": "Repair a total of 3 statue(s) in Okhema city",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054036",
+        "name_ch": "众神与人",
+        "name_en": "Gods and Mortals",
+        "desc_ch": "揭露更多藏于星宿中的秘密",
+        "desc_en": "Uncover more secrets hidden within the constellations",
+        "hint_ch": "※查阅创世涡心的泰坦星宿图鉴",
+        "hint_en": "※ View the Titan Constellation index in the Vortex of Genesis"
+      },
+      {
+        "id": "4054037",
+        "name_ch": "为何欢乐的喧闹哑默？",
+        "name_en": "Whyfor this Silent Joy?",
+        "desc_ch": "世界的起点曾是海洋",
+        "desc_en": "The world's origin was once the ocean",
+        "hint_ch": "※聆听创世涡心中潮汐的声音",
+        "hint_en": "※ Listen to the sound of the tides in the Vortex of Genesis"
+      },
+      {
+        "id": "4054038",
+        "name_ch": "山峦·铁匠·老主顾",
+        "name_en": "The Mountain Range, the Blacksmith, and the Old Customer",
+        "desc_ch": "大顾客，谢谢",
+        "desc_en": "Thanks, big customer",
+        "hint_ch": "※购买哈托努斯打造的全部种类的武器",
+        "hint_en": "※ Purchase every kind of weapon made by Chartonus"
+      },
+      {
+        "id": "4054039",
+        "name_ch": "我们席地而坐",
+        "name_en": "We Sit on the Ground",
+        "desc_ch": "向巴克斯购买秘酿，并触发特定迷醉事件",
+        "desc_en": "Purchase ambrosia from Bacchus and trigger the special intoxication incident",
+        "hint_ch": "※向巴克斯购买秘酿，并触发一次大地兽相关迷醉事件",
+        "hint_en": "※ Purchase ambrosia from Bacchus and trigger the dromas-related intoxication incident once"
+      },
+      {
+        "id": "4054040",
+        "name_ch": "睡在上铺的兄弟",
+        "name_en": "The Bro Sleeping On the Top Bunk",
+        "desc_ch": "向巴克斯购买秘酿，并触发特定迷醉事件",
+        "desc_en": "Purchase ambrosia from Bacchus and trigger the special intoxication incident",
+        "hint_ch": "※向巴克斯购买秘酿，并触发一次丹恒相关迷醉事件",
+        "hint_en": "※ Purchase ambrosia from Bacchus and trigger the Dan Heng-related intoxication incident once"
+      },
+      {
+        "id": "4054041",
+        "name_ch": "瓶中花月",
+        "name_en": "Moonlight in a Bottle",
+        "desc_ch": "向巴克斯购买秘酿，并触发所有迷醉事件",
+        "desc_en": "Purchase ambrosia from Bacchus and trigger all special intoxication incidents",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054042",
+        "name_ch": "漂浮曲与凝固音符",
+        "name_en": "Fleeting Melodies and Solid Notes",
+        "desc_ch": "天外回音可绕梁",
+        "desc_en": "The notes beyond the sky may echo",
+        "hint_ch": "※在帕西提亚处重温过往的天外之音",
+        "hint_en": "※ Revisit the celestial echoes of the past from Pasithea."
+      },
+      {
+        "id": "4054043",
+        "name_ch": "月桂捎来讯息…",
+        "name_en": "Laurel Brings Messages...",
+        "desc_ch": "可窥命运，但切莫盲信",
+        "desc_en": "You can gaze upon your fate, but you do not need to blindly believe it",
+        "hint_ch": "※让帕西提亚给你算一次命",
+        "hint_en": "※ Let Pasithea tell you your fortune once"
+      },
+      {
+        "id": "4054044",
+        "name_ch": "皮袋装满的声音",
+        "name_en": "The Sound of a Laden Bag",
+        "desc_ch": "阿克蒙的消息向来明码标价，绝对不坑朋友~",
+        "desc_en": "Akmonides runs an honest business. His intel is always clearly priced, and he'd never scam a friend~",
+        "hint_ch": "※买光阿克蒙的打折纸条",
+        "hint_en": "※ Purchase all of Akmonides' discount slips"
+      },
+      {
+        "id": "4054045",
+        "name_ch": "善良的种类",
+        "name_en": "The Kind Type",
+        "desc_ch": "师傅，你是做什么工作的？",
+        "desc_en": "What do you do for work, sir?",
+        "hint_ch": "※打扰浴场侍者的工作，让达罗跟你聊了聊",
+        "hint_en": "※ Interrupt Daros' work as a bath attendant and chat to him"
+      },
+      {
+        "id": "4054046",
+        "name_ch": "土装在另一个胃里",
+        "name_en": "Second Stomach for Soil",
+        "desc_ch": "能吃，但不建议",
+        "desc_en": "Edible, but not recommended",
+        "hint_ch": "※在与克特西的交谈中，亲自尝试他做给大地兽的「菜色」",
+        "hint_en": "※ Try Ctesias' dromas \"meal\" when talking to him"
+      },
+      {
+        "id": "4054047",
+        "name_ch": "理性动物之理性",
+        "name_en": "Rationality of Reasonable Animals",
+        "desc_ch": "寻找一个可能和你有着类似爱好的人…",
+        "desc_en": "Look for someone that might share a similar hobby as you...",
+        "hint_ch": "※找到住在桶里的第欧根娜",
+        "hint_en": "※ Find Diogena who lives in the can"
+      },
+      {
+        "id": "4054049",
+        "name_ch": "磐岩式社交",
+        "name_en": "Talk-To-A-Rock Socialization",
+        "desc_ch": "有时候，人们只是害羞",
+        "desc_en": "Sometimes, people are just shy",
+        "hint_ch": "※锲而不舍地与佩特拉对话，并成功引起他的注意",
+        "hint_en": "※ Talk incessantly to Petros and successfully gain his attention"
+      },
+      {
+        "id": "4054050",
+        "name_ch": "小哥，要苹果吗？",
+        "name_en": "Hey There, Want an Apple?",
+        "desc_ch": "造访奥赫玛城中所有商贩",
+        "desc_en": "Visit all the merchants in Okhema city",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054051",
+        "name_ch": "打捞过往之河",
+        "name_en": "Dredging the Rivers of Time Past",
+        "desc_ch": "你的私人浴宫里多出了什么？",
+        "desc_en": "What's that extra thing appearing in your personal bath chamber?",
+        "hint_ch": "※获得记忆的力量后，发现奇怪的晶体",
+        "hint_en": "※ Discover a strange crystal after obtaining the power of Remembrance"
+      },
+      {
+        "id": "4054052",
+        "name_ch": "大地在波动",
+        "name_en": "The Earth Is Quivering",
+        "desc_ch": "新的生命正在孕育",
+        "desc_en": "A new life is being nurtured",
+        "hint_ch": "※触摸大地兽工坊内奇怪的蛋",
+        "hint_en": "※ Touch the strange egg inside the Dromas Workshop"
+      },
+      {
+        "id": "4054053",
+        "name_ch": "旅行家的虚荣",
+        "name_en": "Traveler's Vanity",
+        "desc_ch": "猜猜谁是奥赫玛最爱大地兽的人？",
+        "desc_en": "Guess who loves dromases the most in Okhema?",
+        "hint_ch": "※拦下大地兽商队「阿尔戈」，并与伊阿宋完成一次对话",
+        "hint_en": "※ Halt the Dromas Caravan \"Argo\" and speak with Iason once"
+      },
+      {
+        "id": "4054054",
+        "name_ch": "背上的事诗",
+        "name_en": "Mounted Poetry",
+        "desc_ch": "拦下大地兽背上的吟游诗人，与他聊聊",
+        "desc_en": "Stop the bard on the dromas and speak with him",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054055",
+        "name_ch": "爱宠机密",
+        "name_en": "Pampering Secrets",
+        "desc_ch": "在「永恒圣城」奥赫玛的雅努斯之驹处购买小奇美拉",
+        "desc_en": "Buy the little chimera at \"Eternal Holy City\" Okhema's Janus' Steed",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054056",
+        "name_ch": "时光之尘",
+        "name_en": "Dust of Time",
+        "desc_ch": "第一次获得记忆残晶",
+        "desc_en": "Obtain a Memory Crystal Shard for the first time",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054057",
+        "name_ch": "哭泣的昨日草原",
+        "name_en": "Weeping Grasslands of Yesterday",
+        "desc_ch": "累积获得100个记忆残晶",
+        "desc_en": "Obtain 100 Memory Crystal Shard(s) in total",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054059",
+        "name_ch": "温暖的长屋在何方？",
+        "name_en": "Where Might a Comfy, Warm Cabin Be?",
+        "desc_ch": "※我们该去往何方？面对这一永恒之问，你选择以仁慈作答",
+        "desc_en": "※ Whereto shall we go? Faced with this eternal question, you chose benevolence as your answer",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054060",
+        "name_ch": "火与铁剑在何方？",
+        "name_en": "Where Are the Flames and Swords?",
+        "desc_ch": "※我们该去往何方？面对这一永恒之问，你选择以强硬作答",
+        "desc_en": "※ Whereto shall we go? Faced with this eternal question, you chose toughness as your answer",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054061",
+        "name_ch": "然旧岁之雪又在何方？",
+        "name_en": "But Where is the Snow of Yesteryear?",
+        "desc_ch": "※我们该去往何方？面对这一永恒之问，你选择以沉默作答",
+        "desc_en": "※ Whereto shall we go? Faced with this eternal question, you chose silence as your answer",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054062",
+        "name_ch": "忧郁的扼杀",
+        "name_en": "Melancholic Subdual",
+        "desc_ch": "他首先爱着水，其次是爱着他自己所缺少的那部分",
+        "desc_en": "First, he loved the water, and secondly, he loved what he himself lacked",
+        "hint_ch": "※得知阿卡迪亚的真相",
+        "hint_en": "※ Discover the truth about Arcadia"
+      },
+      {
+        "id": "4054063",
+        "name_ch": "不再喧嚣",
+        "name_en": "Silenced Clamoring",
+        "desc_ch": "即使命运冰冷无情，也总有些事情会发生改变",
+        "desc_en": "Even if the fates are cold and merciless, some things will still change",
+        "hint_ch": "※找寻在梦中呼唤帕西提亚的幽灵",
+        "hint_en": "※ Find the spirit calling out to Pasithea in the dream"
+      },
+      {
+        "id": "4054064",
+        "name_ch": "书中自有……",
+        "name_en": "It's In the Book...",
+        "desc_ch": "好粉的书中精灵！",
+        "desc_en": "What a pink Sprite-in-a-Book!",
+        "hint_ch": "※发现书中的精灵",
+        "hint_en": "※ Discover the sprite within a book"
+      },
+      {
+        "id": "4054065",
+        "name_ch": "虚构集或永恒史",
+        "name_en": "Pure Fiction or Everlasting History",
+        "desc_ch": "那是何人写下的故事？",
+        "desc_en": "Who wrote this story?",
+        "hint_ch": "※读完最初的7段故事后，你陷入凝思",
+        "hint_en": "※ After reading the first 7 segment(s) of the story, you fall deep in thought"
+      },
+      {
+        "id": "4054066",
+        "name_ch": "翁法罗斯公民",
+        "name_en": "Amphoreus Citizen",
+        "desc_ch": "在翁法罗斯旁听过人们的对话",
+        "desc_en": "Listen in on people's conversations in Amphoreus",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054067",
+        "name_ch": "翁法罗斯包打听",
+        "name_en": "Amphoreus Detective",
+        "desc_ch": "在翁法罗斯旁听人们的对话10次",
+        "desc_en": "Listen in on people's conversations 10 time(s) in Amphoreus",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054069",
+        "name_ch": "新的传火者",
+        "name_en": "Torchbearer Neo",
+        "desc_ch": "修复任意一个吉奥里亚活火并满足它的要求",
+        "desc_en": "Repair any Living Flame of Georios and fulfill its request",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054070",
+        "name_ch": "浴露均沾",
+        "name_en": "Fingers In Many Pots",
+        "desc_ch": "尝试过云石天宫里的高温浴池、低温浴池与试温池",
+        "desc_en": "Try the hot, cold, and test baths in the Marmoreal Palace",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054071",
+        "name_ch": "朋友，好",
+        "name_en": "Friend, Well Met",
+        "desc_ch": "与奥赫玛的山之民们结识",
+        "desc_en": "Make acquaintance with the Mountain Dwellers of Okhema",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054072",
+        "name_ch": "翁法罗斯万事通",
+        "name_en": "Amphoreus Know-It-All",
+        "desc_ch": "在翁法罗斯旁听人们的对话30次",
+        "desc_en": "Listen in on people's conversations 30 time(s) in Amphoreus",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074001",
+        "name_ch": "潘克拉辛的真意",
+        "name_en": "Pankration's True Intention",
+        "desc_ch": "单次攻击中破坏至少4名敌人的【战甲】",
+        "desc_en": "Break at least 4 enemies' \"War Armor\" in a single attack",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074002",
+        "name_ch": "永恒极枪",
+        "name_en": "Eternal Lance",
+        "desc_ch": "在和「天谴先锋」的战斗中，在破坏其【战甲】时完成制胜一击",
+        "desc_en": "In the battle against Furiae Praetor, deal the finishing blow as you destroy its \"War Armor\"",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074003",
+        "name_ch": "斜行战术",
+        "name_en": "Diagonal March",
+        "desc_ch": "在和「天谴先锋」的战斗中，至少5名我方目标参与分摊【在滔滔血海中沉溺】的伤害，且分摊伤害后没有我方目标被击败",
+        "desc_en": "When facing Furiae Praetor in battle, have at least 5 ally target(s) Distribute the \"Drowned in the Crimson Sea\" DMG, with none of them being defeated after the Distribution is complete",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074004",
+        "name_ch": "无上荣光",
+        "name_en": "Supreme Glory",
+        "desc_ch": "在和「蛮神，疯王，纷争的化身」的单场战斗中，所有我方角色的【荣耀】达到2层上限",
+        "desc_en": "In a single battle against \"Savage God, Mad King, Incarnation of Strife,\" attain the maximum 2 stacks of \"Glory\" for all ally characters",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074005",
+        "name_ch": "止战之殇",
+        "name_en": "Death That Halted Battles",
+        "desc_ch": "在和「蛮神，疯王，纷争的化身」的单场战斗中，破坏其【战甲】和【泰坦神躯】",
+        "desc_en": "In a single battle against \"Savage God, Mad King, Incarnation of Strife,\" destroy their \"War Armor\" and \"Titanic Corpus\"",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074006",
+        "name_ch": "折旌的战场",
+        "name_en": "Shattered Battleground",
+        "desc_ch": "在和「颁赐者，千军首，天谴之矛」的战斗中，令其施放【畏怖溃军皆成铠仗】时没有吸收到「征服或被征服」",
+        "desc_en": "When facing The Giver, Master of Legions, Lance of Fury, cause the \"The Fallen Feeds My Might\" to fail to absorb \"Conquer or Be Conquered\"",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074007",
+        "name_ch": "征服王",
+        "name_en": "The Conqueror King",
+        "desc_ch": "在「颁赐者，千军首，天谴之矛」施放【受征伐者皆见灾殃】后，用同一个角色消灭所有的「征服或被征服」",
+        "desc_en": "After The Giver, Master of Legions, Lance of Fury uses \"The Vanquished Behold Woe,\" destroy all Conquer or Be Conquered with the same character",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074008",
+        "name_ch": "伙伴，约定！",
+        "name_en": "Promise, Friend!",
+        "desc_ch": "使用「记忆」命途开拓者召唤迷迷",
+        "desc_en": "Summon Mem using Trailblazer (Remembrance)",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074009",
+        "name_ch": "一起，着迷！",
+        "name_en": "Together, Mem!",
+        "desc_ch": "单场战斗中，使我方至少4名角色同时持有【迷迷的声援】",
+        "desc_en": "Have at least 4 ally character(s) possess \"Mem's Support\" simultaneously in a single battle",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074011",
+        "name_ch": "金线降神",
+        "name_en": "Deus Ex Aurifilo",
+        "desc_ch": "单场战斗中，使用我方角色阿格莱雅召唤1次「衣匠」",
+        "desc_en": "Use ally character Aglaea to summon Garmentmaker 1 time(s) in a single battle",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074012",
+        "name_ch": "热狂圆舞",
+        "name_en": "Frantic Waltz",
+        "desc_ch": "单场战斗中，使用我方角色阿格莱雅在【至高之姿】状态下累计施放5次【孤锋千吻】",
+        "desc_en": "Use ally character Aglaea to unleash \"Slash by a Thousandfold Kiss\" 5 time(s) while under the \"Supreme Stance\" state in a single battle",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074013",
+        "name_ch": "天衣无缝",
+        "name_en": "Flawless Cloth",
+        "desc_ch": "单场战斗中，仅使用我方角色阿格莱雅的「衣匠」消灭敌方所有目标并获得战斗胜利",
+        "desc_en": "Use only ally character Aglaea's Garmentmaker to defeat all enemy targets and earn victory in a single battle",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074014",
+        "name_ch": "回忆突然攻击我",
+        "name_en": "The Past Just Jumped Me",
+        "desc_ch": "使用记忆命途角色对战卡芙卡，其操控的忆灵陷入「支配」状态并攻击忆师本人",
+        "desc_en": "When a character following the Path of Remembrance battles Kafka, have their memosprite become Dominated and attack the memomaster",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074017",
+        "name_ch": "擢升的渴慕",
+        "name_en": "Elevated Admiration",
+        "desc_ch": "单次战斗中，使用我方角色星期日使任意一名忆师和忆灵的行动提前5次",
+        "desc_en": "Use ally character Sunday to action advance any memomaster and memosprite 5 time(s) in a single battle",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074018",
+        "name_ch": "往日之惩",
+        "name_en": "The Past Strikes Back",
+        "desc_ch": "累计使用忆灵技伤害消灭30名敌人",
+        "desc_en": "Defeat a total of 30 enemies using Memosprite Skill DMG",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074019",
+        "name_ch": "代理人战争",
+        "name_en": "Proxy War",
+        "desc_ch": "单场战斗中，场上同时存在4名及以上我方忆灵",
+        "desc_en": "In a single battle, have at least 4 ally memosprites on the battlefield simultaneously",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074020",
+        "name_ch": "真实是永远的必杀技",
+        "name_en": "Truth is the Eternal Ultimate",
+        "desc_ch": "累计使用真实伤害消灭10名敌人",
+        "desc_en": "Defeat 10 enemies with True DMG",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074021",
+        "name_ch": "阅读理解",
+        "name_en": "Reading Comprehension",
+        "desc_ch": "单次战斗中，使用我方角色大黑塔累计5次叠加出42层的【解读】",
+        "desc_en": "In a single battle, use ally character The Herta to apply 42 stacks of \"Interpretation\" a total of 5 time(s)",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4084001",
+        "name_ch": "回到未未未未来",
+        "name_en": "Back to the F-F-F-Future",
+        "desc_ch": "在短时间内连续使用「奇迹典籍」切换时空5次",
+        "desc_en": "Consecutively use Tome of Miracles to switch space-time 5 time(s)",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4084002",
+        "name_ch": "神圣车行",
+        "name_en": "Holy Motors",
+        "desc_ch": "连续开关「奇迹宝珠」5次",
+        "desc_en": "Consecutively activate the Miracle Orb 5 time(s)",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4084003",
+        "name_ch": "柱倒啦—",
+        "name_en": "The Pillar Is Falling —",
+        "desc_ch": "感受「真理」的重量",
+        "desc_en": "Feel the weight of truth",
+        "hint_ch": "※在翁法罗斯探索过程中，被残留有记忆的柱子砸中",
+        "hint_en": "※ Get hit by a memory-laden pillar during exploration in Amphoreus"
+      },
+      {
+        "id": "4084004",
+        "name_ch": "美丽的淑女",
+        "name_en": "Beautiful Lady",
+        "desc_ch": "桥塌啦？还好你不在桥上——在桥下？",
+        "desc_en": "The bridge collapsed? Good thing you weren't on— you were under it???",
+        "hint_ch": "※在翁法罗斯探索过程中，被不稳定的桥砸中",
+        "hint_en": "※ Get struck by an unstable bridge during exploration in Amphoreus"
+      },
+      {
+        "id": "4084005",
+        "name_ch": "无罪者能先拿起石头",
+        "name_en": "He That Is Without Sin May Cast The First Stone",
+        "desc_ch": "来玩保龄球，我当球瓶",
+        "desc_en": "Let's bowl. I'll be the bowling pin",
+        "hint_ch": "※在翁法罗斯探索过程中，被石球砸中",
+        "hint_en": "※ Get hit by a stone ball during exploration in Amphoreus"
+      },
+      {
+        "id": "4084007",
+        "name_ch": "动啊，为什么不动？",
+        "name_en": "Move, Why Don't You Move?",
+        "desc_ch": "神龛？什么神龛？",
+        "desc_en": "Shrine? What shrine?",
+        "hint_ch": "※在翁法罗斯探索过程中，回溯残留有记忆的某个物件时，因超过能力限度而失败五次",
+        "hint_en": "※ During exploration in Amphoreus, when rewinding certain memory-laden objects, fail five times due to exceeding ability limits"
+      }
+    ]
+  },
+  {
+    "version": "3.1",
+    "achievements": [
+      {
+        "id": "4034101",
+        "name_ch": "女神啊，歌唱他的愤怒",
+        "name_en": "Sing, O Goddess, of His Rage",
+        "desc_ch": "年轻的英雄终于从「纷争」中崛起…",
+        "desc_en": "The young hero has finally risen from \"Strife\"...",
+        "hint_ch": "※…并没有，但他至少得救了",
+        "hint_en": "※...He did not, but at least he was saved."
+      },
+      {
+        "id": "4034102",
+        "name_ch": "无形之神乃最显之物",
+        "name_en": "The Shapeless God is the Most Visible of All Things",
+        "desc_ch": "拾花为薪，理性的火种再度燎燃",
+        "desc_en": "With flowers offered as kindling, the Coreflame of Reason burns once more",
+        "hint_ch": "※与泰坦一同击退无名剑士",
+        "hint_en": "※ Fight off the nameless swordmaster alongside the Titan"
+      },
+      {
+        "id": "4034103",
+        "name_ch": "置身不死的神明中",
+        "name_en": "Among the Undying Divine",
+        "desc_ch": "塞纳托斯呵，请恩赐她一夜安眠",
+        "desc_en": "Oh, Thanatos, grant her but a night of peaceful sleep",
+        "hint_ch": "※在噩梦中尝试重拾缇宝的过去…",
+        "hint_en": "※ Try to reclaim Tribbie's past in the nightmare..."
+      },
+      {
+        "id": "4034104",
+        "name_ch": "战勇啊，何必质问其家世？",
+        "name_en": "Warrior, Why Do You Question Thy Origins?",
+        "desc_ch": "君王遗告身后：「朕的王朝，给最强者。」",
+        "desc_en": "The sovereign left this to posterity: \"My throne will be bequeathed to the strongest.\"",
+        "hint_ch": "※与「纷争」新神一同在角争中胜出",
+        "hint_en": "※ Triumph in battle alongside the new god of Strife"
+      },
+      {
+        "id": "4034105",
+        "name_ch": "人世正如木叶枯荣",
+        "name_en": "The World, As Nature, Withers and Blooms",
+        "desc_ch": "雄狮远离故土，抵达他流徙的终点",
+        "desc_en": "The lion has left his homeland and reached the end of his exile",
+        "hint_ch": "※见证悬锋继业者归乡的末路",
+        "hint_en": "※ Witness the end of the Kremnos heir's homecoming"
+      },
+      {
+        "id": "4034106",
+        "name_ch": "旧叶落地，然新木萌发",
+        "name_en": "Old Leaves Fall, New Trees Flourish",
+        "desc_ch": "当黎明用玫瑰色的手指送来曙光",
+        "desc_en": "When rosy-fingered dawn delivered morninglight",
+        "hint_ch": "※见证缇安展翅飞向注定的明天",
+        "hint_en": "※ Witness Trianne soaring toward the fated tomorrow"
+      },
+      {
+        "id": "4034107",
+        "name_ch": "人世正如此：一代出生，一代凋零",
+        "name_en": "The World Is Thus: One Generation Rises, Another Wilts",
+        "desc_ch": "启封岁月自过去送向未来的信",
+        "desc_en": "Open a letter from times past offered to the future",
+        "hint_ch": "※见证缇里西庇俄丝与逐火的起点",
+        "hint_en": "※ Witness the beginning of Tribios and the Flame-Chase"
+      },
+      {
+        "id": "4044101",
+        "name_ch": "教科书般的设计",
+        "name_en": "Textbook Design",
+        "desc_ch": "为求学者敞开知识的大门",
+        "desc_en": "Open the gates of knowledge for those seeking wisdom",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044102",
+        "name_ch": "瑟希斯不完备定理",
+        "name_en": "Cerces' Incomplete Theorem",
+        "desc_ch": "2次阻止贼灵从瑟希斯眼皮底下偷走东西",
+        "desc_en": "Stop the Spirithief from robbing Cerces 2 time(s)",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044103",
+        "name_ch": "学海拾遗",
+        "name_en": "Erudition From The Deep",
+        "desc_ch": "获得「呓语密林」神悟树庭中深埋水下的战利品",
+        "desc_en": "Obtain the treasure buried deep underwater in \"Murmuring Woods\" Grove of Epiphany",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044104",
+        "name_ch": "阿多尼斯电梯",
+        "name_en": "Adonis Elevator",
+        "desc_ch": "在「呓语密林」神悟树庭探索时，第一次站到了识之花上面",
+        "desc_en": "Stand upon the Cognos Bloom for the first time when exploring \"Murmuring Woods\" Grove of Epiphany",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044105",
+        "name_ch": "捉蝇术",
+        "name_en": "Fly Catcher",
+        "desc_ch": "别以为躲到树上就安全了……",
+        "desc_en": "Don't think you're safe just because you're hiding up a tree...",
+        "hint_ch": "※使用扎格列斯之手的冲拳动作，击败神悟树庭某棵树木上的敌人",
+        "hint_en": "※ Use the Hand of Zagreus's Punch Action to defeat the enemy on a certain tree in the Grove of Epiphany"
+      },
+      {
+        "id": "4044107",
+        "name_ch": "悸动的心",
+        "name_en": "Throbbing Heart",
+        "desc_ch": "将深爱般的誓言献上",
+        "desc_en": "Offer a vow akin to the deepest love",
+        "hint_ch": "※使聚露植心再次活化",
+        "hint_en": "※ Revitalize the Dewy Heartwood"
+      },
+      {
+        "id": "4044108",
+        "name_ch": "种子的信仰",
+        "name_en": "Faith in A Seed",
+        "desc_ch": "在「呓语密林」神悟树庭的逐星天井中探索时，借助识之种砸碎底部的货箱",
+        "desc_en": "Use the Cognos Seed to smash crates at the bottom while exploring the Star-Chase Atrium in \"Murmuring Woods\" Grove of Epiphany",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044109",
+        "name_ch": "蝶恋花",
+        "name_en": "Butterfly Adores Flower",
+        "desc_ch": "金丝与树叶交织成一纸恋曲",
+        "desc_en": "The golden threads and leaves weave into a song of love",
+        "hint_ch": "※通过神识之蝶的考验",
+        "hint_en": "※ Pass the Butterfly of Divine Mind's trial"
+      },
+      {
+        "id": "4044110",
+        "name_ch": "虫鸣秘闻：智慧绾结",
+        "name_en": "Chirping Secret: Lattice of Wisdom",
+        "desc_ch": "几人的塑像丢失了面庞？",
+        "desc_en": "How many statues have lost their faces?",
+        "hint_ch": "※解开「呓语密林」神悟树庭的预言谜题",
+        "hint_en": "※ Solve the prophetic riddle in \"Murmuring Woods\" Grove of Epiphany"
+      },
+      {
+        "id": "4044111",
+        "name_ch": "虫鸣秘闻：门径律法",
+        "name_en": "Chirping Secret: Law of Passage",
+        "desc_ch": "她曾走过怎样的路？",
+        "desc_en": "What paths did she walk?",
+        "hint_ch": "※解开「神谕圣地」雅努萨波利斯的预言谜题",
+        "hint_en": "※ Solve the prophetic riddle in \"Sanctum of Prophecy\" Janusopolis"
+      },
+      {
+        "id": "4044112",
+        "name_ch": "万径之起始",
+        "name_en": "The Start of All Roads",
+        "desc_ch": "发现缇里西庇俄丝的逃生密道",
+        "desc_en": "Discover Tribios's secret escape passage",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044113",
+        "name_ch": "彩虹的尽头",
+        "name_en": "Rainbow's End",
+        "desc_ch": "门径，请指引我",
+        "desc_en": "Oh, guide me, Passage",
+        "hint_ch": "※解决「雅努斯迷津」所有的积压委托",
+        "hint_en": "※ Solve all accumulated assignments for Janus' Maze"
+      },
+      {
+        "id": "4044114",
+        "name_ch": "我们仍在路上",
+        "name_en": "We Journey Still",
+        "desc_ch": "门径，请指引我们",
+        "desc_en": "Oh, guide us, Passage",
+        "hint_ch": "※解决「雅努斯迷津」最后的三个遗存旧卷委托",
+        "hint_en": "※ Solve the final three Vestigial Scroll assignments for Janus' Maze"
+      },
+      {
+        "id": "4044115",
+        "name_ch": "新手入门",
+        "name_en": "Newbie Entering the Door",
+        "desc_ch": "操控扎格列斯之手，击打「神谕圣地」雅努萨波利斯的万径之门",
+        "desc_en": "Control the Hand of Zagreus and hit the Gate of Infinity of \"Sanctum of Prophecy\" Janusopolis",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044116",
+        "name_ch": "所有命运已被标价",
+        "name_en": "All Fates Are Marked With A Price",
+        "desc_ch": "在「神谕圣地」雅努萨波利斯，借助命运泰坦的权能完成挑战，并获取战利品。",
+        "desc_en": "Use the Fate Titans' authority to complete the challenges and unlock treasures in \"Sanctum of Prophecy\" Janusopolis.",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044117",
+        "name_ch": "地下拳击手",
+        "name_en": "Underground Boxer",
+        "desc_ch": "使用扎格列斯之手的冲拳动作，击败藏在「神谕圣地」雅努萨波利斯大桥下方的敌人",
+        "desc_en": "Use the Hand of Zagreus's Punch Action to defeat the enemies hidden under the \"Sanctum of Prophecy\" Janusopolis bridge",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054101",
+        "name_ch": "恶老板",
+        "name_en": "Bad Boss",
+        "desc_ch": "在「嗷呜嗷呜事务所」中，加班模式达到30评价",
+        "desc_en": "In \"The Awooo Firm,\" reach a rating of 30 in Overtime Mode",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054102",
+        "name_ch": "大企业",
+        "name_en": "Megacorp",
+        "desc_ch": "在「嗷呜嗷呜事务所」中，安排队伍中的奇美拉累计获得60块嗷呜饼干",
+        "desc_en": "In \"The Awooo Firm,\" arrange for chimeras on your squad to obtain a total of 60 Awoo Cookie(s)",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054103",
+        "name_ch": "四保一",
+        "name_en": "Four Protect One",
+        "desc_ch": "在「嗷呜嗷呜事务所」中，单只奇美拉的效率达到30",
+        "desc_en": "In \"The Awooo Firm,\" have a single chimera's efficiency reach 30",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054104",
+        "name_ch": "…你是对面的吧？",
+        "name_en": "...Are You Working for a Competitor?",
+        "desc_ch": "在「嗷呜嗷呜事务所」中，单只奇美拉的效率达到-10",
+        "desc_en": "In \"The Awooo Firm,\" have a single chimera's efficiency reach -10",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054105",
+        "name_ch": "大亨游戏",
+        "name_en": "Monopoly",
+        "desc_ch": "在「嗷呜嗷呜事务所」中，将贵族打扮的男性的奇美拉招致麾下",
+        "desc_en": "In \"The Awooo Firm,\" recruit a chimera from a man dressed like an aristocrat",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054106",
+        "name_ch": "小公司大老板",
+        "name_en": "Small Company, Big Boss",
+        "desc_ch": "在「嗷呜嗷呜事务所」中，拥有属于你的队伍名称",
+        "desc_en": "In \"The Awooo Firm,\" possess your own squad name",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054107",
+        "name_ch": "独角兽企业",
+        "name_en": "Unicorn Enterprise",
+        "desc_ch": "在「嗷呜嗷呜事务所」中，击败其余所有队伍，获得最终的冠军头衔",
+        "desc_en": "In \"The Awooo Firm,\" defeat all other squads and obtain the championship title",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054108",
+        "name_ch": "凶手来自局外",
+        "name_en": "The Killer Is Not From This Game",
+        "desc_ch": "协助珀里法斯查明朋友们的结局",
+        "desc_en": "Help Periphas discover what happened to his friends",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054111",
+        "name_ch": "生者常怀安",
+        "name_en": "Peace for the Living",
+        "desc_ch": "探访树庭殉难者的亲属，并完成其心愿",
+        "desc_en": "Visit the families of those who died in the Grove disaster and fulfill their wishes",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054112",
+        "name_ch": "命运噤声的圣所",
+        "name_en": "Sanctuary Silenced by Fate",
+        "desc_ch": "窥探「神谕圣地」雅努萨波利斯全部的追忆残像",
+        "desc_en": "Glimpse all Fragments of Recollection at \"Sanctum of Prophecy\" Janusopolis",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054113",
+        "name_ch": "荫下微光",
+        "name_en": "Glimmering Tree Shade",
+        "desc_ch": "窥探「呓语密林」神悟树庭全部的追忆残像",
+        "desc_en": "Glimpse all Fragments of Recollection at \"Murmuring Woods\" Grove of Epiphany",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054114",
+        "name_ch": "别的船只却安然过海",
+        "name_en": "Yet the Other Ships Passed Safely",
+        "desc_ch": "调查位于「神谕圣地」雅努萨波利斯的雅努斯之驹",
+        "desc_en": "Investigate the Janus' Steed located in \"Sanctum of Prophecy\" Janusopolis",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054115",
+        "name_ch": "灵魂的肖像",
+        "name_en": "Portrait of Souls",
+        "desc_ch": "调查位于「呓语密林」神悟树庭的雅努斯之驹",
+        "desc_en": "Investigate the Janus' Steed located in \"Murmuring Woods\" Grove of Epiphany",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054116",
+        "name_ch": "翁法罗斯定位系统",
+        "name_en": "Amphorean Positioning System",
+        "desc_ch": "在「神谕圣地」雅努萨波利斯完成「雅努斯迷津」的所有谜题",
+        "desc_en": "Complete all Janus' Maze puzzles in \"Sanctum of Prophecy\" Janusopolis",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054117",
+        "name_ch": "给我变！",
+        "name_en": "Transform!",
+        "desc_ch": "听懂私人浴场中的奇美拉的话语",
+        "desc_en": "Comprehend the chimera's words in the private baths",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054118",
+        "name_ch": "无尽的花与圣叶",
+        "name_en": "Endless Flowers and Holy Leaves",
+        "desc_ch": "获取声音记录《神性的回响：理性》",
+        "desc_en": "Obtain the audio record Divine Echo: Reason",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054119",
+        "name_ch": "爱夜的漫长游祭",
+        "name_en": "Long Journey Into Lovely Night",
+        "desc_ch": "获取声音记录《神性的回响：浪漫》",
+        "desc_en": "Obtain the audio record Divine Echo: Romance",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054120",
+        "name_ch": "显赫行止的道路",
+        "name_en": "Path of the Illustrious",
+        "desc_ch": "获取声音记录《神性的回响：门径》",
+        "desc_en": "Obtain the audio record Divine Echo: Passage",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054121",
+        "name_ch": "洞穴外的世界",
+        "name_en": "The World Beyond the Cave",
+        "desc_ch": "在创世涡心整理思绪",
+        "desc_en": "Arrange your thoughts in the Vortex of Genesis",
+        "hint_ch": "※开拓翁法罗斯的过程中，你确实经历了许多…",
+        "hint_en": "※ You've certainly been through a lot during this trailblazing expedition across Amphoreus..."
+      },
+      {
+        "id": "4054122",
+        "name_ch": "天…天外先锋？！",
+        "name_en": "Furiae... Outworld!?",
+        "desc_ch": "使用缇宝调查圣女房间内的黑板",
+        "desc_en": "Use Tribbie to investigate the blackboard in the Holy Maiden's room",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054123",
+        "name_ch": "遥望众神的宫殿",
+        "name_en": "Gazing At the Gods' Palaces",
+        "desc_ch": "何人不曾听说？",
+        "desc_en": "Who has not heard of it?",
+        "hint_ch": "※在「神谕圣地」雅努萨波利斯，与所有和圣女相关的人们对话",
+        "hint_en": "※ Talk with everyone related to the Holy Maiden in \"Sanctum of Prophecy\" Janusopolis"
+      },
+      {
+        "id": "4054124",
+        "name_ch": "我呼唤理性的奇迹",
+        "name_en": "I Call Upon Miracles of Reason",
+        "desc_ch": "阅读「呓语密林」神悟树庭所有启目集",
+        "desc_en": "Read all enlightenments in \"Murmuring Woods\" Grove of Epiphany",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054125",
+        "name_ch": "我呼唤最后的破晓",
+        "name_en": "I Call Upon The Final Dawn",
+        "desc_ch": "阅读「神谕圣地」雅努萨波利斯所有启目集",
+        "desc_en": "Read all enlightenments in \"Sanctum of Prophecy\" Janusopolis",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054126",
+        "name_ch": "异乡人的颂歌",
+        "name_en": "Outlander's Anthem",
+        "desc_ch": "聆听诗人利波为你创作的第二首诗歌。",
+        "desc_en": "Listen to the second poem the poet Lipos composed for you.",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054127",
+        "name_ch": "母亲啊，我已还乡",
+        "name_en": "Mother, I Have Returned Home",
+        "desc_ch": "阅读万敌之母，歌耳戈的命运之末",
+        "desc_en": "Read about the final fate of Gorgo, Mydei's mother",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054128",
+        "name_ch": "我已建立自己的城",
+        "name_en": "I Already Built My Own City",
+        "desc_ch": "找到悬锋王朝最后的记录",
+        "desc_en": "Find the last record of the Kremnoan dynasty",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054129",
+        "name_ch": "种太阳",
+        "name_en": "Sowing the Sun",
+        "desc_ch": "在「呓语密林」神悟树庭中解决树庭学者的委托。",
+        "desc_en": "Solve the assignment from the Grove researcher at \"Murmuring Woods\" Grove of Epiphany.",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054130",
+        "name_ch": "林地君主",
+        "name_en": "Sovereign of the Woods",
+        "desc_ch": "坐上「呓语密林」神悟树庭的王座",
+        "desc_en": "Sit upon the throne at \"Murmuring Woods\" Grove of Epiphany",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074101",
+        "name_ch": "消逝的光芒",
+        "name_en": "Fading Light",
+        "desc_ch": "单场战斗中，通过消灭敌方目标消除3个【艾格勒印记】",
+        "desc_en": "Remove 3 \"Aquila's Mark(s)\" through defeating enemy targets in a single battle",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074102",
+        "name_ch": "无月之夜",
+        "name_en": "Moonless Night",
+        "desc_ch": "单场战斗中，通过施放终结技消除2个【欧洛尼斯印记】",
+        "desc_en": "Remove 2 \"Oronyx's Mark(s)\" by using Ultimates in a single battle",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074103",
+        "name_ch": "风暴戛然而止",
+        "name_en": "Storm Quells",
+        "desc_ch": "使处于【风行】状态的敌人进入弱点击破状态",
+        "desc_en": "Inflict Weakness Break on an enemy in the \"Stormride\" state",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074104",
+        "name_ch": "失去影子的人",
+        "name_en": "One Who Lost Their Shadow",
+        "desc_ch": "使「至黑之剑，盗火行者」在一阶段连续2次施放【幽冥的悼念】时，没有「残破容器」可以触发协同",
+        "desc_en": "Allows Flame Reaver of the Deepest Dark to cast \"Underworld's Grief\" consecutively 2 times in Phase 1 without triggering a synergy with Long-Shattered Vessel",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074105",
+        "name_ch": "没有影子的人",
+        "name_en": "One Who Is Without Shadow",
+        "desc_ch": "在「至黑之剑，盗火行者」施放【沉默的悲叹】期间，击败所有「残破容器」",
+        "desc_en": "Defeat all Long-Shattered Vessels during the Flame Reaver of the Deepest Dark's casting of \"Silent Sorrow\"",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074106",
+        "name_ch": "火之门，无尽军势",
+        "name_en": "The Gate of Fire, The Endless Might",
+        "desc_ch": "单场战斗中，我方角色万敌在1次【血仇】状态下，施放5次【弑王成王】或【弑神登神】",
+        "desc_en": "In a single battle, have ally character Mydei cast \"Kingslayer Be King\" or \"Godslayer Be God\" 5 time(s) in 1 instance(s) of \"Vendetta\"",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074108",
+        "name_ch": "饱和火力覆盖",
+        "name_en": "Saturated Covering Fire",
+        "desc_ch": "单场战斗中，使用我方角色缇宝累计触发10次天赋的追加攻击",
+        "desc_en": "Use ally character Tribbie to trigger 10 Follow-Up ATK(s) from her Talent in a single battle",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074109",
+        "name_ch": "以一人，敌万人",
+        "name_en": "One Against Thousands",
+        "desc_ch": "单场战斗中，在我方队伍仅存活万敌的情况下击败1个精英敌人并获得战斗胜利",
+        "desc_en": "Defeat 1 Elite Enemy target(s) and achieve victory with only ally character Mydei surviving in the team",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4084102",
+        "name_ch": "奥赫玛不相信眼泪",
+        "name_en": "Okhema Does Not Believe in Tears",
+        "desc_ch": "它不会攻击，但却能用另一种方式伤害你…",
+        "desc_en": "It does not attack, but can hurt you in another way...",
+        "hint_ch": "※在翁法罗斯探索过程中，被塑像砸中",
+        "hint_en": "※ Get hit by a statue during exploration in Amphoreus"
+      }
+    ]
+  },
+  {
+    "version": "3.2",
+    "achievements": [
+      {
+        "id": "4034201",
+        "name_ch": "亲爱的母亲，是您赐予我生命",
+        "name_en": "Dear Mother, You Granted Me Life",
+        "desc_ch": "接受黄金裔的邀请，一同成为英雄",
+        "desc_en": "Accept the Chrysos Heirs' invitation to become heroes together",
+        "hint_ch": "※完成欧洛尼斯的试炼",
+        "hint_en": "※ Complete Oronyx's Trial"
+      },
+      {
+        "id": "4034202",
+        "name_ch": "用铁锈色的渡船超度亡魂",
+        "name_en": "Ferry Souls with a Rust-Colored Boat",
+        "desc_ch": "它曾乘着她到世间来，它将乘着她到冥地去",
+        "desc_en": "It once carried her into the world, and it will carry her to the underworld",
+        "hint_ch": "※击败「死龙」玻吕刻斯",
+        "hint_en": "※ Defeat \"Netherwing\" Pollux"
+      },
+      {
+        "id": "4034203",
+        "name_ch": "乌虐的黑夜，压罩不幸的凡人",
+        "name_en": "Cruel Night Oppresses Unfortunate Mortals",
+        "desc_ch": "「死亡」曾藏身于巨龙与海浪的城邦",
+        "desc_en": "\"Death\" once hid in the City-State of Dragons and Waves",
+        "hint_ch": "※到达「龙骸古城」斯缇科西亚",
+        "hint_en": "※ Reach \"Dragonbone City\" Styxia"
+      },
+      {
+        "id": "4034204",
+        "name_ch": "以法为和平的王冠",
+        "name_en": "The Law as the Crown of Peace",
+        "desc_ch": "公民们将以投票的方式决定翁法罗斯的未来",
+        "desc_en": "The citizenry will vote to decide the future of Amphoreus",
+        "hint_ch": "※见证「公民大会」最后的结果",
+        "hint_en": "※ Witness the final result of the citizens' assembly"
+      },
+      {
+        "id": "4034205",
+        "name_ch": "拥抱你的长指",
+        "name_en": "Embrace Your Long Fingers",
+        "desc_ch": "如此幸福的一天，有一份独属于你的礼物",
+        "desc_en": "Such a happy day, with a gift just for you",
+        "hint_ch": "※拾起遐蝶手工制作的戒指",
+        "hint_en": "※ Pick up the ring handmade by Castorice"
+      },
+      {
+        "id": "4034206",
+        "name_ch": "解开缆绳，驶离那片冥界",
+        "name_en": "Unmoor and Sail Away From the Underworld",
+        "desc_ch": "不要回头，即便那是甘美而宁静的挽留",
+        "desc_en": "Do not look back, no matter how sweet and serene the call to remain",
+        "hint_ch": "※接受伙伴们的帮助，走出冥界",
+        "hint_en": "※ Accept your companions' help and leave the nether realm"
+      },
+      {
+        "id": "4044201",
+        "name_ch": "小偷偷偷偷",
+        "name_en": "Thief Steals Stealthily",
+        "desc_ch": "找到被贼灵盯上的启目集",
+        "desc_en": "Find the Enlightenment being targeted by the Spirithief",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044202",
+        "name_ch": "The World！",
+        "name_en": "The World!",
+        "desc_ch": "第一次使用欧洛尼斯祷言暂停回溯中的物件",
+        "desc_en": "Pause an object during Rewind for the first time using Oronyx's Prayer",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044203",
+        "name_ch": "时元突波",
+        "name_en": "Chrono Surge",
+        "desc_ch": "将暂停进行暂停，会继续，还是更加暂停？",
+        "desc_en": "Pause the pause — will it continue, or pause even more?",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044204",
+        "name_ch": "让我试试，能否触碰神明",
+        "name_en": "Let Me Try to Touch the Divine",
+        "desc_ch": "操控扎格列斯之手，尝试击打刻法勒的神躯。",
+        "desc_en": "Control the Hand of Zagreus to try and strike Kephale's divine body",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044205",
+        "name_ch": "从这里…出去！",
+        "name_en": "Get Out... of Here!",
+        "desc_ch": "别以为躲在高处就安全了…",
+        "desc_en": "Don't think you're safe just because you're hiding up there...",
+        "hint_ch": "※使用扎格列斯之手的冲拳动作，击败「龙骸古城」斯缇科西亚高处的敌人",
+        "hint_en": "※ Use the Hand of Zagreus's Punch Action to defeat enemies positioned at high places in \"Dragonbone City\" Styxia"
+      },
+      {
+        "id": "4044206",
+        "name_ch": "欧洛尼斯的擢拔",
+        "name_en": "Oronyx's Ascension",
+        "desc_ch": "将「龙骸古城」斯缇科西亚所有残留有记忆的物件全部回溯完好",
+        "desc_en": "Rewind all memory-imbued objects in \"Dragonbone City\" Styxia to their original state",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044207",
+        "name_ch": "双月彼此依偎",
+        "name_en": "Twin Moons' Embrace",
+        "desc_ch": "行走在旧时空的锁链上，抬头看向夜空…",
+        "desc_en": "Walking on the chains of the old space-time, you look up at the night sky...",
+        "hint_ch": "※你看见了高悬天际的双月",
+        "hint_en": "※ You see the twin moons hanging high above the horizon"
+      },
+      {
+        "id": "4044208",
+        "name_ch": "塔耳塔罗斯之上",
+        "name_en": "Above Tartarus",
+        "desc_ch": "借助欧洛尼斯的奇迹，进入到冥河更深处",
+        "desc_en": "Use Oronyx's miracle to delve deeper into the River of Souls",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044209",
+        "name_ch": "冥海拾遗",
+        "name_en": "Relics from the Sea of Souls",
+        "desc_ch": "开启位于「龙骸古城」斯缇科西亚宝库内隐秘位置的战利品。",
+        "desc_en": "Open the treasure in the hidden spot within the vault of \"Dragonbone City\" Styxia",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044210",
+        "name_ch": "这里的花会动",
+        "name_en": "The Flowers Here Move",
+        "desc_ch": "被隐匿于花丛中的黑潮造物袭击",
+        "desc_en": "Get ambushed by a Black Tide Creature hidden amongst the flowers",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044211",
+        "name_ch": "所以，前进吧。",
+        "name_en": "So, Continue Onward",
+        "desc_ch": "你记得她说「所以，前进吧。不要停下向前的脚步…」",
+        "desc_en": "You remember her saying, \"So, continue onward. Do not stop moving forward...\"",
+        "hint_ch": "※你已经走出了冥界，可以在她的花丛里停留半晌",
+        "hint_en": "※ You've left the nether realm and can linger amongst her flowers for a while"
+      },
+      {
+        "id": "4044212",
+        "name_ch": "昨日的电梯，今日的人",
+        "name_en": "Yesterday's Elevator, Today's People",
+        "desc_ch": "被另一个时空的升降平台砸到",
+        "desc_en": "Get hit by a platform lift from another space-time",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044213",
+        "name_ch": "聚光灯效应",
+        "name_en": "Spotlight Effect",
+        "desc_ch": "第一次使用「追忆符文」，被欧洛尼斯的奇迹照射",
+        "desc_en": "Use the Rune of Recollection and be illuminated by Oronyx's miracle for the first time",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044214",
+        "name_ch": "时间不是你的朋友",
+        "name_en": "Time is Not Your Friend",
+        "desc_ch": "携带「追忆符文」接近宝箱，却发现宝箱在另一个时空",
+        "desc_en": "Approach a treasure chest with the Rune of Recollection only to discover it is in another space-time",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044216",
+        "name_ch": "虫鸣秘闻：失落祷言",
+        "name_en": "Chirping Secret: Lost Prayers",
+        "desc_ch": "岁月的水面下隐藏着什么？",
+        "desc_en": "What lies beneath the surface of time?",
+        "hint_ch": "※解开「龙骸古城」斯缇科西亚的预言谜题",
+        "hint_en": "※ Solve the prophetic riddle in \"Dragonbone City\" Styxia"
+      },
+      {
+        "id": "4044217",
+        "name_ch": "虫鸣秘闻：朝圣之路",
+        "name_en": "Chirping Secret: Path of Pilgrimage",
+        "desc_ch": "神明需要跪拜吗？",
+        "desc_en": "Do gods need to be worshiped?",
+        "hint_ch": "※解开「黎明云崖」奥赫玛的预言谜题",
+        "hint_en": "※ Solve the prophetic riddle in \"Dawncloud\" Okhema"
+      },
+      {
+        "id": "4044218",
+        "name_ch": "金茧屋",
+        "name_en": "House of the Golden Chrysalis",
+        "desc_ch": "为织者们建立一座中型乐园",
+        "desc_en": "Build a medium-sized paradise for the weavers",
+        "hint_ch": "※搜集120只创生若虫的赐福",
+        "hint_en": "※ Collect blessings from 120 Creation Nymph(s)"
+      },
+      {
+        "id": "4054201",
+        "name_ch": "她曾借用你的体温",
+        "name_en": "She Once Borrowed Your Warmth",
+        "desc_ch": "窥探位于「双月高塔」的追忆残像",
+        "desc_en": "Glimpse the Fragments of Recollection at \"Twin Moon Spire\"",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054202",
+        "name_ch": "一日塔兰顿",
+        "name_en": "One-Day Talanton",
+        "desc_ch": "路过一处悲剧的排练，见证「弑神」的过程",
+        "desc_en": "Witness the process of \"godslaying\" while passing by a tragic rehearsal",
+        "hint_ch": "※你做出了你认为公正的判决",
+        "hint_en": "※ You made what you believed to be a fair judgment"
+      },
+      {
+        "id": "4054203",
+        "name_ch": "清晨那安静的石板路",
+        "name_en": "That Quiet Stone Path at Dawn",
+        "desc_ch": "与小女孩希瑞雅一同经历与「刻法勒」的对话",
+        "desc_en": "Join the young girl Serena as she converses with \"Kephale\"",
+        "hint_ch": "※并守护一则温暖的谎言",
+        "hint_en": "※ And protect a warm lie"
+      },
+      {
+        "id": "4054205",
+        "name_ch": "在那天回不去的路上",
+        "name_en": "On the Road of That Irretrievable Day",
+        "desc_ch": "窥探「龙骸古城」斯缇科西亚全部的追忆残像",
+        "desc_en": "Glimpse all Fragments of Recollection at \"Dragonbone City\" Styxia",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054207",
+        "name_ch": "冥河摆渡马",
+        "name_en": "Ferry Horse of the River of Souls",
+        "desc_ch": "调查位于「龙骸古城」斯缇科西亚的雅努斯之驹",
+        "desc_en": "Investigate the Janus' Steed located in \"Dragonbone City\" Styxia",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054208",
+        "name_ch": "虫伴归途",
+        "name_en": "Insect Companion's Return",
+        "desc_ch": "解开「龙骸古城」斯缇科西亚中，某位曾经的欧洛尼斯祭司在房间中布置的谜题",
+        "desc_en": "In \"Dragonbone City\" Styxia, solve the riddle set within a room by a former Oronyx priest",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054209",
+        "name_ch": "万物的始以及终",
+        "name_en": "The Beginning and End of All Things",
+        "desc_ch": "获取声音记录《神性的回响：负世》",
+        "desc_en": "Obtain the audio record Divine Echo: Worldbearing",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054210",
+        "name_ch": "漫长而永恒的梦",
+        "name_en": "An Unending and Eternal Dream",
+        "desc_ch": "获取声音记录《神性的回响：死亡》",
+        "desc_en": "Obtain the audio record Divine Echo: Death",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054211",
+        "name_ch": "揭示神秘的正义",
+        "name_en": "Make Known Mysterious Justice",
+        "desc_ch": "获取声音记录《神性的回响：律法》",
+        "desc_en": "Obtain the audio record Divine Echo: Law",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054213",
+        "name_ch": "方生方死",
+        "name_en": "Born to Die",
+        "desc_ch": "聆听诗人利波为你创作的第三首诗歌。",
+        "desc_en": "Listen to the third poem the poet Lipos composed for you",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054214",
+        "name_ch": "杯中瞥视的自由",
+        "name_en": "A Glimpse of Freedom in a Cup",
+        "desc_ch": "畅饮一杯阿淼菲斯的法吉娜盲盒饮料，然后……",
+        "desc_en": "Drink a cup of Phagousa's blind box beverage from Amorphis, and then...",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054215",
+        "name_ch": "临终千言",
+        "name_en": "A Thousand Words at Death's Door",
+        "desc_ch": "与「龙骸古城」斯缇科西亚的所有亡语蝶对话",
+        "desc_en": "Speak with all the Eulogistic Butterflies in \"Dragonbone City\" Styxia",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054216",
+        "name_ch": "阿基维利腱！",
+        "name_en": "Akivili's Tendon!",
+        "desc_ch": "将自己的脚泡进了冥河水中，获得了无敌的脚踝。",
+        "desc_en": "Soak your feet in the River of Souls and gain invincible ankles",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054217",
+        "name_ch": "我的脚步因思念而狂乱",
+        "name_en": "Footsteps Frenzied By Thoughts",
+        "desc_ch": "解决失控大地兽的烦恼",
+        "desc_en": "Solve the out-of-control dromas's woes",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054218",
+        "name_ch": "豆豆眉最可爱！",
+        "name_en": "Stubby Eyebrows Are the Cutest!",
+        "desc_ch": "在「豹豹碰碰大作战」中，与浴场的所有小海豹对话一次，会有好事发生吗？",
+        "desc_en": "In Seal Slammers, talk to all the baby seals in the baths once. Maybe something good will happen?",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054219",
+        "name_ch": "标本为谁沉默",
+        "name_en": "For Whom the Specimen Remains Silent",
+        "desc_ch": "在元老院的墙壁上留下你的战利品，但……",
+        "desc_en": "Leave your treasure on the walls of the Council of Elders, but...",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054220",
+        "name_ch": "流金献主角",
+        "name_en": "Golden Offering to the Protagonist",
+        "desc_ch": "找到黎明云崖中所有的圣烛并激活",
+        "desc_en": "Find and activate all the holy candles in Dawncloud",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054221",
+        "name_ch": "我呼唤酣然的沉眠",
+        "name_en": "I Call for Deep Slumber",
+        "desc_ch": "阅读「龙骸古城」斯缇科西亚所有启目集",
+        "desc_en": "Read all of the \"Enlightenment\" series in \"Dragonbone City\" Styxia",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054223",
+        "name_ch": "人上之人",
+        "name_en": "Above the Rest",
+        "desc_ch": "在言谈之间更深入了解黎明云崖",
+        "desc_en": "Delve deeper into Dawncloud through discourse",
+        "hint_ch": "※与黎明云崖所有公民对话",
+        "hint_en": "※ Speak with all the citizens at Dawncloud"
+      },
+      {
+        "id": "4054225",
+        "name_ch": "怪盗又怎样，我可是开拓者！",
+        "name_en": "Phantom Thief? So What? I'm a Trailblazer!",
+        "desc_ch": "击败那位怪盗，捧回属于冠军的「金海豹杯」",
+        "desc_en": "Defeat that phantom thief and bring back the champion's Gold Seal Cup",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054226",
+        "name_ch": "法吉娜圣兽全图鉴",
+        "name_en": "Complete Phagousa's Sacred Beast Collection",
+        "desc_ch": "将所有款式的小海豹收入囊中",
+        "desc_en": "Collect all the baby seal varieties",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054227",
+        "name_ch": "豹潮汹涌",
+        "name_en": "Seal Tide Surge",
+        "desc_ch": "通关「豹豹碰碰大作战·究极进化版」的挑战难度",
+        "desc_en": "Clear Seal Slammers: Ultimate Evolution challenge difficulty",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054228",
+        "name_ch": "豹歉，你也想起舞吗？",
+        "name_en": "Sealiously Sorry, Do You Want to Dance Too?",
+        "desc_ch": "在「豹豹碰碰大作战」中，一次撞飞对手的两只小海豹",
+        "desc_en": "In Seal Slammers, knock away two of the opponent's baby seals in one hit",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054229",
+        "name_ch": "真·海豹无双",
+        "name_en": "Dynaseal Warriors",
+        "desc_ch": "在「豹豹碰碰大作战」的单场比赛中，使用同一只小海豹击飞对手的小海豹4次及以上",
+        "desc_en": "In a single match of Seal Slammers, use the same baby seal to knock away the opponent's baby seals 4 or more times",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054230",
+        "name_ch": "三分球是关键",
+        "name_en": "Three Points Shots Are Key",
+        "desc_ch": "在「豹豹碰碰大作战」的单场比赛中，以领先对手3分及以上的优势获取胜利",
+        "desc_en": "Win a single match of Seal Slammers with a lead of 3 or more points",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054231",
+        "name_ch": "欢迎来到星舰学院",
+        "name_en": "Welcome to Starfleet Academy",
+        "desc_ch": "获得阅读物《舰队基础知识手册》",
+        "desc_en": "Obtain the readable item Fleet Primer",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074201",
+        "name_ch": "分型的尽头",
+        "name_en": "The Limit of Classification",
+        "desc_ch": "使用我方角色那刻夏，用单次攻击为单个敌方目标添加5个不同的弱点",
+        "desc_en": "Apply 5 different Weaknesses to one enemy target in a single attack using ally character Anaxa",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074202",
+        "name_ch": "赤裸的质性",
+        "name_en": "Bared Quality",
+        "desc_ch": "单场战斗中，敌方目标连续3个回合开始时都处于【升华】状态",
+        "desc_en": "In a single battle, have any enemy target start 3 consecutive turn(s) in the \"Sublimation\" state",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074203",
+        "name_ch": "驯龙高手",
+        "name_en": "Dragon Tamer",
+        "desc_ch": "单场战斗中，使用我方角色遐蝶召唤3次「死龙·玻吕刻斯」",
+        "desc_en": "In a single battle, summon Netherwing Pollux 3 time(s) using ally character Castorice",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074204",
+        "name_ch": "英雄不朽",
+        "name_en": "Heroes Never Die",
+        "desc_ch": "当遐蝶的专属效果触发时，使我方队伍里的4名角色同时获得【月茧】状态",
+        "desc_en": "When Castorice's Exclusive Effect is triggered, 4 ally characters in the team simultaneously gain the \"Mooncocoon\" state",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074205",
+        "name_ch": "冥蝶翩跹同行间",
+        "name_en": "Nether Realm Butterflies Dancing Together",
+        "desc_ch": "使用同时包含遐蝶、{NICKNAME}的队伍获得1场战斗的胜利",
+        "desc_en": "Win 1 battle(s) using a team that contains both Castorice and {NICKNAME}",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074206",
+        "name_ch": "茧中安眠",
+        "name_en": "Resting in the Cocoon",
+        "desc_ch": "使用我方角色遐蝶对战「冥魂渡者，死龙残躯，玻吕刻斯」时完成制胜一击",
+        "desc_en": "Use ally character Castorice to deal the final blow against \"Pollux, Netherwing Husk, Ferry of Souls\"",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074208",
+        "name_ch": "半条命",
+        "name_en": "Half-Life",
+        "desc_ch": "我方全体角色在最大生命值百分比低于50%的状态下，消灭「冥魂渡者，死龙残躯，玻吕刻斯」",
+        "desc_en": "Defeat \"Pollux, Netherwing Husk, Ferry of Souls\" while all ally characters' Max HP percentage is below 50%",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074209",
+        "name_ch": "无垢之身",
+        "name_en": "Immaculate Body",
+        "desc_ch": "单场战斗中，黑潮蚀魔在施放【吞浊纳污】时，没有吸收到【侵蚀】",
+        "desc_en": "In a single battle, ensure the Black Tide's Corroded Daemon does not absorb any \"corrosion\" when using \"Filth Eater\"",
+        "hint_ch": "",
+        "hint_en": ""
+      }
+    ]
+  },
+  {
+    "version": "3.3",
+    "achievements": [
+      {
+        "id": "4034301",
+        "name_ch": "黎明沉默无言",
+        "name_en": "The Silence at Dawn",
+        "desc_ch": "哀悼一位伟大凡人的陨落",
+        "desc_en": "Mourn the perishing of a great mortal",
+        "hint_ch": "※聆听白厄的演讲",
+        "hint_en": "※ Listen to Phainon's speech"
+      },
+      {
+        "id": "4034302",
+        "name_ch": "鎏金，铩羽",
+        "name_en": "Golden Splendor, Broken Wings",
+        "desc_ch": "堕入那一池滚烫的黄金……",
+        "desc_en": "Plunge into the scalding golden bath...",
+        "hint_ch": "※击败天空泰坦的化身",
+        "hint_en": "※ Defeat the incarnation of the Sky Titan"
+      },
+      {
+        "id": "4034303",
+        "name_ch": "我们的天空",
+        "name_en": "The Sky We Share",
+        "desc_ch": "以人的意志，为神明的时代画上句号",
+        "desc_en": "With humanity's willpower, end the era of the gods",
+        "hint_ch": "※战胜塞涅俄丝的意志",
+        "hint_en": "※ Defeat the will of Seliose"
+      },
+      {
+        "id": "4034304",
+        "name_ch": "出卖世界的女孩",
+        "name_en": "The Girl Who Betrayed the World",
+        "desc_ch": "见证一则谎言的落幕",
+        "desc_en": "Witness the conclusion of a lie",
+        "hint_ch": "※见证千年之谎被揭穿的时刻",
+        "hint_en": "※ Witness the moment when the Millennial Lie is revealed"
+      },
+      {
+        "id": "4034305",
+        "name_ch": "一切终点的起点",
+        "name_en": "Where All Endings Begin",
+        "desc_ch": "世上从无两全其美",
+        "desc_en": "Nothing in this world is perfect",
+        "hint_ch": "※完成逐火之旅",
+        "hint_en": "※ Complete the Flame-Chase Journey"
+      },
+      {
+        "id": "4044018",
+        "name_ch": "时空悍将",
+        "name_en": "Temporal Virtuosity",
+        "desc_ch": "将「纷争荒墟」悬锋城的所有战魂塑像全部回溯",
+        "desc_en": "Rewind all the Warsoul Statues in the \"Strife Ruins\" of Castrum Kremnos",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044301",
+        "name_ch": "交通罚单，请收好",
+        "name_en": "Here's Your Traffic Ticket",
+        "desc_ch": "在「云端遗堡」晨昏之眼击碎超速运行的飞天坛递",
+        "desc_en": "Smash the speeding Flying Amphora in the \"Cloudedge Bastion Ruins\" Eye of Twilight",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044302",
+        "name_ch": "虫鸣秘闻：无形长阶",
+        "name_en": "Chirping Secret: The Unseen Steps",
+        "desc_ch": "是什么遮蔽了燃火之路？",
+        "desc_en": "What obscures the Flame's path?",
+        "hint_ch": "※解开「无晖祈堂」黎明云崖的预言谜题",
+        "hint_en": "※ Solve the prophetic riddle in \"Lightless Chapel\" Dawncloud Cliff"
+      },
+      {
+        "id": "4044303",
+        "name_ch": "虫鸣秘闻：西风苦旅",
+        "name_en": "Chirping Secret: The Westward Ordeal",
+        "desc_ch": "捷足能否逃离厄运？",
+        "desc_en": "Can the fleet-footed outrun their fate?",
+        "hint_ch": "※解开「沉沦暮城」奥赫玛的预言谜题",
+        "hint_en": "※ Solve the prophetic riddle in \"Fallen Twilight City\" Okhema"
+      },
+      {
+        "id": "4044304",
+        "name_ch": "虫鸣秘闻：神机之秘",
+        "name_en": "Chirping Secret: Divine Enigma",
+        "desc_ch": "如何驯服神机？",
+        "desc_en": "How to tame the divine machine?",
+        "hint_ch": "※解开「穹顶关塞」晨昏之眼的预言谜题",
+        "hint_en": "※ Solve the prophetic riddle in \"Fortress of Dome\" Eye of Twilight"
+      },
+      {
+        "id": "4044305",
+        "name_ch": "虫鸣秘闻：虹彩尽头",
+        "name_en": "Chirping Secret: Rainbow's End",
+        "desc_ch": "如何抵达彩虹的尽头？",
+        "desc_en": "What path leads to rainbow's end?",
+        "hint_ch": "※解开「云端遗堡」晨昏之眼的预言谜题",
+        "hint_en": "※ Solve the prophetic riddle in \"Cloudedge Bastion Ruins\" Eye of Twilight"
+      },
+      {
+        "id": "4044306",
+        "name_ch": "将黄金织作方舟",
+        "name_en": "An Ark of Golden Threads",
+        "desc_ch": "集齐全部16块颂言石块后，与原型衣匠交流",
+        "desc_en": "Collect all 16 Hymn Tablets and talk to the Prototype Garmentmaker",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044307",
+        "name_ch": "再见了，所有的飞天坛递",
+        "name_en": "Farewell, All Flying Amphoras",
+        "desc_ch": "打碎超长彩虹道路上所有的飞天坛递",
+        "desc_en": "Smash all Flying Amphoras along the endless rainbow road",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044308",
+        "name_ch": "最小生成树",
+        "name_en": "The Minimum Spanning Tree",
+        "desc_ch": "使用不多于两次旋转操作来解开一个西风罗盘的谜题",
+        "desc_en": "Solve a West Wind Compass puzzle with no more than two rotations",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044309",
+        "name_ch": "潮起潮落",
+        "name_en": "Ebb and Flow",
+        "desc_ch": "解决晨昏之眼中所有西风罗盘的谜题，拿到属于它们的战利品。",
+        "desc_en": "Solve all West Wind Compass puzzles in the Eye of Twilight and claim their treasures",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044310",
+        "name_ch": "而知也无涯",
+        "name_en": "Knowledge Knows No Bounds",
+        "desc_ch": "找到「知道虫」",
+        "desc_en": "Find the \"Knowing Bug\"",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044311",
+        "name_ch": "巴特鲁斯玻色子",
+        "name_en": "The Bartholos Boson",
+        "desc_ch": "找到一只原地打转的贼灵",
+        "desc_en": "Find a Spirithief spinning in place",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044312",
+        "name_ch": "巴特鲁斯什么也不知道",
+        "name_en": "Bartholos Knows Nothing",
+        "desc_ch": "见证一只贼灵消灭宝箱旁的怪物",
+        "desc_en": "Witness a Spirithief vanquish the monster guarding the chest",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044313",
+        "name_ch": "天空的路标",
+        "name_en": "Beacon of the Sky",
+        "desc_ch": "借助西风罗盘，抵达「云端遗堡」晨昏之眼的某个特殊天象区块",
+        "desc_en": "Use the West Wind Compass to access a unique celestial sector in the \"Cloudedge Bastion Ruins\" Eye of Twilight",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044314",
+        "name_ch": "苍天之拳",
+        "name_en": "Punch to the Sky",
+        "desc_ch": "别以为躲在天上就没事了…",
+        "desc_en": "Hiding in the sky won't save you...",
+        "hint_ch": "※使用扎格列斯之手的冲拳动作，击败「穹顶关塞」晨昏之眼中某个躲藏的敌人",
+        "hint_en": "※ Defeat a hidden enemy in the \"Fortress of Dome\" Eye of Twilight using the Punch Action of the Hand of Zagreus"
+      },
+      {
+        "id": "4044315",
+        "name_ch": "光化学合成",
+        "name_en": "Photosynthesis",
+        "desc_ch": "真正的强者，可以踏空而行…",
+        "desc_en": "A true master can walk on air...",
+        "hint_ch": "※在「云端遗堡」晨昏之眼中，利用「奇迹宝珠」抵达平台另一侧",
+        "hint_en": "※ Reach the other side of the platform in the \"Cloudedge Bastion Ruins\" Eye of Twilight using the Miracle Orb"
+      },
+      {
+        "id": "4044316",
+        "name_ch": "芝麻，开门",
+        "name_en": "Open Sesame",
+        "desc_ch": "解开谜题，获得「云端遗堡」晨昏之眼中存储区块的隐藏战利品",
+        "desc_en": "Solve the puzzle and obtain the hidden treasure in the storage sector of the \"Cloudedge Bastion Ruins\" Eye of Twilight",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044317",
+        "name_ch": "杰克与豌豆",
+        "name_en": "Jack and the Beanstalk",
+        "desc_ch": "解开谜题，获得「云端遗堡」晨昏之眼中天象区块的隐藏战利品",
+        "desc_en": "Solve the puzzle and obtain the hidden treasure in the celestial sector of the \"Cloudedge Bastion Ruins\" Eye of Twilight",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044318",
+        "name_ch": "天气控制仪",
+        "name_en": "Climate Controller",
+        "desc_ch": "在「穹顶关塞」晨昏之眼中，首次激活天象画壁…",
+        "desc_en": "Activate a celestial mural in the \"Fortress of Dome\" Eye of Twilight for the first time...",
+        "hint_ch": "※你会发现，苍穹也能如手中黏土般随意摆弄",
+        "hint_en": "※ You'll discover that the skies can be molded like clay in your hands"
+      },
+      {
+        "id": "4054301",
+        "name_ch": "烈火朝生暮死",
+        "name_en": "The Fleeting Life of Flame",
+        "desc_ch": "将伊来内换取的「余火」汇入火焰",
+        "desc_en": "Channel the Embers obtained from Alain into the flame",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054302",
+        "name_ch": "假如给我三天温暖",
+        "name_en": "Three Days to Burn",
+        "desc_ch": "令「沉沦暮城」奥赫玛和「无晖祈堂」黎明云崖中所有熄灭的吉奥里亚活火复燃",
+        "desc_en": "Reignite all extinguished Living Flames of Georios in \"Fallen Twilight City\" Okhema and \"Lightless Chapel\" Dawncloud",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054303",
+        "name_ch": "狮子王",
+        "name_en": "King of Lions",
+        "desc_ch": "修复「沉沦暮城」奥赫玛和「无晖祈堂」黎明云崖中所有损坏的真言狮口",
+        "desc_en": "Repair all damaged Verax Leos in the \"Fallen Twilight City\" Okhema and the \"Lightless Chapel\" Dawncloud",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054304",
+        "name_ch": "云计算恢复中",
+        "name_en": "Cloud Computing Resuming",
+        "desc_ch": "观测天才们研究翁法罗斯的会议记录",
+        "desc_en": "Read the meeting minutes of geniuses studying Amphoreus",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054305",
+        "name_ch": "一日刻法勒",
+        "name_en": "One-Day Kephale",
+        "desc_ch": "为了守护孩子们的笑容，假扮一次刻法勒",
+        "desc_en": "Disguise yourself as Kephale for the sake of the children's smiles",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054306",
+        "name_ch": "生物圈二号",
+        "name_en": "Biosphere 2",
+        "desc_ch": "在众人的协助下巩固一处新的避难所",
+        "desc_en": "Work with others to establish a new shelter",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054307",
+        "name_ch": "我呼唤轻柔的晨曦",
+        "name_en": "I Call for the Gentle Dawn",
+        "desc_ch": "阅读「穹顶关塞」晨昏之眼所有启目集",
+        "desc_en": "Read all the Enlightenment series in \"Fortress of Dome\" Eye of Twilight",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054308",
+        "name_ch": "我呼唤启程的新篇",
+        "name_en": "I Call for the New Beginning",
+        "desc_ch": "夺取艾格勒火种后首次阅读启目集",
+        "desc_en": "Read an Enlightenment volume for the first time after claiming Aquila's Coreflame",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054309",
+        "name_ch": "废墟的遗赠",
+        "name_en": "Legacy of Ruins",
+        "desc_ch": "在「沉沦暮城」奥赫玛的雅努斯之驹处，购买所有已毁城邦特产的合成公式",
+        "desc_en": "Purchase all synthesis formulas for destroyed city-states' specialties from Janus' Steed in the \"Fallen Twilight City\" Okhema",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054311",
+        "name_ch": "西风志铭",
+        "name_en": "West Wind Epitaph",
+        "desc_ch": "见证一位奥赫玛居民的结局，记述下他们的故事",
+        "desc_en": "Witness the fate of an Okhema resident and record their story",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054312",
+        "name_ch": "这是人类的落日",
+        "name_en": "The Dusk of Human Era",
+        "desc_ch": "窥探「沉沦暮城」奥赫玛全部的追忆残像",
+        "desc_en": "Glimpse all Fragments of Recollection at \"Fallen Twilight City\" Okhema",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054313",
+        "name_ch": "活过一百万次的猫",
+        "name_en": "The Cat Who Lived a Million Lives",
+        "desc_ch": "窥探捷足的羁客最后的追忆残像",
+        "desc_en": "Glimpse the last Fragment of Recollection of the Fleet-Footed Traveler",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054314",
+        "name_ch": "补天",
+        "name_en": "Mending the Sky",
+        "desc_ch": "窥探摇光的医师最后的追忆残像",
+        "desc_en": "Glimpse the last Fragment of Recollection of the Healer of Light",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054315",
+        "name_ch": "无边的平原延伸",
+        "name_en": "The Endless Plains Stretch On",
+        "desc_ch": "获取声音记录《神性的回响：大地》",
+        "desc_en": "Obtain the audio record Divine Echo: Earth",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054316",
+        "name_ch": "言语有千般颜色",
+        "name_en": "Speech in a Rainbow of Colors",
+        "desc_ch": "获取声音记录《神性的回响：诡计》",
+        "desc_en": "Obtain the audio record Divine Echo: Trickery",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054317",
+        "name_ch": "你在瞬息里巡行",
+        "name_en": "Your Vigil Through Instants",
+        "desc_ch": "获取声音记录《神性的回响：天空》",
+        "desc_en": "Obtain the audio record Divine Echo: Sky",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054318",
+        "name_ch": "我只等待自己",
+        "name_en": "I Stand Vigil for Me Alone",
+        "desc_ch": "调查过位于「穹顶关塞」晨昏之眼与「云端遗堡」晨昏之眼的两匹雅努斯之驹",
+        "desc_en": "Investigate both steeds of Janus located in the \"Fortress of Dome\" Eye of Twilight and the \"Cloudedge Bastion Ruins\" Eye of Twilight",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054319",
+        "name_ch": "球棒即正义！",
+        "name_en": "Bat of Justice!",
+        "desc_ch": "在「银河球棒侠传说」活动中，合成最强球棒",
+        "desc_en": "Synthesize the Ultimate Bat in the Legend of the Galactic Baseballer event",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054320",
+        "name_ch": "Evil May Cry",
+        "name_en": "Evil May Cry",
+        "desc_ch": "在「银河球棒侠传说」活动中，战胜黑斗篷魔王",
+        "desc_en": "Defeat the Black Cloak Demon King in the Legend of the Galactic Baseballer event",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054321",
+        "name_ch": "银河流星一击",
+        "name_en": "Galactic Meteor Strike",
+        "desc_ch": "在「银河球棒侠传说」活动中，合成至尊超武",
+        "desc_en": "Synthesize the Esteemed Weapon in the Legend of the Galactic Baseballer event",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054322",
+        "name_ch": "阳光与黯影",
+        "name_en": "Sunlight and Shadow",
+        "desc_ch": "在「银河球棒侠传说」活动中，合成双子超武",
+        "desc_en": "Synthesize the Twin Weapons in the Legend of the Galactic Baseballer event",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054323",
+        "name_ch": "平砍连击带顺劈",
+        "name_en": "Slash, Strike, and Sweep",
+        "desc_ch": "在「银河球棒侠传说」活动中，使用「暴风雷霆之锤」打出16连锤",
+        "desc_en": "Achieve a 16-strike combo with the Thunderstorm's Hammer in the Legend of the Galactic Baseballer event",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074301",
+        "name_ch": "偷天换日",
+        "name_en": "Sleight of Sky",
+        "desc_ch": "单场战斗中，我方角色赛飞儿天赋效果记录的累计值超过9999999点",
+        "desc_en": "In a single battle, accumulates over 9999999 \"Pilfer\" points with the Talent records of the ally character, Cipher.",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074302",
+        "name_ch": "满血就是斩杀线",
+        "name_en": "Max HP Is the DMG Limit",
+        "desc_ch": "单场战斗中，使用赛飞儿的终结技【猫咪怪盗，敬上！】对2名生命值为100%的敌人造成致命攻击",
+        "desc_en": "In a single battle, deal a killing blow to 2 enemies with 100% HP using Cipher's Ultimate \"Yours Truly, Kitty Phantom Thief!\"",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074303",
+        "name_ch": "化作微风守护你",
+        "name_en": "I'll Be Your Guarding Gale",
+        "desc_ch": "单场战斗中，使用我方角色风堇的小伊卡，通过治疗队友累计消耗10000点生命值",
+        "desc_en": "In a single battle, consume a total of 10000 HP from ally character Hyacine's Little Ica via healing allies",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074304",
+        "name_ch": "奔腾年代",
+        "name_en": "Seabiscuit",
+        "desc_ch": "单场战斗中，使用我方角色风堇的小伊卡，对「兴风者」或「虚卒·践踏者」造成最后一击",
+        "desc_en": "In a single battle, deal the final hit to a Stormbringer or Voidranger: Trampler using ally character Hyacine's Little Ica",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074305",
+        "name_ch": "熄灭天火的忿怒",
+        "name_en": "Rage Against the Dying Light",
+        "desc_ch": "在与「至高，至阳，天空的化身」的战斗中，使【温度】降低30",
+        "desc_en": "In the battle against Sublime, Radiant, Avatar of the Sky, lower \"Temperature\" by 30",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074306",
+        "name_ch": "争夺雷电的权柄",
+        "name_en": "Battle for Dominion Over Lightning",
+        "desc_ch": "在与「至高，至阳，天空的化身」的战斗中，通过争夺所有【雷云】打断敌人的【霆，如山摇海倾】",
+        "desc_en": "In the battle against Sublime, Radiant, Avatar of the Sky, interrupt the enemy's \"Thunderclap, Quake of Mount and Seas\" by seizing all \"Thunderclouds\"",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074307",
+        "name_ch": "直面苍穹的神罚",
+        "name_en": "Divine Retribution from Up Above",
+        "desc_ch": "在「绝灭者，阳雷的业果，晨昏之眼」的【黑潮同步率】达到最高时，承受【烬灰死寂•诸神屠灭】的攻击且没有我方角色陷入无法战斗状态",
+        "desc_en": "When the Decimator, Karma of Daythunder, Eye of Twilight's \"Black Tide Sync Rate\" reaches the maximum, endure the attack of \"Unmaking Ashes: Godsfall\" with no ally character being knocked down",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074308",
+        "name_ch": "衣角微脏",
+        "name_en": "Just a Tiny Stain",
+        "desc_ch": "在与「黑日狮鹫」的战斗中，在未受到来自其召唤物伤害的条件下获得战斗胜利",
+        "desc_en": "Defeat the Dark Sun Gryphon without taking any damage from its summons",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074309",
+        "name_ch": "角斗士",
+        "name_en": "The Arena Champion",
+        "desc_ch": "通过对「黑潮斗将」造成弱点击破，在【决斗】机制中取胜",
+        "desc_en": "Win the \"Duel\" challenge by inflicting Weakness Break on the Black Tide's Champion",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4084301",
+        "name_ch": "真正的堂吉诃德",
+        "name_en": "The Legitimate Don Quixote",
+        "desc_ch": "真是个好天气，让我们把风扇搞坏吧！",
+        "desc_en": "Wonderful weather we're having! Time to wreck that fan!",
+        "hint_ch": "※短时间内改变同一个风场装置的状态10次",
+        "hint_en": "※ Change the state of the same wind fan device 10 times in a short period"
+      }
+    ]
+  },
+  {
+    "version": "3.4",
+    "achievements": [
+      {
+        "id": "4034401",
+        "name_ch": "门扉之始，王座之终",
+        "name_en": "Light Slips the Gate, Shadow Greets the Throne",
+        "desc_ch": "英雄啊，兑现那染血的冀望",
+        "desc_en": "Hero, Honor That Crimson Call",
+        "hint_ch": "※完成「再创世」之旅…？",
+        "hint_en": "※ Complete the journey to Era Nova?"
+      },
+      {
+        "id": "4034402",
+        "name_ch": "走过安眠地的花丛",
+        "name_en": "Through the Petals in the Land of Repose",
+        "desc_ch": "英雄啊，回返那安宁的家乡",
+        "desc_en": "Hero, Return to That Peace of Home",
+        "hint_ch": "※在哀丽秘榭见到已故之人",
+        "hint_en": "※ Encounter the deceased at Aedes Elysiae"
+      },
+      {
+        "id": "4034403",
+        "name_ch": "在黎明升起时坠落",
+        "name_en": "The Fall at Dawn's Rise",
+        "desc_ch": "英雄啊，粉碎那悲哀的造像",
+        "desc_en": "Hero, Shatter That Woeful Effigy",
+        "hint_ch": "※斩下盗火行者的面具",
+        "hint_en": "※ Tear off the Flame Reaver's mask"
+      },
+      {
+        "id": "4034404",
+        "name_ch": "因为太阳将要毁伤",
+        "name_en": "For the Sun is Set to Die",
+        "desc_ch": "英雄啊，点燃那最初的骄阳",
+        "desc_en": "Hero, Ignite That Primal Sun",
+        "hint_ch": "※接过三千万世的火炬",
+        "hint_en": "※ Take the torch passed over 30 million eons"
+      },
+      {
+        "id": "4034405",
+        "name_ch": "再创世的凯歌",
+        "name_en": "Paean of Era Nova",
+        "desc_ch": "英雄啊，将创世的凯歌奏响",
+        "desc_en": "Hero, Sing That Anthem of Creation",
+        "hint_ch": "※踏上最后的「再创世」之旅",
+        "hint_en": "※ Embark on the final journey to Era Nova"
+      },
+      {
+        "id": "4034406",
+        "name_ch": "骑乘B",
+        "name_en": "Riding B",
+        "desc_ch": "骑士王再度乘上「战马」之日",
+        "desc_en": "The King of Knights mounts their warhorse once more",
+        "hint_ch": "※和Saber一同击败音符姥姥",
+        "hint_en": "※ Defeat Granny Note alongside Saber"
+      },
+      {
+        "id": "4034407",
+        "name_ch": "命运之夜，驻足此刻",
+        "name_en": "This Moment, When Fate Stays the Night",
+        "desc_ch": "天秤的守护者，跨越时光而来",
+        "desc_en": "The Guardian of the Scales arrives from beyond time",
+        "hint_ch": "※成功召唤你的从者",
+        "hint_en": "※ Successfully summon your Servant"
+      },
+      {
+        "id": "4034408",
+        "name_ch": "丧钟为谁而鸣",
+        "name_en": "For Whom the Bell Tolls",
+        "desc_ch": "赝品有赝品的好处，正品有正品的优势",
+        "desc_en": "Fake goods have their benefits, and the real deal has its own advantages",
+        "hint_ch": "※战胜邪恶的钟表老子",
+        "hint_en": "※ Defeat the evil Old Clockie"
+      },
+      {
+        "id": "4034409",
+        "name_ch": "了不起的葛瑞迪",
+        "name_en": "The Great Grady",
+        "desc_ch": "烂片之王破裂的心中，流淌着一个时代",
+        "desc_en": "An era flows within the broken heart of the King of Bad Films",
+        "hint_ch": "※破除葛瑞迪先生的宝具",
+        "hint_en": "※ Destroy Mr. Grady's Noble Phantasm"
+      },
+      {
+        "id": "4034410",
+        "name_ch": "星辰啊，请照耀前路",
+        "name_en": "Stars, Light the Path Ahead",
+        "desc_ch": "迈步向前吧，仅此便足以为英雄",
+        "desc_en": "Stride forth, and take the simple step that anoints you as a hero",
+        "hint_ch": "※突破「平庸」的束缚",
+        "hint_en": "※ Break free from the cage of \"mediocrity\""
+      },
+      {
+        "id": "4034411",
+        "name_ch": "摩登时代",
+        "name_en": "Modern Times",
+        "desc_ch": "虫豸啃噬金钱，贪婪腐化奇迹",
+        "desc_en": "Swarms devour bills, and greed corrupts miracles",
+        "hint_ch": "※战胜圣杯战争的幕后黑手",
+        "hint_en": "※ Defeat the mastermind behind the Holy Grail War"
+      },
+      {
+        "id": "4034412",
+        "name_ch": "啊，朋友再见",
+        "name_en": "Ciao, My Friend",
+        "desc_ch": "守望月亮的稚子，终于与故人重逢",
+        "desc_en": "The moon-gazing child has finally reunited with old friends",
+        "hint_ch": "※当列车迎来意料之外的访客",
+        "hint_en": "※ This moment, when the Express welcomes unexpected visitors"
+      },
+      {
+        "id": "4044401",
+        "name_ch": "虫鸣秘闻：铃中古调",
+        "name_en": "Chirping Secret: Melodic Chimes of the Ancients",
+        "desc_ch": "风铃诉说着怎样的旋律？",
+        "desc_en": "What manner of melody does the wind chime sing?",
+        "hint_ch": "※解开哀丽秘榭的预言谜题",
+        "hint_en": "※ Solve the puzzle behind Aedes Elysiae's prophecy"
+      },
+      {
+        "id": "4044402",
+        "name_ch": "黄金国",
+        "name_en": "El Dorado",
+        "desc_ch": "为织者们建立一座大型乐园",
+        "desc_en": "Build a large-sized paradise for the weavers",
+        "hint_ch": "※搜集190只创生若虫的赐福",
+        "hint_en": "※ Collect blessings from 190 Creation Nymph(s)"
+      },
+      {
+        "id": "4054401",
+        "name_ch": "妖精森友会",
+        "name_en": "Woodland Gathering of the Fae",
+        "desc_ch": "查阅村长邮箱中所有属于你的信件",
+        "desc_en": "View your letters in the Village Chief's mailbox",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054402",
+        "name_ch": "昨日重现",
+        "name_en": "Yesterday Once More",
+        "desc_ch": "白厄视角下，与任意一名村民对话",
+        "desc_en": "Speak with any villager from Phainon's perspective",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054403",
+        "name_ch": "欢迎加入哀丽秘榭",
+        "name_en": "Welcome to Aedes Elysiae",
+        "desc_ch": "打扰妖精的安眠",
+        "desc_en": "Disturb the slumber of fairies",
+        "hint_ch": "※逼出家里蹲的妖精",
+        "hint_en": "※ Force out the Stay-at-home Fairy"
+      },
+      {
+        "id": "4054404",
+        "name_ch": "空谷有足音回响",
+        "name_en": "Steps Echo in the Valley",
+        "desc_ch": "送别白厄昔日的笔友",
+        "desc_en": "Offer a farewell to Phainon's pen pal",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054405",
+        "name_ch": "刻录故事的一页",
+        "name_en": "A Tale's Page Engraved",
+        "desc_ch": "与昔涟一同在哀丽秘榭度过一段美好时光",
+        "desc_en": "Experience a good time with Cyrene in Aedes Elysiae",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054406",
+        "name_ch": "全频段共振",
+        "name_en": "All-Channel Resonance",
+        "desc_ch": "与所有被风铃吸引来的妖精对话",
+        "desc_en": "Speak with all the fairies lured by the wind chimes",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054407",
+        "name_ch": "绑架代替购买",
+        "name_en": "Kidnapping for Purchase",
+        "desc_ch": "与哀丽秘榭的小奇美拉建立缘分",
+        "desc_en": "Become acquainted with the little chimeras of Aedes Elysiae",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054408",
+        "name_ch": "侏罗纪花园",
+        "name_en": "Jurassic Garden",
+        "desc_ch": "在哀丽秘榭骑乘大地兽",
+        "desc_en": "Ride the dromas at Aedes Elysiae",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054409",
+        "name_ch": "红花与六粒种",
+        "name_en": "The Red Flower and the Six Grains",
+        "desc_ch": "在祝祭庭院的花盆中播下种子",
+        "desc_en": "Sow seeds in the flowerpots of the Sacrament Courtyard",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054410",
+        "name_ch": "两只海豹游得快",
+        "name_en": "Fast Are Two Seals",
+        "desc_ch": "为哀丽秘榭的小海豹找个伴",
+        "desc_en": "Find a companion for Aedes Elysiae's baby seal",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054411",
+        "name_ch": "铃儿响叮当",
+        "name_en": "Jingle Bells",
+        "desc_ch": "将魔法风铃中的魔力消耗一空",
+        "desc_en": "Use up all the magic in the wind chimes",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054412",
+        "name_ch": "仲夏夜之梦",
+        "name_en": "A Midsummer Night's Dream",
+        "desc_ch": "参加妖精们的舞会",
+        "desc_en": "Participate in the fairies' ball",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054413",
+        "name_ch": "一杯赏英雄",
+        "name_en": "A Grail for Heroes",
+        "desc_ch": "见证一位异乡友人的归去",
+        "desc_en": "Witness the return of a friend from afar",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054414",
+        "name_ch": "绿一色",
+        "name_en": "All Green",
+        "desc_ch": "在「折纸小鸟对对碰」活动中使用青雀小鸟，并在同一局对战中，累计使用道具14次",
+        "desc_en": "In Origami Bird Clash, use Qingqird and accumulate 14 use(s) of an item in the same battle",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054415",
+        "name_ch": "还是我的回合",
+        "name_en": "It's Still My Turn",
+        "desc_ch": "在「折纸小鸟对对碰」活动的双人对战中，同一回合内，己方连续行动步数达到8",
+        "desc_en": "In the Duo Duel of Origami Bird Clash, take 8 consecutive moves in the same turn",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054417",
+        "name_ch": "三好学啾",
+        "name_en": "Honors Student",
+        "desc_ch": "在「折纸小鸟对对碰」活动中，将所有道具全部强化至3星",
+        "desc_en": "In Origami Bird Clash, enhance all items to 3 stars",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4073501",
+        "name_ch": "暴风雨停息之时…",
+        "name_en": "When This Stormy Rain Has Stopped...",
+        "desc_ch": "在和「飞霄」之影的战斗中，蚀月心兽的所有部位均未施放过强化行动",
+        "desc_en": "None of Ecliptic Inner Beast's parts manages to use an Enhanced action in the battle against the Shadow of \"Feixiao\"",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4073502",
+        "name_ch": "炸毛了嘛？",
+        "name_en": "Are You Upset?",
+        "desc_ch": "在和「飞霄」之影的战斗中，「飞霄」之影施放【风胄雷鞮】，并在【风胄雷鞮】蓄力期间将蚀月心兽所有部位的弱点击破",
+        "desc_en": "Shadow of \"Feixiao\" uses \"Wreathed in Storm,\" and all of Ecliptic Inner Beast's parts become Weakness Broken during the Charging phase of \"Wreathed in Storm\" in the battle against the Shadow of \"Feixiao\"",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4073601",
+        "name_ch": "「蕉」育高手",
+        "name_en": "Bananenlightenment Master",
+        "desc_ch": "在和「奇想林中的蕉研组」的战斗中，使其一次都没有施放【致博士：蕉学成果汇演】",
+        "desc_en": "Prevent Wonder Forest's Banacademic Office Staff from using \"To the Doctor: Banacademic Report\" during the fight",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074207",
+        "name_ch": "死后自会…也不会长眠",
+        "name_en": "After Death... There Will Be No Eternal Sleep",
+        "desc_ch": "在「冥魂渡者，死龙残躯，玻吕刻斯」施放【死亡想要更多的死亡】时，我方全体角色未陷入【沉沦于长眠】状态",
+        "desc_en": "When \"Pollux, Netherwing Husk, Ferry of Souls\" uses \"Death Wishes For More Death,\" no ally characters enter the \"Indulging Slumber\" state",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074401",
+        "name_ch": "诚如刻法勒所述",
+        "name_en": "As Kephale Said",
+        "desc_ch": "单场战斗中，我方角色白厄成为队友6种不同类型技能的施放目标",
+        "desc_en": "Have ally character Phainon become the target of 6 different types of teammate abilities in a single battle.",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074402",
+        "name_ch": "天火，出鞘",
+        "name_en": "Heavenly Fire, Unleashed!",
+        "desc_ch": "我方角色白厄在变身状态下，使用单次攻击同时消灭5个敌人",
+        "desc_en": "Have ally character Phainon defeat 5 enemies in a single attack while transformed",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074403",
+        "name_ch": "是谁得了MVP?",
+        "name_en": "Who's the MVP?",
+        "desc_ch": "使用同时包含白厄、万敌的队伍获得一场战斗的胜利，并且白厄消灭的敌人数量超过万敌",
+        "desc_en": "Win 1 battle with a team comprising Phainon and Mydei, and have Phainon defeat more enemies than Mydei",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074404",
+        "name_ch": "是谁得了MVP?",
+        "name_en": "Who's the MVP?",
+        "desc_ch": "使用同时包含白厄、万敌的队伍获得一场战斗的胜利，并且万敌消灭的敌人数量超过白厄",
+        "desc_en": "Win 1 battle with a team comprising Phainon and Mydei, and have Mydei defeat more enemies than Phainon",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074405",
+        "name_ch": "魔力放出",
+        "name_en": "Mana Burst",
+        "desc_ch": "我方角色Saber施放【风王铁槌】时，一次性消耗15点【炉心共鸣】恢复能量",
+        "desc_en": "When the ally character Saber uses \"Strike Air: Hammer of the Wind King,\" consume 15 points of \"Core Resonance\" in one go to regenerate Energy",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074406",
+        "name_ch": "星之剑，王之剑",
+        "name_en": "The Sword of Stars, The Sword of Kings",
+        "desc_ch": "单场战斗中，我方角色Saber累计施放10次【誓约胜利之剑】",
+        "desc_en": "Have the ally character Saber accumulate 10 use(s) of \"Excalibur\" in a single battle",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074408",
+        "name_ch": "武器的储备足够吗",
+        "name_en": "Is Your Treasury of Weapons Fully Stocked?",
+        "desc_ch": "使用我方角色Archer对彦卿施放1次【无限剑制】",
+        "desc_en": "Use the ally character Archer to unleash 1 instance(s) of \"Unlimited Blade Works\" against Yanqing",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074409",
+        "name_ch": "开饭",
+        "name_en": "Time to Eat",
+        "desc_ch": "使用同时包含Archer、Saber的队伍获得1场战斗的胜利",
+        "desc_en": "Win 1 battle(s) using a team that contains both Archer and Saber",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074410",
+        "name_ch": "是谁得了MVP?",
+        "name_en": "Who's the MVP?",
+        "desc_ch": "使用同时包含白厄、万敌的队伍获得一场战斗的胜利，并且白厄和万敌消灭的敌人数量相同",
+        "desc_en": "Win 1 battle with a team comprising Phainon and Mydei, and have Mydei and Phainon defeat the same number of enemies",
+        "hint_ch": "",
+        "hint_en": ""
+      }
+    ]
+  },
+  {
+    "version": "3.5",
+    "achievements": [
+      {
+        "id": "4034501",
+        "name_ch": "不屈服的祭品",
+        "name_en": "Unyielding Sacrifice",
+        "desc_ch": "愿黎明带来捷报，正如俗语所言，黎明是夜的孩子",
+        "desc_en": "May dawn bring us good news, as the saying goes: Dawn is the child of night",
+        "hint_ch": "※奔赴第一次逐火之旅的时代",
+        "hint_en": "※ To the first era of the Flame-Chase Journey"
+      },
+      {
+        "id": "4034502",
+        "name_ch": "被缚的普罗米修斯",
+        "name_en": "Prometheus Bound",
+        "desc_ch": "我把盲目的希望放在他们心里。此外，我把火也给了他们",
+        "desc_en": "Into their hearts, I placed blind hope, and with it, flames",
+        "hint_ch": "※落入来古士的囚笼",
+        "hint_en": "※ Fall into Lygus's cage"
+      },
+      {
+        "id": "4034503",
+        "name_ch": "你无法毁灭的城市",
+        "name_en": "The City You Cannot Destroy",
+        "desc_ch": "我们应向报仇神送上刺耳的颂歌，为冥王送上烦心的凯歌",
+        "desc_en": "Let's sing harsh hymns to the God of Vengeance and send uneasy victory songs to the King of the Underworld",
+        "hint_ch": "※见证半神们的英勇，然后继续前进",
+        "hint_en": "※ Bear witness to the demigods' valor, then press on"
+      },
+      {
+        "id": "4034504",
+        "name_ch": "为往日流尽金血",
+        "name_en": "Shed All Golden Blood for the Past",
+        "desc_ch": "听啊，你这大地下的极乐力量——回应召唤，送来助襄。庇佑孩子，赐他们以胜利和希望",
+        "desc_en": "Hear now, you blissful forces buried deep — answer the call and bring aid. Bless the children, grant them victory and hope",
+        "hint_ch": "※浇奠英雄们的牺牲，然后继续前进",
+        "hint_en": "※ Pour libations in honor of the heroes' sacrifice, then press forward"
+      },
+      {
+        "id": "4034505",
+        "name_ch": "报仇神",
+        "name_en": "God of Vengeance",
+        "desc_ch": "他这样把一生的幸福撞毁在正义的礁石上，没有人流泪，没有人观看",
+        "desc_en": "He shattered his lifetime of joy on the rocks of justice. No tears, no witnesses",
+        "hint_ch": "※见证并击败「神礼观众」的正身",
+        "hint_en": "※ Witness and defeat the true form of Theoros"
+      },
+      {
+        "id": "4034506",
+        "name_ch": "英雄未死之前",
+        "name_en": "Before Their Deaths",
+        "desc_ch": "倾听遥远而忧伤的歌，它唱着存在之母的名字：幻觉、意志、痛苦",
+        "desc_en": "Hear the distant, mournful song singing the name of the Mother of Being: Illusion, Will, Pain",
+        "hint_ch": "※传承英雄未死之前的一切",
+        "hint_en": "※ Carry on everything before the heroes' deaths"
+      },
+      {
+        "id": "4044501",
+        "name_ch": "欢迎使用GOTO语句",
+        "name_en": "Welcome to the GOTO Statement",
+        "desc_ch": "当牧羊人穿梭于时空…",
+        "desc_en": "When the Shepherd travels through time and space...",
+        "hint_ch": "※在黄金替罪羊玩法中，操作替罪羊穿过传送门",
+        "hint_en": "※ Operate the Scapegoat through the teleporter in Golden Scapegoat gameplay"
+      },
+      {
+        "id": "4044502",
+        "name_ch": "我是你的迷宫",
+        "name_en": "I Am Your Labyrinth",
+        "desc_ch": "给我滚烫的手，给我心灵的炭盆，给我这最孤寂者冰，呵！七倍的冰",
+        "desc_en": "Give me burning hands, a brazier for my soul, and ice of the loneliest. Ah! Sevenfold ice!",
+        "hint_ch": "※找到通往斯缇科西亚水下海宫的密道",
+        "hint_en": "※ Discover the hidden passage to Styxia's underwater palace"
+      },
+      {
+        "id": "4044503",
+        "name_ch": "未来水世界",
+        "name_en": "Future Waterworld",
+        "desc_ch": "法吉娜的祭司常说，不要在冥河水里游泳…",
+        "desc_en": "Phagousa's priests always warn: Never swim in the River of Souls...",
+        "hint_ch": "※在翁法罗斯探索过程中，被卷入水体的变动",
+        "hint_en": "During exploration in Amphoreus, get swept into the volatile waters"
+      },
+      {
+        "id": "4044504",
+        "name_ch": "埃斯库罗斯之死",
+        "name_en": "The Death of Aeschylus",
+        "desc_ch": "法吉娜的祭司常说，要小心高空坠物…",
+        "desc_en": "Phagousa's priests always warn: Watch for falling debris from above...",
+        "hint_ch": "※在翁法罗斯探索过程中，被倒塌的吊灯天顶砸中",
+        "hint_en": "※ During exploration in Amphoreus, get struck by a collapsing chandelier"
+      },
+      {
+        "id": "4044505",
+        "name_ch": "海底二十米",
+        "name_en": "Twenty Meters Under the Sea",
+        "desc_ch": "在「酣歌海垠」斯缇科西亚内，借助场景中的机关完成挑战，并获取战利品",
+        "desc_en": "Use the mechanisms in the environment to complete the challenges and unlock treasures in \"Warbling Shores\" Styxia",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044506",
+        "name_ch": "墨西拿盐度危机",
+        "name_en": "Messinian Salinity Crisis",
+        "desc_ch": "在「酣歌海垠」斯缇科西亚内，让王宫的水位褪至最下方",
+        "desc_en": "Lower the palace water level to its absolute minimum in \"Warbling Shores\" Styxia",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044507",
+        "name_ch": "忘海潜将",
+        "name_en": "Diver in the Forgotten Sea",
+        "desc_ch": "在「酣歌海垠」斯缇科西亚内，踏入被尘封的水底秘迹",
+        "desc_en": "Step into a sealed underwater sanctuary in \"Warbling Shores\" Styxia",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044508",
+        "name_ch": "所罗门王的地毯",
+        "name_en": "King Solomon's Carpet",
+        "desc_ch": "在「酣歌海垠」斯缇科西亚内，通过乘坐荷叶的方式移动至下层",
+        "desc_en": "Ride lotus leaves to descend to the lower levels in \"Warbling Shores\" Styxia",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044509",
+        "name_ch": "最孤独者",
+        "name_en": "The Loneliest One",
+        "desc_ch": "此刻，白昼厌倦了白昼，小溪又开始淙淙吟唱",
+        "desc_en": "Now, daylight is tired of daylight, and the brook begins to sing again",
+        "hint_ch": "※踏入时光在歌声中凝固的莹骨海床",
+        "hint_en": "Step into the Seabed of Luminous Remains, where time freezes in song"
+      },
+      {
+        "id": "4044510",
+        "name_ch": "何必、何必你自己饮酒？",
+        "name_en": "Why Must You Drink Alone?",
+        "desc_ch": "是一切高度的下坠，是一切深度的泄漏，是一切醉者的沉醉",
+        "desc_en": "The fall of all heights, the spilling of all depths, the surrender of all drunkards to their stupor",
+        "hint_ch": "※在斯缇科西亚的幻境中，将满溢之杯里的黑潮释放",
+        "hint_en": "※ Release the black tide from the Chalice of Plenty in the fantasia of Styxia"
+      },
+      {
+        "id": "4044511",
+        "name_ch": "向着新的海洋",
+        "name_en": "Toward the New Ocean",
+        "desc_ch": "万物闪着常新的光华，在空间和时间上面午睡沉沉…",
+        "desc_en": "Everything shines with eternal brilliance, dozing soundly above space and time...",
+        "hint_ch": "※借助「贼灵」巴特鲁斯归还的灵水盆前往创世涡心",
+        "hint_en": "※ Use the spirit basin returned by the \"Spirithief\" Bartholos to reach Vortex of Genesis"
+      },
+      {
+        "id": "4044512",
+        "name_ch": "海洋球乐园",
+        "name_en": "Oceanball Park",
+        "desc_ch": "在「酣歌海垠」斯缇科西亚中，完成所有「雅努斯迷津」的谜题",
+        "desc_en": "Complete all the puzzles of \"Janus' Maze\" in \"Warbling Shores\" Styxia",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044513",
+        "name_ch": "虫鸣秘闻：未竟之业",
+        "name_en": "Chirping Secret: Unfinished Business",
+        "desc_ch": "推石上山的若虫经历了多少次失败？",
+        "desc_en": "How many times did the nymph fail to push the boulder uphill?",
+        "hint_ch": "※解开「酣歌海垠」斯缇科西亚的预言谜题",
+        "hint_en": "※ Solve the prophecy puzzle in \"Warbling Shores\" Styxia"
+      },
+      {
+        "id": "4044514",
+        "name_ch": "并非所有葡萄都适合酿酒",
+        "name_en": "Not All Grapes Make Good Wine",
+        "desc_ch": "到葡萄池边寻找一位寂寞的老友",
+        "desc_en": "Find a lonely old friend by the grape pool",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044515",
+        "name_ch": "古董局中局",
+        "name_en": "Antique Scheme",
+        "desc_ch": "在时间的最深处找回一只失窃的水盆",
+        "desc_en": "Recover a stolen basin from the depths of time",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054204",
+        "name_ch": "神颌下的渎神者",
+        "name_en": "Blasphemer Beneath the Divine Jaw",
+        "desc_ch": "窥探半神议院「黎明云崖」全部的追忆残像",
+        "desc_en": "Glimpse all Fragments of Recollection at Demigod Council \"Dawncloud\"",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054206",
+        "name_ch": "农夫与木马",
+        "name_en": "The Farmer and the Wooden Horse",
+        "desc_ch": "调查位于半神议院「黎明云崖」的雅努斯之驹",
+        "desc_en": "Investigate the Janus' Steed located in Demigod Council \"Dawncloud\"",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054222",
+        "name_ch": "我呼唤论辩的终幕",
+        "name_en": "I Call for the End of Debate",
+        "desc_ch": "阅读半神议院「黎明云崖」所有启目集",
+        "desc_en": "Read all of the \"Enlightenment\" series in Demigod Council \"Dawncloud\"",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054501",
+        "name_ch": "追忆似酒年华",
+        "name_en": "In Search of Lost Wine",
+        "desc_ch": "窥探「酣歌海垠」斯缇科西亚全部的追忆残像",
+        "desc_en": "Glimpse all Fragments of Recollection at \"Warbling Shores\" Styxia",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054502",
+        "name_ch": "来自风平浪静的昨日",
+        "name_en": "From a Peaceful Yesterday",
+        "desc_ch": "解决「酣歌海垠」斯缇科西亚中酿造区的维修委托",
+        "desc_en": "Complete the repair assignments in the brewery district of \"Warbling Shores\" Styxia",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054503",
+        "name_ch": "心之一滴",
+        "name_en": "A Drop of the Soul Brew",
+        "desc_ch": "在酿造区重新开张后，再次制得一瓶心酿",
+        "desc_en": "Once the brewery is back in business, craft a fresh bottle of soul brew",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054504",
+        "name_ch": "罗曼蒂克乌托邦",
+        "name_en": "Romantic Utopia",
+        "desc_ch": "目睹「吟风爵」维吉妮娅与「曳石爵」阿波罗尼虚妄的爱情故事。",
+        "desc_en": "Bear witness to the ill-fated love story of Verginia the Dux Carminum and Apollonius the Dux Helkolithist",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054505",
+        "name_ch": "四杯狮子尾",
+        "name_en": "Four Lion's Tails",
+        "desc_ch": "与喝醉的四头真言狮口聊聊",
+        "desc_en": "Chat with four drunken Verax Leos",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054506",
+        "name_ch": "篝火与尘埃",
+        "name_en": "Bonfire and Ash",
+        "desc_ch": "与四位第一次逐火之旅的黄金裔在斯缇科西亚的幻象对话",
+        "desc_en": "Converse with the four Chrysos Heirs of the first Flame-Chase Journey in the illusions of Styxia",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054508",
+        "name_ch": "{NICKNAME}家的饭",
+        "name_en": "{NICKNAME}'s Homemade Meal",
+        "desc_ch": "在「黄金迷境大饭店」中，为属于你的餐馆取名",
+        "desc_en": "Name your very own restaurant in the \"Chrysos Maze Grand Restaurant\"",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054509",
+        "name_ch": "食神",
+        "name_en": "Gourmet Master",
+        "desc_ch": "在「黄金迷境大饭店」中，获得最终的迷其林美食证书",
+        "desc_en": "Earn the ultimate Memchelin Gourmet Certificate at the \"Chrysos Maze Grand Restaurant\"",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054510",
+        "name_ch": "小森林",
+        "name_en": "Little Grove",
+        "desc_ch": "在「黄金迷境大饭店」中，和餐馆所有的妖精员工对话",
+        "desc_en": "Speak with every fairy staff member at the \"Chrysos Maze Grand Restaurant\"",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054511",
+        "name_ch": "没有免费的午餐",
+        "name_en": "No Such Thing as a Free Lunch",
+        "desc_ch": "在「黄金迷境大饭店」中，最高单日经营额达到40000",
+        "desc_en": "Reach a single-day revenue of 40000 at the \"Chrysos Maze Grand Restaurant\"",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054512",
+        "name_ch": "魔法厨房",
+        "name_en": "Magic Kitchen",
+        "desc_ch": "在「黄金迷境大饭店」中，解锁餐馆的全部经营设施",
+        "desc_en": "Unlock all restaurant management facilities at the \"Chrysos Maze Grand Restaurant\"",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054513",
+        "name_ch": "妖精与魔豆",
+        "name_en": "Fairies and Magic Beans",
+        "desc_ch": "在「黄金迷境大饭店」中，成功在农田种出3种巨大作物",
+        "desc_en": "Successfully grow 3 type(s) of giant crops in the farmland at the \"Chrysos Maze Grand Restaurant\"",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054514",
+        "name_ch": "炉火纯青",
+        "name_en": "Perfectly Honed",
+        "desc_ch": "在「黄金迷境大饭店」中，所有菜品均升至最高等级",
+        "desc_en": "Raise every dish at the \"Chrysos Maze Grand Restaurant\" to its highest level",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074501",
+        "name_ch": "潮音五重奏",
+        "name_en": "Tidal Quintet",
+        "desc_ch": "海瑟音施放战技【泛音，暗流后齐鸣】累计击飞5个敌人",
+        "desc_en": "Use Hysilens's Skill \"Overtone Hum: Chorus After Dark Tides\" to knock 5 enemy(ies) into the air",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074502",
+        "name_ch": "西风漂流",
+        "name_en": "Westwind Drift",
+        "desc_ch": "单场战斗中，我方角色海瑟音的结界额外造成40次伤害",
+        "desc_en": "Use ally character Hysilens' Zone to additionally deal 40 instance(s) of DMG in a single battle",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074503",
+        "name_ch": "永远，忠于凯撒",
+        "name_en": "Forever Loyal to the Imperator",
+        "desc_ch": "单场战斗中，我方角色刻律德菈授予队友【爵位】3次",
+        "desc_en": "Have ally character Cerydra grant her teammates \"Peerage\" 3 time(s) in a single battle",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074504",
+        "name_ch": "伟业未竟，亦可再战",
+        "name_en": "The Battle Shall Go On with Unfinished Legacy",
+        "desc_ch": "持有【爵位】的角色使用战技消灭5个敌人",
+        "desc_en": "Defeat 5 enemy(ies) using Skill with a character with \"Peerage\"",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074505",
+        "name_ch": "泡沫回归深海",
+        "name_en": "Bubbles Return to the Deep Sea",
+        "desc_ch": "使用同时包含刻律德菈、海瑟音的队伍获得1场战斗的胜利，并且海瑟音陷入无法战斗状态",
+        "desc_en": "Win 1 battle(s) using a team that contains both Cerydra and Hysilens, with Hysilens being knocked down",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074506",
+        "name_ch": "剑旗，亦有汝焉？",
+        "name_en": "Dost Thou Stand Among the Gladius?",
+        "desc_ch": "使用同时包含刻律德菈、海瑟音的队伍获得1场战斗的胜利，并且刻律德菈陷入无法战斗状态",
+        "desc_en": "Win 1 battle(s) using a team that contains both Cerydra and Hysilens, with Cerydra being knocked down",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074507",
+        "name_ch": "实践理性批判",
+        "name_en": "Critique of Practical Reason",
+        "desc_ch": "单场战斗中，额外加速赞达尔的算法切换4次",
+        "desc_en": "Trigger Zandar's algorithm switch acceleration 4 extra time(s) in a single battle",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074508",
+        "name_ch": "纯粹理性批判",
+        "name_en": "Critique of Pure Reason",
+        "desc_ch": "单场战斗中，我方角色累计使用赞达尔【二律背反】激活的终结技3次",
+        "desc_en": "Have ally characters use Ultimate activated by Zandar's \"Antinomy\" for a total of 3 time(s) in a single battle.",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074509",
+        "name_ch": "狂欢戛然而止",
+        "name_en": "Revelry Comes to a Halt",
+        "desc_ch": "在【波涛夫人】处于【在毁灭中狂欢】状态期间，触发其行动提前的效果并使其在该次行动前被消灭",
+        "desc_en": "While the \"Lady of Crashing Waves\" is in the \"Revel in Destruction\" state, triggers her action advance effect and defeats her before this action",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074510",
+        "name_ch": "上工治未病",
+        "name_en": "Prevention Is the Best Medicine",
+        "desc_ch": "我方被施加【黑潮热】状态时，在【黑潮热】的负面效果触发前将其解除",
+        "desc_en": "When allies are inflicted with \"Black Tide Fever,\" remove the state before its negative effects trigger",
+        "hint_ch": "",
+        "hint_en": ""
+      }
+    ]
+  },
+  {
+    "version": "3.6",
+    "achievements": [
+      {
+        "id": "4034601",
+        "name_ch": "聆听我，甜蜜的黑暗",
+        "name_en": "Hearken, Sweet Ebon Night",
+        "desc_ch": "既然这扇门背后就是翁法罗斯……",
+        "desc_en": "That's why I need to go through... Amphoreus or not",
+        "hint_ch": "※见证长夜月登上舞台",
+        "hint_en": "※ Witness Evernight take the stage"
+      },
+      {
+        "id": "4034602",
+        "name_ch": "于是，金色的血流淌而出",
+        "name_en": "And Forth Flowed the Golden Blood",
+        "desc_ch": "总有些「记忆」是被焚烧的代价",
+        "desc_en": "Some \"memories\" must be set on fire as the sacrifice",
+        "hint_ch": "※击退金血忆灵，与长夜月直接对话",
+        "hint_en": "※ Defeat the ichor memosprite and talk to Evernight directly"
+      },
+      {
+        "id": "4034603",
+        "name_ch": "你永远不会独行",
+        "name_en": "You'll Never Walk Alone",
+        "desc_ch": "探索、了解、建立、连结——然后，我们会一起回家",
+        "desc_en": "We'll explore, understand, establish, and connect. After that, we'll find our way home together!",
+        "hint_ch": "※与三月七汇合",
+        "hint_en": "※ Meet up with March 7th"
+      },
+      {
+        "id": "4034604",
+        "name_ch": "命运啼哭之前",
+        "name_en": "Before Destiny Gave Its First Cry",
+        "desc_ch": "听我说，记住这段话，然后忘掉它",
+        "desc_en": "Listen: Remember these words... Then forget them.",
+        "hint_ch": "※再次唤醒「不存在的记忆」",
+        "hint_en": "※ Reawaken a \"nonexistent memory\" once again"
+      },
+      {
+        "id": "4034605",
+        "name_ch": "我站立于此，为万物担责",
+        "name_en": "Here I Stand, Shouldering All Lives",
+        "desc_ch": "向「大地」昭告新神的名字",
+        "desc_en": "Declare to the \"Earth\" the name of the new god",
+        "hint_ch": "※丹恒得到「大地」的火种",
+        "hint_en": "※ Dan Heng obtains the Coreflame of \"Earth\""
+      },
+      {
+        "id": "4034606",
+        "name_ch": "灵魂凭追忆辨认彼此",
+        "name_en": "Souls Recognize Each Other Through Recollections",
+        "desc_ch": "以天地为横轴，以时光为纵轴，带你回家",
+        "desc_en": "With space as my map and time as my compass, I'll lead you home",
+        "hint_ch": "※丹恒在忆潮中找到了你",
+        "hint_en": "※ Dan Heng finds you in the memoria tide"
+      },
+      {
+        "id": "4034607",
+        "name_ch": "记忆碎片",
+        "name_en": "Memento",
+        "desc_ch": "相机记忆卡已经存满的元凶……",
+        "desc_en": "The culprit behind the maxed-out camera memory...",
+        "hint_ch": "※昔涟找到了真正的三月七",
+        "hint_en": "※ Cyrene finds the real March 7th"
+      },
+      {
+        "id": "4034608",
+        "name_ch": "翁法罗斯英雄纪",
+        "name_en": "Amphoreus' Saga of Heroes",
+        "desc_ch": "与我一同，成为英雄吧",
+        "desc_en": "Stand with me, and become heroes!",
+        "hint_ch": "※完成最后的「再创世」",
+        "hint_en": "※ Complete the final \"Era Nova\""
+      },
+      {
+        "id": "4044601",
+        "name_ch": "微光城市",
+        "name_en": "City of Ember",
+        "desc_ch": "褪去权杖δ-me13的神话色彩，初入无名泰坦大墓",
+        "desc_en": "Strip away the mythical aura of Scepter δ-me13 and venture into the Great Tomb of the Nameless Titan for the first time",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044602",
+        "name_ch": "行向至深",
+        "name_en": "Venture to the Deep",
+        "desc_ch": "登上大墓中央区渡台，前往世界最深处",
+        "desc_en": "Board the Central Access Platform of the Great Tomb and venture to the world's deepest point",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044603",
+        "name_ch": "尤里卡！",
+        "name_en": "Eureka!",
+        "desc_ch": "完成「全世矩阵」无名泰坦大墓的终极谜题",
+        "desc_en": "Complete the ultimate puzzle of \"Universal Matrix\" Great Tomb of the Nameless Titan",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044604",
+        "name_ch": "散热不良",
+        "name_en": "Inefficient Heat Dispersion",
+        "desc_ch": "使用「暂停时间」的方法停住房间内的所有排气扇",
+        "desc_en": "Use \"time-stop\" abilities to pause all ventilation fans in the room",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044605",
+        "name_ch": "没料到这手吧",
+        "name_en": "You Didn't See That Coming",
+        "desc_ch": "未使用「暂停时间」的方法通过排气扇并且成功",
+        "desc_en": "Make it through the ventilation fan without using \"time-stop\" abilities",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044606",
+        "name_ch": "这不是旋转门",
+        "name_en": "Not Your Average Revolving Door",
+        "desc_ch": "未使用「暂停时间」的方法通过排气扇并且失败",
+        "desc_en": "Attempt to pass through the ventilation fan without \"time-stop\" abilities and fail",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044607",
+        "name_ch": "食物泡与溶酶体",
+        "name_en": "Food Bubbles and Digestive Enzymes",
+        "desc_ch": "使用巴特鲁斯的视角，吞掉一只宝箱",
+        "desc_en": "Swallow a Chest in Bartholos's POV",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044608",
+        "name_ch": "扎格列斯的神威",
+        "name_en": "Zagreus' Divine Power",
+        "desc_ch": "使用巴特鲁斯的视角，通过攻击消灭一只怪物",
+        "desc_en": "Defeat a monster by attacking in Bartholos's POV",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044609",
+        "name_ch": "被偷走的流体力学",
+        "name_en": "Fluid Dynamics Missing",
+        "desc_ch": "使用巴特鲁斯的视角，在水中游泳5秒以上",
+        "desc_en": "Swim for 5 seconds or longer in Bartholos's POV",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044610",
+        "name_ch": "存钱罐的自我修养",
+        "name_en": "A Piggy Bank Saves",
+        "desc_ch": "使用巴特鲁斯的视角，完成隐藏的终极挑战",
+        "desc_en": "Complete the secret final challenge in Bartholos's POV",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044611",
+        "name_ch": "我在树庭修文物",
+        "name_en": "Masters in The Grove",
+        "desc_ch": "使用「欧洛尼斯祷言」恢复被震碎的小雕像",
+        "desc_en": "Restore the shattered statuette using Oronyx's Prayer",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044612",
+        "name_ch": "下勾拳",
+        "name_en": "Uppercut",
+        "desc_ch": "别以为躲在外侧扇区就没事了…",
+        "desc_en": "Hiding in the outer sectors won't save you...",
+        "hint_ch": "※使用扎格列斯之手的冲拳动作，击败「全世矩阵」无名泰坦大墓角落处的敌人",
+        "hint_en": "※ Defeat the enemy lurking in the corner of \"Universal Matrix\" Great Tomb of the Nameless Titan using the Punch Action of the Hand of Zagreus"
+      },
+      {
+        "id": "4044613",
+        "name_ch": "记忆分类回收",
+        "name_en": "Memory Sorting & Reprocessing",
+        "desc_ch": "在「全世矩阵」无名泰坦大墓，发现一只似曾相识的桶",
+        "desc_en": "Discover a strangely familiar barrel in \"Universal Matrix\" Great Tomb of the Nameless Titan",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044614",
+        "name_ch": "猪！猪！猪！",
+        "name_en": "Buta! Buta! Buta!",
+        "desc_ch": "在「全世矩阵」无名泰坦大墓，发现一个似曾相识的画框",
+        "desc_en": "Discover a strangely familiar picture frame in \"Universal Matrix\" Great Tomb of the Nameless Titan",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044615",
+        "name_ch": "虫鸣秘闻：四者之系",
+        "name_en": "Chirping Secret: The System of Four",
+        "desc_ch": "正确的四者是哪四者？",
+        "desc_en": "Which are the correct four?",
+        "hint_ch": "※解开「全世矩阵」无名泰坦大墓的预言谜题",
+        "hint_en": "※ Solve the prophecy puzzle of \"Universal Matrix\" Great Tomb of the Nameless Titan"
+      },
+      {
+        "id": "4044616",
+        "name_ch": "虫鸣秘闻：囹圄之悟",
+        "name_en": "Chirping Secret: Wisdom in Confinement",
+        "desc_ch": "如何供奉无限？",
+        "desc_en": "How to offer Infinity?",
+        "hint_ch": "※解开「辉痕圣林」神悟树庭的预言谜题",
+        "hint_en": "※ Solve the prophecy puzzle in \"Radiant Scarwood\" Grove of Epiphany"
+      },
+      {
+        "id": "4054418",
+        "name_ch": "今天开始做老板",
+        "name_en": "Today, I'm the Boss",
+        "desc_ch": "在「折纸小鸟对对碰」活动中，获得街机店经营权",
+        "desc_en": "Obtain arcade management rights in Origami Bird Clash",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054419",
+        "name_ch": "双鸟成行",
+        "name_en": "It Takes Two (Birds)",
+        "desc_ch": "在「折纸小鸟对对碰」活动中，目睹波提欧和青雀双双变作折纸小鸟",
+        "desc_en": "Witness Boothill and Qingque transform into Origami Birds during the Origami Bird Clash event",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054420",
+        "name_ch": "你醒啦，起来打工吧！",
+        "name_en": "You're Awake! Now Get to Work!",
+        "desc_ch": "在「折纸小鸟对对碰」活动中，招募幽灵小鸟作为街机店员工",
+        "desc_en": "Recruit Ghost Bird as an arcade staff member in Origami Bird Clash event",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054601",
+        "name_ch": "今已亭亭如盖",
+        "name_en": "Then a Sapling, Now a Giant Shade",
+        "desc_ch": "大地的旧神与新神啊，是否还会追怀昔日的友人？",
+        "desc_en": "O old and new god of Earth, do you still long for your companions of days past?",
+        "hint_ch": "※窥探「辉痕圣林」神悟树庭全部的追忆残像",
+        "hint_en": "※ Glimpse all Fragments of Recollection in \"Radiant Scarwood\" Grove of Epiphany"
+      },
+      {
+        "id": "4054602",
+        "name_ch": "无我所忆",
+        "name_en": "The Remembrance of None",
+        "desc_ch": "完成与神秘少女的最后一次交谈…真的是最后一次吗？",
+        "desc_en": "Complete the final conversation with the mysterious girl... but is it really the final time?",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054603",
+        "name_ch": "如何能静止我的心跳？",
+        "name_en": "Silence! The Beating of My Heart!",
+        "desc_ch": "在「辉痕圣林」神悟树庭，哀悼一颗被焚毁的心脏",
+        "desc_en": "Grieve for a burned heart in \"Radiant Scarwood\" Grove of Epiphany",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054604",
+        "name_ch": "善恶的彼岸",
+        "name_en": "Beyond Good and Evil",
+        "desc_ch": "在「辉痕圣林」神悟树庭，长久凝视那无言的空洞",
+        "desc_en": "Stare long and hard into the wordless void in \"Radiant Scarwood\" Grove of Epiphany",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054605",
+        "name_ch": "人性的，太人性的",
+        "name_en": "Human, All Too Human",
+        "desc_ch": "在「全世矩阵」无名泰坦大墓的深处，与同伴们下定再次出发的决心",
+        "desc_en": "Decide with your companions to set forth again in the depths of \"Universal Matrix\" Great Tomb of the Nameless Titan",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054606",
+        "name_ch": "庞大，渺小，及人类意识",
+        "name_en": "The Immense, The Minuscule, and Human Awareness",
+        "desc_ch": "在「辉痕圣林」神悟树庭，去往封印地室更深处，见证矩阵光点的变化",
+        "desc_en": "Venture further into the Sealed Chamber in \"Radiant Scarwood\" Grove of Epiphany to observe the shifting matrix lights",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054607",
+        "name_ch": "超时空大地兽",
+        "name_en": "The Super Dimension Dromas",
+        "desc_ch": "在「天气真好，养它！」中，发现这只小大地兽的特殊性",
+        "desc_en": "Uncover the special traits of this baby dromas in the \"Nice Weather for Dromases\" event",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054608",
+        "name_ch": "大地兽一家",
+        "name_en": "The Dromasons",
+        "desc_ch": "在「天气真好，养它！」中，陪伴小大地兽顺利成长",
+        "desc_en": "Raise your baby dromas to maturity in the \"Nice Weather for Dromases\" event",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054609",
+        "name_ch": "雷达图，拜拜",
+        "name_en": "Off the Charts!",
+        "desc_ch": "在「天气真好，养它！」中，让小大地兽的三个属性均成长至最高水平",
+        "desc_en": "Develop all three stats of your baby dromas to their highest level in the \"Nice Weather for Dromases\" event",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054610",
+        "name_ch": "早期教育",
+        "name_en": "A Budding Personality",
+        "desc_ch": "在「天气真好，养它！」中，小大地兽共计获得了25条独特的特质",
+        "desc_en": "Little dromas gained a total of 25 unique traits in \"Nice Weather for Dromases\"",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054611",
+        "name_ch": "小兽当家",
+        "name_en": "All By Myself!",
+        "desc_ch": "在「天气真好，养它！」中，由小大地兽自己独立完成一次锻炼活动",
+        "desc_en": "Have your baby dromas finish an exercise session all by itself in the \"Nice Weather for Dromases\" event",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054612",
+        "name_ch": "这不是躲避球",
+        "name_en": "\"Fetch,\" Not \"Catch!\"",
+        "desc_ch": "在「天气真好，养它！」中，和小大地兽嬉戏时不小心用球打到它",
+        "desc_en": "Accidentally bonk your baby dromas with the ball during playtime in the \"Nice Weather for Dromases\" event",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054613",
+        "name_ch": "你不吃我吃",
+        "name_en": "More For Me Then!",
+        "desc_ch": "在「天气真好，养它！」中，被小大地兽抱怨过饭菜的口味问题",
+        "desc_en": "Hear your baby dromas grumble about how the food tastes in the \"Nice Weather for Dromases\" event",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054614",
+        "name_ch": "红土小当家",
+        "name_en": "Master Chef of Redsoil",
+        "desc_ch": "在「天气真好，养它！」中，从来没有让小大地兽抱怨过饭菜口味",
+        "desc_en": "Ensure your baby dromas never grumbles about food flavor in the \"Nice Weather for Dromases\" event",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054615",
+        "name_ch": "一日为师…",
+        "name_en": "Once a Parent...",
+        "desc_ch": "在「天气真好，养它！」中，收到9封来自小大地兽的感谢",
+        "desc_en": "Get 9 thank-you notes from your baby dromas in the \"Nice Weather for Dromases\" event",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074601",
+        "name_ch": "梦渡往昔，露载浮生",
+        "name_en": "Dream Across Time, Float Through Life",
+        "desc_ch": "单场战斗中，使用我方角色长夜月的长夜，累计施放10次【迷梦，流失，如露】",
+        "desc_en": "In a single battle, use \"Dream, Dissolving, as Dew\" 10 times in total via ally character Evernight's Evey",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074602",
+        "name_ch": "特别的祝福",
+        "name_en": "A Special Blessing",
+        "desc_ch": "使用三月七•存护对长夜月施放战技【可爱即是正义】",
+        "desc_en": "Use March 7th: Preservation's \"The Power of Cuteness\" on Evernight",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074603",
+        "name_ch": "你可以完全信任丹恒",
+        "name_en": "You Can Always Trust Dan Heng",
+        "desc_ch": "单场战斗中，使用我方角色丹恒•腾荒累计提供100000点护盾",
+        "desc_en": "Provide a total of 100000 Shield value with ally character Dan Heng • Permansor Terrae in a single battle",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074604",
+        "name_ch": "有龙则灵",
+        "name_en": "With Dragons Come Solutions",
+        "desc_ch": "单场战斗中，【龙灵】依附在有召唤物的角色身上累计行动5次",
+        "desc_en": "In a single battle, have \"Souldragon\" attach to a character with summons and take 5 actions",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074605",
+        "name_ch": "盾之强者成名记",
+        "name_en": "The Ascension of the Shield Powerhouse",
+        "desc_ch": "【金血忆灵•裁定忘却之形】对锁定目标施放的3次单体攻击全部击中护盾",
+        "desc_en": "All of \"Ichor Memosprite: Judge of Oblivion's\" 3 Single Target attack(s) to the locked-on target hit a Shield",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074606",
+        "name_ch": "因信称义",
+        "name_en": "Vindicated by Faith",
+        "desc_ch": "被【指名祸首】选中的我方角色在承受【金血忆灵•裁定忘却之形】的【罪血枭首】攻击后，当前生命值等于生命上限",
+        "desc_en": "The ally character targeted by \"Name the Culprit\" has their HP equal to their Max HP after being hit by \"Hemotort Decapitation\" from \"Ichor Memosprite: Judge of Oblivion\"",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074607",
+        "name_ch": "角动量守恒",
+        "name_en": "Conservation of Angular Momentum",
+        "desc_ch": "在【金血忆灵•翼蛇形】进入蓄力状态后，触发多次【扭矩反打】直至解除其蓄力状态",
+        "desc_en": "After \"Ichor Memosprite: Winged Serpent\" enters the Charging state, trigger multiple \"Torque Counter\" until its Charging state is dispelled",
+        "hint_ch": "",
+        "hint_en": ""
+      }
+    ]
+  },
+  {
+    "version": "3.7",
+    "achievements": [
+      {
+        "id": "4034701",
+        "name_ch": "光线的终点",
+        "name_en": "The End of Light",
+        "desc_ch": "看哪，战车所向，是曙光和胜利",
+        "desc_en": "Behold, where the chariot charges forth lies dawn and victory",
+        "hint_ch": "※目睹化身列车的开拓者穿行天际",
+        "hint_en": "※ Witness the Trailblazer, manifesting as the Express, traversing the skies"
+      },
+      {
+        "id": "4034702",
+        "name_ch": "月盈，在盛开的樱花下",
+        "name_en": "The Moon Waxes Beneath Blooming Sakura",
+        "desc_ch": "故事之外，有谁还在？",
+        "desc_en": "Who else remains beyond the story?",
+        "hint_ch": "※告别翁法罗斯，窥见下一站的线索",
+        "hint_en": "※ Bid farewell to Amphoreus and glimpse the clues to the next destination"
+      },
+      {
+        "id": "4034703",
+        "name_ch": "终焉，亦是原初的混沌",
+        "name_en": "The End Is Also the Primordial Chaos",
+        "desc_ch": "为神的证明写下一行注释",
+        "desc_en": "Write a footnote for god's proof",
+        "hint_ch": "※向博识尊证明，或不证明",
+        "hint_en": "※ Prove to Nous... or not"
+      },
+      {
+        "id": "4034704",
+        "name_ch": "爱，桃子，水晶花",
+        "name_en": "Love, Peach, and Crystal Flower",
+        "desc_ch": "一颗心能否在岁月的浸润下绽放？",
+        "desc_en": "Can a heart bloom when watered by time?",
+        "hint_ch": "※揭示PhiLia093与德谬歌的秘密",
+        "hint_en": "※ Reveal the secret of PhiLia093 and Demiurge"
+      },
+      {
+        "id": "4034705",
+        "name_ch": "最后的伟大征程",
+        "name_en": "The Final Grand Journey",
+        "desc_ch": "囚徒笑问傀儡，谁比谁更荒唐",
+        "desc_en": "The prisoner laughs at the puppet, asking who is more absurd",
+        "hint_ch": "※抵达时光归墟",
+        "hint_en": "※ Arrive at the Ruins of Time"
+      },
+      {
+        "id": "4034706",
+        "name_ch": "末日及其四行尾注",
+        "name_en": "The Apocalypse and Its Four Footnotes",
+        "desc_ch": "等号右侧，「智识」归于沉寂",
+        "desc_en": "The right side of the equation, the Erudition, falls silent",
+        "hint_ch": "※亲历「毁灭」降临的瞬间",
+        "hint_en": "※ Witness the moment the Destruction descends"
+      },
+      {
+        "id": "4034707",
+        "name_ch": "彼之灵魂即全宇宙",
+        "name_en": "Her Soul Is the Entire Universe",
+        "desc_ch": "群星将看见翁法罗斯的答案",
+        "desc_en": "The stars shall witness Amphoreus's answer",
+        "hint_ch": "※「你好，世界」",
+        "hint_en": "※ \"Hello, World\""
+      },
+      {
+        "id": "4034708",
+        "name_ch": "缪斯，请为我叙说",
+        "name_en": "O Muse, Tell Me",
+        "desc_ch": "光锥之内，皆是命运",
+        "desc_en": "Within the Light Cone, all is fated",
+        "hint_ch": "※为史诗写下最后的句点",
+        "hint_en": "※ Write the final sentence of this epic"
+      },
+      {
+        "id": "4044701",
+        "name_ch": "翁法罗斯掌管宝箱的真神",
+        "name_en": "Amphoreus's True God of Treasures",
+        "desc_ch": "开启650次翁法罗斯战利品",
+        "desc_en": "Open Treasures 650 time(s) in Amphoreus",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044702",
+        "name_ch": "虫鸣秘闻：岁月之吻",
+        "name_en": "Chirping Secret: Kiss of Time",
+        "desc_ch": "那座桥梁是何形状？",
+        "desc_en": "What shape is that bridge?",
+        "hint_ch": "※解开「灾梦余温」无名泰坦大墓的预言谜题",
+        "hint_en": "※ Solve the prophetic riddle in \"Nightmare's Echo\" Great Tomb of the Nameless Titan"
+      },
+      {
+        "id": "4044703",
+        "name_ch": "虫鸣秘闻：洞穴寓言",
+        "name_en": "Chirping Secret: Allegory of the Cave",
+        "desc_ch": "是什么隐藏在神话之外？",
+        "desc_en": "What is hidden in the Exomyth?",
+        "hint_ch": "※解开「葬忆彼岸」时光归墟的预言谜题",
+        "hint_en": "※ Solve the prophetic riddle in \"Memortis Shore\" Ruins of Time"
+      },
+      {
+        "id": "4044704",
+        "name_ch": "奥赫玛的点金手",
+        "name_en": "Okhema's Golden Touch",
+        "desc_ch": "为织者们建立一座永恒乐园",
+        "desc_en": "Build an eternal paradise for the weavers",
+        "hint_ch": "※搜集260只创生若虫的赐福",
+        "hint_en": "※ Collect blessings from 260 Creation Nymph(s)"
+      },
+      {
+        "id": "4044705",
+        "name_ch": "于是万物之工已毕",
+        "name_en": "Thus Was All Creation Complete",
+        "desc_ch": "搜集所有创生若虫的赐福，解开所有预言谜题",
+        "desc_en": "Collect the blessing of all Creation Nymphs and solve all prophetic riddles",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044706",
+        "name_ch": "灰黯之手，常伴此身",
+        "name_en": "Hand of Shadow, Always by My Side",
+        "desc_ch": "体验翁法罗斯每一种物件所引发的意外事故",
+        "desc_en": "Experience the unexpected accidents triggered by every type of Amphorean object",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044707",
+        "name_ch": "火之墓志铭",
+        "name_en": "Fire's Epitaph",
+        "desc_ch": "完成时光归墟特殊的黄金替罪羊",
+        "desc_en": "Complete the special Golden Scapegoat in the Ruins of Time",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044708",
+        "name_ch": "门径构形理论",
+        "name_en": "Portal Configuration Theory",
+        "desc_ch": "操纵「灾梦余温」无名泰坦大墓中的密径驱动机构，改变翁法罗斯所有「雅努斯密径」的逻辑",
+        "desc_en": "Manipulate the secret path mechanism in \"Nightmare's Echo\" Great Tomb of the Nameless Titan to alter the logic of all Janus's Hidden Passages in Amphoreus",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044709",
+        "name_ch": "诡计、时光和种子",
+        "name_en": "Trickery, Time, and Seeds",
+        "desc_ch": "在时光归墟召唤贼灵",
+        "desc_en": "Summon the Spirithief in the Ruins of Time",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044710",
+        "name_ch": "风儿驻足的宫殿",
+        "name_en": "Palace Where Wind Dwells",
+        "desc_ch": "找到贼灵的藏身处",
+        "desc_en": "Find the Spirithief's Hideout",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044711",
+        "name_ch": "晨昏的三次心跳",
+        "name_en": "Twilight's Three Heartbeats",
+        "desc_ch": "发现时光归墟内所有的启目集",
+        "desc_en": "Discover all enlightenments in the Ruins of Time",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044712",
+        "name_ch": "记忆的被褥",
+        "name_en": "The Beddings of Memories",
+        "desc_ch": "得到三月七的协助，暂时增强欧洛尼斯祷言的能力",
+        "desc_en": "With March 7th's assistance, temporarily enhance the power of Oronyx's Prayer",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044713",
+        "name_ch": "刻法勒永志不忘",
+        "name_en": "Kephale Will Never Forget This",
+        "desc_ch": "通过「负世」的试炼，见证往日的希望与绝望",
+        "desc_en": "Pass the trial of \"Worldbearing\" and witness the hope and despair of days gone by",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044714",
+        "name_ch": "众神的黄昏",
+        "name_en": "Twilight of the Gods",
+        "desc_ch": "初次启动木马程序「槲寄生」号",
+        "desc_en": "Launch the Trojan Program \"Mistletoe\" for the first time",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044715",
+        "name_ch": "不必复飞",
+        "name_en": "No Relaunch Required",
+        "desc_ch": "手动驾驶「槲寄生」号在任意航点降落",
+        "desc_en": "Manually land the \"Mistletoe\" at any waypoint",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044716",
+        "name_ch": "木马纪",
+        "name_en": "Trojan Age",
+        "desc_ch": "完成「翻飞挑战」",
+        "desc_en": "Complete the \"Whimsy Challenge\"",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044717",
+        "name_ch": "最古老的寓言",
+        "name_en": "The Oldest Fable",
+        "desc_ch": "发现「神话之外」的秘密",
+        "desc_en": "Uncover the Exomyth's secret",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4044718",
+        "name_ch": "带上他们的心脏",
+        "name_en": "Take Their Hearts With You",
+        "desc_ch": "获取来自翁法罗斯的所有家居装饰",
+        "desc_en": "Acquire all home decorations from Amphoreus",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054701",
+        "name_ch": "沐浴黄金血",
+        "name_en": "Bathe in Golden Blood",
+        "desc_ch": "在使用浴缸泡澡时，尝试「黄金精神入浴剂」",
+        "desc_en": "Use the \"Chrysos Spirit Bath Soak\" while taking a bath",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054702",
+        "name_ch": "永恒或一页",
+        "name_en": "Eternity or a Single Page",
+        "desc_ch": "在一页永恒中，与所有黄金裔英雄对话",
+        "desc_en": "Talk to all Chrysos Heir heroes in An Eternal Page",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054703",
+        "name_ch": "寒风与烈火",
+        "name_en": "Frost and Flame",
+        "desc_ch": "善意如同火炬，传递下去才烧得更旺",
+        "desc_en": "Kindness is like a torch. It burns brighter when shared",
+        "hint_ch": "※与翁法罗斯告别后，重回雅利洛-Ⅵ行政区",
+        "hint_en": "※ After bidding farewell to Amphoreus, return to the Jarilo-VI Administrative District"
+      },
+      {
+        "id": "4054704",
+        "name_ch": "长生与创生",
+        "name_en": "Immortality and Origination",
+        "desc_ch": "英雄一词，在民众心中本就有分量",
+        "desc_en": "The word \"hero\" has always held meaning in people's hearts",
+        "hint_ch": "※与翁法罗斯告别后，重回仙舟「罗浮」星槎海中枢",
+        "hint_en": "※ After bidding farewell to Amphoreus, return to Central Starskiff Haven of the Xianzhou Luofu"
+      },
+      {
+        "id": "4054705",
+        "name_ch": "糖浆与蜜酿",
+        "name_en": "Syrup and Honey Brew",
+        "desc_ch": "逐火的征程，会是茶余饭后的谈资吗？",
+        "desc_en": "Will the Flame-Chase Journey end up as mere dinner-table chatter?",
+        "hint_ch": "※与翁法罗斯告别后，重回匹诺康尼黄金的时刻",
+        "hint_en": "※ After bidding farewell to Amphoreus, return to Penacony's Golden Hour"
+      },
+      {
+        "id": "4054706",
+        "name_ch": "昨日与明天",
+        "name_en": "Yesterday and Tomorrow",
+        "desc_ch": "「开拓」一向如此：做好准备，也心怀希望",
+        "desc_en": "Trailblaze has always been like this: be ready, but keep hope alive",
+        "hint_ch": "※与翁法罗斯告别后，重回空间站「黑塔」主控舱段",
+        "hint_en": "※ After bidding farewell to Amphoreus, return to the master control zone of the Herta Space Station"
+      },
+      {
+        "id": "4054707",
+        "name_ch": "只如初见的涟漪",
+        "name_en": "Like Rippling Waves at First Sight",
+        "desc_ch": "与昔涟留在哀丽秘榭的记忆重逢。",
+        "desc_en": "Reunite with the memories Cyrene left in Aedes Elysiae",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054708",
+        "name_ch": "群星静默如谜",
+        "name_en": "Stars, Silent as Enigmas",
+        "desc_ch": "观看银河各势力在战后与列车组的联络记录。",
+        "desc_en": "View the post-war communication records between various cosmic powers and the Express Crew",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054709",
+        "name_ch": "连中三元",
+        "name_en": "Three-in-a-Row",
+        "desc_ch": "在「点心糕饼向前冲」的单场比赛中，3次应援的选手均取得第一名",
+        "desc_en": "In a single \"Snack Dash\" match, the supported participant finishes in first place 3 times",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054710",
+        "name_ch": "我们是冠军",
+        "name_en": "We're the Champions",
+        "desc_ch": "在「点心糕饼向前冲」中，应援的选手取得赛段第一名",
+        "desc_en": "In \"Snack Dash,\" the supported participant takes first place in a stage",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054711",
+        "name_ch": "我可以吃奇巧零食",
+        "name_en": "I Can Eat Trick Snacks",
+        "desc_ch": "在「点心糕饼向前冲」中，兑换完全部的奇巧零食",
+        "desc_en": "Exchange all Trick Snacks in \"Snack Dash\"",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054712",
+        "name_ch": "区域-「奖励」",
+        "name_en": "Domain - Reward",
+        "desc_ch": "在「点心糕饼向前冲」中，收到来自阮•梅的信息",
+        "desc_en": "Receive information from Ruan Mei in \"Snack Dash\"",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4054802",
+        "name_ch": "大满贯",
+        "name_en": "Grand Slam",
+        "desc_ch": "在「黄金嗷呜大师赛」中，单场赛事累计获得8次胜利",
+        "desc_en": "Win 8 matches in total during a single Chrysos Awoo Championship",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074701",
+        "name_ch": "无，无限，无限光",
+        "name_en": "In—Infi—Infinite Light",
+        "desc_ch": "单场战斗中，我方3名队友同时拥有昔涟献予的诗",
+        "desc_en": "In a single battle, have 3 ally characters obtain poems from Cyrene",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074702",
+        "name_ch": "然后记忆化作涟漪",
+        "name_en": "Then Memories Became Rippling Waves",
+        "desc_ch": "单场战斗中，记忆命途开拓者施放强化普攻后，昔涟自动施放【花与箭的舞曲】达到2次",
+        "desc_en": "In a single battle, after Trailblazer (Remembrance) uses enhanced attack, have Cyrene automatically use \"Minuet of Blooms and Plumes\" a total of 2 times",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074703",
+        "name_ch": "一如死生，并蒂双花",
+        "name_en": "As Life and Death, Two Flowers Share One Stem",
+        "desc_ch": "使用我方角色遐蝶在【新蕊】达到200%时施放终结技【亡喉怒哮，苏生之颂铃】",
+        "desc_en": "Use the ally Castorice's Ultimate \"Doomshriek, Dawn's Chime\" when \"Newbud\" reaches 200%",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074704",
+        "name_ch": "致翁法罗斯",
+        "name_en": "To Amphoreus",
+        "desc_ch": "在与「反造物主，流溢之恨」的战斗中，使用【昔涟的声援♪】累计触发5种不同的声援语音",
+        "desc_en": "During the battle against Anti-Creator, Hatred Inundate, trigger 5 different support lines using \"Cyrene's Support ♪\"",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074705",
+        "name_ch": "莫让仇恨遮蔽星空",
+        "name_en": "Do Not Let Hatred Blot Out The Stars",
+        "desc_ch": "在与「反造物主，流溢之恨」的战斗中，在【翁法罗斯的「恨」】不超过66%的情况下获得战斗胜利",
+        "desc_en": "Win the battle against Anti-Creator, Hatred Inundate, while keeping \"Amphorean Hatred\" at no higher than 66%",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074706",
+        "name_ch": "二元崩塌",
+        "name_en": "Binary Collapse",
+        "desc_ch": "在与「反造物主，流溢之恨」的战斗中，使「被囚禁的秘所思」或「被操弄的逻各斯」陷入【重创】状态1次",
+        "desc_en": "In the battle with Anti-Creator, Hatred Inundate, inflict the \"Grave Wound\" state on Imprisoned Mythos or Manipulated Logos 1 time(s)",
+        "hint_ch": "",
+        "hint_en": ""
+      },
+      {
+        "id": "4074707",
+        "name_ch": "随风而逝，如露如电",
+        "name_en": "Like Dew and Lightning, Gone With The Wind",
+        "desc_ch": "在「飓风大母」进入【孵育狂潮】状态后，使其行动提前时无法孵化【泡影稚子】",
+        "desc_en": "After Cyclonic Swarm Mother enters the \"Breeding Frenzy\" state, prevent it from spawning \"Mirage Fizzle Kid\" when its action is advanced",
+        "hint_ch": "",
+        "hint_en": ""
+      }
+    ]
+  }
+]

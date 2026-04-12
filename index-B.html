@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Garbaniphoro Grand Library</title>
+  <link rel="stylesheet" href="css/main.css?v=4">
+  <link rel="stylesheet" href="css/components.css?v=4">
+  <style>
+    body {
+      margin: 0;
+    }
+
+    /* --- Hero: full viewport --- */
+    .hero {
+      position: relative;
+      width: 100%;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      overflow: hidden;
+    }
+    .hero-img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 25%;
+      z-index: 0;
+    }
+    /* Dark gradient overlay — heavier at bottom for readability */
+    .hero::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(to bottom,
+          rgba(20, 16, 10, 0.1) 0%,
+          rgba(20, 16, 10, 0.05) 25%,
+          rgba(20, 16, 10, 0.25) 55%,
+          rgba(20, 16, 10, 0.6) 75%,
+          rgba(20, 16, 10, 0.78) 90%,
+          rgba(20, 16, 10, 0.88) 100%
+        );
+      pointer-events: none;
+      z-index: 1;
+    }
+
+    /* --- Content overlay on the painting --- */
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      width: 100%;
+      max-width: 600px;
+      padding: 0 1.5rem 3.5rem;
+      text-align: center;
+    }
+
+    .hero-title {
+      font-family: var(--font-heading);
+      font-size: 2.4rem;
+      font-weight: 500;
+      color: #e8e0d0;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      margin-bottom: 2rem;
+    }
+
+    /* --- Search on painting --- */
+    .hero-search {
+      margin-bottom: 2.2rem;
+    }
+    .hero-search form {
+      display: flex;
+      gap: 0;
+      max-width: 340px;
+      margin: 0 auto;
+    }
+    .hero-search .search-input {
+      background: rgba(255, 250, 240, 0.1);
+      border-color: rgba(200, 185, 150, 0.25);
+      color: #e8e0d0;
+      backdrop-filter: blur(4px);
+      font-family: var(--font-heading);
+      font-size: 0.8rem;
+      letter-spacing: 0.06em;
+      padding: 0.6rem 0.9rem;
+    }
+    .hero-search .search-input::placeholder {
+      color: rgba(200, 185, 150, 0.4);
+      font-family: var(--font-heading);
+      letter-spacing: 0.08em;
+    }
+    .hero-search .search-input:focus {
+      border-color: rgba(200, 185, 150, 0.6);
+      background: rgba(255, 250, 240, 0.18);
+    }
+    .hero-search .search-btn {
+      background: rgba(138, 109, 46, 0.6);
+      border-color: rgba(138, 109, 46, 0.4);
+      backdrop-filter: blur(4px);
+      font-size: 0.75rem;
+      padding: 0.6rem 1.2rem;
+    }
+    .hero-search .search-btn:hover {
+      background: rgba(138, 109, 46, 0.9);
+    }
+
+    /* --- Directory cards below hero --- */
+    .directory-cards {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1px;
+      background: var(--bg-primary, #14100a);
+    }
+    .dir-card {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 180px;
+      overflow: hidden;
+      text-decoration: none;
+    }
+    .dir-card-img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.6s ease, filter 0.6s ease;
+      filter: brightness(0.55) saturate(0.85);
+    }
+    .dir-card:hover .dir-card-img {
+      transform: scale(1.06);
+      filter: brightness(0.7) saturate(1);
+    }
+    .dir-card-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        to bottom,
+        rgba(20, 16, 10, 0.15) 0%,
+        rgba(20, 16, 10, 0.45) 100%
+      );
+      pointer-events: none;
+    }
+    .dir-card-label {
+      position: relative;
+      z-index: 1;
+      font-family: var(--font-heading);
+      font-size: 1.1rem;
+      font-weight: 500;
+      color: rgba(232, 224, 208, 0.88);
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      text-shadow: 0 1px 6px rgba(0,0,0,0.5);
+      transition: color 0.3s ease;
+    }
+    .dir-card:hover .dir-card-label {
+      color: #e8e0d0;
+    }
+
+    /* --- Painting credit --- */
+    .painting-credit {
+      position: absolute;
+      bottom: 0.6rem;
+      right: 1rem;
+      z-index: 2;
+      font-size: 0.58rem;
+      color: rgba(200, 185, 150, 0.3);
+      font-style: italic;
+    }
+
+    /* --- Colophon below hero --- */
+    .colophon {
+      padding: 1.5rem;
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      line-height: 1.8;
+      text-align: center;
+    }
+
+    /* --- Responsive --- */
+    @media (max-width: 768px) {
+      .hero-title {
+        font-size: 1.6rem;
+        letter-spacing: 0.14em;
+      }
+      .hero-content {
+        padding-bottom: 2.5rem;
+      }
+      .directory-cards {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .dir-card {
+        height: 140px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .hero-title {
+        font-size: 1.3rem;
+      }
+      .dir-card {
+        height: 120px;
+      }
+      .dir-card-label {
+        font-size: 0.95rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="site-logo">Garbaniphoro<br>Grand Library</a>
+      <nav class="main-nav">
+        <a href="index.html" class="nav-link active" data-i18n="nav.home">首页</a>
+        <a href="stories.html" class="nav-link" data-i18n="nav.stories">公民辑录</a>
+        <a href="search.html" class="nav-link" data-i18n="nav.search">检索</a>
+        <a href="lore.html" class="nav-link" data-i18n="nav.lore">档案</a>
+        <a href="gallery.html" class="nav-link" data-i18n="nav.gallery">画廊</a>
+        <button class="lang-toggle" id="lang-toggle">EN</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero: full viewport, everything on the painting -->
+  <section class="hero">
+    <img src="images/hero-lion-hunt.jpg"
+         alt="Eugène Delacroix — The Lion Hunt, 1855"
+         class="hero-img">
+
+    <div class="hero-content">
+      <h1 class="hero-title">Garbaniphoro Grand Library</h1>
+
+      <div class="hero-search">
+        <form onsubmit="window.location.href='search.html#q='+encodeURIComponent(this.q.value);return false;">
+          <input type="text" name="q" class="search-input" placeholder="Search the archive…">
+          <button type="submit" class="search-btn" data-i18n="search.button">检索</button>
+        </form>
+      </div>
+
+    </div>
+
+    <span class="painting-credit">Eugène Delacroix, <em>The Lion Hunt</em>, 1855</span>
+  </section>
+
+  <section class="directory-cards">
+    <a href="stories.html" class="dir-card">
+      <img src="images/card-stories.jpg" alt="" class="dir-card-img">
+      <div class="dir-card-overlay"></div>
+      <span class="dir-card-label" data-i18n="nav.stories">公民辑录</span>
+    </a>
+    <a href="search.html" class="dir-card">
+      <img src="images/card-search.jpg" alt="" class="dir-card-img">
+      <div class="dir-card-overlay"></div>
+      <span class="dir-card-label" data-i18n="nav.search">检索</span>
+    </a>
+    <a href="lore.html" class="dir-card">
+      <img src="images/card-lore.jpg" alt="" class="dir-card-img">
+      <div class="dir-card-overlay"></div>
+      <span class="dir-card-label" data-i18n="nav.lore">档案</span>
+    </a>
+    <a href="gallery.html" class="dir-card">
+      <img src="images/card-gallery.jpg" alt="" class="dir-card-img">
+      <div class="dir-card-overlay"></div>
+      <span class="dir-card-label" data-i18n="nav.gallery">画廊</span>
+    </a>
+  </section>
+
+  <footer class="colophon">
+    <p>A fan-made archive for Castrum Kremnos.</p>
+  </footer>
+
+  <script type="module" src="js/app.mjs?v=5"></script>
+</body>
+</html>

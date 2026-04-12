@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>检索 - Garbaniphoro Grand Library</title>
+  <script>!function(){var t=new URLSearchParams(location.search).get("theme")||localStorage.getItem("gl-theme")||"terra";document.documentElement.dataset.theme=t;document.write('<link rel="stylesheet" href="css/themes/theme-'+t+'.css">');}();</script>
+  <link rel="stylesheet" href="css/main.css?v=4">
+  <link rel="stylesheet" href="css/components.css?v=4">
+  <style>
+    .search-layout {
+      display: flex;
+      gap: 2rem;
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem;
+      min-height: calc(100vh - var(--nav-height) - 80px);
+    }
+
+    /* --- Sidebar --- */
+    .search-sidebar {
+      width: 220px;
+      flex-shrink: 0;
+      position: sticky;
+      top: calc(var(--nav-height) + 1.5rem);
+      align-self: flex-start;
+      max-height: calc(100vh - var(--nav-height) - 3rem);
+      overflow-y: auto;
+      scrollbar-width: thin;
+    }
+
+    .sidebar-heading {
+      font-family: var(--font-heading);
+      font-size: 0.65rem;
+      font-weight: 400;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      padding-bottom: 0.5rem;
+      margin-bottom: 0.5rem;
+      border-bottom: 1px solid var(--border-subtle);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+      user-select: none;
+    }
+    .sidebar-heading::after {
+      content: '▾';
+      font-size: 0.6rem;
+    }
+
+    .sidebar-list {
+      list-style: none;
+    }
+
+    .sidebar-item {
+      display: flex;
+      align-items: baseline;
+      gap: 0.4rem;
+      padding: 0.15rem 0.1rem;
+      font-size: 0.7rem;
+      color: var(--text-secondary);
+      cursor: pointer;
+      border-radius: 2px;
+      transition: all var(--transition);
+      line-height: 1.4;
+    }
+    .sidebar-item:hover {
+      color: var(--text-primary);
+    }
+    .sidebar-item.active {
+      color: var(--gold);
+    }
+    .sidebar-check {
+      width: 0.75rem;
+      height: 0.75rem;
+      border: 1px solid var(--border-medium);
+      border-radius: 1px;
+      flex-shrink: 0;
+      position: relative;
+      top: 0.05rem;
+    }
+    .sidebar-item.active .sidebar-check {
+      background: var(--gold);
+      border-color: var(--gold);
+    }
+    .sidebar-label {
+      flex: 1;
+    }
+    .sidebar-toggle {
+      font-size: 0.68rem;
+      color: var(--gold);
+      cursor: pointer;
+      padding: 0.3rem 0.1rem 0.1rem;
+      transition: color var(--transition);
+    }
+    .sidebar-toggle:hover {
+      color: var(--gold-bright);
+    }
+
+    .sidebar-count {
+      font-size: 0.62rem;
+      color: var(--text-muted);
+      font-family: var(--font-heading);
+    }
+    .sidebar-item.active .sidebar-count {
+      color: var(--gold);
+    }
+
+    /* --- Main results area --- */
+    .search-main {
+      flex: 1;
+      min-width: 0;
+    }
+
+    /* Mobile: sidebar becomes horizontal chips above results */
+    @media (max-width: 900px) {
+      .search-layout {
+        flex-direction: column;
+        gap: 0;
+        padding: 1.5rem 1rem;
+      }
+      .search-sidebar {
+        width: 100%;
+        position: static;
+        max-height: none;
+        margin-bottom: 1rem;
+      }
+      .sidebar-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.3rem;
+      }
+      .sidebar-item {
+        font-size: 0.72rem;
+        padding: 0.25rem 0.5rem;
+        border: 1px solid var(--border-subtle);
+        border-radius: 2px;
+      }
+      .sidebar-item.active {
+        background: var(--gold);
+        color: var(--warm-white);
+        border-color: var(--gold);
+      }
+      .sidebar-item.active .sidebar-count {
+        color: var(--warm-white);
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="site-logo">Garbaniphoro<br>Grand Library</a>
+      <nav class="main-nav">
+        <a href="index.html" class="nav-link" data-i18n="nav.home">首页</a>
+        <a href="stories.html" class="nav-link" data-i18n="nav.stories">公民</a>
+        <a href="search.html" class="nav-link active" data-i18n="nav.search">检索</a>
+        <a href="lore.html" class="nav-link" data-i18n="nav.lore">档案</a>
+        <a href="gallery.html" class="nav-link" data-i18n="nav.gallery">画廊</a>
+        <button class="lang-toggle" id="lang-toggle">EN</button>
+      </nav>
+    </div>
+  </header>
+
+  <div class="search-layout">
+    <!-- Sidebar: populated by JS after search -->
+    <aside class="search-sidebar" id="search-sidebar" hidden>
+      <div class="sidebar-heading">角色</div>
+      <ul class="sidebar-list" id="search-filters"></ul>
+    </aside>
+
+    <!-- Main content -->
+    <main class="search-main">
+      <h1 class="page-title" data-i18n="nav.search">检索</h1>
+
+      <div class="search-box">
+        <input type="text" id="search-input" class="search-input"
+               placeholder="Search the archive…">
+        <button id="search-btn" class="search-btn" data-i18n="search.button">检索</button>
+      </div>
+
+      <div id="search-status" class="search-status"></div>
+      <div id="search-results"></div>
+      <div id="search-pagination" class="pagination"></div>
+    </main>
+  </div>
+
+  <footer class="site-footer">
+    <p>A fan-made archive for Castrum Kremnos.</p>
+  </footer>
+
+  <script type="module" src="js/app.mjs?v=5"></script>
+  <script type="module" src="js/search.mjs?v=4"></script>
+</body>
+</html>

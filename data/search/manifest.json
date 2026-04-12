@@ -1,0 +1,118 @@
+{
+  "totalDocs": 223452,
+  "chunkSize": 8000,
+  "chunks": [
+    {
+      "file": "chunks-0.json",
+      "count": 8000
+    },
+    {
+      "file": "chunks-1.json",
+      "count": 8000
+    },
+    {
+      "file": "chunks-2.json",
+      "count": 8000
+    },
+    {
+      "file": "chunks-3.json",
+      "count": 8000
+    },
+    {
+      "file": "chunks-4.json",
+      "count": 8000
+    },
+    {
+      "file": "chunks-5.json",
+      "count": 8000
+    },
+    {
+      "file": "chunks-6.json",
+      "count": 8000
+    },
+    {
+      "file": "chunks-7.json",
+      "count": 8000
+    },
+    {
+      "file": "chunks-8.json",
+      "count": 8000
+    },
+    {
+      "file": "chunks-9.json",
+      "count": 8000
+    },
+    {
+      "file": "chunks-10.json",
+      "count": 8000
+    },
+    {
+      "file": "chunks-11.json",
+      "count": 8000
+    },
+    {
+      "file": "chunks-12.json",
+      "count": 8000
+    },
+    {
+      "file": "chunks-13.json",
+      "count": 8000
+    },
+    {
+      "file": "chunks-14.json",
+      "count": 8000
+    },
+    {
+      "file": "chunks-15.json",
+      "count": 8000
+    },
+    {
+      "file": "chunks-16.json",
+      "count": 8000
+    },
+    {
+      "file": "chunks-17.json",
+      "count": 8000
+    },
+    {
+      "file": "chunks-18.json",
+      "count": 8000
+    },
+    {
+      "file": "chunks-19.json",
+      "count": 8000
+    },
+    {
+      "file": "chunks-20.json",
+      "count": 8000
+    },
+    {
+      "file": "chunks-21.json",
+      "count": 8000
+    },
+    {
+      "file": "chunks-22.json",
+      "count": 8000
+    },
+    {
+      "file": "chunks-23.json",
+      "count": 8000
+    },
+    {
+      "file": "chunks-24.json",
+      "count": 8000
+    },
+    {
+      "file": "chunks-25.json",
+      "count": 8000
+    },
+    {
+      "file": "chunks-26.json",
+      "count": 8000
+    },
+    {
+      "file": "chunks-27.json",
+      "count": 7452
+    }
+  ]
+}
