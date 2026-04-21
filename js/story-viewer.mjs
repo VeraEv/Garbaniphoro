@@ -12,7 +12,7 @@
  */
 
 import { getLang, t } from './i18n.mjs?v=3';
-import { fetchJSON, escapeHTML } from './app.mjs?v=5';
+import { fetchJSON, escapeHTML, scrollBehavior } from './app.mjs?v=5';
 
 let charScenes = null;  // {slug: {name_ch, name_en, note, quote_ch, quote_en, scenes:[]}}
 let charList = null;
@@ -33,10 +33,16 @@ const PINYIN = {
 };
 
 async function init() {
-  [charScenes, charList] = await Promise.all([
-    fetchJSON('data/character-scenes.json'),
-    fetchJSON('data/character-list.json')
-  ]);
+  try {
+    [charScenes, charList] = await Promise.all([
+      fetchJSON('data/character-scenes.json'),
+      fetchJSON('data/character-list.json')
+    ]);
+  } catch (e) {
+    document.getElementById('char-select-view').innerHTML =
+      '<p class="loading-text">数据加载失败，请刷新重试。</p>';
+    return;
+  }
 
   route();
   window.addEventListener('hashchange', route);
@@ -109,7 +115,7 @@ function renderCharacterSelect() {
     a.addEventListener('click', e => {
       e.preventDefault();
       const target = document.getElementById(a.getAttribute('href').slice(1));
-      if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      if (target) target.scrollIntoView({ behavior: scrollBehavior(), block: 'start' });
     });
   });
 
@@ -128,22 +134,22 @@ function renderCharacterSelect() {
       const cls = hasData ? 'char-card' : 'char-card char-card-empty';
 
       if (hasData) {
-        html += `<a class="${cls}" href="stories.html#char=${c.slug}">`;
+        html += `<a class="${cls}" href="stories.html#char=${escapeHTML(c.slug)}">`;
       } else {
         html += `<div class="${cls}">`;
       }
 
-      const initials = (lang === 'en' ? c.en : c.ch).slice(0, 1);
-      const portraitSrc = `images/portraits/${c.slug}.jpg`;
+      const initials = escapeHTML((lang === 'en' ? c.en : c.ch).slice(0, 1));
+      const portraitSrc = `images/portraits/${escapeHTML(c.slug)}.jpg`;
       html += `<div class="char-card-portrait">`;
       html += `<img src="${portraitSrc}" alt="" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">`;
       html += `<span class="char-card-portrait-placeholder" style="display:none">${initials}</span>`;
       html += `</div>`;
       html += `<div class="char-card-info">`;
-      html += `<span class="char-card-name">${lang === 'en' ? c.en : c.ch}</span>`;
-      html += `<span class="char-card-name-sub">${lang === 'en' ? c.ch : c.en}</span>`;
+      html += `<span class="char-card-name">${escapeHTML(lang === 'en' ? c.en : c.ch)}</span>`;
+      html += `<span class="char-card-name-sub">${escapeHTML(lang === 'en' ? c.ch : c.en)}</span>`;
       if (c.note) {
-        html += `<span class="char-card-note">${c.note}</span>`;
+        html += `<span class="char-card-note">${escapeHTML(c.note)}</span>`;
       }
       if (!hasData) {
         html += `<span class="char-card-soon">${lang === 'en' ? 'Coming soon' : '即将收录'}</span>`;
@@ -186,14 +192,14 @@ function renderCharacterScenes(slug) {
   headerEl.innerHTML = `
     <div class="char-profile-header">
       <div class="char-profile-portrait">
-        <img src="images/portraits/${slug}.jpg" alt="${primaryName}"
+        <img src="images/portraits/${escapeHTML(slug)}.jpg" alt="${escapeHTML(primaryName)}"
              onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-        <span class="char-profile-portrait-placeholder" style="display:none">${initial}</span>
+        <span class="char-profile-portrait-placeholder" style="display:none">${escapeHTML(initial)}</span>
       </div>
       <div class="char-profile-identity">
-        <h2 class="char-profile-name">${primaryName}</h2>
-        <p class="char-profile-name-sub">${secondaryName}</p>
-        ${meta?.note ? `<p class="char-profile-note">${meta.note}</p>` : ''}
+        <h2 class="char-profile-name">${escapeHTML(primaryName)}</h2>
+        <p class="char-profile-name-sub">${escapeHTML(secondaryName)}</p>
+        ${meta?.note ? `<p class="char-profile-note">${escapeHTML(meta.note)}</p>` : ''}
         ${quoteText ? `<blockquote class="char-profile-quote"><p class="char-profile-quote-text">${escapeHTML(quoteText)}</p></blockquote>` : ''}
       </div>
     </div>

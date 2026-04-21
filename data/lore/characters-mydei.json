@@ -123,42 +123,42 @@
       "label_en": "Eidolons",
       "ranks": [
         {
-          "img": "images/skills/mydei/1404_rank1.png",
+          "img": "images/ranks/1404_Rank_1.png",
           "label_ch": "寒风雕琢不屈的脊梁",
           "label_en": "Frost Hones Spine of Steel",
           "desc_ch": "【弑神登神】对主目标造成的伤害倍率提高30%，且变成对敌方全体造成等同于主目标伤害倍率的虚数属性伤害。",
           "desc_en": "Increases the DMG multiplier dealt by \"Godslayer Be God\" to the primary target by 30%. This ability now deals to all enemies Imaginary DMG equal to the DMG multiplier dealt to the primary target."
         },
         {
-          "img": "images/skills/mydei/1404_rank2.png",
+          "img": "images/ranks/1404_Rank_2.png",
           "label_ch": "纷争见证尸骸的喉鸣",
           "label_en": "Strife Beholds Cry of Dead",
           "desc_ch": "【血仇】状态期间，万敌造成的伤害无视敌方目标15%的防御力，且接受治疗后会将40%的治疗数值转化为充能，累计转化的充能不超过40点。任意单位行动后重置可累计的充能。",
           "desc_en": "During \"Vendetta,\" the DMG dealt by Mydei ignores 15% of enemy targets' DEF. After he receives healing, converts 40% of the healed amount to Charge. The tally of the converted Charge cannot exceed 40 point(s). Resets this tally of Charge after any unit takes action."
         },
         {
-          "img": "images/skills/mydei/1404_skill.png",
+          "img": "images/ranks/1404_Rank_3.png",
           "label_ch": "荣耀辉映不渝的筵宴",
           "label_en": "Honor Exalts Feast of Faith",
           "desc_ch": "战技等级+2，最多不超过15级；普攻等级+1，最多不超过10级。",
           "desc_en": "Skill Lv. +2, up to a maximum of Lv. 15. Basic ATK Lv. +1, up to a maximum of Lv. 10."
         },
         {
-          "img": "images/skills/mydei/1404_rank4.png",
+          "img": "images/ranks/1404_Rank_4.png",
           "label_ch": "号角惊觉缄默的狂狮",
           "label_en": "Siren Jolts the Laconic Lion",
           "desc_ch": "【血仇】状态期间暴击伤害提高30%，且受到来自敌方目标的攻击后回复等同于自身10%生命上限的生命值。",
           "desc_en": "While in \"Vendetta,\" increases CRIT DMG by 30% and restores HP by 10% of this unit's Max HP after receiving attacks from enemy targets."
         },
         {
-          "img": "images/skills/mydei/1404_ultimate.png",
+          "img": "images/ranks/1404_Rank_5.png",
           "label_ch": "兵戈雕刻躯身的烈焰",
           "label_en": "War Chisels Flesh of Flame",
           "desc_ch": "终结技等级+2，最多不超过15级；天赋等级+2，最多不超过15级。",
           "desc_en": "Ultimate Lv. +2, up to a maximum of Lv. 15. Talent Lv. +2, up to a maximum of Lv. 15."
         },
         {
-          "img": "images/skills/mydei/1404_rank6.png",
+          "img": "images/ranks/1404_Rank_6.png",
           "label_ch": "往日攀陟沉积的血山",
           "label_en": "Legacy Scales Mound of Blood",
           "desc_ch": "进入战斗时立刻进入【血仇】状态且【弑神登神】所需的充能值降低至100点。",

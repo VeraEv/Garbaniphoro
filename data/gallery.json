@@ -2,43 +2,271 @@
   {
     "src": "assets/gallery/mydei_preview.png",
     "thumb": "assets/gallery/mydei_preview.png",
-    "title_ch": "万敌 预览图",
-    "title_en": "Mydei Preview",
+    "title_en": "Preview",
     "tags": ["mydei", "preview"]
   },
   {
     "src": "assets/gallery/mydei_character_icon.png",
     "thumb": "assets/gallery/mydei_character_icon.png",
-    "title_ch": "万敌 角色图标",
-    "title_en": "Mydei Character Icon",
+    "title_en": "Character Icon",
     "tags": ["mydei", "icon"]
   },
   {
     "src": "assets/gallery/Character_Mydei_Splash_Art.webp",
     "thumb": "assets/gallery/Character_Mydei_Splash_Art.webp",
-    "title_ch": "万敌 立绘",
-    "title_en": "Mydei Splash Art",
+    "title_en": "Splash Art",
     "tags": ["mydei", "splash-art"]
   },
   {
     "src": "images/lightcones/23039.png",
     "thumb": "images/lightcones/23039.png",
-    "title_ch": "血火啊，燃烧前路",
-    "title_en": "Flame of Blood, Blaze My Path",
+    "title_en": "Blaze My Path",
     "tags": ["lightcone"]
   },
   {
     "src": "images/lightcones/21058.png",
     "thumb": "images/lightcones/21058.png",
-    "title_ch": "一行往日的血",
-    "title_en": "A Trail of Bygone Blood",
+    "title_en": "Bygone Blood",
     "tags": ["lightcone"]
   },
   {
     "src": "images/lightcones/21050.png",
     "thumb": "images/lightcones/21050.png",
-    "title_ch": "胜利只在朝夕间",
     "title_en": "Victory In a Blink",
     "tags": ["lightcone"]
+  },
+  {
+    "src": "images/ranks/1404_Rank_1.png",
+    "thumb": "images/ranks/1404_Rank_1.png",
+    "title_en": "Eidolon I",
+    "tags": ["mydei", "eidolon", "rank1"]
+  },
+  {
+    "src": "images/ranks/1404_Rank_2.png",
+    "thumb": "images/ranks/1404_Rank_2.png",
+    "title_en": "Eidolon II",
+    "tags": ["mydei", "eidolon", "rank2"]
+  },
+  {
+    "src": "images/ranks/1404_Rank_3.png",
+    "thumb": "images/ranks/1404_Rank_3.png",
+    "title_en": "Eidolon III",
+    "tags": ["mydei", "eidolon", "rank3"]
+  },
+  {
+    "src": "images/ranks/1404_Rank_4.png",
+    "thumb": "images/ranks/1404_Rank_4.png",
+    "title_en": "Eidolon IV",
+    "tags": ["mydei", "eidolon", "rank4"]
+  },
+  {
+    "src": "images/ranks/1404_Rank_5.png",
+    "thumb": "images/ranks/1404_Rank_5.png",
+    "title_en": "Eidolon V",
+    "tags": ["mydei", "eidolon", "rank5"]
+  },
+  {
+    "src": "images/ranks/1404_Rank_6.png",
+    "thumb": "images/ranks/1404_Rank_6.png",
+    "title_en": "Eidolon VI",
+    "tags": ["mydei", "eidolon", "rank6"]
+  },
+  {
+    "src": "images/chronicle/1040201.png",
+    "thumb": "images/chronicle/1040201.png",
+    "title_en": "Between Life & Death",
+    "tags": ["mydei", "chronicle", "v3.1"]
+  },
+  {
+    "src": "images/chronicle/1040203.png",
+    "thumb": "images/chronicle/1040203.png",
+    "title_en": "Ancient Vow",
+    "tags": ["mydei", "chronicle", "v3.1"]
+  },
+  {
+    "src": "images/chronicle/1040209.png",
+    "thumb": "images/chronicle/1040209.png",
+    "title_en": "Divine Power",
+    "tags": ["mydei", "chronicle", "v3.1"]
+  },
+  {
+    "src": "images/chronicle/1040211.png",
+    "thumb": "images/chronicle/1040211.png",
+    "title_en": "Before the Army",
+    "tags": ["mydei", "chronicle", "v3.1"]
+  },
+  {
+    "src": "images/battleevent/BattleEvent_20421076.png",
+    "thumb": "images/battleevent/BattleEvent_20421076.png",
+    "title_en": "Assist Portrait",
+    "tags": ["mydei", "battleevent"]
+  },
+  {
+    "src": "images/emoji/120016.png",
+    "thumb": "images/emoji/120016.png",
+    "title_en": "Exhausted",
+    "tags": ["emoji"]
+  },
+  {
+    "src": "images/icons/IconHead_200135.png",
+    "thumb": "images/icons/IconHead_200135.png",
+    "title_en": "Delicacies",
+    "tags": ["mydei", "icon"]
+  },
+  {
+    "src": "images/icons/IconRogueTournTitanAvatarMidNikadory.png",
+    "thumb": "images/icons/IconRogueTournTitanAvatarMidNikadory.png",
+    "title_en": "Lance of Fury",
+    "tags": ["mydei", "rogue", "titan"]
+  },
+  {
+    "src": "images/roguetitan/IconRogueTournTitanAvatarNikadory.png",
+    "thumb": "images/roguetitan/IconRogueTournTitanAvatarNikadory.png",
+    "title_en": "Nikadory Card",
+    "tags": ["mydei", "rogue", "titan"]
+  },
+  {
+    "src": "images/roguetitan/IconRogueTournTitanAvatarNikadoryShadow.png",
+    "thumb": "images/roguetitan/IconRogueTournTitanAvatarNikadoryShadow.png",
+    "title_en": "Nikadory Shadow",
+    "tags": ["mydei", "rogue", "titan"]
+  },
+  {
+    "src": "images/icons/QuestTabIcon_1404.png",
+    "thumb": "images/icons/QuestTabIcon_1404.png",
+    "title_en": "Quest Tab",
+    "tags": ["mydei", "icon"]
+  },
+  {
+    "src": "images/roguetitan/RogueTournTitanAvatarIconRoundNikadory.png",
+    "thumb": "images/roguetitan/RogueTournTitanAvatarIconRoundNikadory.png",
+    "title_en": "Nikadory Round",
+    "tags": ["mydei", "rogue", "titan"]
+  },
+  {
+    "src": "images/storyline/StoryLineImg019.png",
+    "thumb": "images/storyline/StoryLineImg019.png",
+    "title_en": "Remnants of Regal Sounds",
+    "tags": ["mydei", "storyline"]
+  },
+  {
+    "src": "images/chronicle/1040101_m.png",
+    "thumb": "images/chronicle/1040101_m.png",
+    "title_en": "Chronicle M",
+    "tags": ["chronicle", "v3.1"]
+  },
+  {
+    "src": "images/chronicle/1040101_f.png",
+    "thumb": "images/chronicle/1040101_f.png",
+    "title_en": "Chronicle F",
+    "tags": ["chronicle", "v3.1"]
+  },
+  {
+    "src": "images/mainstory/ImgRole_1.png",
+    "thumb": "images/mainstory/ImgRole_1.png",
+    "title_en": "Role Art",
+    "tags": ["mainstory", "v3.1"]
+  },
+  {
+    "src": "images/mainstory/ImgRole_light.png",
+    "thumb": "images/mainstory/ImgRole_light.png",
+    "title_en": "Role Light",
+    "tags": ["mainstory", "v3.1"]
+  },
+  {
+    "src": "images/textures/Avatar_Mydeimos_00_Hair_Color.png",
+    "thumb": "images/textures/Avatar_Mydeimos_00_Hair_Color.png",
+    "title_en": "Hair Texture",
+    "tags": ["mydei", "texture"]
+  },
+  {
+    "src": "images/textures/Avatar_Mydeimos_00_Hair_LightMap.png",
+    "thumb": "images/textures/Avatar_Mydeimos_00_Hair_LightMap.png",
+    "title_en": "Hair Lightmap",
+    "tags": ["mydei", "texture"]
+  },
+  {
+    "src": "images/textures/Avatar_Mydeimos_00_Idleshow_Cup_Color.png",
+    "thumb": "images/textures/Avatar_Mydeimos_00_Idleshow_Cup_Color.png",
+    "title_en": "Cup Texture",
+    "tags": ["mydei", "texture"]
+  },
+  {
+    "src": "images/textures/Avatar_Mydeimos_00_Idleshow_Cup_LightMap.png",
+    "thumb": "images/textures/Avatar_Mydeimos_00_Idleshow_Cup_LightMap.png",
+    "title_en": "Cup Lightmap",
+    "tags": ["mydei", "texture"]
+  },
+  {
+    "src": "images/textures/Eff_Avatar_Mydeimos_00_Skill_icon01.png",
+    "thumb": "images/textures/Eff_Avatar_Mydeimos_00_Skill_icon01.png",
+    "title_en": "Lance Sigil",
+    "tags": ["mydei", "texture", "skill"]
+  },
+  {
+    "src": "images/textures/Eff_Avatar_Mydeimos_00_Skill21_Decal02.png",
+    "thumb": "images/textures/Eff_Avatar_Mydeimos_00_Skill21_Decal02.png",
+    "title_en": "Divine Crown",
+    "tags": ["mydei", "texture", "skill"]
+  },
+  {
+    "src": "images/icons/TabIcon_Mydeimos_00_Selected.png",
+    "thumb": "images/icons/TabIcon_Mydeimos_00_Selected.png",
+    "title_en": "Gacha Tab Selected",
+    "tags": ["mydei", "icon"]
+  },
+  {
+    "src": "images/icons/TabIcon_Mydeimos_00.png",
+    "thumb": "images/icons/TabIcon_Mydeimos_00.png",
+    "title_en": "Gacha Tab",
+    "tags": ["mydei", "icon"]
+  },
+  {
+    "src": "images/tarotbook/icons/TarotBookRectCardIcon10.png",
+    "thumb": "images/tarotbook/icons/TarotBookRectCardIcon10.png",
+    "title_en": "Card Icon Rect",
+    "tags": ["mydei", "tarotbook", "icon"]
+  },
+  {
+    "src": "images/tarotbook/icons/TarotBookRoundCardIcon10.png",
+    "thumb": "images/tarotbook/icons/TarotBookRoundCardIcon10.png",
+    "title_en": "Card Icon Round",
+    "tags": ["mydei", "tarotbook", "icon"]
+  },
+  {
+    "src": "images/tarotbook/cards/TarotBookCard10_Stage0.png",
+    "thumb": "images/tarotbook/cards/TarotBookCard10_Stage0.png",
+    "title_en": "Card Stage 0",
+    "tags": ["mydei", "tarotbook", "card"]
+  },
+  {
+    "src": "images/tarotbook/cards/TarotBookCard10_Stage1.png",
+    "thumb": "images/tarotbook/cards/TarotBookCard10_Stage1.png",
+    "title_en": "Card Stage 1",
+    "tags": ["mydei", "tarotbook", "card"]
+  },
+  {
+    "src": "images/tarotbook/cards/TarotBookCard10_Stage2.png",
+    "thumb": "images/tarotbook/cards/TarotBookCard10_Stage2.png",
+    "title_en": "Card Stage 2",
+    "tags": ["mydei", "tarotbook", "card"]
+  },
+  {
+    "src": "images/tarotbook/cards/TarotBookCard10_Stage3.png",
+    "thumb": "images/tarotbook/cards/TarotBookCard10_Stage3.png",
+    "title_en": "Card Stage 3",
+    "tags": ["mydei", "tarotbook", "card"]
+  },
+  {
+    "src": "images/tarotbook/cards/TarotBookCard10_Stage4.png",
+    "thumb": "images/tarotbook/cards/TarotBookCard10_Stage4.png",
+    "title_en": "Card Stage 4",
+    "tags": ["mydei", "tarotbook", "card"]
+  },
+  {
+    "src": "images/tarotbook/cards/TarotBookCard10_Stage5.png",
+    "thumb": "images/tarotbook/cards/TarotBookCard10_Stage5.png",
+    "title_en": "Card Stage 5",
+    "tags": ["mydei", "tarotbook", "card"]
   }
 ]

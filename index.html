@@ -4,7 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Garbaniphoro Grand Library</title>
-  <script>!function(){var t=new URLSearchParams(location.search).get("theme")||localStorage.getItem("gl-theme")||"terra";document.documentElement.dataset.theme=t;document.write('<link rel="stylesheet" href="css/themes/theme-'+t+'.css">');}();</script>
+  <script>!function(){var t=new URLSearchParams(location.search).get("theme")||localStorage.getItem("gl-theme")||"terra";t=(t==="kremnos")?"kremnos":"terra";document.documentElement.dataset.theme=t;document.write('<link rel="stylesheet" href="css/themes/theme-'+t+'.css">');}();</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Noto+Serif+SC:wght@300;400;500;600;700&display=swap">
   <link rel="stylesheet" href="css/main.css?v=4">
   <link rel="stylesheet" href="css/components.css?v=5">
   <style>
@@ -37,20 +40,20 @@
       position: absolute;
       inset: 0;
       z-index: 1;
-      background: rgba(200, 150, 70, 0.30);
+      background: rgba(200, 150, 70, 0.18);
       mix-blend-mode: soft-light;
       pointer-events: none;
     }
 
-    /* Dark gradient overlay — heavier at bottom for readability */
+/* Dark gradient overlay — heavier at bottom for readability */
     .hero::after {
       content: '';
       position: absolute;
       inset: 0;
       background:
         linear-gradient(to bottom,
-          rgba(20, 16, 10, 0.1) 0%,
-          rgba(20, 16, 10, 0.05) 25%,
+          transparent 0%,
+          transparent 25%,
           rgba(20, 16, 10, 0.25) 55%,
           rgba(20, 16, 10, 0.6) 75%,
           rgba(20, 16, 10, 0.78) 90%,
@@ -87,7 +90,7 @@
       color: var(--gold, #b05040);
       letter-spacing: 0.08em;
       text-transform: uppercase;
-      margin-bottom: 2rem;
+      margin-bottom: 4.5rem;
       white-space: nowrap;
     }
 
@@ -149,6 +152,7 @@
       font-family: var(--font-serif, 'Cormorant Garamond', serif);
       font-size: clamp(1.1rem, 1.6vw, 1.35rem);
       font-style: italic;
+      font-weight: 400;
       color: var(--text-secondary, #3a3028);
       line-height: 2;
       letter-spacing: 0.02em;
@@ -427,8 +431,9 @@
       <h1 class="hero-title">Garbaniphoro Grand Library</h1>
 
       <div class="hero-search">
-        <form onsubmit="window.location.href='search.html#q='+encodeURIComponent(this.q.value);return false;">
-          <input type="text" name="q" class="search-input" placeholder="Search the archive…">
+        <form id="hero-search-form">
+          <label class="visually-hidden" for="hero-search-input" data-i18n="nav.search">检索</label>
+          <input type="text" id="hero-search-input" name="q" class="search-input" placeholder="检索台词、角色、关键词…" data-i18n-placeholder="search.placeholder">
           <button type="submit" class="search-btn" data-i18n="search.button">检索</button>
         </form>
       </div>
@@ -471,9 +476,10 @@
     </a>
   </section>
 
-  <footer class="colophon"></footer>
-
-  <aside id="painting-credit-main" style="display:none">Hubert Robert, <em>Capriccio with an Ancient Temple</em>, ca. 1756 · The Metropolitan Museum of Art</aside>
+  <footer class="site-footer">
+    <p class="painting-credit-footer">Hubert Robert, <em>Capriccio with an Ancient Temple</em>, ca. 1756 · The Metropolitan Museum of Art</p>
+    <p>A fan-made archive for Castrum Kremnos.</p>
+  </footer>
 
   <script>
     !function(){

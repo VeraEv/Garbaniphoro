@@ -1,0 +1,1532 @@
+{
+  "title_ch": "如我所书",
+  "title_en": "As I've Written",
+  "subtitle_ch": "亡国的王储 迈德漠斯",
+  "subtitle_en": "Amphoreus' Saga of Heroes — Mydeimos, the Fallen Prince",
+  "chapters": [
+    {
+      "num": "I",
+      "title_ch": "其名沐血而来",
+      "title_en": "His Name, Born in Blood",
+      "spreads": [
+        {
+          "left_ch": [
+            {
+              "type": "label",
+              "text": "1-1"
+            },
+            {
+              "type": "image",
+              "path": "images/tarotbook/100101.png"
+            },
+            {
+              "type": "sentence",
+              "text": "在士兵之间，久负盛名的城邦……\\n悬锋，\\n是每一个战士的向往之地。"
+            }
+          ],
+          "right_ch": [
+            {
+              "type": "sentence",
+              "text": "成为悬锋祭典的冠军，\\n是千里挑一…不，万里挑一的殊荣。"
+            },
+            {
+              "type": "sentence",
+              "text": "<em><em class=\"voice-mydei\">「那只是杀戮，毫无荣耀可言。」</em></em>\\n一个男人挡在我面前。"
+            },
+            {
+              "type": "sentence",
+              "text": "他名叫迈德漠斯……\\n万敌。\\n是悬锋的王储。"
+            }
+          ],
+          "left_en": [
+            {
+              "type": "label",
+              "text": "1-1"
+            },
+            {
+              "type": "image",
+              "path": "images/tarotbook/100101.png"
+            },
+            {
+              "type": "sentence",
+              "text": "Among the soldiers, there was the famed city-state...\\nKremnos,\\na place every warrior longed for."
+            }
+          ],
+          "right_en": [
+            {
+              "type": "sentence",
+              "text": "To be crowned champion of the Kremnos Festival\\nwas an honor that only the cream of the crop could attain."
+            },
+            {
+              "type": "sentence",
+              "text": "<em><em class=\"voice-mydei\">\"There's no glory to be found in an accolade only obtainable through slaughter.\"</em></em>\\nA man blocks my way."
+            },
+            {
+              "type": "sentence",
+              "text": "His name is...\\nMydeimos,\\ncrown prince of Kremnos."
+            }
+          ]
+        },
+        {
+          "left_ch": [
+            {
+              "type": "label",
+              "text": "1-2"
+            },
+            {
+              "type": "sentence",
+              "text": "男人寡言少语，\\n但他的事迹广为流传。"
+            },
+            {
+              "type": "sentence",
+              "text": "是不可思议的故事，\\n人们说，"
+            },
+            {
+              "type": "sentence",
+              "text": "出生就被生父扔下悬崖，\\n坠入冥海，漂流九年之久。"
+            }
+          ],
+          "right_ch": [
+            {
+              "type": "sentence",
+              "text": "<em><em class=\"voice-other\">「这样都能活下来…连死神都抛弃了他啊。」</em></em>"
+            },
+            {
+              "type": "sentence",
+              "text": "不死的身躯。\\n属于男人的天赐。"
+            },
+            {
+              "type": "sentence",
+              "text": "就像翁法罗斯的每一位黄金裔…\\n是写作<em class=\"voice-mydei\">「诅咒」</em>的祝福。"
+            }
+          ],
+          "left_en": [
+            {
+              "type": "label",
+              "text": "1-2"
+            },
+            {
+              "type": "sentence",
+              "text": "Despite being a man of few words,\\nnews of his deeds had traveled far and wide."
+            },
+            {
+              "type": "sentence",
+              "text": "His tale is an extraordinary one,\\nthey say."
+            },
+            {
+              "type": "sentence",
+              "text": "Cast off a cliff by his father at birth,\\nhe plunged into the Sea of Souls and drifted for nine years."
+            }
+          ],
+          "right_en": [
+            {
+              "type": "sentence",
+              "text": "<em><em class=\"voice-other\">\"Huh, he managed to survive all of that...\" \"Even the god of death turned him away.\"</em></em>"
+            },
+            {
+              "type": "sentence",
+              "text": "An immortal body.\\nA gift bestowed upon the man."
+            },
+            {
+              "type": "sentence",
+              "text": "As with every other Chrysos Heir in Amphoreus...\\nA blessing, yet also his <em class=\"voice-mydei\">curse</em>."
+            }
+          ]
+        },
+        {
+          "left_ch": [
+            {
+              "type": "label",
+              "text": "1-3"
+            },
+            {
+              "type": "sentence",
+              "text": "无言的男人坐在桌边，\\n等待我先开口。\\n杯中盛满的，是<em class=\"voice-mydei\">猩红的液体</em>。"
+            },
+            {
+              "type": "sentence",
+              "text": "听说是悬锋城的传统。\\n以<em class=\"voice-mydei\">鲜血</em>滋养身躯。"
+            }
+          ],
+          "right_ch": [
+            {
+              "type": "sentence",
+              "text": "在广为流传的故事里……\\n他们掠走战场上的每一具尸体。"
+            },
+            {
+              "type": "sentence",
+              "text": "<em><em class=\"voice-mydei\">「自以为是的野史学家。」</em></em>\\n被看穿了……\\n他的眼神像狮子一样锐利。"
+            },
+            {
+              "type": "sentence",
+              "text": "<em><em class=\"voice-mydei\">「这是石榴汁。」</em></em>\\n男人嗤之以鼻。"
+            }
+          ],
+          "left_en": [
+            {
+              "type": "label",
+              "text": "1-3"
+            },
+            {
+              "type": "sentence",
+              "text": "The taciturn man is seated at the table,\\nexpecting me to break the silence.\\nBefore us is a cup, filled to the brim with <em class=\"voice-mydei\">a crimson liquid</em>."
+            },
+            {
+              "type": "sentence",
+              "text": "People considered it a Kremnoan tradition,\\nto sustain their bodies with <em class=\"voice-mydei\">fresh blood</em>."
+            }
+          ],
+          "right_en": [
+            {
+              "type": "sentence",
+              "text": "In popular legends...\\nevery body on the battlefield was taken."
+            },
+            {
+              "type": "sentence",
+              "text": "<em><em class=\"voice-mydei\">\"Arrogant amateur historian.\"</em></em>\\nHe sees straight through my pretense...\\nHis gaze as keen and piercing a lion's."
+            },
+            {
+              "type": "sentence",
+              "text": "<em><em class=\"voice-mydei\">\"This is pomegranate juice.\"</em></em>\\nThe man scoffs."
+            }
+          ]
+        },
+        {
+          "left_ch": [
+            {
+              "type": "label",
+              "text": "1-4"
+            },
+            {
+              "type": "sentence",
+              "text": "野史之所以为野史，\\n是因为悬锋城消失已久。"
+            },
+            {
+              "type": "sentence",
+              "text": "人们的神陷入癫狂，\\n城邦也迷失在雾中。"
+            }
+          ],
+          "right_ch": [
+            {
+              "type": "sentence",
+              "text": "传闻，悬锋城的末日之战，\\n男人也投身沙场。"
+            },
+            {
+              "type": "sentence",
+              "text": "横扫千军，浴血鏖战，\\n用长矛贯穿了敌王——"
+            },
+            {
+              "type": "sentence",
+              "text": "只是那矛头……\\n指向<em class=\"voice-mydei\">自己的故乡</em>。"
+            }
+          ],
+          "left_en": [
+            {
+              "type": "label",
+              "text": "1-4"
+            },
+            {
+              "type": "sentence",
+              "text": "The reason it's called a wild tale,\\nis because Castrum Kremnos has long vanished."
+            },
+            {
+              "type": "sentence",
+              "text": "When their god descended into madness,\\nthe city likewise became shrouded in fog."
+            }
+          ],
+          "right_en": [
+            {
+              "type": "sentence",
+              "text": "Rumor has it that during the final battle of Castrum Kremnos,\\nthis man, too, took to the battlefield."
+            },
+            {
+              "type": "sentence",
+              "text": "Cutting down countless foes, fighting in a sea of blood,\\nhe drove his spear through the heart of the enemy king—"
+            },
+            {
+              "type": "sentence",
+              "text": "Yet the tip of that spear...\\nwas directed at <em class=\"voice-mydei\">his own homeland</em>."
+            }
+          ]
+        },
+        {
+          "left_ch": [
+            {
+              "type": "label",
+              "text": "1-5"
+            },
+            {
+              "type": "sentence",
+              "text": "议论声起，\\n男人起身离去。"
+            },
+            {
+              "type": "sentence",
+              "text": "流言的真相，\\n他从来只用背影讲述。"
+            },
+            {
+              "type": "sentence",
+              "text": "那是经受千难百死，\\n却不曾留下一道伤痕的脊背。"
+            }
+          ],
+          "right_ch": [
+            {
+              "type": "image",
+              "path": "images/tarotbook/100105.png"
+            },
+            {
+              "type": "sentence",
+              "text": "迈德漠斯，往日的英雄……\\n他是悬锋的叛徒，\\n<em class=\"voice-mydei\">弑父的王储。</em>"
+            }
+          ],
+          "left_en": [
+            {
+              "type": "label",
+              "text": "1-5"
+            },
+            {
+              "type": "sentence",
+              "text": "A chatter breaks out among the people,\\nand the man rises to leave."
+            },
+            {
+              "type": "sentence",
+              "text": "The truth of such rumors,\\nhe speaks only through his distant silhouette."
+            },
+            {
+              "type": "sentence",
+              "text": "A silhouette of a body that has withstood endless trials and faced death innumerable times,\\nbut bore not a single mark."
+            }
+          ],
+          "right_en": [
+            {
+              "type": "image",
+              "path": "images/tarotbook/100105.png"
+            },
+            {
+              "type": "sentence",
+              "text": "Mydeimos, a hero of yore..\\nNow a traitor to Kremnos,\\n<em class=\"voice-mydei\">the patricidal crown prince.</em>"
+            }
+          ]
+        }
+      ],
+      "chapter_cards": [
+        "images/tarotbook/cards/TarotBookCard10_Stage1.png"
+      ]
+    },
+    {
+      "num": "II",
+      "title_ch": "万邦啊，因何畏避",
+      "title_en": "Nations of the World, Why Do You Flee?",
+      "spreads": [
+        {
+          "left_ch": [
+            {
+              "type": "label",
+              "text": "2-1"
+            },
+            {
+              "type": "image",
+              "path": "images/tarotbook/100201.png"
+            },
+            {
+              "type": "sentence",
+              "text": "从何时起，\\n他以「万敌」之名为人所知？"
+            }
+          ],
+          "right_ch": [
+            {
+              "type": "sentence",
+              "text": "这英勇力敌万邦，\\n而男人不以为意——"
+            },
+            {
+              "type": "sentence",
+              "text": "唯王权可终结王权，\\n唯纷争可终结纷争，"
+            },
+            {
+              "type": "sentence",
+              "text": "征战的铁蹄踏遍荒野，\\n却终归要沾上<em class=\"voice-mydei\">故乡的血</em>。"
+            }
+          ],
+          "left_en": [
+            {
+              "type": "label",
+              "text": "2-1"
+            },
+            {
+              "type": "image",
+              "path": "images/tarotbook/100201.png"
+            },
+            {
+              "type": "sentence",
+              "text": "Since which day,\\nDid he become known as \"Mydei\"?"
+            }
+          ],
+          "right_en": [
+            {
+              "type": "sentence",
+              "text": "His strength rivals all lands,\\nBut the man pays it no heed —"
+            },
+            {
+              "type": "sentence",
+              "text": "For only the authority of a king can end another king,\\nAnd only strife can end strife."
+            },
+            {
+              "type": "sentence",
+              "text": "The torrent of conquest crosses the barrens,\\nYet with <em class=\"voice-mydei\">homeland's blood</em>, it is destined to be stained."
+            }
+          ]
+        },
+        {
+          "left_ch": [
+            {
+              "type": "label",
+              "text": "2-2"
+            },
+            {
+              "type": "sentence",
+              "text": "无人敢与他握手致意。"
+            },
+            {
+              "type": "sentence",
+              "text": "那双手炙如烈阳，\\n浸染着火的伟力。"
+            }
+          ],
+          "right_ch": [
+            {
+              "type": "sentence",
+              "text": "那是何等壮举——\\n折戟的沙场，\\n男人为逝去的士兵掘墓，\\n徒手将千军埋葬。"
+            },
+            {
+              "type": "sentence",
+              "text": "那一战……\\n他捏碎了所有来敌的兵刃。"
+            },
+            {
+              "type": "sentence",
+              "text": "不死的身躯万折不摧，\\n却难奈苦泪在心间流淌。"
+            }
+          ],
+          "left_en": [
+            {
+              "type": "label",
+              "text": "2-2"
+            },
+            {
+              "type": "sentence",
+              "text": "None dare to shake his hand in greeting."
+            },
+            {
+              "type": "sentence",
+              "text": "For his hands burn as the blazing sun,\\nSoaked in the might of the flames."
+            }
+          ],
+          "right_en": [
+            {
+              "type": "sentence",
+              "text": "What a mighty feat it is —\\nIn the aftermath of defeat,\\nThe man digs graves for the deceased soldiers,\\nBurying thousands with his own hands."
+            },
+            {
+              "type": "sentence",
+              "text": "In that fight...\\nHe crushed all invading blades with his fists."
+            },
+            {
+              "type": "sentence",
+              "text": "A body immortal may never fall,\\nBut tears of pain in his heart still flow."
+            }
+          ]
+        },
+        {
+          "left_ch": [
+            {
+              "type": "label",
+              "text": "2-3"
+            },
+            {
+              "type": "sentence",
+              "text": "<em class=\"voice-other\"><em>「数年的漂流，使他厌恶水波。」</em></em>\\n传言，那是男人不愿流泪的理由。"
+            },
+            {
+              "type": "sentence",
+              "text": "可在哀地里亚的风雪中，\\n男人也曾落下过一滴，\\n绽作染血的百合。"
+            }
+          ],
+          "right_ch": [
+            {
+              "type": "sentence",
+              "text": "如其不死神躯，\\n花朵永不凋谢，"
+            },
+            {
+              "type": "sentence",
+              "text": "假以时日，万物皆成灰烬……\\n此世最后的美景，\\n将由这孤高的男人留下，\\n尽管无人相信。"
+            }
+          ],
+          "left_en": [
+            {
+              "type": "label",
+              "text": "2-3"
+            },
+            {
+              "type": "sentence",
+              "text": "<em class=\"voice-other\"><em>\"His years of drifting made him detest water's waves.\"</em></em>\\nThey say, that is the reason he's so unwilling to weep."
+            },
+            {
+              "type": "sentence",
+              "text": "But in Aidonia's blizzards he once did cry,\\nA tear shed among the storm and frost,\\nThat bloomed into a lily stained with blood."
+            }
+          ],
+          "right_en": [
+            {
+              "type": "sentence",
+              "text": "Like his undying body,\\nThe flower never wilts."
+            },
+            {
+              "type": "sentence",
+              "text": "In time, the entire world will turn to ash...\\nThis haughty man shall be,\\nThe one to leave behind the world's final beauty.\\nThough none are willing to believe."
+            }
+          ]
+        },
+        {
+          "left_ch": [
+            {
+              "type": "label",
+              "text": "2-4"
+            },
+            {
+              "type": "sentence",
+              "text": "不同于族人，\\n那纹饰是以男人的鲜血刻写。\\n此事疑点重重，\\n令凡庸的野心躁动。"
+            },
+            {
+              "type": "sentence",
+              "text": "<em class=\"voice-other\"><em>「伤及万敌的锋刃，必定足以弑神。」</em></em>\\n人们至今仍在找寻。\\n然而那也只是他遵循的传统……"
+            }
+          ],
+          "right_ch": [
+            {
+              "type": "image",
+              "path": "images/tarotbook/100204.png"
+            },
+            {
+              "type": "sentence",
+              "text": "不可使敌人发觉你的血液滴落，\\n以此使人深信，\\n眼前之人<em class=\"voice-mydei\">无可匹敌</em>。"
+            }
+          ],
+          "left_en": [
+            {
+              "type": "label",
+              "text": "2-4"
+            },
+            {
+              "type": "sentence",
+              "text": "Unlike his kin,\\nThose patterns are carved with his blood.\\nA matter so suspicious,\\nIt stirs the ambitions of the mundane."
+            },
+            {
+              "type": "sentence",
+              "text": "<em class=\"voice-other\"><em>\"A blade that can cut through the mighty must be enough to slay gods.\"</em></em>\\nThe people to this day still seek it,\\nYet it is simply a tradition he follows closely..."
+            }
+          ],
+          "right_en": [
+            {
+              "type": "image",
+              "path": "images/tarotbook/100204.png"
+            },
+            {
+              "type": "sentence",
+              "text": "Do not let your enemy notice that you're bleeding,\\nAnd thus convince them,\\nThat you are someone <em class=\"voice-mydei\">unsurpassed</em>, a warrior supreme."
+            }
+          ]
+        },
+        {
+          "left_ch": [
+            {
+              "type": "label",
+              "text": "2-5"
+            },
+            {
+              "type": "sentence",
+              "text": "前尘旧事，铸就他的身躯。\\n<em class=\"voice-mydei\"><em>「除了悬锋的传统，你还剩下什么？」</em></em>\\n白发的友人曾向他提问。"
+            }
+          ],
+          "right_ch": [
+            {
+              "type": "image",
+              "path": "images/tarotbook/100205.png"
+            }
+          ],
+          "left_en": [
+            {
+              "type": "label",
+              "text": "2-5"
+            },
+            {
+              "type": "sentence",
+              "text": "The stories of the past forged his body.\\n<em class=\"voice-mydei\"><em>\"Apart from Kremnos' traditions, what do you have left?\"</em></em>\\nThe white-haired friend once asked."
+            }
+          ],
+          "right_en": [
+            {
+              "type": "image",
+              "path": "images/tarotbook/100205.png"
+            }
+          ]
+        },
+        {
+          "left_ch": [
+            {
+              "type": "sentence",
+              "text": "男人沉默不语，\\n只是瞪视天际，找寻迢遥的过去。"
+            },
+            {
+              "type": "sentence",
+              "text": "那流离的岁月，\\n同一个问题，被千百人问起。\\n而他从不否认——"
+            }
+          ],
+          "right_ch": [
+            {
+              "type": "sentence",
+              "text": "<em class=\"voice-mydei\"><em>「正因如此，我才踏上此程。」</em></em>"
+            }
+          ],
+          "left_en": [
+            {
+              "type": "sentence",
+              "text": "The man goes silent and still,\\nHis gaze burning into the horizon, looking for a distant past."
+            },
+            {
+              "type": "sentence",
+              "text": "In his days of wandering, this same question,\\nWas asked by thousands upon thousands,\\nAnd he never denied —"
+            }
+          ],
+          "right_en": [
+            {
+              "type": "sentence",
+              "text": "<em class=\"voice-mydei\"><em>\"That is why I walk on this path.\"</em></em>"
+            }
+          ]
+        }
+      ],
+      "chapter_cards": [
+        "images/tarotbook/cards/TarotBookCard10_Stage2.png"
+      ]
+    },
+    {
+      "num": "III",
+      "title_ch": "烈狮远徙之日",
+      "title_en": "The Day the Fierce Lion Departed",
+      "spreads": [
+        {
+          "left_ch": [
+            {
+              "type": "label",
+              "text": "3-1"
+            },
+            {
+              "type": "image",
+              "path": "images/tarotbook/100301.png"
+            },
+            {
+              "type": "sentence",
+              "text": "那战场无人能近，\\n悬锋的孤军，横于逐火的道路，"
+            }
+          ],
+          "right_ch": [
+            {
+              "type": "sentence",
+              "text": "他命令自己的军队袖手旁观——\\n那是<em class=\"voice-mydei\">王储</em>与<em class=\"voice-mydei\">英雄</em>，最初的会晤。"
+            },
+            {
+              "type": "sentence",
+              "text": "两个男人死战十夜，\\n直至角斗迎来终局，"
+            },
+            {
+              "type": "sentence",
+              "text": "他们未能从彼此手中取得一胜，\\n也从未留下一负。"
+            }
+          ],
+          "left_en": [
+            {
+              "type": "label",
+              "text": "3-1"
+            },
+            {
+              "type": "image",
+              "path": "images/tarotbook/100301.png"
+            },
+            {
+              "type": "sentence",
+              "text": "None may approach that battlefield.\\nThe lone army of Kremnos, an obstacle on the Flame-Chase Journey."
+            }
+          ],
+          "right_en": [
+            {
+              "type": "sentence",
+              "text": "He ordered his troops to stand aside —\\nThat was the first meeting between <em class=\"voice-mydei\">hero</em> and <em class=\"voice-mydei\">prince</em>."
+            },
+            {
+              "type": "sentence",
+              "text": "The two men fought for ten nights unceasingly,\\nTill the combat drew to its end."
+            },
+            {
+              "type": "sentence",
+              "text": "Neither was able to score a single victory,\\nAnd conceded not a single defeat."
+            }
+          ]
+        },
+        {
+          "left_ch": [
+            {
+              "type": "label",
+              "text": "3-2"
+            },
+            {
+              "type": "sentence",
+              "text": "无人知晓，\\n为何男人的命运，总是被某个数字笼罩。"
+            },
+            {
+              "type": "sentence",
+              "text": "正如无人确信，\\n逐火的英雄们，\\n是如何将男人说服。"
+            }
+          ],
+          "right_ch": [
+            {
+              "type": "sentence",
+              "text": "惺惺相惜的说法并不尽然。\\n记忆当中，\\n母亲只对他说过<em class=\"voice-mydei\">七句言语</em>。"
+            },
+            {
+              "type": "sentence",
+              "text": "阴差阳错，那纺织金线的领袖——\\n复述了其中之一。"
+            }
+          ],
+          "left_en": [
+            {
+              "type": "label",
+              "text": "3-2"
+            },
+            {
+              "type": "sentence",
+              "text": "None know why this man's fate,\\nIs always overshadowed by a single number decreed."
+            },
+            {
+              "type": "sentence",
+              "text": "Just like how none can ascertain,\\nHow the Flame-Chasing heroes\\nConvinced this man."
+            }
+          ],
+          "right_en": [
+            {
+              "type": "sentence",
+              "text": "It was not mutual appreciation. Nay.\\nFor in his memories,\\n<em class=\"voice-mydei\">Seven sentences</em> were all his mother to him ever spake."
+            },
+            {
+              "type": "sentence",
+              "text": "Yet somehow, that leader who weaves the golden threads — \\nRecounted one of the seven with ease."
+            }
+          ]
+        },
+        {
+          "left_ch": [
+            {
+              "type": "label",
+              "text": "3-3"
+            },
+            {
+              "type": "sentence",
+              "text": "男人心中无谓对错，\\n<em class=\"voice-mydei\"><em>「狮子拥有自己的史官。」</em></em>"
+            },
+            {
+              "type": "sentence",
+              "text": "<em class=\"voice-mydei\"><em>「狩猎的历史也不应为猎人独享。」</em></em>\\n因此，他寡言少语。"
+            }
+          ],
+          "right_ch": [
+            {
+              "type": "sentence",
+              "text": "曾有人这样猜测，\\n他将圣城视作家园，\\n是为给自己寻觅归处。"
+            },
+            {
+              "type": "sentence",
+              "text": "身为王者，\\n那也是他赐予子民的第一样事物。\\n可万物皆是如此——\\n一旦送出，自己便无法拥有。"
+            }
+          ],
+          "left_en": [
+            {
+              "type": "label",
+              "text": "3-3"
+            },
+            {
+              "type": "sentence",
+              "text": "There is no right or wrong in the man's heart.\\n<em class=\"voice-mydei\"><em>\"The lion has its own historian.\"</em></em>"
+            },
+            {
+              "type": "sentence",
+              "text": "<em class=\"voice-mydei\"><em>\"And the history of the hunt should not be held by the hunter alone.\"</em></em>\\nAnd thus, he speaks little."
+            }
+          ],
+          "right_en": [
+            {
+              "type": "sentence",
+              "text": "Others once guessed,\\nHe regards the holy city as his home,\\nFor he seeks a land to belong."
+            },
+            {
+              "type": "sentence",
+              "text": "As the king to his people,\\nIt is the first gift to them he brings.\\nBut as per the rule with gifts —\\nOnce given away, the gifter will never re-possess this thing."
+            }
+          ]
+        },
+        {
+          "left_ch": [
+            {
+              "type": "label",
+              "text": "3-4"
+            },
+            {
+              "type": "sentence",
+              "text": "旅途漫漫，\\n从无一人敢触怒男人。"
+            },
+            {
+              "type": "sentence",
+              "text": "并非由于他那桀骜心性——\\n而是英雄们的每一餐，\\n均由他亲手烹煮，技艺超凡。"
+            }
+          ],
+          "right_ch": [
+            {
+              "type": "sentence",
+              "text": "目视在山林中并不可信，\\n自少年起，\\n他便通过气味分辨来者，因而得益。"
+            },
+            {
+              "type": "sentence",
+              "text": "其中亦有例外——\\n男人的宿敌常常疑惑，\\n为何自己的每一餐都难以下咽。"
+            }
+          ],
+          "left_en": [
+            {
+              "type": "label",
+              "text": "3-4"
+            },
+            {
+              "type": "sentence",
+              "text": "The journey is long,\\nYet none ever dares to anger the man."
+            },
+            {
+              "type": "sentence",
+              "text": "Not because of his unrestrained manners —\\nBut because every meal the heroes partook,\\nWere all cooked by his peerless skill."
+            }
+          ],
+          "right_en": [
+            {
+              "type": "sentence",
+              "text": "One's sight serves falsehoods in the woods.\\nHe has relied on scent since young\\nTo distinguish guests and obtain gains."
+            },
+            {
+              "type": "sentence",
+              "text": "Yet there are always exceptions —\\nThe man's archenemy often puzzled,\\nWhy their food always borderline nauseating."
+            }
+          ]
+        },
+        {
+          "left_ch": [
+            {
+              "type": "label",
+              "text": "3-5"
+            },
+            {
+              "type": "sentence",
+              "text": "踏足圣城之日难以忘却——\\n信仰纷争之人，\\n必将身受非议。"
+            },
+            {
+              "type": "sentence",
+              "text": "<em class=\"voice-other\"><em>「虫蛾都会争相吞吃，那男人是疯王的血裔。」</em></em>"
+            },
+            {
+              "type": "sentence",
+              "text": "当然无妨，\\n男人本就以大敌自居。\\n肃清前路，是为让同伴有朝一日，\\n配得上自己的怒意。"
+            }
+          ],
+          "right_ch": [
+            {
+              "type": "image",
+              "path": "images/tarotbook/100305.png"
+            },
+            {
+              "type": "sentence",
+              "text": "可直至预言成真……\\n圣城从未有过一人，\\n被他伤害过一毫一分。"
+            }
+          ],
+          "left_en": [
+            {
+              "type": "label",
+              "text": "3-5"
+            },
+            {
+              "type": "sentence",
+              "text": "He still recalls the day he entered the holy city —\\nOne who worships strife,\\nIs bound to have rumors rife."
+            },
+            {
+              "type": "sentence",
+              "text": "<em class=\"voice-other\"><em>\"Even insects consume each other, and he's no less than the Mad King's kin.\"</em></em>"
+            },
+            {
+              "type": "sentence",
+              "text": "It matters little,\\nFor the man always considered himself an enemy to the world.\\nHe paves the road so that one day his peers,\\nWould match his anger within."
+            }
+          ],
+          "right_en": [
+            {
+              "type": "image",
+              "path": "images/tarotbook/100305.png"
+            },
+            {
+              "type": "sentence",
+              "text": "Yet, until the prophecy turned true...\\nNone in the holy city,\\nHe ever did ruin."
+            }
+          ]
+        }
+      ],
+      "chapter_cards": [
+        "images/tarotbook/cards/TarotBookCard10_Stage3.png"
+      ]
+    },
+    {
+      "num": "IV",
+      "title_ch": "孤王弑神登神",
+      "title_en": "The Lone King Slays God, Becomes God",
+      "spreads": [
+        {
+          "left_ch": [
+            {
+              "type": "label",
+              "text": "4-1"
+            },
+            {
+              "type": "sentence",
+              "text": "<em><em class=\"voice-other\">「为荣誉而死并非永眠——」</em></em>\\n这是悬锋城人尽皆知的谎言，\\n<em><em class=\"voice-other\">「死后的世界沐浴晨光，远胜凡尘。」</em></em>\\n\\n然而，王储不会轻信玄虚的诗篇。"
+            }
+          ],
+          "right_ch": [
+            {
+              "type": "sentence",
+              "text": "<em><em class=\"voice-mydei\">「不敢正视死亡的懦夫们…」</em></em>\\n自冥流归来的那日，他对众人宣告，\\n<em><em class=\"voice-mydei\">「念诵自欺的妄语，盼望牺牲的仙境…」</em></em>\\n\\n那话语充斥不敬，\\n比他的血统还要高傲——\\n<em><em class=\"voice-mydei\">「真正的勇士，应对那福地嗤之以鼻。」</em></em>"
+            }
+          ],
+          "left_en": [
+            {
+              "type": "label",
+              "text": "4-1"
+            },
+            {
+              "type": "sentence",
+              "text": "<em><em class=\"voice-other\">\"To die for glory is not eternal sleep —\"</em></em>\\nThis is a lie all Castrum Kremnos keeps.\\n<em><em class=\"voice-other\">\"The world after death is superior to reality and basks in light.\"</em></em>\\n\\nBut such vague poems the crown prince would not easily believe."
+            }
+          ],
+          "right_en": [
+            {
+              "type": "sentence",
+              "text": "<em><em class=\"voice-mydei\">\"Cowards who dare not to look death in the eye...\"</em></em>\\nHe declared thus on the day he returned from the stream of souls.\\n<em><em class=\"voice-mydei\">\"Longing for a martyrs' heaven and reciting self-deceiving stories...\"</em></em>\\n\\nHis words are sacrilege reincarnate,\\nMore arrogant than his blood and family —\\n<em><em class=\"voice-mydei\">\"True warriors should treat that paradise with spite.\"</em></em>"
+            }
+          ]
+        },
+        {
+          "left_ch": [
+            {
+              "type": "sentence",
+              "text": "诸多从者因此言却步，\\n不再随他前行。\\n\\n只因他们感到这少年的言语，\\n比诗篇还要荒诞不经。"
+            }
+          ],
+          "right_ch": [
+            {
+              "type": "image",
+              "path": "images/tarotbook/100401.png"
+            }
+          ],
+          "left_en": [
+            {
+              "type": "sentence",
+              "text": "Many followers thus stop,\\nNo longer following his steps.\\n\\nFor they feel this young man's words,\\nCompared to poems, are even more absurd."
+            }
+          ],
+          "right_en": [
+            {
+              "type": "image",
+              "path": "images/tarotbook/100401.png"
+            }
+          ]
+        },
+        {
+          "left_ch": [
+            {
+              "type": "label",
+              "text": "4-2"
+            },
+            {
+              "type": "sentence",
+              "text": "<em class=\"voice-mydei\">不死之躯</em>，\\n从不等同「全无缺失」，\\n为寻命门，\\n男人数次只身涉险。"
+            }
+          ],
+          "right_ch": [
+            {
+              "type": "sentence",
+              "text": "彼时他仍青涩，\\n技艺尚需苦练，\\n于求死不得的厄境中，\\n知晓天赐因何亦名为诅咒——\\n\\n他在生命的边界，\\n窥见了那可怖之相。"
+            }
+          ],
+          "left_en": [
+            {
+              "type": "label",
+              "text": "4-2"
+            },
+            {
+              "type": "sentence",
+              "text": "<em class=\"voice-mydei\">A body immortal</em>,\\nEquals not \"perfection.\"\\nThe man braved dangers endless,\\nSimply to seek his weakness."
+            }
+          ],
+          "right_en": [
+            {
+              "type": "sentence",
+              "text": "In his greener days\\nWith more amateur skills,\\nIn crises where death denied him even after kills,\\nHe learned why \"curse\" is a synonym for \"blessing,\"\\n\\nFor he saw that visage of terror\\nat life's closing."
+            }
+          ]
+        },
+        {
+          "left_ch": [
+            {
+              "type": "sentence",
+              "text": "提及此事时，\\n男人全无波澜。\\n来去绝境足足九回，\\n曾被视为缺失的，\\n如今他都已强胜众人百倍。"
+            }
+          ],
+          "right_ch": [
+            {
+              "type": "sentence",
+              "text": "不过，\\n问及他是否仍如幼时那般怕痒，\\n他始终避而不答。"
+            }
+          ],
+          "left_en": [
+            {
+              "type": "sentence",
+              "text": "The man seems unmoved\\nwhen this past is mentioned.\\nHaving braved death nine times,\\nHe who was once lacking,\\nNow excels above everyone else, still rising."
+            }
+          ],
+          "right_en": [
+            {
+              "type": "sentence",
+              "text": "Yet,\\nWhen asked if he's still as ticklish as when he was a child,\\nHe does not answer."
+            }
+          ]
+        },
+        {
+          "left_ch": [
+            {
+              "type": "label",
+              "text": "4-3"
+            },
+            {
+              "type": "sentence",
+              "text": "那是他必然不屑一顾的野史——\\n据说悬锋城拥有神赐的秘仪，\\n王的力量以此代代相传…\\n这是他们独挡千军的奥秘。"
+            }
+          ],
+          "right_ch": [
+            {
+              "type": "image",
+              "path": "images/tarotbook/100403.png"
+            }
+          ],
+          "left_en": [
+            {
+              "type": "label",
+              "text": "4-3"
+            },
+            {
+              "type": "sentence",
+              "text": "It's a wild tale he won't care to opine —\\nIt's said that Castrum Kremnos has secrets divine,\\nThrough which the king's power has passed,\\nA one-man army, by strength in their bloodline."
+            }
+          ],
+          "right_en": [
+            {
+              "type": "image",
+              "path": "images/tarotbook/100403.png"
+            }
+          ]
+        },
+        {
+          "left_ch": [
+            {
+              "type": "sentence",
+              "text": "<em><em class=\"voice-other\">「因而，未能继位的叛徒，\\n是最为羸弱的王者。」</em></em>"
+            }
+          ],
+          "right_ch": [
+            {
+              "type": "sentence",
+              "text": "此言传入故事的主角耳中，\\n他并未驳斥，坦然而对：\\n\\n<em><em class=\"voice-mydei\">「这并非传言。」</em></em>\\n<em><em class=\"voice-mydei\">「但若来日功盖列王，往事又有何妨？」</em></em>"
+            }
+          ],
+          "left_en": [
+            {
+              "type": "sentence",
+              "text": "<em><em class=\"voice-other\">\"Therefore, a traitor who does not inherit the throne,\\nIs a king most infirm.\"</em></em>"
+            }
+          ],
+          "right_en": [
+            {
+              "type": "sentence",
+              "text": "As the protagonist hears these words,\\nHe refutes not, but openly responds:\\n\\n<em><em class=\"voice-mydei\">\"These are not rumors unfounded.\"</em></em>\\n<em><em class=\"voice-mydei\">\"But will they matter if my deeds eclipse those of all other kings, achieving glory beyond?\"</em></em>"
+            }
+          ]
+        },
+        {
+          "left_ch": [
+            {
+              "type": "label",
+              "text": "4-4"
+            },
+            {
+              "type": "sentence",
+              "text": "<em><em class=\"voice-other\">「战不旋踵，他侵夺着我们的荣誉。」</em></em>\\n这句军中的碎语，\\n时常落在男人不摧的心端。"
+            },
+            {
+              "type": "sentence",
+              "text": "举凡亲征的战役陷入绝境，\\n他都将军队遣往安稳的阵地，\\n孤身一人，以死继战。"
+            }
+          ],
+          "right_ch": [
+            {
+              "type": "sentence",
+              "text": "追随他的悬锋孤军们，\\n大都寸功未立，寿终正寝，\\n他们临终之际时有怨言，\\n可男人却毫无愧意——"
+            },
+            {
+              "type": "sentence",
+              "text": "<em><em class=\"voice-mydei\">「你的荣耀不在死亡，而是在我掌心。」</em></em>"
+            }
+          ],
+          "left_en": [
+            {
+              "type": "label",
+              "text": "4-4"
+            },
+            {
+              "type": "sentence",
+              "text": "<em><em class=\"voice-other\">\"Never turning back in war, he seizes all our glory.\"</em></em>\\nThat rumor in the war camp of fury,\\nOften casts a shadow on the man's heart, indestructible and fiery."
+            },
+            {
+              "type": "sentence",
+              "text": "When campaigns become mired in terror,\\nHe sends his army to places safe and secure,\\nYet alone he goes to fight, knowing death can touch him ne'er."
+            }
+          ],
+          "right_en": [
+            {
+              "type": "sentence",
+              "text": "The Kremnoan Detachment who follow him in livery,\\nAll die in bed, devoid of glory.\\nThey have their share of grudges upon death,\\nBut the man has no regret, none necessary."
+            },
+            {
+              "type": "sentence",
+              "text": "<em><em class=\"voice-mydei\">\"Your glory lies not in death but in my hands.\"</em></em>"
+            }
+          ]
+        },
+        {
+          "left_ch": [
+            {
+              "type": "label",
+              "text": "4-5"
+            },
+            {
+              "type": "sentence",
+              "text": "尘埃落定，\\n纷争已息。\\n故乡唯余死寂，\\n男人孤身回返。"
+            }
+          ],
+          "right_ch": [
+            {
+              "type": "image",
+              "path": "images/tarotbook/100405.png"
+            },
+            {
+              "type": "sentence",
+              "text": "往日的幻影似在发问——\\n<em><em class=\"voice-other\">「你已走完那逐火之路了吗，王？」</em></em>"
+            }
+          ],
+          "left_en": [
+            {
+              "type": "label",
+              "text": "4-5"
+            },
+            {
+              "type": "sentence",
+              "text": "The dust settles,\\nAnd Strife calms.\\nA deathly quiet covers his father's realm,\\nAnd the man alone returns home."
+            }
+          ],
+          "right_en": [
+            {
+              "type": "image",
+              "path": "images/tarotbook/100405.png"
+            },
+            {
+              "type": "sentence",
+              "text": "A question seems to sound, from shadows of the past around —\\n<em><em class=\"voice-other\">\"Did you already walk that Flame-Chasing Road, O King?\"</em></em>"
+            }
+          ]
+        },
+        {
+          "left_ch": [
+            {
+              "type": "sentence",
+              "text": "于王座之上，\\n男人沉吟——\\n\\n<em><em class=\"voice-mydei\">「没有什么值得再去逐猎，」</em></em>\\n<em><em class=\"voice-mydei\">「朕已是旅途尽头的烈火。」</em></em>"
+            }
+          ],
+          "right_ch": [
+            {
+              "type": "sentence",
+              "text": "如其所言，\\n弑王成王，弑神登神。\\n\\n浴血代冠，是他永恒的宿命。"
+            }
+          ],
+          "left_en": [
+            {
+              "type": "sentence",
+              "text": "Atop the throne,\\nThe man mutters alone —\\n\\n<em><em class=\"voice-mydei\">\"There's nothing else worthy of the hunt,\"</em></em>\\n<em><em class=\"voice-mydei\">\"For I am the blazing fire at the journey's end.\"</em></em>"
+            }
+          ],
+          "right_en": [
+            {
+              "type": "sentence",
+              "text": "As it has been foretold,\\nHe killed the king to become a king, and killed the god to become a god.\\n\\nHis eternal destiny — is to be crowned in blood."
+            }
+          ]
+        }
+      ],
+      "chapter_cards": [
+        "images/tarotbook/cards/TarotBookCard10_Stage4.png"
+      ]
+    },
+    {
+      "num": "V",
+      "title_ch": "荣光至死不熄",
+      "title_en": "A Glory That Will Never Die",
+      "spreads": [
+        {
+          "left_ch": [
+            {
+              "type": "label",
+              "text": "5-1"
+            },
+            {
+              "type": "sentence",
+              "text": "一切如前——\\n若想窥探男人的怒火，\\n须在七千步外远望。"
+            }
+          ],
+          "right_ch": [
+            {
+              "type": "sentence",
+              "text": "<em class=\"voice-mydei\">由他据守的悬锋</em>，\\n再一次被雾霭笼罩，\\n铁锈、鲜血与火，\\n是歌颂半神的典仪。"
+            },
+            {
+              "type": "sentence",
+              "text": "今时无人见证，此刻无人欢呼，\\n最后的悬锋祭典，永无停息。"
+            }
+          ],
+          "left_en": [
+            {
+              "type": "label",
+              "text": "5-1"
+            },
+            {
+              "type": "sentence",
+              "text": "As always —\\nTo perceive the man's fury,\\nOne must do so seven thousand paces away."
+            }
+          ],
+          "right_en": [
+            {
+              "type": "sentence",
+              "text": "<em class=\"voice-mydei\">The Kremnos he guards</em>\\nIs once again shrouded by mist.\\nRust, blood, and fire\\nAre the ceremonial ode to the demigod."
+            },
+            {
+              "type": "sentence",
+              "text": "There is no one to witness or to give cheers of glory,\\nThe final Kremnos Festival goes on without end."
+            }
+          ]
+        },
+        {
+          "left_ch": [
+            {
+              "type": "sentence",
+              "text": "冠军拥获死寂，\\n而他的荣光，\\n皆由败军铭记。"
+            }
+          ],
+          "right_ch": [
+            {
+              "type": "image",
+              "path": "images/tarotbook/100501.png"
+            }
+          ],
+          "left_en": [
+            {
+              "type": "sentence",
+              "text": "The victor shall embrace death and silence,\\nAnd his glory\\nWill only be remembered by the defeated array."
+            }
+          ],
+          "right_en": [
+            {
+              "type": "image",
+              "path": "images/tarotbook/100501.png"
+            }
+          ]
+        },
+        {
+          "left_ch": [
+            {
+              "type": "label",
+              "text": "5-2"
+            },
+            {
+              "type": "sentence",
+              "text": "于男人而言，\\n法度刻印已无意义。"
+            },
+            {
+              "type": "sentence",
+              "text": "鏖战片刻不曾停歇，\\n日复一日，难分今晨昨夜，"
+            },
+            {
+              "type": "sentence",
+              "text": "遗骸逐层堆积，\\n垒作深渊，砌成山巅。\\n他以这尖峰划分时光，\\n用战火丈量流年。"
+            }
+          ],
+          "right_ch": [
+            {
+              "type": "sentence",
+              "text": "偶尔，\\n狮子会攀上绝顶，\\n俯瞰尘世，寻觅故人。"
+            },
+            {
+              "type": "sentence",
+              "text": "那遥远的天地开阔无边，\\n而开阔的天地，也愈发遥远。"
+            }
+          ],
+          "left_en": [
+            {
+              "type": "label",
+              "text": "5-2"
+            },
+            {
+              "type": "sentence",
+              "text": "For that man,\\nLaws and seals no longer have meaning."
+            },
+            {
+              "type": "sentence",
+              "text": "War and battle never cease for a single minute.\\nEach passing day indistinguishable, morning and night entwined."
+            },
+            {
+              "type": "sentence",
+              "text": "The corpses pile up,\\nFilling ravines, forming mountains strong.\\nHe carved time with peaks' edge,\\nAnd counted the fleeting years by fires of war."
+            }
+          ],
+          "right_en": [
+            {
+              "type": "sentence",
+              "text": "Sometimes,\\nThe lion would climb to the hilltop\\nTo look down on the world and search for friends in longing."
+            },
+            {
+              "type": "sentence",
+              "text": "The distant heavens and earth stretched vast and boundless,\\nBut their endlessness felt ever more remote."
+            }
+          ]
+        },
+        {
+          "left_ch": [
+            {
+              "type": "label",
+              "text": "5-3"
+            },
+            {
+              "type": "sentence",
+              "text": "如尼卡多利那般，\\n终有一日，他也难逃疯狂。"
+            }
+          ],
+          "right_ch": [
+            {
+              "type": "sentence",
+              "text": "独守孤城，恶战连连，\\n黑潮的呢喃，常在他耳边回荡。"
+            },
+            {
+              "type": "sentence",
+              "text": "可每一瞬间，焰火自胸膛燃起，\\n将那<em class=\"voice-mydei\">不屈的来路</em>照亮。"
+            }
+          ],
+          "left_en": [
+            {
+              "type": "label",
+              "text": "5-3"
+            },
+            {
+              "type": "sentence",
+              "text": "Like Nikador,\\nHe cannot escape madness's clutches."
+            }
+          ],
+          "right_en": [
+            {
+              "type": "sentence",
+              "text": "Guarding the city alone and embroiled in war,\\nThe murmurs of the black tide constantly sound in his ears."
+            },
+            {
+              "type": "sentence",
+              "text": "Yet a flame soars up his chest every moment,\\nCasting light upon the <em class=\"voice-mydei\">indomitable path</em> behind him."
+            }
+          ]
+        },
+        {
+          "left_ch": [
+            {
+              "type": "sentence",
+              "text": "追忆为往事作结，\\n男人再度迈入战阵，\\n他已是这世间必要的伤痛，\\n是令旧神称臣的新王。"
+            }
+          ],
+          "right_ch": [
+            {
+              "type": "image",
+              "path": "images/tarotbook/100503.png"
+            }
+          ],
+          "left_en": [
+            {
+              "type": "sentence",
+              "text": "Memories seal the echoes of the past,\\nAs the man strides into battle, fists clenched fast.\\nHe is the wound this world must bear,\\nThe new king before whom old gods despair."
+            }
+          ],
+          "right_en": [
+            {
+              "type": "image",
+              "path": "images/tarotbook/100503.png"
+            }
+          ]
+        },
+        {
+          "left_ch": [
+            {
+              "type": "label",
+              "text": "5-4"
+            },
+            {
+              "type": "sentence",
+              "text": "如哀地里亚的诗歌所言，"
+            },
+            {
+              "type": "sentence",
+              "text": "人们闭目降生，\\n是为适应世间光明。\\n而老去时视力衰微，\\n是为再度熟悉黑暗。"
+            }
+          ],
+          "right_ch": [
+            {
+              "type": "sentence",
+              "text": "然而男人不以衰老，\\n拥抱死亡的召唤。"
+            },
+            {
+              "type": "sentence",
+              "text": "每一次逝而归返的，\\n他都怒目圆睁，瞪视来敌，\\n直至一切猝然褪去的，\\n如同黑潮翻涌，万物消散。"
+            }
+          ],
+          "left_en": [
+            {
+              "type": "label",
+              "text": "5-4"
+            },
+            {
+              "type": "sentence",
+              "text": "As stated in Aidonia's poems,"
+            },
+            {
+              "type": "sentence",
+              "text": "Humans are born with eyes closed\\nTo accustom to this world's light,\\nAnd their sight fades in old age\\nTo reacquaint with night's anthems."
+            }
+          ],
+          "right_en": [
+            {
+              "type": "sentence",
+              "text": "But the man did not bow to the decay of time,\\nRejecting the lure of death's call."
+            },
+            {
+              "type": "sentence",
+              "text": "With each return from the brink of death,\\nHis eyes burn with fury, fixed upon his foes,\\nUntil everything suddenly faded away,\\nLike a surging black tide swallowing all into nothingness."
+            }
+          ]
+        },
+        {
+          "left_ch": [
+            {
+              "type": "label",
+              "text": "5-5"
+            },
+            {
+              "type": "sentence",
+              "text": "黑潮翻涌，万物消散。"
+            },
+            {
+              "type": "sentence",
+              "text": "狮子终有一死，\\n此去再无复还。"
+            },
+            {
+              "type": "sentence",
+              "text": "轰然陨落的，\\n是被贯穿的胸膛，\\n静静离去的，\\n是金血淌入冥湍。"
+            }
+          ],
+          "right_ch": [
+            {
+              "type": "image",
+              "path": "images/tarotbook/100505.png"
+            },
+            {
+              "type": "sentence",
+              "text": "<em><em class=\"voice-mydei\">「……」</em></em>"
+            }
+          ],
+          "left_en": [
+            {
+              "type": "label",
+              "text": "5-5"
+            },
+            {
+              "type": "sentence",
+              "text": "The world dissipates in the roiling black tide's requiem."
+            },
+            {
+              "type": "sentence",
+              "text": "Even the lion will one day die,\\nA departure with no way back."
+            },
+            {
+              "type": "sentence",
+              "text": "With a sudden fall,\\nHis pierced chest hits the ground\\nAnd slowly flowing into the underworld\\nIs his golden blood, departing his system."
+            }
+          ],
+          "right_en": [
+            {
+              "type": "image",
+              "path": "images/tarotbook/100505.png"
+            },
+            {
+              "type": "sentence",
+              "text": "<em><em class=\"voice-mydei\">\"...\"</em></em>"
+            }
+          ]
+        },
+        {
+          "left_ch": [
+            {
+              "type": "sentence",
+              "text": "可那目光如炬，\\n至死不熄，\\n贯穿盗火的身影，\\n直达迢遥的天际。"
+            }
+          ],
+          "right_ch": [
+            {
+              "type": "sentence",
+              "text": "以至明日，星星会如此传唱：\\n<em class=\"voice-mydei\">悬锋的孤王，其人名为万敌。</em>\\n\\n他一生行向的，是永劫战火，\\n他身后留下的，是荣光遍地。"
+            }
+          ],
+          "left_en": [
+            {
+              "type": "sentence",
+              "text": "But that gaze, fierce as flame,\\nNever dimmed, not even in death,\\nLooking beyond those flame-seeking figures\\nReaching far toward the endless horizon."
+            }
+          ],
+          "right_en": [
+            {
+              "type": "sentence",
+              "text": "In the morrow's sky, the stars will chant:\\n<em class=\"voice-mydei\">The lone king of Kremnos is called Mydei.</em>\\n\\nHis journey was one of ceaseless, eternal warfare,\\nAnd behind him, he left a world ablaze with glory."
+            }
+          ]
+        }
+      ],
+      "chapter_cards": [
+        "images/tarotbook/cards/TarotBookCard10_Stage5.png"
+      ]
+    }
+  ]
+}

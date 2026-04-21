@@ -42,8 +42,13 @@ html {
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   min-height: 100%;
+}
+
+/* Homepage: scroll so the full painting reveals as user scrolls */
+html:has(body.page-home) {
+  background-attachment: scroll;
 }
 
 body {
@@ -65,9 +70,19 @@ body.page-home .hero-img {
   opacity: 0;
 }
 
-/* No hero gradient — painting shows fully */
+/* No full-width gradient — painting shows fully */
 body.page-home .hero::after {
   background: transparent;
+}
+
+/* Localized veil under title + search only */
+body.page-home .hero-content {
+  background: radial-gradient(
+    ellipse 70% 90% at 50% 80%,
+    rgba(20, 16, 10, 0.16) 0%,
+    transparent 100%
+  );
+  padding-bottom: 4rem;
 }
 
 /* Hero bridge: fully transparent */
@@ -82,7 +97,7 @@ body.page-home .hero .painting-credit {
 
 /* Epigraph: thin translucent veil to mark the hero→content transition */
 body.page-home .epigraph {
-  background: rgba(228, 215, 190, 0.16);
+  background: rgba(228, 215, 190, 0.28);
 }
 
 /* ===== Kremnos Bento: Annotation Labels on the Painting ===== */
@@ -180,23 +195,27 @@ body.page-home .bento-accent {
 }
 
 /* Footer: transparent so painting shows through, with top rule */
-body.page-home .colophon {
-  background: transparent;
-  backdrop-filter: none;
-  -webkit-backdrop-filter: none;
-  border-top: 1px solid rgba(60, 44, 28, 0.20);
-  color: rgba(60, 44, 28, 0.72);
+body.page-home .site-footer {
+  position: relative;
+  background: rgba(218, 208, 190, 0.32);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-top: 1px solid rgba(60, 44, 28, 0.15);
 }
 
-/* Painting credit: very bottom of page, right-aligned */
-body.page-home #painting-credit-main {
-  display: block !important;
-  text-align: right;
-  padding: 0 1.5rem 1.25rem;
-  font-size: 0.72rem;
+body.page-home .site-footer p {
+  color: rgba(60, 44, 28, 0.58);
+}
+
+body.page-home .painting-credit-footer {
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  padding-bottom: 0.5rem;
+  font-size: 0.7rem;
   font-style: italic;
-  letter-spacing: 0.03em;
-  color: rgba(232, 220, 198, 0.88);
+  opacity: 0.7;
+  margin: 0;
 }
 
 /* Non-homepage: semi-transparent parchment + backdrop-filter blurs the html painting behind */
@@ -208,9 +227,9 @@ body:not(.page-home) {
 
 /* Header: always frosted — midpoint between transparent and fully scrolled */
 body.page-home .site-header {
-  background: linear-gradient(to bottom, rgba(220, 210, 190, 0.28) 0%, rgba(220, 210, 190, 0) 100%) !important;
-  backdrop-filter: none !important;
-  -webkit-backdrop-filter: none !important;
+  background: rgba(220, 210, 190, 0.24) !important;
+  backdrop-filter: blur(6px) !important;
+  -webkit-backdrop-filter: blur(6px) !important;
   border-bottom-color: transparent !important;
 }
 

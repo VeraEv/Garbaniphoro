@@ -1,0 +1,1450 @@
+[
+  {
+    "id": "4014023",
+    "name_ch": "天谴之矛，迈德漠斯",
+    "name_en": "Mydeimos, Lance of Fury",
+    "img": "images/monsters/Monster_4014020.png",
+    "type_ch": "半神",
+    "type_en": "Demigod",
+    "element": "imaginary",
+    "element_ch": "虚数",
+    "element_en": "Imaginary",
+    "phases": 2,
+    "desc_ch": "不败者，一切战场的领主，悬锋城与废墟的王，\n战车大匠，尸山王座，胜利父，\n荣耀僭主，裂地惊海的雷，翁法罗斯的守护者，\n纷争的半神，天谴之矛，迈德漠斯。\n全体世间应听遣的将领，永恒且锋利的兵戈，纷争与断绝纷争的法则。\n礼赞迈德漠斯，最伟大的征服者，最伟大的守护者，最强者。",
+    "desc_en": "The undefeated. The sovereign of all battles. The king of Castrum Kremnos and of ruins,\nGrand Artisan of the war chariot, the throne upon a mountain of corpses, and Father of Victory,\nThe tyrant of glories, the lightning that split the sea, the Guardian of Amphoreus,\nThe demigod of Strife, the Lance of Fury, Mydeimos.\nA general that all the world should heed, the eternal sharp sword, the law of Strife and of ending Strife.\nPraise Mydeimos, greatest of conquerors, greatest of guardians, the strongest of all.",
+    "stats": {
+      "hp": "—",
+      "spd": "—",
+      "def": "210",
+      "effect_res": "—",
+      "effect_hit": "—",
+      "toughness": "—",
+      "break_mult": "—",
+      "growth_ch": "标准",
+      "growth_en": "Standard"
+    },
+    "resist_control": "50%",
+    "resistances": [
+      {
+        "element": "physical",
+        "element_ch": "物理",
+        "element_en": "Physical",
+        "value": "20%"
+      },
+      {
+        "element": "fire",
+        "element_ch": "火",
+        "element_en": "Fire",
+        "value": "20%"
+      },
+      {
+        "element": "ice",
+        "element_ch": "冰",
+        "element_en": "Ice",
+        "value": "20%"
+      },
+      {
+        "element": "lightning",
+        "element_ch": "雷",
+        "element_en": "Lightning",
+        "value": "20%"
+      },
+      {
+        "element": "wind",
+        "element_ch": "风",
+        "element_en": "Wind",
+        "value": "20%"
+      },
+      {
+        "element": "quantum",
+        "element_ch": "量子",
+        "element_en": "Quantum",
+        "value": "20%"
+      },
+      {
+        "element": "imaginary",
+        "element_ch": "虚数",
+        "element_en": "Imaginary",
+        "value": "20%"
+      }
+    ],
+    "weaknesses": [],
+    "weaknesses_ch": [],
+    "weaknesses_en": [],
+    "skills": [
+      {
+        "id": "401402301",
+        "name_ch": "受征伐者皆见灾殃",
+        "name_en": "The Vanquished Behold Woe",
+        "level": 1,
+        "phases": [
+          1
+        ],
+        "type": "skill",
+        "type_ch": "技能",
+        "type_en": "Ability",
+        "warning": false,
+        "desc_ch": "每个我方角色生成1个对应的【征服或被征服】，并使对应角色进入【受征服】状态。【受征服】会降低角色可回复的生命上限，降低对应【征服或被征服】的生命值可恢复对应比例的可回复生命上限。",
+        "desc_en": "Every target character generates 1 corresponding \"Conquer or Be Conquered,\" which inflicts \"Conquered\" to the corresponding character. \"Conquered\" will decrease the character's Maximum Restorable HP. Decreasing the HP of the corresponding \"Conquer or Be Conquered\" can restore an equal percentage of the character's Maximum Restorable HP.",
+        "params": [
+          {
+            "label_ch": "可回复生命降低",
+            "label_en": "Max Restorable HP Decrease",
+            "value": "50%"
+          }
+        ]
+      },
+      {
+        "id": "401402302",
+        "name_ch": "殊死御侮皆临荣光",
+        "name_en": "Glory to All Honorable Dead",
+        "level": 1,
+        "phases": [
+          1
+        ],
+        "type": "skill",
+        "type_ch": "技能",
+        "type_en": "Ability",
+        "warning": false,
+        "desc_ch": "对所有我方角色施加【纷争赐的畏怖】，【受征服】状态解除时对应【纷争赐的畏怖】一同解除。",
+        "desc_en": "Apply \"Strife-Granted Fear\" to all target characters. When \"Conquered\" is dispelled, the corresponding \"Strife-Granted Fear\" is also dispelled.",
+        "params": [
+          {
+            "label_ch": "受到伤害提升",
+            "label_en": "Increased DMG Taken",
+            "value": "10%"
+          }
+        ]
+      },
+      {
+        "id": "401402303",
+        "name_ch": "天谴降，皆奠纷争昂藏",
+        "name_en": "Fury Falls, and All Bows to Strife",
+        "level": 1,
+        "phases": [
+          1
+        ],
+        "type": "skill",
+        "type_ch": "技能",
+        "type_en": "Ability",
+        "warning": true,
+        "desc_ch": "控制【冠军，卫城，纷争之主】对我方全体角色造成基于其生命上限百分比的虚数属性伤害，该伤害无视目标的防御力并大概率对处于【受征服】状态的目标附加禁锢。",
+        "desc_en": "Controls \"Victor, Acropolis, and Lord of Strife\" to deal Imaginary DMG to all target characters based on a percentage of their Max HP. This DMG ignores the target's DEF, with a high chance of applying Imprisonment to targets in the \"Conquered\" state.",
+        "params": [
+          {
+            "label_ch": "伤害(主体生命%)",
+            "label_en": "DMG (% of Max HP)",
+            "value": "40%"
+          },
+          {
+            "label_ch": "强化后伤害",
+            "label_en": "Enhanced DMG",
+            "value": "150%"
+          },
+          {
+            "label_ch": "禁锢概率",
+            "label_en": "Imprisonment Chance",
+            "value": "30%"
+          }
+        ]
+      },
+      {
+        "id": "401402304",
+        "name_ch": "畏怖溃军皆成铠仗",
+        "name_en": "The Fallen Feeds My Might",
+        "level": 1,
+        "phases": [
+          1
+        ],
+        "type": "skill",
+        "type_ch": "技能",
+        "type_en": "Ability",
+        "warning": false,
+        "desc_ch": "吸收剩余的【征服或被征服】强化【冠军，卫城，纷争之主】，同时添加韧性保护并解除【冠军，卫城，纷争之主】身上的控制类负面状态与弱点击破状态。",
+        "desc_en": "Absorbs remaining \"Conquer or Be Conquered\" to enhance \"Victor, Acropolis, and Lord of Strife.\" At the same time, adds Toughness Protection and dispels Crowd Control debuffs and Weakness Break debuffs on \"Victor, Acropolis, and Lord of Strife.\"",
+        "params": []
+      }
+    ]
+  },
+  {
+    "id": "4014010",
+    "name_ch": "蛮神，疯王，纷争的化身",
+    "name_en": "Titan of Discord, the Mad King, Incarnation of Strife",
+    "type_ch": "泰坦",
+    "type_en": "Titan",
+    "img": "images/monsters/Monster_4014010.png",
+    "element": "imaginary",
+    "element_ch": "虚数",
+    "element_en": "Imaginary",
+    "phases": 2,
+    "desc_ch": "「纷争」的泰坦，在疯狂中延续疯狂的战争，乃是翁法罗斯众邦挥之不去的恐惧。\n\n它也曾身负荣耀的威名，令众邦众神心怀敬意。而那敬畏它的城邦被踏碎，那赞颂它的诗篇被焚毁，只有恶名回荡在无光的末世，玷污全世之座背负的光辉。",
+    "stats": {
+      "hp": "1026796 ×2",
+      "spd": "240",
+      "def": "174.24",
+      "effect_res": "40.0%",
+      "effect_hit": "36.0%",
+      "toughness": "718",
+      "break_mult": "1150",
+      "growth_ch": "标准",
+      "growth_en": "Standard"
+    },
+    "resist_control": "50%",
+    "resistances": [
+      {
+        "element": "physical",
+        "element_ch": "物理",
+        "element_en": "Physical",
+        "value": "20%"
+      },
+      {
+        "element": "fire",
+        "element_ch": "火",
+        "element_en": "Fire",
+        "value": "20%"
+      },
+      {
+        "element": "ice",
+        "element_ch": "冰",
+        "element_en": "Ice",
+        "value": "20%"
+      },
+      {
+        "element": "lightning",
+        "element_ch": "雷",
+        "element_en": "Lightning",
+        "value": "20%"
+      }
+    ],
+    "skills": [
+      {
+        "id": "Skill01",
+        "name_ch": "曾为苍穹的雷枪",
+        "name_en": "The Spear Once Born of Heaven's Thunder",
+        "level": 10,
+        "phases": [
+          1
+        ],
+        "type": "attack",
+        "type_ch": "普通攻击",
+        "type_en": "Basic ATK",
+        "warning": false,
+        "desc_ch": "对指定我方单体目标造成少量虚数属性伤害。",
+        "desc_en": "Deals a minor amount of Imaginary DMG to a single designated target.",
+        "params": [
+          {
+            "label_ch": "伤害",
+            "label_en": "DMG",
+            "value": "240%"
+          }
+        ]
+      },
+      {
+        "id": "Skill11",
+        "name_ch": "撕裂大地的脊髓",
+        "name_en": "The Spine that Cleaves the Earth",
+        "level": 10,
+        "phases": [
+          2
+        ],
+        "type": "attack",
+        "type_ch": "普通攻击",
+        "type_en": "Basic ATK",
+        "warning": false,
+        "desc_ch": "对指定我方单体目标及其相邻目标造成少量虚数属性伤害。",
+        "desc_en": "Deals a minor amount of Imaginary DMG to a single designated target and adjacent targets.",
+        "params": [
+          {
+            "label_ch": "中心伤害",
+            "label_en": "Center DMG",
+            "value": "220%"
+          },
+          {
+            "label_ch": "相邻伤害",
+            "label_en": "Adjacent DMG",
+            "value": "180%"
+          }
+        ]
+      },
+      {
+        "id": "Skill02",
+        "name_ch": "劈断冥河的湍流",
+        "name_en": "Severing the Styx's Torrent",
+        "level": 15,
+        "phases": [
+          1
+        ],
+        "type": "skill",
+        "type_ch": "战技",
+        "type_en": "Skill",
+        "warning": false,
+        "desc_ch": "对指定我方单体目标造成虚数属性伤害。",
+        "desc_en": "Deals Imaginary DMG to a single designated target.",
+        "params": [
+          {
+            "label_ch": "伤害",
+            "label_en": "DMG",
+            "value": "360%"
+          }
+        ]
+      },
+      {
+        "id": "Skill12",
+        "name_ch": "将生者掀入死水",
+        "name_en": "Casting the Living into Dead Waters",
+        "level": 15,
+        "phases": [
+          2
+        ],
+        "type": "skill",
+        "type_ch": "战技",
+        "type_en": "Skill",
+        "warning": false,
+        "desc_ch": "对指定我方单体目标造成虚数属性伤害。",
+        "desc_en": "Deals Imaginary DMG to a single designated target.",
+        "params": [
+          {
+            "label_ch": "伤害",
+            "label_en": "DMG",
+            "value": "400%"
+          }
+        ]
+      },
+      {
+        "id": "Skill03",
+        "name_ch": "那战火漫无边际",
+        "name_en": "The Flames of War Without End",
+        "level": 10,
+        "phases": [
+          1
+        ],
+        "type": "ultimate",
+        "type_ch": "终结技",
+        "type_en": "Ultimate",
+        "warning": false,
+        "desc_ch": "对我方全体目标造成虚数属性伤害。",
+        "desc_en": "Deals Imaginary DMG to all targets.",
+        "params": [
+          {
+            "label_ch": "一阶段伤害",
+            "label_en": "Phase 1 DMG",
+            "value": "280%"
+          },
+          {
+            "label_ch": "二阶段伤害",
+            "label_en": "Phase 2 DMG",
+            "value": "320%"
+          }
+        ]
+      },
+      {
+        "id": "Skill13",
+        "name_ch": "点燃高山的坟堆",
+        "name_en": "Igniting the Mountain Graves",
+        "level": 10,
+        "phases": [
+          2
+        ],
+        "type": "ultimate",
+        "type_ch": "终结技",
+        "type_en": "Ultimate",
+        "warning": false,
+        "desc_ch": "对我方全体目标造成虚数属性伤害。",
+        "desc_en": "Deals Imaginary DMG to all targets.",
+        "params": []
+      },
+      {
+        "id": "Skill04",
+        "name_ch": "那矛尖刺入天帷",
+        "name_en": "The Spear Tip Pierces the Heavenly Veil",
+        "level": 5,
+        "phases": [
+          1
+        ],
+        "type": "special",
+        "type_ch": "特殊攻击",
+        "type_en": "Special ATK",
+        "warning": false,
+        "desc_ch": "连续对我方随机单体目标造成少量虚数属性伤害。",
+        "desc_en": "Consecutively deals a minor amount of Imaginary DMG to a random single target.",
+        "params": [
+          {
+            "label_ch": "伤害",
+            "label_en": "DMG",
+            "value": "120%"
+          },
+          {
+            "label_ch": "一阶段次数",
+            "label_en": "Phase 1 Hits",
+            "value": "5"
+          },
+          {
+            "label_ch": "二阶段次数",
+            "label_en": "Phase 2 Hits",
+            "value": "10"
+          }
+        ]
+      },
+      {
+        "id": "Skill14",
+        "name_ch": "令昼与夜都焚毁",
+        "name_en": "Burning Both Day and Night",
+        "level": 5,
+        "phases": [
+          2
+        ],
+        "type": "special",
+        "type_ch": "特殊攻击",
+        "type_en": "Special ATK",
+        "warning": false,
+        "desc_ch": "连续对我方随机单体目标造成少量虚数属性伤害。",
+        "desc_en": "Consecutively deals a minor amount of Imaginary DMG to a random single target.",
+        "params": []
+      },
+      {
+        "id": "Skill05",
+        "name_ch": "不磨不灭的灾厄",
+        "name_en": "Indestructible Calamity",
+        "level": 5,
+        "phases": [
+          1,
+          2
+        ],
+        "type": "mechanic",
+        "type_ch": "特殊机制",
+        "type_en": "Special Mechanic",
+        "warning": true,
+        "desc_ch": "下一次行动间隔 125%\n对我方全体目标造成虚数属性伤害并施加【荣耀】，同时使自身获得 12 层【泰坦神躯】，受到的伤害降低 30%。【泰坦神躯】层数减少为0时行动延后，对自身造成大量虚数属性伤害，并为我方全体恢复 15% 能量。持有【泰坦神躯】会使下次攻击造成的伤害大幅提高并大概率使所有攻击到的目标陷入禁锢状态。\n\n荣耀\n每层【荣耀】使伤害提高，能量恢复效率提高，使用战技或终结技时增加1层【荣耀】。攻击时可解除对应【荣耀】层数的【泰坦神躯】。",
+        "desc_en": "Next action interval 125%.\nDeals Imaginary DMG to all targets and inflicts 【Glory】, while granting itself 12 stacks of 【Titan's Body】, reducing DMG taken by 30%. When 【Titan's Body】 stacks reach 0, its action is delayed, it takes massive Imaginary DMG, and restores 15% Energy for all targets. Possessing 【Titan's Body】 greatly increases the DMG of its next attack and greatly increases the chance of Imprisoning all struck targets.\n\n Glory\nEach stack of 【Glory】 increases DMG dealt and Energy regeneration efficiency. Using Skill or Ultimate adds 1 stack of 【Glory】. Attacks can remove 【Titan's Body】 stacks equal to the 【Glory】 stacks.",
+        "params": []
+      },
+      {
+        "id": "Skill06",
+        "name_ch": "千邦荡平，万军成灰",
+        "name_en": "A Thousand Nations Razed, Ten Thousand Armies to Ash",
+        "level": 15,
+        "phases": [
+          2
+        ],
+        "type": "mechanic",
+        "type_ch": "特殊机制",
+        "type_en": "Special Mechanic",
+        "warning": true,
+        "desc_ch": "对我方全体造成大量虚数属性伤害，伤害由目标平均分摊。\n\n平均分摊\n本次攻击结算前的伤害和负面效果由所有受击目标平均承受。",
+        "desc_en": "Deals massive Imaginary DMG to all targets. DMG is evenly distributed among all targets.\n\nShared DMG\nBefore this attack is calculated, all DMG and debuffs are evenly distributed among all struck targets.",
+        "params": [
+          {
+            "label_ch": "伤害（平均分摊）",
+            "label_en": "DMG (Shared)",
+            "value": "2200%"
+          }
+        ]
+      },
+      {
+        "id": "PassiveSkill01",
+        "name_ch": "城邦守护者",
+        "name_en": "City-State Guardian",
+        "level": null,
+        "phases": [
+          1,
+          2
+        ],
+        "type": "passive",
+        "type_ch": "被动",
+        "type_en": "Passive",
+        "warning": false,
+        "desc_ch": "拥有一定层数的【战甲】，使自身受到的伤害降低。受到攻击后减少自身1层【战甲】，减少到0层时，【战甲】被破坏，对自身造成大量虚数属性伤害，并使自身行动延后，使破坏【战甲】的我方单位恢复能量。【战甲】被破坏后，自身受到攻击时额外再受到少量虚数属性伤害。【战甲】在自身回合结束时恢复到最大层数。",
+        "desc_en": "Possesses a certain number of stacks of 【Armor】 that reduces DMG taken. Each hit removes 1 stack. When stacks reach 0, 【Armor】 is broken, dealing massive Imaginary DMG to itself and delaying its own action, while restoring Energy for the target that broke 【Armor】. After 【Armor】 is broken, each hit received deals additional minor Imaginary DMG to itself. 【Armor】 is restored to max stacks at the end of its turn.",
+        "params": [
+          {
+            "label_ch": "层数",
+            "label_en": "Stacks",
+            "value": "7"
+          },
+          {
+            "label_ch": "行动延后",
+            "label_en": "Action Delay",
+            "value": "10%"
+          },
+          {
+            "label_ch": "破坏战甲伤害",
+            "label_en": "Break Armor DMG",
+            "value": "10%"
+          },
+          {
+            "label_ch": "能量恢复",
+            "label_en": "Energy Restore",
+            "value": "15%"
+          },
+          {
+            "label_ch": "减伤",
+            "label_en": "DMG Reduction",
+            "value": "10%"
+          },
+          {
+            "label_ch": "无战甲受击伤害",
+            "label_en": "No-Armor Hit DMG",
+            "value": "1%"
+          }
+        ]
+      },
+      {
+        "id": "PassiveSkill02",
+        "name_ch": "宁战死，毋荣归",
+        "name_en": "Death Before Dishonored Return",
+        "level": null,
+        "phases": [
+          1,
+          2
+        ],
+        "type": "passive",
+        "type_ch": "被动",
+        "type_en": "Passive",
+        "warning": false,
+        "desc_ch": "释放【不磨不灭的灾厄】时为我方全体目标施加【荣耀】，每层【荣耀】提高目标造成的伤害 30% 和能量恢复效率 10%，使用战技或终结技时可叠加【荣耀】，至多 2 层；【蛮神，疯王，纷争的化身】下次行动后解除所有我方目标的【荣耀】状态。",
+        "desc_en": "When 【Indestructible Calamity】 is used, inflicts 【Glory】 on all targets. Each stack of 【Glory】 increases the target's DMG dealt by 30% and Energy regeneration efficiency by 10%, stackable up to 2 times when using Skill or Ultimate. After the next action of 【Titan of Discord, the Mad King, Incarnation of Strife】, removes all 【Glory】 states from all targets.",
+        "params": []
+      }
+    ]
+  },
+  {
+    "id": "4012010",
+    "name_ch": "天谴斗士",
+    "name_en": "Furiae Warrior",
+    "img": "images/monsters/Monster_4012010.png",
+    "type_ch": "眷属",
+    "type_en": "Titankin",
+    "element": "physical",
+    "element_ch": "物理",
+    "element_en": "Physical",
+    "phases": 1,
+    "desc_ch": "由「纷争」雕琢的泰坦眷属，流淌着尼卡多利的金血。刚猛的身躯是军阵的盾牌，以坚石之身阻隔敌军，以粗大臂膀搬运战场的口粮，也常被悬锋的士兵当作练武的对象。",
+    "desc_en": "A Titankin sculpted by \"Strife.\" They are infused with Nikador's golden ichor. Their robust bodies are the shields of the army, and they use their stony corpus to cut off their foes, while their powerful limbs carry rations across the battlefield. They are also used as sparring partners by the soldiers of Kremnos.",
+    "stats": {
+      "hp": "—",
+      "spd": "—",
+      "def": "210",
+      "effect_res": "—",
+      "effect_hit": "—",
+      "toughness": "90",
+      "break_mult": "—",
+      "growth_ch": "标准",
+      "growth_en": "Standard"
+    },
+    "resist_control": null,
+    "resistances": [
+      {
+        "element": "physical",
+        "element_ch": "物理",
+        "element_en": "Physical",
+        "value": "20%"
+      },
+      {
+        "element": "fire",
+        "element_ch": "火",
+        "element_en": "Fire",
+        "value": "20%"
+      },
+      {
+        "element": "ice",
+        "element_ch": "冰",
+        "element_en": "Ice",
+        "value": "20%"
+      },
+      {
+        "element": "wind",
+        "element_ch": "风",
+        "element_en": "Wind",
+        "value": "20%"
+      }
+    ],
+    "weaknesses": [
+      "thunder",
+      "quantum",
+      "imaginary"
+    ],
+    "weaknesses_ch": [
+      "雷",
+      "量子",
+      "虚数"
+    ],
+    "weaknesses_en": [
+      "Lightning",
+      "Quantum",
+      "Imaginary"
+    ],
+    "skills": [
+      {
+        "id": "401201001",
+        "name_ch": "第三轨道的冲撞",
+        "name_en": "Collision of the Third Orbit",
+        "level": 1,
+        "phases": [
+          1
+        ],
+        "type": "skill",
+        "type_ch": "技能",
+        "type_en": "Ability",
+        "warning": false,
+        "desc_ch": "对指定我方单体造成物理属性伤害，自身【战甲】层数不为0时，有概率使目标陷入【震荡】状态，自身【战甲】层数为0时，使自身陷入【震荡】状态。",
+        "desc_en": "Deals Physical DMG to one designated target. When \"War Armor\" stacks are not 0 on this unit, there is a chance to inflict \"Reverberation\" on the target. When this unit has 0 \"War Armor\" stacks, inflict \"Reverberation\" on this unit.",
+        "params": [
+          {
+            "label_ch": "伤害",
+            "label_en": "DMG",
+            "value": "300%"
+          },
+          {
+            "label_ch": "震荡概率",
+            "label_en": "Reverberation Chance",
+            "value": "40%"
+          }
+        ]
+      },
+      {
+        "id": "401201002",
+        "name_ch": "城邦守护者",
+        "name_en": "Polis Protector",
+        "level": 1,
+        "phases": [
+          1
+        ],
+        "type": "passive",
+        "type_ch": "天赋",
+        "type_en": "Talent",
+        "warning": false,
+        "desc_ch": "拥有一定层数的【战甲】，使自身受到的伤害降低。受到攻击后减少自身1层【战甲】，减少到0层时，【战甲】被破坏，对自身造成大量虚数属性伤害，并使自身行动延后，使破坏【战甲】的我方单位恢复能量。【战甲】被破坏后，自身受到攻击时额外再受到少量虚数属性伤害。【战甲】在自身回合结束时恢复到最大层数。",
+        "desc_en": "Possesses a number of \"War Armor\" stacks, which decreases DMG taken. Loses 1 stack of \"War Armor\" on this unit after being attacked. When at 0 stacks, \"War Armor\" will be destroyed, dealing massive Imaginary DMG to this unit and delaying their action. The target that destroyed \"War Armor\" will regenerate Energy. After \"War Armor\" is destroyed, this unit will also additionally take minor Imaginary DMG when attacked. \"War Armor\" will be restored to maximum stacks at the end of this unit's turn.",
+        "params": [
+          {
+            "label_ch": "战甲层数",
+            "label_en": "War Armor Stacks",
+            "value": "3"
+          },
+          {
+            "label_ch": "每层伤害减免",
+            "label_en": "DMG Reduction per Stack",
+            "value": "30%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4012020",
+    "name_ch": "天谴哲人",
+    "name_en": "Furiae Philosopher",
+    "img": "images/monsters/Monster_4012020.png",
+    "type_ch": "眷属",
+    "type_en": "Titankin",
+    "element": "imaginary",
+    "element_ch": "虚数",
+    "element_en": "Imaginary",
+    "phases": 1,
+    "desc_ch": "由「纷争」雕琢的泰坦眷属，流淌着尼卡多利的金血，蕴藏掠夺而来的「理性」。被制造出来的意义并非是研究普遍的知识，而是钻研杀戮的兵法与弱肉强食的残酷理论，散布假名为哲学的疯病。",
+    "desc_en": "A Titankin sculpted by \"Strife.\" They are infused with Nikador's golden ichor. They contain plundered \"rationality\" within their vessels. The reason behind their creation is not truly toward the study of universal knowledge, but to delve deep into brutal martial tactics and the merciless laws of survival, further spreading madness masquerading as philosophy.",
+    "stats": {
+      "hp": "—",
+      "spd": "—",
+      "def": "210",
+      "effect_res": "—",
+      "effect_hit": "—",
+      "toughness": "90",
+      "break_mult": "—",
+      "growth_ch": "标准",
+      "growth_en": "Standard"
+    },
+    "resist_control": null,
+    "resistances": [
+      {
+        "element": "physical",
+        "element_ch": "物理",
+        "element_en": "Physical",
+        "value": "20%"
+      },
+      {
+        "element": "lightning",
+        "element_ch": "雷",
+        "element_en": "Lightning",
+        "value": "20%"
+      },
+      {
+        "element": "wind",
+        "element_ch": "风",
+        "element_en": "Wind",
+        "value": "20%"
+      },
+      {
+        "element": "quantum",
+        "element_ch": "量子",
+        "element_en": "Quantum",
+        "value": "20%"
+      }
+    ],
+    "weaknesses": [
+      "fire",
+      "ice",
+      "imaginary"
+    ],
+    "weaknesses_ch": [
+      "火",
+      "冰",
+      "虚数"
+    ],
+    "weaknesses_en": [
+      "Fire",
+      "Ice",
+      "Imaginary"
+    ],
+    "skills": [
+      {
+        "id": "401202001",
+        "name_ch": "「斗争即正义」",
+        "name_en": "Just War",
+        "level": 1,
+        "phases": [
+          1
+        ],
+        "type": "skill",
+        "type_ch": "技能",
+        "type_en": "Ability",
+        "warning": false,
+        "desc_ch": "进入【宣教】状态，使敌方单体目标的速度和造成的伤害提高。",
+        "desc_en": "Enters the \"Proselytize\" state, increasing one friendly unit's SPD and DMG dealt.",
+        "params": [
+          {
+            "label_ch": "速度提升",
+            "label_en": "SPD Boost",
+            "value": "30%"
+          },
+          {
+            "label_ch": "伤害提升",
+            "label_en": "DMG Boost",
+            "value": "30%"
+          }
+        ]
+      },
+      {
+        "id": "401202002",
+        "name_ch": "「战是万物父」",
+        "name_en": "War, Father of All",
+        "level": 1,
+        "phases": [
+          1
+        ],
+        "type": "skill",
+        "type_ch": "技能",
+        "type_en": "Ability",
+        "warning": false,
+        "desc_ch": "对指定我方单体造成物理属性伤害。",
+        "desc_en": "Deals Physical DMG to one designated target.",
+        "params": [
+          {
+            "label_ch": "伤害",
+            "label_en": "DMG",
+            "value": "300%"
+          }
+        ]
+      },
+      {
+        "id": "401202003",
+        "name_ch": "「永恒的活火」",
+        "name_en": "Living Eternal Flame",
+        "level": 1,
+        "phases": [
+          1
+        ],
+        "type": "passive",
+        "type_ch": "天赋",
+        "type_en": "Talent",
+        "warning": false,
+        "desc_ch": "受到致命攻击时，攻击者的速度和造成的伤害提高。",
+        "desc_en": "When receiving a killing blow, increases the attacker's SPD and DMG dealt.",
+        "params": [
+          {
+            "label_ch": "速度提升",
+            "label_en": "SPD Boost",
+            "value": "30%"
+          },
+          {
+            "label_ch": "伤害提升",
+            "label_en": "DMG Boost",
+            "value": "30%"
+          }
+        ]
+      },
+      {
+        "id": "401202004",
+        "name_ch": "城邦守护者",
+        "name_en": "Polis Protector",
+        "level": 1,
+        "phases": [
+          1
+        ],
+        "type": "passive",
+        "type_ch": "天赋",
+        "type_en": "Talent",
+        "warning": false,
+        "desc_ch": "拥有一定层数的【战甲】，使自身受到的伤害降低。受到攻击后减少自身1层【战甲】，减少到0层时，【战甲】被破坏，对自身造成大量虚数属性伤害，并使自身行动延后，使破坏【战甲】的我方单位恢复能量。【战甲】被破坏后，自身受到攻击时额外再受到少量虚数属性伤害。【战甲】在自身回合结束时恢复到最大层数。",
+        "desc_en": "Possesses a number of \"War Armor\" stacks, which decreases DMG taken. Loses 1 stack of \"War Armor\" on this unit after being attacked. When at 0 stacks, \"War Armor\" will be destroyed, dealing massive Imaginary DMG to this unit and delaying their action. The target that destroyed \"War Armor\" will regenerate Energy. After \"War Armor\" is destroyed, this unit will also additionally take minor Imaginary DMG when attacked. \"War Armor\" will be restored to maximum stacks at the end of this unit's turn.",
+        "params": [
+          {
+            "label_ch": "战甲层数",
+            "label_en": "War Armor Stacks",
+            "value": "3"
+          },
+          {
+            "label_ch": "每层伤害减免",
+            "label_en": "DMG Reduction per Stack",
+            "value": "30%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4012030",
+    "name_ch": "天谴猎手",
+    "name_en": "Furiae Archer",
+    "img": "images/monsters/Monster_4012030.png",
+    "type_ch": "眷属",
+    "type_en": "Titankin",
+    "element": "physical",
+    "element_ch": "物理",
+    "element_en": "Physical",
+    "phases": 1,
+    "desc_ch": "由「纷争」雕琢的泰坦眷属，流淌着尼卡多利的金血。信仰如飞箭矢志不移，为泰坦造主的悬锋与凶矛寻取猎物，猎杀荒原中的奇兽与战场上的敌兵，射程之内无活物得以幸免。",
+    "desc_en": "A Titankin sculpted by \"Strife.\" They are infused with Nikador's golden ichor. With faith as steadfast as flying arrows, they are the means to find prey for Kremnos' forces, hunting down beasts and foes across the wastes, and ensuring none survive within firing range.",
+    "stats": {
+      "hp": "—",
+      "spd": "—",
+      "def": "210",
+      "effect_res": "—",
+      "effect_hit": "—",
+      "toughness": "90",
+      "break_mult": "—",
+      "growth_ch": "标准",
+      "growth_en": "Standard"
+    },
+    "resist_control": null,
+    "resistances": [
+      {
+        "element": "physical",
+        "element_ch": "物理",
+        "element_en": "Physical",
+        "value": "20%"
+      },
+      {
+        "element": "fire",
+        "element_ch": "火",
+        "element_en": "Fire",
+        "value": "20%"
+      },
+      {
+        "element": "wind",
+        "element_ch": "风",
+        "element_en": "Wind",
+        "value": "20%"
+      },
+      {
+        "element": "imaginary",
+        "element_ch": "虚数",
+        "element_en": "Imaginary",
+        "value": "20%"
+      }
+    ],
+    "weaknesses": [
+      "ice",
+      "thunder",
+      "quantum"
+    ],
+    "weaknesses_ch": [
+      "冰",
+      "雷",
+      "量子"
+    ],
+    "weaknesses_en": [
+      "Ice",
+      "Lightning",
+      "Quantum"
+    ],
+    "skills": [
+      {
+        "id": "401203001",
+        "name_ch": "送出哀泣的飞矢",
+        "name_en": "Weeping Arrow",
+        "level": 1,
+        "phases": [
+          1
+        ],
+        "type": "skill",
+        "type_ch": "技能",
+        "type_en": "Ability",
+        "warning": false,
+        "desc_ch": "从我方队伍右侧起发动数次攻击，优先对我方全体目标逐个攻击1次，剩余次数随机攻击我方单体目标，每次攻击造成少量雷属性伤害。当攻击到此次技能已经攻击过的目标时，会造成额外的雷属性伤害。当【战甲】的层数为0时，将会减少下次【送出哀泣的飞矢】的攻击次数。",
+        "desc_en": "Launches several rounds of attacks from the right side of the target team, and delivers a 1 time priority attack to each target, with the remaining attack counts attacking random targets. Each attack deals minor Lightning DMG. When a target is hit more than once in this ability, additionally deals Lightning DMG. When the \"War Armor\" stack reaches 0, the next attack count of \"Weeping Arrow\" will be reduced.",
+        "params": [
+          {
+            "label_ch": "每次伤害",
+            "label_en": "DMG per Hit",
+            "value": "100%"
+          },
+          {
+            "label_ch": "最多攻击次数",
+            "label_en": "Max Attack Count",
+            "value": "5"
+          },
+          {
+            "label_ch": "额外伤害",
+            "label_en": "Extra DMG",
+            "value": "200%"
+          }
+        ]
+      },
+      {
+        "id": "401203002",
+        "name_ch": "城邦守护者",
+        "name_en": "Polis Protector",
+        "level": 1,
+        "phases": [
+          1
+        ],
+        "type": "passive",
+        "type_ch": "天赋",
+        "type_en": "Talent",
+        "warning": false,
+        "desc_ch": "拥有一定层数的【战甲】，使自身受到的伤害降低。受到攻击后减少自身1层【战甲】，减少到0层时，【战甲】被破坏，对自身造成大量虚数属性伤害，并使自身行动延后，使破坏【战甲】的我方单位恢复能量。【战甲】被破坏后，自身受到攻击时额外再受到少量虚数属性伤害。【战甲】在自身回合结束时恢复到最大层数。",
+        "desc_en": "Possesses a number of \"War Armor\" stacks, which decreases DMG taken. Loses 1 stack of \"War Armor\" on this unit after being attacked. When at 0 stacks, \"War Armor\" will be destroyed, dealing massive Imaginary DMG to this unit and delaying their action. The target that destroyed \"War Armor\" will regenerate Energy. After \"War Armor\" is destroyed, this unit will also additionally take minor Imaginary DMG when attacked. \"War Armor\" will be restored to maximum stacks at the end of this unit's turn.",
+        "params": [
+          {
+            "label_ch": "战甲层数",
+            "label_en": "War Armor Stacks",
+            "value": "3"
+          },
+          {
+            "label_ch": "每层伤害减免",
+            "label_en": "DMG Reduction per Stack",
+            "value": "30%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4012040",
+    "name_ch": "天谴歌队",
+    "name_en": "Furiae Troupe",
+    "img": "images/monsters/Monster_4012040.png",
+    "type_ch": "眷属",
+    "type_en": "Titankin",
+    "element": "wind",
+    "element_ch": "风",
+    "element_en": "Wind",
+    "phases": 1,
+    "desc_ch": "由「纷争」雕琢的泰坦眷属，流淌着尼卡多利的金血。天谴之矛下的歌者，唱诵着赞美战士与疯王的诗句，以神咒呼唤尼卡多利的赐福。",
+    "desc_en": "A Titankin sculpted by \"Strife.\" They are infused with Nikador's golden ichor. They are singers under the Lance of Fury. In their lyrics come praises for soldiers and the mad king, using divine spells to call upon Nikador's blessings.",
+    "stats": {
+      "hp": "—",
+      "spd": "—",
+      "def": "210",
+      "effect_res": "—",
+      "effect_hit": "—",
+      "toughness": "90",
+      "break_mult": "—",
+      "growth_ch": "标准",
+      "growth_en": "Standard"
+    },
+    "resist_control": null,
+    "resistances": [
+      {
+        "element": "fire",
+        "element_ch": "火",
+        "element_en": "Fire",
+        "value": "20%"
+      },
+      {
+        "element": "lightning",
+        "element_ch": "雷",
+        "element_en": "Lightning",
+        "value": "20%"
+      },
+      {
+        "element": "wind",
+        "element_ch": "风",
+        "element_en": "Wind",
+        "value": "20%"
+      },
+      {
+        "element": "quantum",
+        "element_ch": "量子",
+        "element_en": "Quantum",
+        "value": "20%"
+      }
+    ],
+    "weaknesses": [
+      "physical",
+      "ice",
+      "imaginary"
+    ],
+    "weaknesses_ch": [
+      "物理",
+      "冰",
+      "虚数"
+    ],
+    "weaknesses_en": [
+      "Physical",
+      "Ice",
+      "Imaginary"
+    ],
+    "skills": [
+      {
+        "id": "401204001",
+        "name_ch": "礼赞尼卡多利",
+        "name_en": "Praise Nikador",
+        "level": 1,
+        "phases": [
+          1
+        ],
+        "type": "skill",
+        "type_ch": "技能",
+        "type_en": "Ability",
+        "warning": false,
+        "desc_ch": "进入【战歌】状态，使自身以外的敌方单位的【战甲】的层数上限提高。进入战斗时立即进入【战歌】状态。",
+        "desc_en": "Enters the \"War Song\" state. Increases max \"War Armor\" stacks for friendly units aside from this unit. When entering battle, immediately enters the \"War Song\" state.",
+        "params": [
+          {
+            "label_ch": "战甲层数上限提升",
+            "label_en": "War Armor Stack Limit Increase",
+            "value": "2"
+          }
+        ]
+      },
+      {
+        "id": "401204002",
+        "name_ch": "投进柔软的火焰",
+        "name_en": "Into the Supple Fire",
+        "level": 1,
+        "phases": [
+          1
+        ],
+        "type": "skill",
+        "type_ch": "技能",
+        "type_en": "Ability",
+        "warning": false,
+        "desc_ch": "对指定我方单体及其相邻目标造成虚数属性伤害。",
+        "desc_en": "Deals Imaginary DMG to one designated target and adjacent targets.",
+        "params": [
+          {
+            "label_ch": "单体伤害",
+            "label_en": "Single Target DMG",
+            "value": "300%"
+          },
+          {
+            "label_ch": "相邻目标伤害",
+            "label_en": "Adjacent Target DMG",
+            "value": "200%"
+          }
+        ]
+      },
+      {
+        "id": "401204003",
+        "name_ch": "城邦守护者",
+        "name_en": "Polis Protector",
+        "level": 1,
+        "phases": [
+          1
+        ],
+        "type": "passive",
+        "type_ch": "天赋",
+        "type_en": "Talent",
+        "warning": false,
+        "desc_ch": "拥有一定层数的【战甲】，使自身受到的伤害降低。受到攻击后减少自身1层【战甲】，减少到0层时，【战甲】被破坏，对自身造成大量虚数属性伤害，并使自身行动延后，使破坏【战甲】的我方单位恢复能量。【战甲】被破坏后，自身受到攻击时额外再受到少量虚数属性伤害。【战甲】在自身回合结束时恢复到最大层数。",
+        "desc_en": "Possesses a number of \"War Armor\" stacks, which decreases DMG taken. Loses 1 stack of \"War Armor\" on this unit after being attacked. When at 0 stacks, \"War Armor\" will be destroyed, dealing massive Imaginary DMG to this unit and delaying their action. The target that destroyed \"War Armor\" will regenerate Energy. After \"War Armor\" is destroyed, this unit will also additionally take minor Imaginary DMG when attacked. \"War Armor\" will be restored to maximum stacks at the end of this unit's turn.",
+        "params": [
+          {
+            "label_ch": "战甲层数",
+            "label_en": "War Armor Stacks",
+            "value": "2"
+          },
+          {
+            "label_ch": "每层伤害减免",
+            "label_en": "DMG Reduction per Stack",
+            "value": "30%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4013010",
+    "name_ch": "天谴先锋",
+    "name_en": "Furiae Praetor",
+    "img": "images/monsters/Monster_4013010.png",
+    "type_ch": "精英眷属",
+    "type_en": "Elite Titankin",
+    "element": "imaginary",
+    "element_ch": "虚数",
+    "element_en": "Imaginary",
+    "phases": 1,
+    "desc_ch": "由「纷争」雕琢的泰坦眷属，流淌着尼卡多利的金血，能承载泰坦灵魂的强大造物。以巨剑抵挡黑潮的侵袭，亦会用巨剑带来战争的侵袭。\n天谴先锋会献祭弱小的眷属，以此暴行换得泰坦的天罚。",
+    "desc_en": "A Titankin sculpted by \"Strife.\" They are infused with Nikador's golden ichor. They are mighty constructs capable of housing a Titan's soul. With their greatswords, they stand ready to repel the rush of the black tide or turn their blade in a countering onslaught in times of war.\nFuriae Praetor will sacrifice their weaker kin, exchanging atrocity for divine punishments from the Titan.",
+    "stats": {
+      "hp": "—",
+      "spd": "—",
+      "def": "210",
+      "effect_res": "—",
+      "effect_hit": "—",
+      "toughness": "480",
+      "break_mult": "—",
+      "growth_ch": "标准",
+      "growth_en": "Standard"
+    },
+    "resist_control": null,
+    "resistances": [
+      {
+        "element": "physical",
+        "element_ch": "物理",
+        "element_en": "Physical",
+        "value": "20%"
+      },
+      {
+        "element": "fire",
+        "element_ch": "火",
+        "element_en": "Fire",
+        "value": "20%"
+      },
+      {
+        "element": "wind",
+        "element_ch": "风",
+        "element_en": "Wind",
+        "value": "20%"
+      },
+      {
+        "element": "imaginary",
+        "element_ch": "虚数",
+        "element_en": "Imaginary",
+        "value": "20%"
+      }
+    ],
+    "weaknesses": [
+      "ice",
+      "thunder",
+      "quantum"
+    ],
+    "weaknesses_ch": [
+      "冰",
+      "雷",
+      "量子"
+    ],
+    "weaknesses_en": [
+      "Ice",
+      "Lightning",
+      "Quantum"
+    ],
+    "skills": [
+      {
+        "id": "401301001",
+        "name_ch": "从天帷斩向黎明",
+        "name_en": "From Skyveil to Dawn",
+        "level": 1,
+        "phases": [
+          1
+        ],
+        "type": "skill",
+        "type_ch": "技能",
+        "type_en": "Ability",
+        "warning": false,
+        "desc_ch": "从我方队伍左侧起横扫攻击我方3个连续目标，造成少量虚数属性伤害。",
+        "desc_en": "Starting from the leftmost target, uses a sweeping attack on 3 consecutive targets, dealing minor Imaginary DMG.",
+        "params": [
+          {
+            "label_ch": "每目标伤害",
+            "label_en": "DMG per Target",
+            "value": "280%"
+          }
+        ]
+      },
+      {
+        "id": "401301002",
+        "name_ch": "从黎明杀往天帷",
+        "name_en": "From Dawn to Skyveil",
+        "level": 1,
+        "phases": [
+          1
+        ],
+        "type": "skill",
+        "type_ch": "技能",
+        "type_en": "Ability",
+        "warning": false,
+        "desc_ch": "从我方队伍右侧起横扫攻击我方3个连续目标，造成少量虚数属性伤害。",
+        "desc_en": "Starting from the rightmost target, uses a sweeping attack on 3 consecutive targets, dealing minor Imaginary DMG.",
+        "params": [
+          {
+            "label_ch": "每目标伤害",
+            "label_en": "DMG per Target",
+            "value": "280%"
+          }
+        ]
+      },
+      {
+        "id": "401301003",
+        "name_ch": "像威猛暴怒的雄狮",
+        "name_en": "Resembling Furious Lion",
+        "level": 1,
+        "phases": [
+          1
+        ],
+        "type": "skill",
+        "type_ch": "技能",
+        "type_en": "Ability",
+        "warning": false,
+        "desc_ch": "进入蓄力状态，下回合使用【在滔滔血海中沉溺】。",
+        "desc_en": "Enters the Charging state. Uses \"Drowned in the Crimson Sea\" in the next turn.",
+        "params": []
+      },
+      {
+        "id": "401301004",
+        "name_ch": "在滔滔血海中沉溺",
+        "name_en": "Drowned in the Crimson Sea",
+        "level": 1,
+        "phases": [
+          1
+        ],
+        "type": "skill",
+        "type_ch": "技能",
+        "type_en": "Ability",
+        "warning": true,
+        "desc_ch": "吸收【天谴斗士】，随后对我方全体造成大量虚数属性伤害并施加【易伤】效果，伤害和【易伤】效果由目标平均分摊，吸收的【天谴斗士】数量越多，造成的伤害越高。",
+        "desc_en": "Absorbs \"Furiae Warrior,\" then deals massive Imaginary DMG to all targets and inflicts Vulnerability on them. The DMG and Vulnerability states are distributed evenly among the targets. The more \"Furiae Warriors\" absorbed, the higher the DMG dealt.",
+        "params": [
+          {
+            "label_ch": "基础伤害",
+            "label_en": "Base DMG",
+            "value": "1200%"
+          },
+          {
+            "label_ch": "每额外斗士伤害加成",
+            "label_en": "DMG Bonus per Extra Warrior",
+            "value": "120%"
+          },
+          {
+            "label_ch": "最多吸收斗士数",
+            "label_en": "Max Warriors Absorbed",
+            "value": "4"
+          }
+        ]
+      },
+      {
+        "id": "401301005",
+        "name_ch": "快从坟墓中苏生",
+        "name_en": "Rise from the Grave",
+        "level": 1,
+        "phases": [
+          1
+        ],
+        "type": "skill",
+        "type_ch": "技能",
+        "type_en": "Ability",
+        "warning": false,
+        "desc_ch": "召唤【天谴斗士】。",
+        "desc_en": "Summons \"Furiae Warrior.\"",
+        "params": []
+      },
+      {
+        "id": "401301006",
+        "name_ch": "城邦守护者",
+        "name_en": "Polis Protector",
+        "level": 1,
+        "phases": [
+          1
+        ],
+        "type": "passive",
+        "type_ch": "天赋",
+        "type_en": "Talent",
+        "warning": false,
+        "desc_ch": "拥有一定层数的【战甲】，使自身受到的伤害降低。受到攻击后减少自身1层【战甲】，减少到0层时，【战甲】被破坏，对自身造成大量虚数属性伤害，并使自身行动延后，使破坏【战甲】的我方单位恢复能量。【战甲】被破坏后，自身受到攻击时额外再受到少量虚数属性伤害。【战甲】在自身回合结束时恢复到最大层数。",
+        "desc_en": "Possesses a number of \"War Armor\" stacks, which decreases DMG taken. Loses 1 stack of \"War Armor\" on this unit after being attacked. When at 0 stacks, \"War Armor\" will be destroyed, dealing massive Imaginary DMG to this unit and delaying their action. The target that destroyed \"War Armor\" will regenerate Energy. After \"War Armor\" is destroyed, this unit will also additionally take minor Imaginary DMG when attacked. \"War Armor\" will be restored to maximum stacks at the end of this unit's turn.",
+        "params": [
+          {
+            "label_ch": "战甲层数",
+            "label_en": "War Armor Stacks",
+            "value": "6"
+          },
+          {
+            "label_ch": "每层伤害减免",
+            "label_en": "DMG Reduction per Stack",
+            "value": "20%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4014020",
+    "name_ch": "颁赐者，千军首，天谴之矛",
+    "name_en": "The Giver, Master of Legions, Lance of Fury",
+    "img": "images/monsters/Monster_4014020.png",
+    "type_ch": "泰坦",
+    "type_en": "Titan",
+    "element": "imaginary",
+    "element_ch": "虚数",
+    "element_en": "Imaginary",
+    "phases": 2,
+    "desc_ch": "不败者，一切战场的领主，悬锋城与废墟的王，\n战车大匠，尸山王座，胜利父，\n荣耀僭主，裂地惊海的雷，翁法罗斯的守护者，\n纷争的泰坦，天谴之矛，尼卡多利。\n全体世间应听遣的将领，永恒且锋利的兵戈，纷争与断绝纷争的法则。\n礼赞尼卡多利，最伟大的征服者，最伟大的守护者。",
+    "desc_en": "The undefeated. The sovereign of all battles. The king of Castrum Kremnos and of ruins,\nGrand Artisan of the war chariot, the throne upon a mountain of corpses, and father of victory,\nThe tyrant of glories, the lightning that split the sea, the Guardian of Amphoreus,\nThe Titan of Strife, the Lance of Fury: Nikador.\nA general that all the world should heed, the eternal sharp sword, the law of Strife and of ending Strife.\nPraise Nikador, greatest of conquerors, greatest of guardians.",
+    "stats": {
+      "hp": "—",
+      "spd": "—",
+      "def": "210",
+      "effect_res": "—",
+      "effect_hit": "—",
+      "toughness": "—",
+      "break_mult": "—",
+      "growth_ch": "标准",
+      "growth_en": "Standard"
+    },
+    "resist_control": "50%",
+    "resistances": [
+      {
+        "element": "physical",
+        "element_ch": "物理",
+        "element_en": "Physical",
+        "value": "20%"
+      },
+      {
+        "element": "fire",
+        "element_ch": "火",
+        "element_en": "Fire",
+        "value": "20%"
+      },
+      {
+        "element": "ice",
+        "element_ch": "冰",
+        "element_en": "Ice",
+        "value": "20%"
+      },
+      {
+        "element": "lightning",
+        "element_ch": "雷",
+        "element_en": "Lightning",
+        "value": "20%"
+      },
+      {
+        "element": "wind",
+        "element_ch": "风",
+        "element_en": "Wind",
+        "value": "20%"
+      },
+      {
+        "element": "quantum",
+        "element_ch": "量子",
+        "element_en": "Quantum",
+        "value": "20%"
+      },
+      {
+        "element": "imaginary",
+        "element_ch": "虚数",
+        "element_en": "Imaginary",
+        "value": "20%"
+      }
+    ],
+    "weaknesses": [],
+    "weaknesses_ch": [],
+    "weaknesses_en": [],
+    "skills": [
+      {
+        "id": "401402001",
+        "name_ch": "受征伐者皆见灾殃",
+        "name_en": "The Vanquished Behold Woe",
+        "level": 1,
+        "phases": [
+          1,
+          2
+        ],
+        "type": "skill",
+        "type_ch": "技能",
+        "type_en": "Ability",
+        "warning": false,
+        "desc_ch": "每个我方角色生成1个对应的【征服或被征服】，并使对应角色进入【受征服】状态。【受征服】会降低角色可回复的生命上限，降低对应【征服或被征服】的生命值可恢复对应比例的可回复生命上限。",
+        "desc_en": "Every target character generates 1 corresponding \"Conquer or Be Conquered,\" which inflicts \"Conquered\" to the corresponding character. \"Conquered\" will decrease the character's Maximum Restorable HP. Decreasing the HP of the corresponding \"Conquer or Be Conquered\" can restore an equal percentage of the character's Maximum Restorable HP.",
+        "params": [
+          {
+            "label_ch": "可回复生命降低",
+            "label_en": "Max Restorable HP Decrease",
+            "value": "50%"
+          }
+        ]
+      },
+      {
+        "id": "401402002",
+        "name_ch": "殊死御侮皆临荣光",
+        "name_en": "Glory to All Honorable Dead",
+        "level": 1,
+        "phases": [
+          2
+        ],
+        "type": "skill",
+        "type_ch": "技能",
+        "type_en": "Ability",
+        "warning": false,
+        "desc_ch": "对所有我方角色施加【纷争赐的畏怖】，【受征服】状态解除时对应【纷争赐的畏怖】一同解除。",
+        "desc_en": "Apply \"Strife-Granted Fear\" to all target characters. When \"Conquered\" is dispelled, the corresponding \"Strife-Granted Fear\" is also dispelled.",
+        "params": [
+          {
+            "label_ch": "受到伤害提升",
+            "label_en": "Increased DMG Taken",
+            "value": "10%"
+          }
+        ]
+      },
+      {
+        "id": "401402003",
+        "name_ch": "天谴降，皆奠纷争昂藏",
+        "name_en": "Fury Falls, and All Bows to Strife",
+        "level": 1,
+        "phases": [
+          2
+        ],
+        "type": "skill",
+        "type_ch": "技能",
+        "type_en": "Ability",
+        "warning": true,
+        "desc_ch": "控制【蛮神，疯王，纷争的化身】对我方全体角色造成基于其生命上限百分比的虚数属性伤害，该伤害无视目标的防御力并大概率对处于【受征服】状态的目标附加禁锢。",
+        "desc_en": "Controls \"Savage God, Mad King, Incarnation of Strife\" to deal Imaginary DMG to all ally target characters based on a percentage of their Max HP. This DMG ignores the target's DEF, with a high chance of applying Imprisonment to targets in the \"Conquered\" state.",
+        "params": [
+          {
+            "label_ch": "伤害(蛮神生命%)",
+            "label_en": "DMG (% of Max HP)",
+            "value": "90%"
+          },
+          {
+            "label_ch": "强化后伤害",
+            "label_en": "Enhanced DMG",
+            "value": "150%"
+          },
+          {
+            "label_ch": "禁锢概率",
+            "label_en": "Imprisonment Chance",
+            "value": "30%"
+          }
+        ]
+      },
+      {
+        "id": "401402004",
+        "name_ch": "畏怖溃军皆成铠仗",
+        "name_en": "The Fallen Feeds My Might",
+        "level": 1,
+        "phases": [
+          2
+        ],
+        "type": "skill",
+        "type_ch": "技能",
+        "type_en": "Ability",
+        "warning": false,
+        "desc_ch": "吸收剩余的【征服或被征服】强化【蛮神，疯王，纷争的化身】，同时添加韧性保护并解除【蛮神，疯王，纷争的化身】身上的控制类负面状态与弱点击破状态。",
+        "desc_en": "Absorbs remaining \"Conquer or Be Conquered\" to enhance \"Savage God, Mad King, Incarnation of Strife.\" At the same time, adds Toughness Protection and dispels Crowd Control debuffs and Weakness Break debuffs on \"Savage God, Mad King, Incarnation of Strife.\"",
+        "params": []
+      }
+    ]
+  }
+]

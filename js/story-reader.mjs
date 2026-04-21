@@ -3,18 +3,27 @@
  * Loads a scene from the talk DB by [first_id, last_id] range and renders dialogue.
  * Supports unlimited context expansion (±5 lines at a time) via the same talk DB.
  *
+ * Two entry modes:
+ *   Scene mode:        #char=SLUG&id=SCENEID[&line=LINEID]   — used from stories page
+ *   Single-line mode:  #line=LINEID[&q=QUERY]                — used when clicking a search result
+ *
  * Data sources:
  *   - data/character-scenes.json  → scene index (per-character ID ranges)
  *   - data/talk/*.json            → bilingual line store (393 chunks of 500)
  */
 
 import { getLang, t } from './i18n.mjs?v=3';
-import { fetchJSON, escapeHTML } from './app.mjs?v=5';
+import { fetchJSON, escapeHTML, highlightText, scrollBehavior } from './app.mjs?v=5';
 
 let charScenes = null;
 let currentChar = null;     // {name_ch, name_en, scenes:[]}
 let currentSlug = null;
 let currentScene = null;    // {id, first_id, last_id, line_count, ...}
+
+/* ── Mode / persistent highlight state ── */
+let singleLineMode = false;
+let persistentHighlightId = null;   // line id always decorated with .highlight (search target)
+let pageQuery = '';                 // search term to <mark> within displayed text
 
 /* ── Expand state ── */
 let displayedLines = [];
@@ -35,6 +44,12 @@ async function init() {
   currentSlug = params.get('char');
   const sceneId = params.get('id');
   const highlightLine = params.get('line');
+  const queryParam = params.get('q') || '';
+
+  // Single-line mode (from search): show a single target line with ±5 expansion.
+  if (highlightLine && !currentSlug && !sceneId) {
+    return initSingleLineMode(parseInt(highlightLine), queryParam);
+  }
 
   if (!currentSlug || !sceneId) {
     document.getElementById('story-content').innerHTML =
@@ -42,7 +57,13 @@ async function init() {
     return;
   }
 
-  charScenes = await fetchJSON('data/character-scenes.json');
+  try {
+    charScenes = await fetchJSON('data/character-scenes.json');
+  } catch (e) {
+    document.getElementById('story-content').innerHTML =
+      '<p class="loading-text">数据加载失败，请刷新重试。</p>';
+    return;
+  }
   currentChar = charScenes[currentSlug];
 
   if (!currentChar) {
@@ -59,7 +80,13 @@ async function init() {
   }
 
   // Load talk index
-  talkIndex = await fetchJSON('data/talk/index.json');
+  try {
+    talkIndex = await fetchJSON('data/talk/index.json');
+  } catch (e) {
+    document.getElementById('story-content').innerHTML =
+      '<p class="loading-text">对话数据加载失败，请刷新重试。</p>';
+    return;
+  }
   totalEntries = talkIndex.reduce((sum, c) => sum + c.count, 0);
 
   // Slice the talk DB for this scene's [first_id, last_id]
@@ -81,6 +108,66 @@ async function init() {
     renderAll(null);
     renderNavigation();
   });
+}
+
+/* ── Single-line mode (entered from a search result) ── */
+
+async function initSingleLineMode(lineId, query) {
+  if (!Number.isFinite(lineId)) {
+    document.getElementById('story-content').innerHTML =
+      '<p class="loading-text">Invalid line id.</p>';
+    return;
+  }
+
+  singleLineMode = true;
+  persistentHighlightId = lineId;
+  pageQuery = query || '';
+
+  talkIndex = await fetchJSON('data/talk/index.json');
+  totalEntries = talkIndex.reduce((sum, c) => sum + c.count, 0);
+
+  const targetIdx = await findGlobalIdx(lineId);
+  if (targetIdx < 0) {
+    document.getElementById('story-content').innerHTML =
+      '<p class="loading-text">Line not found.</p>';
+    return;
+  }
+
+  const targetEntry = await getEntryAtGlobal(targetIdx);
+  displayedLines = targetEntry ? [{ ...targetEntry, _type: 'original' }] : [];
+  prevGlobalIdx = targetIdx - 1;
+  nextGlobalIdx = targetIdx + 1;
+
+  renderSingleLineHeader();
+  renderAll(lineId);
+  document.getElementById('story-nav').innerHTML = '';
+
+  window.addEventListener('langchange', () => {
+    renderSingleLineHeader();
+    renderAll(null);
+  });
+}
+
+function renderSingleLineHeader() {
+  const lang = getLang();
+  const headerEl = document.getElementById('story-header');
+  const backHref = pageQuery
+    ? `search.html#q=${encodeURIComponent(pageQuery)}`
+    : 'search.html';
+  const label = pageQuery
+    ? (lang === 'en' ? `from search · "${pageQuery}"` : `检索结果 ·「${pageQuery}」`)
+    : (lang === 'en' ? 'from search' : '检索结果');
+  headerEl.innerHTML = `
+    <a href="${escapeHTML(backHref)}" class="scene-nav-btn">${t('common.back')}</a>
+    <span style="font-family:var(--font-heading);color:var(--gold);font-size:0.85rem;letter-spacing:0.06em;">
+      ${escapeHTML(label)}
+    </span>
+    <span></span>
+  `;
+  headerEl.style.display = 'flex';
+  headerEl.style.alignItems = 'center';
+  headerEl.style.justifyContent = 'space-between';
+  headerEl.style.marginBottom = '1.5rem';
 }
 
 /* ── Talk DB helpers ── */
@@ -150,12 +237,12 @@ function renderHeader() {
   const headerEl = document.getElementById('story-header');
   const charName = lang === 'en' ? currentChar.name_en : currentChar.name_ch;
   headerEl.innerHTML = `
-    <a href="stories.html#char=${currentSlug}" class="scene-nav-btn" data-i18n="common.back">${t('common.back')}</a>
+    <a href="stories.html#char=${escapeHTML(currentSlug)}" class="scene-nav-btn" data-i18n="common.back">${t('common.back')}</a>
     <span style="font-family:var(--font-heading);color:var(--gold);font-size:0.85rem;letter-spacing:0.06em;">
-      ${charName} &mdash; ${currentScene.id}
+      ${escapeHTML(charName)} &mdash; ${escapeHTML(String(currentScene.id))}
     </span>
     <span style="font-size:0.8rem;color:var(--text-muted);">
-      ${currentScene.line_count} ${lang === 'en' ? 'lines' : '行'}
+      ${escapeHTML(String(currentScene.line_count))} ${lang === 'en' ? 'lines' : '行'}
     </span>
   `;
   headerEl.style.display = 'flex';
@@ -195,7 +282,7 @@ function renderAll(highlightLineId) {
 
   if (highlightLineId) {
     const el = document.getElementById('highlight-line');
-    if (el) setTimeout(() => el.scrollIntoView({ behavior: 'smooth', block: 'center' }), 100);
+    if (el) setTimeout(() => el.scrollIntoView({ behavior: scrollBehavior(), block: 'center' }), 100);
   }
 }
 
@@ -203,18 +290,28 @@ function createLineEl(line, lang, highlightLineId) {
   const div = document.createElement('div');
   div.className = 'dialogue-line';
   if (line._type === 'context') div.className += ' expanded-line';
+  // Persistent highlight (survives expand re-renders in single-line mode).
+  const isTarget = persistentHighlightId != null && line.id === persistentHighlightId;
+  if (isTarget) div.className += ' highlight';
+  // One-shot scroll anchor (scene mode, or first render of single-line mode).
   if (line.id === highlightLineId) {
-    div.className += ' highlight';
+    if (!isTarget) div.className += ' highlight';
     div.id = 'highlight-line';
   }
   const speaker = lang === 'en' ? line.s_en : line.s_ch;
   const primaryText = lang === 'en' ? line.t_en : line.t_ch;
   const secondaryText = lang === 'en' ? line.t_ch : line.t_en;
+  const primaryHTML = pageQuery
+    ? highlightText(primaryText || '', pageQuery)
+    : escapeHTML(primaryText || '');
+  const secondaryHTML = pageQuery
+    ? highlightText(secondaryText || '', pageQuery)
+    : escapeHTML(secondaryText || '');
   div.innerHTML = `
     <div class="dialogue-speaker">${escapeHTML(speaker || '')}</div>
     <div>
-      <div class="dialogue-text">${escapeHTML(primaryText || '')}</div>
-      ${secondaryText ? `<div class="dialogue-text-secondary">${escapeHTML(secondaryText)}</div>` : ''}
+      <div class="dialogue-text">${primaryHTML}</div>
+      ${secondaryText ? `<div class="dialogue-text-secondary">${secondaryHTML}</div>` : ''}
     </div>
   `;
   return div;
@@ -277,16 +374,18 @@ function renderNavigation() {
   const currentIdx = allScenes.findIndex(s => s.id === currentScene.id);
   const prevScene = currentIdx > 0 ? allScenes[currentIdx - 1] : null;
   const nextScene = currentIdx < allScenes.length - 1 ? allScenes[currentIdx + 1] : null;
+  const prevHref = prevScene ? `story.html#char=${escapeHTML(currentSlug)}&id=${prevScene.id}` : null;
+  const nextHref = nextScene ? `story.html#char=${escapeHTML(currentSlug)}&id=${nextScene.id}` : null;
   navEl.innerHTML = `
-    <a href="${prevScene ? `story.html#char=${currentSlug}&id=${prevScene.id}` : '#'}"
-       class="scene-nav-btn${prevScene ? '' : ' disabled'}"
-       data-i18n="common.prev">${t('common.prev')}</a>
+    ${prevHref
+      ? `<a href="${prevHref}" class="scene-nav-btn" data-i18n="common.prev">${t('common.prev')}</a>`
+      : `<span class="scene-nav-btn disabled" aria-disabled="true">${t('common.prev')}</span>`}
     <span style="font-size:0.8rem;color:var(--text-muted);">
       ${currentIdx + 1} / ${allScenes.length}
     </span>
-    <a href="${nextScene ? `story.html#char=${currentSlug}&id=${nextScene.id}` : '#'}"
-       class="scene-nav-btn${nextScene ? '' : ' disabled'}"
-       data-i18n="common.next">${t('common.next')}</a>
+    ${nextHref
+      ? `<a href="${nextHref}" class="scene-nav-btn" data-i18n="common.next">${t('common.next')}</a>`
+      : `<span class="scene-nav-btn disabled" aria-disabled="true">${t('common.next')}</span>`}
   `;
 }
 

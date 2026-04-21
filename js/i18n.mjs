@@ -15,6 +15,7 @@ const UI_STRINGS = {
   'nav.search':     { ch: '检索', en: 'Search' },
   'nav.lore':       { ch: '档案', en: 'Archive' },
   'nav.gallery':    { ch: '画廊', en: 'Gallery' },
+  'nav.monsters':   { ch: '怪物', en: 'Bestiary' },
   'nav.videos':     { ch: '视频', en: 'Videos' },
 
   'search.placeholder':   { ch: '检索台词、角色、关键词…', en: 'Search dialogue, characters, keywords…' },
@@ -33,10 +34,19 @@ const UI_STRINGS = {
   'lore.title':         { ch: '档案', en: 'Archive' },
   'lore.books':         { ch: '书籍', en: 'Books' },
   'lore.quests':        { ch: '任务', en: 'Quests' },
-'lore.achievements':  { ch: '成就', en: 'Achievements' },
+  'lore.achievements':  { ch: '成就', en: 'Achievements' },
+  'lore.items':         { ch: '物品', en: 'Items' },
   'lore.characters':    { ch: '角色', en: 'Characters' },
+  'lore.lightcones':    { ch: '光锥', en: 'Light Cones' },
+  'lore.monsters':      { ch: '怪物', en: 'Bestiary' },
+  'lore.aiwosushu':     { ch: '如我所书', en: "As I've Written" },
+  'lore.appendix':      { ch: '附录', en: 'Appendix' },
 
+  'monsters.title':   { ch: '怪物志', en: 'Bestiary' },
   'gallery.title':    { ch: '画廊', en: 'Gallery' },
+  'gallery.close':    { ch: '关闭', en: 'Close' },
+  'gallery.prev':     { ch: '上一张', en: 'Previous image' },
+  'gallery.next':     { ch: '下一张', en: 'Next image' },
   'videos.title':     { ch: '视频', en: 'Videos' },
 
   'lang.switch':      { ch: 'EN', en: '中文' },
@@ -81,7 +91,14 @@ function updateAllI18n() {
   document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
     el.placeholder = t(el.dataset.i18nPlaceholder);
   });
+  document.querySelectorAll('[data-i18n-aria-label]').forEach(el => {
+    el.setAttribute('aria-label', t(el.dataset.i18nAriaLabel));
+  });
 }
 
-// Initialize on import
+// Initialize on import — ES modules are deferred, so the DOM is fully parsed here
 document.documentElement.setAttribute('lang', currentLang === 'ch' ? 'zh-CN' : 'en');
+if (currentLang !== 'ch') {
+  // Static HTML defaults to Chinese; only update when a non-default lang is stored
+  updateAllI18n();
+}

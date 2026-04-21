@@ -28,6 +28,11 @@ function initLangToggle() {
   });
 }
 
+// Utility: returns 'smooth' unless the user prefers reduced motion
+export function scrollBehavior() {
+  return window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth';
+}
+
 // Utility: fetch JSON with error handling
 export async function fetchJSON(url) {
   const res = await fetch(url);
@@ -183,12 +188,19 @@ function initThemeSwitcher() {
   const wrap = document.createElement('div');
   wrap.className = 'theme-switcher';
 
+  const setOpen = (open) => {
+    wrap.classList.toggle('open', open);
+    trigger.setAttribute('aria-expanded', String(open));
+  };
+
   const trigger = document.createElement('button');
   trigger.className = 'theme-trigger';
   trigger.textContent = currentLabel;
+  trigger.setAttribute('aria-haspopup', 'true');
+  trigger.setAttribute('aria-expanded', 'false');
   trigger.addEventListener('click', e => {
     e.stopPropagation();
-    wrap.classList.toggle('open');
+    setOpen(!wrap.classList.contains('open'));
   });
 
   const dropdown = document.createElement('div');
@@ -205,16 +217,31 @@ function initThemeSwitcher() {
       dropdown.querySelectorAll('.theme-option').forEach(o =>
         o.classList.toggle('active', o.dataset.theme === th.key)
       );
-      wrap.classList.remove('open');
+      setOpen(false);
     });
     dropdown.appendChild(opt);
   }
 
-  document.addEventListener('click', () => wrap.classList.remove('open'));
+  document.addEventListener('click', () => setOpen(false));
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape' && wrap.classList.contains('open')) {
+      setOpen(false);
+      trigger.focus();
+    }
+  });
 
   wrap.appendChild(trigger);
   wrap.appendChild(dropdown);
   nav.appendChild(wrap);
+}
+
+function initHeroSearch() {
+  const form = document.getElementById('hero-search-form');
+  if (!form) return;
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+    window.location.href = 'search.html#q=' + encodeURIComponent(form.q.value);
+  });
 }
 
 // Initialize - handle both pre and post DOMContentLoaded
@@ -223,6 +250,7 @@ function initApp() {
   initLangToggle();
   initHeaderScroll();
   initThemeSwitcher();
+  initHeroSearch();
 }
 
 if (document.readyState === 'loading') {

@@ -4,7 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>画廊 - Garbaniphoro Grand Library</title>
-  <script>!function(){var t=new URLSearchParams(location.search).get("theme")||localStorage.getItem("gl-theme")||"terra";document.documentElement.dataset.theme=t;document.write('<link rel="stylesheet" href="css/themes/theme-'+t+'.css">');}();</script>
+  <script>!function(){var t=new URLSearchParams(location.search).get("theme")||localStorage.getItem("gl-theme")||"terra";t=(t==="kremnos")?"kremnos":"terra";document.documentElement.dataset.theme=t;document.write('<link rel="stylesheet" href="css/themes/theme-'+t+'.css">');}();</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Noto+Serif+SC:wght@300;400;500;600;700&display=swap">
   <link rel="stylesheet" href="css/main.css?v=4">
   <link rel="stylesheet" href="css/components.css?v=4">
 </head>
@@ -33,10 +36,10 @@
   </main>
 
   <!-- Lightbox overlay -->
-  <div id="lightbox" class="lightbox" hidden>
-    <button class="lightbox-close" id="lightbox-close">&times;</button>
-    <button class="lightbox-prev" id="lightbox-prev">&#8249;</button>
-    <button class="lightbox-next" id="lightbox-next">&#8250;</button>
+  <div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-labelledby="lightbox-caption" hidden>
+    <button class="lightbox-close" id="lightbox-close" aria-label="关闭" data-i18n-aria-label="gallery.close">&times;</button>
+    <button class="lightbox-prev" id="lightbox-prev" aria-label="上一张" data-i18n-aria-label="gallery.prev">&#8249;</button>
+    <button class="lightbox-next" id="lightbox-next" aria-label="下一张" data-i18n-aria-label="gallery.next">&#8250;</button>
     <div class="lightbox-content">
       <img id="lightbox-img" class="lightbox-img" src="" alt="">
       <div id="lightbox-caption" class="lightbox-caption"></div>

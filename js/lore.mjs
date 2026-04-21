@@ -3,7 +3,7 @@
  * Tabs: 书籍 (books), 任务 (quests), 成就 (achievements), 角色 (characters)
  */
 
-import { getLang, t } from './i18n.mjs?v=5';
+import { getLang, t } from './i18n.mjs?v=3';
 import { fetchJSON, escapeHTML } from './app.mjs?v=5';
 
 let readables = null;
@@ -12,8 +12,12 @@ let achievements = null;
 let items = null;
 let charactersMydei = null;
 let lightcones = null;
+let monsters = null;
+let aiwosushu = null;
 let currentTab = 'books';
 let lcDetailId = null; // null = gallery view, string ID = detail view
+let monsterDetailId = null; // null = grid, string ID = detail
+let awssChapter = 0; // active chapter index (0-4)
 
 /** Fill light cone skill template with params for a given superimposition (0-indexed) */
 function fmtLC(template, params) {
@@ -30,30 +34,39 @@ function fmtLC(template, params) {
   );
 }
 
-/** Convert game rich text to safe HTML */
+/** Convert game rich text to safe HTML.
+ *  Strategy: escape all HTML entities first, then substitute known
+ *  game-markup patterns. This guarantees no uncontrolled tags survive. */
 function fmt(str) {
   if (!str) return '';
-  return str
+  // 1. Neutralise every HTML special character in the raw game string
+  const s = str
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+  // 2. Re-introduce only the exact HTML we control
+  return s
     .replace(/\\n/g, '<br>')
-    .replace(/<br\s*\/?>/gi, '<br>')
-    .replace(/<b>/gi, '<strong>').replace(/<\/b>/gi, '</strong>')
-    .replace(/<i>/gi, '<em>').replace(/<\/i>/gi, '</em>')
-    .replace(/<color=(#[0-9a-fA-F]+)>/gi, '<span style="color:$1">')
-    .replace(/<\/color>/gi, '</span>')
-    .replace(/<align="center">/gi, '<div style="text-align:center">')
-    .replace(/<align="right">/gi, '<div style="text-align:right">')
-    .replace(/<\/align>/gi, '</div>')
-    .replace(/<size=(\d+)>/gi, '<span style="font-size:$1%">')
-    .replace(/<\/size>/gi, '</span>')
-    .replace(/<\/?unbreak>/gi, '')
+    .replace(/&lt;br\s*\/?&gt;/gi, '<br>')
+    .replace(/&lt;b&gt;/gi, '<strong>').replace(/&lt;\/b&gt;/gi, '</strong>')
+    .replace(/&lt;i&gt;/gi, '<em>').replace(/&lt;\/i&gt;/gi, '</em>')
+    .replace(/&lt;color=(#[0-9a-fA-F]{3,8})&gt;/gi, '<span style="color:$1">')
+    .replace(/&lt;\/color&gt;/gi, '</span>')
+    .replace(/&lt;align=&quot;center&quot;&gt;/gi, '<div style="text-align:center">')
+    .replace(/&lt;align=&quot;right&quot;&gt;/gi, '<div style="text-align:right">')
+    .replace(/&lt;\/align&gt;/gi, '</div>')
+    .replace(/&lt;size=(\d{1,4})&gt;/gi, '<span style="font-size:$1%">')
+    .replace(/&lt;\/size&gt;/gi, '</span>')
+    .replace(/&lt;\/?unbreak&gt;/gi, '')
     .replace(/\{NICKNAME\}/g, '{开拓者}')
     .replace(/\{M#([^}]*)}\{F#([^}]*)}/g, '$1/$2')
     .replace(/\{[MF]#([^}]*)}/g, '$1')
     .replace(
       /\{RUBY_B#([^}]*)\}([^{]*)\{RUBY_E#\}/g,
       '<ruby>$2<rt>$1</rt></ruby>'
-    )
-    .replace(/<(?!br|strong|\/strong|em|\/em|span|\/span|div|\/div|ruby|\/ruby|rt|\/rt|u|\/u|s|\/s)[^>]+>/g, '');
+    );
 }
 
 /* ── Tab switching ── */
@@ -62,10 +75,15 @@ function setupTabs() {
   bar.addEventListener('click', e => {
     const btn = e.target.closest('.tab-btn');
     if (!btn) return;
-    bar.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    bar.querySelectorAll('.tab-btn').forEach(b => {
+      b.classList.remove('active');
+      b.setAttribute('aria-selected', 'false');
+    });
     btn.classList.add('active');
+    btn.setAttribute('aria-selected', 'true');
     currentTab = btn.dataset.tab;
     lcDetailId = null;
+    monsterDetailId = null;
     render();
   });
 }
@@ -84,7 +102,9 @@ function render() {
     case 'items': renderItems(c); break;
     case 'characters': renderCharacters(c); break;
     case 'lightcones': renderLightcones(c); break;
-    case 'appendix': renderAppendix(c); break;
+    case 'monsters':    renderMonsters(c);    break;
+    case 'aiwosushu':   renderAwss(c);        break;
+    case 'appendix':    renderAppendix(c);    break;
   }
 }
 
@@ -99,8 +119,10 @@ function renderBooks(container) {
     section.className = 'version-section';
     section.style.setProperty('--index', idx);
 
-    const vHeader = document.createElement('div');
+    const vHeader = document.createElement('button');
+    vHeader.type = 'button';
     vHeader.className = 'version-header';
+    vHeader.setAttribute('aria-expanded', 'false');
     vHeader.innerHTML = `<span class="accordion-arrow"></span> ${group.version} <span class="version-count">${group.books.length}</span>`;
     section.appendChild(vHeader);
 
@@ -110,6 +132,7 @@ function renderBooks(container) {
     vHeader.addEventListener('click', () => {
       vHeader.classList.toggle('open');
       vBody.classList.toggle('open');
+      vHeader.setAttribute('aria-expanded', vHeader.classList.contains('open') ? 'true' : 'false');
     });
 
     for (const r of group.books) {
@@ -120,8 +143,10 @@ function renderBooks(container) {
       const article = document.createElement('div');
       article.className = 'readable-entry';
 
-      const header = document.createElement('div');
+      const header = document.createElement('button');
+      header.type = 'button';
       header.className = 'readable-header';
+      header.setAttribute('aria-expanded', 'false');
       header.innerHTML = `
         <span class="accordion-arrow"></span>
         <div class="readable-title-group">
@@ -177,6 +202,7 @@ function renderBooks(container) {
       header.addEventListener('click', () => {
         header.classList.toggle('open');
         body.classList.toggle('open');
+        header.setAttribute('aria-expanded', header.classList.contains('open') ? 'true' : 'false');
       });
 
       article.appendChild(header);
@@ -198,7 +224,8 @@ function createQuestEntry(q, lang) {
   const entry = document.createElement('div');
   entry.className = 'quest-entry' + (hasSteps ? ' quest-expandable' : '');
 
-  const header = document.createElement('div');
+  const header = document.createElement(hasSteps ? 'button' : 'div');
+  if (hasSteps) { header.type = 'button'; header.setAttribute('aria-expanded', 'false'); }
   header.className = 'quest-entry-header';
   header.innerHTML = `
     ${hasSteps ? '<span class="accordion-arrow quest-arrow"></span>' : ''}
@@ -230,6 +257,7 @@ function createQuestEntry(q, lang) {
     header.addEventListener('click', () => {
       header.classList.toggle('open');
       detail.classList.toggle('open');
+      header.setAttribute('aria-expanded', header.classList.contains('open') ? 'true' : 'false');
     });
     entry.appendChild(detail);
   }
@@ -256,8 +284,10 @@ function renderQuests(container) {
       // Count total quests in this version
       const total = vGroup.chapters.reduce((s, c) => s + c.quests.length, 0);
 
-      const verHeader = document.createElement('div');
+      const verHeader = document.createElement('button');
+      verHeader.type = 'button';
       verHeader.className = 'version-header';
+      verHeader.setAttribute('aria-expanded', 'false');
       verHeader.innerHTML = `
         <span class="accordion-arrow"></span>
         <span>${escapeHTML(vGroup.version)}</span>
@@ -282,6 +312,7 @@ function renderQuests(container) {
       verHeader.addEventListener('click', () => {
         verHeader.classList.toggle('open');
         body.classList.toggle('open');
+        verHeader.setAttribute('aria-expanded', verHeader.classList.contains('open') ? 'true' : 'false');
       });
 
       section.appendChild(verHeader);
@@ -301,8 +332,10 @@ function renderQuests(container) {
       const section = document.createElement('div');
       section.className = 'achievement-version-section';
 
-      const vHeader = document.createElement('div');
+      const vHeader = document.createElement('button');
+      vHeader.type = 'button';
       vHeader.className = 'version-header';
+      vHeader.setAttribute('aria-expanded', 'false');
       vHeader.innerHTML = `
         <span class="accordion-arrow"></span>
         <span>${verGroup.version}</span>
@@ -315,6 +348,7 @@ function renderQuests(container) {
       vHeader.addEventListener('click', () => {
         vHeader.classList.toggle('open');
         vBody.classList.toggle('open');
+        vHeader.setAttribute('aria-expanded', vHeader.classList.contains('open') ? 'true' : 'false');
       });
 
       for (const q of verGroup.quests) {
@@ -338,8 +372,10 @@ function renderAchievements(container) {
     section.className = 'achievement-version-section';
     section.style.setProperty('--index', idx);
 
-    const verHeader = document.createElement('div');
+    const verHeader = document.createElement('button');
+    verHeader.type = 'button';
     verHeader.className = 'version-header';
+    verHeader.setAttribute('aria-expanded', 'false');
     verHeader.innerHTML = `
       <span class="accordion-arrow"></span>
       <span>${escapeHTML(group.version)}</span>
@@ -371,6 +407,7 @@ function renderAchievements(container) {
     verHeader.addEventListener('click', () => {
       verHeader.classList.toggle('open');
       body.classList.toggle('open');
+      verHeader.setAttribute('aria-expanded', verHeader.classList.contains('open') ? 'true' : 'false');
     });
 
     section.appendChild(verHeader);
@@ -559,7 +596,10 @@ function renderCharacters(container) {
       ? `<img class="skill-section-icon" src="${escapeHTML(section.img)}" alt="${escapeHTML(label)}" onerror="this.style.display='none'">`
       : '';
 
-    const secHeader = document.createElement('div');
+    // Determine early so we know whether the header needs button semantics
+    const alwaysOpen = ['talent', 'basic', 'skill', 'ultimate', 'technique', 'traces', 'eidolons', 'story'].includes(section.key);
+    const secHeader = document.createElement(alwaysOpen ? 'div' : 'button');
+    if (!alwaysOpen) { secHeader.type = 'button'; secHeader.setAttribute('aria-expanded', 'false'); }
     secHeader.className = 'char-section-header';
     if (isSkillCard) {
       // Header shows only the type label (icon + name move into the card)
@@ -591,10 +631,10 @@ function renderCharacters(container) {
         const rankLabel = lang === 'en' ? rank.label_en : rank.label_ch;
         const rankLabelOther = lang === 'en' ? (rank.label_ch || '') : (rank.label_en || '');
         const card = document.createElement('div');
-        card.className = 'eidolon-card';
+        card.className = 'eidolon-card eidolon-card--rank';
         const rankDesc = lang === 'en' ? (rank.desc_en || '') : (rank.desc_ch || '');
         card.innerHTML = `
-          <img class="eidolon-img" src="${escapeHTML(rank.img)}" alt="${escapeHTML(rankLabel)}" onerror="this.style.display='none'">
+          <img class="eidolon-img eidolon-img--rank" src="${escapeHTML(rank.img)}" alt="${escapeHTML(rankLabel)}" onerror="this.style.display='none'">
           <div>
             <span class="eidolon-label">${escapeHTML(rankLabel)}</span>
             ${rankLabelOther ? `<span class="eidolon-label-other">${escapeHTML(rankLabelOther)}</span>` : ''}
@@ -660,8 +700,7 @@ function renderCharacters(container) {
       }
     }
 
-    // Skill/trace/eidolon/story sections: always visible, no collapse toggle
-    const alwaysOpen = ['talent', 'basic', 'skill', 'ultimate', 'technique', 'traces', 'eidolons', 'story'].includes(section.key);
+    // alwaysOpen determined above at header creation
     if (alwaysOpen) {
       secHeader.classList.add('open', 'always-open');
       secBody.classList.add('open');
@@ -670,10 +709,12 @@ function renderCharacters(container) {
       if (autoOpen) {
         secHeader.classList.add('open');
         secBody.classList.add('open');
+        secHeader.setAttribute('aria-expanded', 'true');
       }
       secHeader.addEventListener('click', () => {
         secHeader.classList.toggle('open');
         secBody.classList.toggle('open');
+        secHeader.setAttribute('aria-expanded', secHeader.classList.contains('open') ? 'true' : 'false');
       });
     }
 
@@ -835,8 +876,10 @@ function renderLcDetail(container, lc) {
   const storySec = document.createElement('div');
   storySec.className = 'lc-story-sec';
 
-  const storyHeader = document.createElement('div');
+  const storyHeader = document.createElement('button');
+  storyHeader.type = 'button';
   storyHeader.className = 'char-section-header';
+  storyHeader.setAttribute('aria-expanded', 'false');
   storyHeader.innerHTML = `<span class="accordion-arrow"></span><span class="char-section-label">${lang === 'en' ? 'Story' : '故事'}</span>`;
 
   const storyBody = document.createElement('div');
@@ -855,6 +898,7 @@ function renderLcDetail(container, lc) {
   storyHeader.addEventListener('click', () => {
     storyHeader.classList.toggle('open');
     storyBody.classList.toggle('open');
+    storyHeader.setAttribute('aria-expanded', storyHeader.classList.contains('open') ? 'true' : 'false');
   });
 
   storySec.appendChild(storyHeader);
@@ -882,8 +926,10 @@ function renderAppendix(container) {
     const sec = document.createElement('div');
     sec.className = 'char-section';
 
-    const secHeader = document.createElement('div');
+    const secHeader = document.createElement('button');
+    secHeader.type = 'button';
     secHeader.className = 'char-section-header open';
+    secHeader.setAttribute('aria-expanded', 'true');
     secHeader.innerHTML = `
       <span class="accordion-arrow"></span>
       <span class="char-section-label">${escapeHTML(label)}</span>
@@ -911,6 +957,7 @@ function renderAppendix(container) {
     secHeader.addEventListener('click', () => {
       secHeader.classList.toggle('open');
       secBody.classList.toggle('open');
+      secHeader.setAttribute('aria-expanded', secHeader.classList.contains('open') ? 'true' : 'false');
     });
 
     sec.appendChild(secHeader);
@@ -920,17 +967,323 @@ function renderAppendix(container) {
 }
 
 /* ── Init ── */
+/* ══════════════════════════════════════
+   Monsters / Bestiary
+   ══════════════════════════════════════ */
+
+// ─── 如我所书 ──────────────────────────────────────────────────────────────────
+
+function renderAwss(container) {
+  if (!aiwosushu) {
+    container.innerHTML = '<p class="loading-text">加载中…</p>';
+    return;
+  }
+  const lang = getLang();
+  const isEn = lang === 'en';
+  const data = aiwosushu;
+  const chapters = data.chapters;
+  const ch = chapters[awssChapter];
+
+  const wrap = document.createElement('div');
+  wrap.className = 'awss-wrap';
+
+  // Header
+  wrap.innerHTML = `
+    <div class="awss-header">
+      <h2 class="awss-title">${escapeHTML(isEn ? data.title_en : data.title_ch)}</h2>
+      <p class="awss-subtitle">${escapeHTML(isEn ? data.subtitle_en : data.subtitle_ch)}</p>
+    </div>`;
+
+  // Chapter nav tabs
+  const nav = document.createElement('div');
+  nav.className = 'awss-chapnav';
+  chapters.forEach((c, i) => {
+    const btn = document.createElement('button');
+    btn.className = 'awss-chapbtn' + (i === awssChapter ? ' active' : '');
+    btn.innerHTML = `<span class="awss-chapnum">${escapeHTML(c.num)}</span><span class="awss-chaptitle">${escapeHTML(isEn ? c.title_en : c.title_ch)}</span>`;
+    btn.addEventListener('click', () => { awssChapter = i; render(); });
+    nav.appendChild(btn);
+  });
+  wrap.appendChild(nav);
+
+  // Chapter card images (between nav and spreads)
+  if (ch.chapter_cards && ch.chapter_cards.length > 0) {
+    const cardsEl = document.createElement('div');
+    cardsEl.className = 'awss-chapter-cards';
+    ch.chapter_cards.forEach(path => {
+      const img = document.createElement('img');
+      img.className = 'awss-chapter-card';
+      img.src = path;
+      img.alt = '';
+      img.loading = 'lazy';
+      cardsEl.appendChild(img);
+    });
+    wrap.appendChild(cardsEl);
+  }
+
+  // Current chapter content
+  const chapterEl = document.createElement('div');
+  chapterEl.className = 'awss-chapter';
+
+  ch.spreads.forEach(spread => {
+    const spreadEl = document.createElement('div');
+    spreadEl.className = 'awss-spread';
+
+    ['left', 'right'].forEach(side => {
+      const items = isEn ? spread[`${side}_en`] : spread[`${side}_ch`];
+      const pageEl = document.createElement('div');
+      pageEl.className = `awss-page awss-page-${side}`;
+
+      items.forEach(item => {
+        if (item.type === 'label') {
+          const el = document.createElement('span');
+          el.className = 'awss-label';
+          el.textContent = item.text;
+          pageEl.appendChild(el);
+        } else if (item.type === 'sentence') {
+          const el = document.createElement('p');
+          el.className = 'awss-sentence';
+          el.innerHTML = item.text.replace(/\\n|\n/g, '<br>');
+          pageEl.appendChild(el);
+        } else if (item.type === 'image') {
+          const el = document.createElement('img');
+          el.className = 'awss-img';
+          el.src = item.path;
+          el.alt = '';
+          el.loading = 'lazy';
+          pageEl.appendChild(el);
+        }
+      });
+
+      if (pageEl.children.length > 0) spreadEl.appendChild(pageEl);
+    });
+
+    if (spreadEl.children.length > 0) chapterEl.appendChild(spreadEl);
+  });
+
+  wrap.appendChild(chapterEl);
+  container.appendChild(wrap);
+}
+
+// ─── Monsters ─────────────────────────────────────────────────────────────────
+
+const MONSTER_SKILL_TYPE_ORDER = ['attack', 'skill', 'ultimate', 'special', 'mechanic', 'passive'];
+
+function renderMonsters(container) {
+  const lang = getLang();
+
+  if (!monsters || monsters.length === 0) {
+    container.innerHTML = `<p class="loading-text">${lang === 'en' ? 'No monster data.' : '暂无怪物数据。'}</p>`;
+    return;
+  }
+
+  if (monsterDetailId) {
+    renderMonsterDetail(container, lang);
+  } else {
+    renderMonsterGrid(container, lang);
+  }
+}
+
+function renderMonsterGrid(container, lang) {
+  const grid = document.createElement('div');
+  grid.className = 'monster-grid';
+
+  monsters.forEach((m, i) => {
+    const card = document.createElement('button');
+    card.type = 'button';
+    card.className = 'monster-card';
+    card.style.setProperty('--index', i);
+    card.innerHTML = `
+      ${m.img ? `<div class="monster-card-figure">
+        <img src="${escapeHTML(m.img)}" alt="${escapeHTML(lang === 'en' ? m.name_en : m.name_ch)}" class="monster-card-img">
+      </div>` : ''}
+      <div class="monster-card-body">
+        <div class="monster-card-badges">
+          <span class="monster-badge monster-badge-type">${escapeHTML(lang === 'en' ? m.type_en : m.type_ch)}</span>
+          <span class="monster-badge monster-badge-elem monster-elem-${escapeHTML(m.element)}">${escapeHTML(lang === 'en' ? m.element_en : m.element_ch)}</span>
+          ${m.phases > 1 ? `<span class="monster-badge monster-badge-phase">${m.phases} ${lang === 'en' ? 'Phases' : '阶段'}</span>` : ''}
+        </div>
+        <div class="monster-card-name">${escapeHTML(lang === 'en' ? m.name_en : m.name_ch)}</div>
+        <div class="monster-card-name-sub">${escapeHTML(lang === 'en' ? m.name_ch : m.name_en)}</div>
+      </div>
+    `;
+    card.addEventListener('click', () => {
+      monsterDetailId = m.id;
+      render();
+    });
+    grid.appendChild(card);
+  });
+
+  container.appendChild(grid);
+}
+
+function renderMonsterDetail(container, lang) {
+  const m = monsters.find(x => x.id === monsterDetailId);
+  if (!m) { monsterDetailId = null; renderMonsterGrid(container, lang); return; }
+
+  const primaryName   = lang === 'en' ? m.name_en   : m.name_ch;
+  const secondaryName = lang === 'en' ? m.name_ch   : m.name_en;
+  const primaryType   = lang === 'en' ? m.type_en   : m.type_ch;
+  const primaryElem   = lang === 'en' ? m.element_en : m.element_ch;
+  const desc          = lang === 'en' ? (m.desc_en || m.desc_ch) : m.desc_ch;
+
+  // Back button
+  const backBtn = document.createElement('button');
+  backBtn.type = 'button';
+  backBtn.className = 'scene-nav-btn';
+  backBtn.style.marginBottom = '1.25rem';
+  backBtn.textContent = lang === 'en' ? 'Back' : '返回';
+  backBtn.addEventListener('click', () => { monsterDetailId = null; render(); });
+  container.appendChild(backBtn);
+
+  const statLabels = {
+    hp:         { ch: '血量',     en: 'HP' },
+    spd:        { ch: '速度',     en: 'SPD' },
+    def:        { ch: '防御',     en: 'DEF' },
+    effect_res: { ch: '效果抵抗', en: 'Effect RES' },
+    effect_hit: { ch: '效果命中', en: 'Effect HIT' },
+    toughness:  { ch: '韧性',     en: 'Toughness' },
+    break_mult: { ch: '击破倍率', en: 'Break Mult.' },
+    growth:     { ch: '成长曲线', en: 'Growth' },
+  };
+
+  const statsHtml = Object.entries(statLabels).map(([key, labels]) => {
+    const val = key === 'growth'
+      ? (lang === 'en' ? m.stats.growth_en : m.stats.growth_ch)
+      : (m.stats[key] ?? '—');
+    return `<div class="monster-stat-item">
+      <span class="monster-stat-label">${escapeHTML(labels[lang] || labels.ch)}</span>
+      <span class="monster-stat-value">${escapeHTML(String(val))}</span>
+    </div>`;
+  }).join('');
+
+  const resistsHtml = m.resistances.map(r =>
+    `<span class="monster-resist-chip monster-elem-${escapeHTML(r.element)}">
+      <span class="monster-resist-elem">${escapeHTML(lang === 'en' ? r.element_en : r.element_ch)}</span>
+      <span class="monster-resist-val">${escapeHTML(r.value)}</span>
+    </span>`
+  ).join('');
+
+  const controlLabel = lang === 'en' ? 'Control RES' : '控制抵抗';
+
+  // Group skills by type, preserving order
+  const groups = new Map();
+  for (const sk of m.skills) {
+    if (!groups.has(sk.type)) groups.set(sk.type, []);
+    groups.get(sk.type).push(sk);
+  }
+
+  const skillsHtml = MONSTER_SKILL_TYPE_ORDER
+    .filter(t => groups.has(t))
+    .map(typeKey => {
+      const skills = groups.get(typeKey);
+      const typeLabel = lang === 'en' ? skills[0].type_en : skills[0].type_ch;
+      const cards = skills.map(sk => renderMonsterSkillCard(sk, lang)).join('');
+      return `<div class="monster-skill-group">
+        <div class="monster-skill-group-header">
+          <span class="monster-skill-group-label">${escapeHTML(typeLabel)}</span>
+        </div>
+        ${cards}
+      </div>`;
+    }).join('');
+
+  const profile = document.createElement('div');
+  profile.className = 'monster-profile';
+  profile.innerHTML = `
+    <div class="monster-profile-head">
+      ${m.img ? `<div class="monster-profile-figure">
+        <img src="${escapeHTML(m.img)}" alt="${escapeHTML(primaryName)}" class="monster-profile-img">
+      </div>` : ''}
+      <div class="monster-profile-identity">
+        <div class="monster-profile-badges">
+          <span class="monster-badge monster-badge-type">${escapeHTML(primaryType)}</span>
+          <span class="monster-badge monster-badge-elem monster-elem-${escapeHTML(m.element)}">${escapeHTML(primaryElem)}</span>
+          ${m.phases > 1 ? `<span class="monster-badge monster-badge-phase">${m.phases} ${lang === 'en' ? 'Phases' : '阶段'}</span>` : ''}
+        </div>
+        <h2 class="monster-profile-name">${escapeHTML(primaryName)}</h2>
+        <p class="monster-profile-name-sub">${escapeHTML(secondaryName)}</p>
+        <p class="monster-profile-id">ID ${escapeHTML(m.id)}</p>
+      </div>
+    </div>
+
+    ${desc ? `<blockquote class="monster-lore">
+      <p class="monster-lore-text">${escapeHTML(desc)}</p>
+    </blockquote>` : ''}
+
+    <section class="monster-section">
+      <div class="monster-section-label">${lang === 'en' ? 'Base Stats' : '基础属性'}</div>
+      <div class="monster-stats-grid">${statsHtml}</div>
+    </section>
+
+    <section class="monster-section">
+      <div class="monster-section-label">${lang === 'en' ? 'Resistances' : '抗性'}</div>
+      <div class="monster-resist-row">
+        ${resistsHtml}
+        ${m.resist_control ? `<span class="monster-resist-chip monster-resist-control">
+          <span class="monster-resist-elem">${escapeHTML(controlLabel)}</span>
+          <span class="monster-resist-val">${escapeHTML(m.resist_control)}</span>
+        </span>` : ''}
+      </div>
+    </section>
+
+    <section class="monster-section">
+      <div class="monster-section-label">${lang === 'en' ? 'Skills' : '技能'}</div>
+      <div class="monster-skills">${skillsHtml}</div>
+    </section>
+  `;
+
+  container.appendChild(profile);
+
+}
+
+function renderMonsterSkillCard(sk, lang) {
+  const name     = lang === 'en' ? (sk.name_en || sk.name_ch) : sk.name_ch;
+  const desc     = lang === 'en' ? (sk.desc_en  || sk.desc_ch)  : sk.desc_ch;
+  const phases   = sk.phases.map(p =>
+    `<span class="monster-phase-badge">${lang === 'en' ? `Phase ${p}` : `阶段 ${p}`}</span>`
+  ).join('');
+  const levelStr = sk.level != null ? `+${sk.level}` : '';
+
+  const paramsHtml = sk.params && sk.params.length
+    ? `<dl class="monster-skill-params">${sk.params.map(p =>
+        `<div class="monster-skill-param">
+          <dt>${escapeHTML(lang === 'en' ? p.label_en : p.label_ch)}</dt>
+          <dd>${escapeHTML(p.value)}</dd>
+        </div>`
+      ).join('')}</dl>`
+    : '';
+
+  return `<div class="monster-skill-card">
+    <div class="monster-skill-card-header">
+      <div class="monster-skill-card-meta">
+        ${phases}
+        ${sk.warning ? '<span class="monster-skill-warning" title="重要机制">⚠</span>' : ''}
+      </div>
+      <div class="monster-skill-name-row">
+        <span class="monster-skill-name">${escapeHTML(name)}</span>
+        ${levelStr ? `<span class="monster-skill-level">${escapeHTML(levelStr)}</span>` : ''}
+      </div>
+    </div>
+    <div class="monster-skill-card-body">
+      ${desc ? `<p class="monster-skill-desc">${escapeHTML(desc)}</p>` : ''}
+      ${paramsHtml}
+    </div>
+  </div>`;
+}
+
 async function init() {
   setupTabs();
 
   // Load all data in parallel
-  const [r, q, a, it, cm, lc] = await Promise.allSettled([
+  const [r, q, a, it, cm, lc, mn, aw] = await Promise.allSettled([
     fetchJSON('data/lore/readables.json'),
     fetchJSON('data/lore/quests.json'),
     fetchJSON('data/lore/achievements.json'),
     fetchJSON('data/lore/items.json'),
     fetchJSON('data/lore/characters-mydei.json'),
     fetchJSON('data/lore/lightcones.json'),
+    fetchJSON('data/monsters.json'),
+    fetchJSON('data/aiwosushu.json'),
   ]);
 
   readables = r.status === 'fulfilled' ? r.value : null;
@@ -939,6 +1292,8 @@ async function init() {
   if (it.status === 'fulfilled') items = it.value;
   if (cm.status === 'fulfilled') charactersMydei = cm.value;
   if (lc.status === 'fulfilled') lightcones = lc.value;
+  if (mn.status === 'fulfilled') monsters = mn.value;
+  if (aw.status === 'fulfilled') aiwosushu = aw.value;
 
   render();
   window.addEventListener('langchange', render);

@@ -4,24 +4,26 @@
  * Each chunk doc: [id, type, speaker_ch, speaker_en, text_ch, text_en]
  */
 
-import { getLang, t } from './i18n.mjs?v=4';
-import { escapeHTML, highlightText } from './app.mjs?v=5';
+import { getLang, t } from './i18n.mjs?v=3';
+import { escapeHTML, highlightText, scrollBehavior } from './app.mjs?v=5';
 
 const RESULTS_PER_PAGE = 50;
 const MAX_RESULTS = 500;
 const PARALLEL_FETCHES = 6;
 
 let manifest = null;
+const chunkCache = new Map();   // persists across searches; language toggle re-searches in memory
+let currentSearchId = 0;        // increment to abort any in-flight search
 let allResults = [];
 let currentResults = [];
 let currentPage = 0;
 let currentQuery = '';
-let selectedSpeakers = new Set();  // empty = show all
-let searching = false;
+let selectedSpeakers = new Set();
 
 async function loadManifest() {
   if (manifest) return manifest;
   const res = await fetch('data/search/manifest.json');
+  if (!res.ok) throw new Error(`manifest fetch failed: ${res.status}`);
   manifest = await res.json();
   return manifest;
 }
@@ -31,13 +33,13 @@ function getSpeakerLabel(r) {
 }
 
 async function doSearch(query) {
-  if (!query || query.length < 1 || searching) return;
+  if (!query || query.length < 1) return;
 
-  searching = true;
-  currentQuery = query;
+  const myId = ++currentSearchId;
   allResults = [];
   currentResults = [];
   currentPage = 0;
+  currentQuery = query;
   selectedSpeakers.clear();
 
   const statusEl = document.getElementById('search-status');
@@ -52,7 +54,15 @@ async function doSearch(query) {
   filterEl.innerHTML = '';
   sidebarEl.hidden = true;
 
-  const m = await loadManifest();
+  let m;
+  try {
+    m = await loadManifest();
+  } catch (e) {
+    if (currentSearchId === myId) statusEl.textContent = '检索数据加载失败，请刷新重试。';
+    return;
+  }
+  if (currentSearchId !== myId) return;
+
   const lang = getLang();
   const chunks = m.chunks;
   const queryLower = query.toLowerCase();
@@ -66,12 +76,17 @@ async function doSearch(query) {
   let stopped = false;
 
   async function processChunk(chunkInfo) {
-    if (stopped) return;
-    const res = await fetch(`data/search/${chunkInfo.file}`);
-    const data = await res.json();
+    if (currentSearchId !== myId || stopped) return;
+
+    let data = chunkCache.get(chunkInfo.file);
+    if (!data) {
+      const res = await fetch(`data/search/${chunkInfo.file}`);
+      data = await res.json();
+      chunkCache.set(chunkInfo.file, data);
+    }
 
     for (const doc of data) {
-      if (stopped) return;
+      if (currentSearchId !== myId || stopped) return;
       const text = doc[textIdx] || '';
 
       const textMatch = lang === 'en'
@@ -96,6 +111,8 @@ async function doSearch(query) {
     }
 
     searched++;
+    if (currentSearchId !== myId) return;
+
     const pct = Math.round((searched / chunks.length) * 100);
     statusEl.textContent = `${t('search.searching')} ${pct}%`;
 
@@ -108,7 +125,7 @@ async function doSearch(query) {
 
   let idx = 0;
   async function next() {
-    while (idx < chunks.length && !stopped) {
+    while (idx < chunks.length && currentSearchId === myId && !stopped) {
       const i = idx++;
       await processChunk(chunks[i]);
     }
@@ -120,12 +137,13 @@ async function doSearch(query) {
   }
   await Promise.all(workers);
 
+  if (currentSearchId !== myId) return;
+
   applyFilter();
   renderSpeakerFilter();
   updateStatus(stopped);
   renderResults();
   renderPagination();
-  searching = false;
 }
 
 function applyFilter() {
@@ -205,26 +223,37 @@ function renderSpeakerFilter() {
     // "All" item — acts as clear selection
     const allLi = document.createElement('li');
     allLi.className = `sidebar-item${selectedSpeakers.size === 0 ? ' active' : ''}`;
+    allLi.setAttribute('tabindex', '0');
+    allLi.setAttribute('role', 'button');
     allLi.innerHTML = `<span class="sidebar-check"></span><span class="sidebar-label">全部</span><span class="sidebar-count">${allResults.length}</span>`;
     allLi.addEventListener('click', onClearAll);
+    allLi.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onClearAll(); } });
     filterEl.appendChild(allLi);
 
     const visible = filterExpanded ? sorted : sorted.slice(0, INITIAL_SHOW);
     for (const [speaker, count] of visible) {
       const li = document.createElement('li');
       li.className = `sidebar-item${selectedSpeakers.has(speaker) ? ' active' : ''}`;
+      li.setAttribute('tabindex', '0');
+      li.setAttribute('role', 'button');
       li.innerHTML = `<span class="sidebar-check"></span><span class="sidebar-label">${escapeHTML(speaker)}</span><span class="sidebar-count">${count}</span>`;
       li.addEventListener('click', () => onToggle(speaker));
+      li.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); onToggle(speaker); } });
       filterEl.appendChild(li);
     }
 
     if (sorted.length > INITIAL_SHOW) {
       const toggle = document.createElement('li');
       toggle.className = 'sidebar-toggle';
+      toggle.setAttribute('tabindex', '0');
+      toggle.setAttribute('role', 'button');
       toggle.textContent = filterExpanded ? '收起' : `更多 (${sorted.length - INITIAL_SHOW})`;
       toggle.addEventListener('click', () => {
         filterExpanded = !filterExpanded;
         rebuildItems();
+      });
+      toggle.addEventListener('keydown', e => {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); filterExpanded = !filterExpanded; rebuildItems(); }
       });
       filterEl.appendChild(toggle);
     }
@@ -242,21 +271,26 @@ function renderResults() {
   container.innerHTML = '';
 
   for (const r of pageResults) {
-    const div = document.createElement('div');
-    div.className = 'search-result';
+    // id format: "TYPE_LINEID" (e.g. "0_30403551"); take the last underscore-delimited segment.
+    const lineId = String(r.id).split('_').pop();
+    const href = `story.html#line=${encodeURIComponent(lineId)}&q=${encodeURIComponent(currentQuery)}`;
+
+    const a = document.createElement('a');
+    a.className = 'search-result';
+    a.href = href;
 
     const speakerCh = r.speaker ? escapeHTML(r.speaker) : '';
     const speakerEn = r.speakerOther ? escapeHTML(r.speakerOther) : '';
     const text = highlightText(r.text, currentQuery);
     const textOther = r.textOther ? escapeHTML(r.textOther) : '';
 
-    div.innerHTML = `
+    a.innerHTML = `
       ${speakerCh ? `<div class="search-result-speaker">${speakerCh}${speakerEn ? `<span class="search-result-speaker-en">${speakerEn.toUpperCase()}</span>` : ''}</div>` : ''}
       <div class="search-result-text">${text}</div>
       ${textOther ? `<div class="search-result-text-other">${textOther}</div>` : ''}
     `;
 
-    container.appendChild(div);
+    container.appendChild(a);
   }
 }
 
@@ -279,7 +313,7 @@ function renderPagination() {
       currentPage = i;
       renderResults();
       renderPagination();
-      window.scrollTo({ top: 0, behavior: 'smooth' });
+      window.scrollTo({ top: 0, behavior: scrollBehavior() });
     });
     container.appendChild(btn);
   }

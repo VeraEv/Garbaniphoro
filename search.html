@@ -4,7 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>检索 - Garbaniphoro Grand Library</title>
-  <script>!function(){var t=new URLSearchParams(location.search).get("theme")||localStorage.getItem("gl-theme")||"terra";document.documentElement.dataset.theme=t;document.write('<link rel="stylesheet" href="css/themes/theme-'+t+'.css">');}();</script>
+  <script>!function(){var t=new URLSearchParams(location.search).get("theme")||localStorage.getItem("gl-theme")||"terra";t=(t==="kremnos")?"kremnos":"terra";document.documentElement.dataset.theme=t;document.write('<link rel="stylesheet" href="css/themes/theme-'+t+'.css">');}();</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Noto+Serif+SC:wght@300;400;500;600;700&display=swap">
   <link rel="stylesheet" href="css/main.css?v=4">
   <link rel="stylesheet" href="css/components.css?v=4">
   <style>
@@ -176,12 +179,13 @@
       <h1 class="page-title" data-i18n="nav.search">检索</h1>
 
       <div class="search-box">
+        <label class="visually-hidden" for="search-input" data-i18n="nav.search">检索</label>
         <input type="text" id="search-input" class="search-input"
-               placeholder="Search the archive…">
+               placeholder="检索台词、角色、关键词…" data-i18n-placeholder="search.placeholder">
         <button id="search-btn" class="search-btn" data-i18n="search.button">检索</button>
       </div>
 
-      <div id="search-status" class="search-status"></div>
+      <div id="search-status" class="search-status" role="status" aria-live="polite"></div>
       <div id="search-results"></div>
       <div id="search-pagination" class="pagination"></div>
     </main>
